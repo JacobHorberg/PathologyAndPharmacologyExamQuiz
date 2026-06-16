@@ -1,8 +1,9 @@
-import { useState, useEffect, useCallback, useMemo } from "react";
+﻿import { useState, useEffect, useCallback, useMemo } from "react";
 import basalPatologi from "./questions/basal-patologi.json";
 import lungesygdomme from "./questions/lungesygdomme.json";
 import neurologi from "./questions/neurologi.json";
 import psykiatri from "./questions/psykiatri.json";
+import karoghjerte from "./questions/kar-og-hjerte.json";
 
 /* ============================================================================
    HOW TO ADD QUESTIONS
@@ -31,6 +32,7 @@ const QUESTIONS = [
   ...lungesygdomme,
   ...neurologi,
   ...psykiatri,
+  ...karoghjerte,
 ];
 
 /* ============================================================================
