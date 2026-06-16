@@ -1,8 +1,12 @@
-import { useState, useEffect, useCallback, useMemo } from "react";
+﻿import { useState, useEffect, useCallback, useMemo } from "react";
 import basalPatologi from "./questions/basal-patologi.json";
 import lungesygdomme from "./questions/lungesygdomme.json";
 import neurologi from "./questions/neurologi.json";
 import psykiatri from "./questions/psykiatri.json";
+import karoghjerte from "./questions/kar-og-hjerte.json";
+import endokrinologi from "./questions/endokrinologi.json";
+import onkologi from "./questions/onkologi.json";
+import reumatologi from "./questions/reumatologi.json";
 
 /* ============================================================================
    HOW TO ADD QUESTIONS
@@ -31,6 +35,10 @@ const QUESTIONS = [
   ...lungesygdomme,
   ...neurologi,
   ...psykiatri,
+  ...karoghjerte,
+  ...endokrinologi,
+  ...onkologi,
+  ...reumatologi,
 ];
 
 /* ============================================================================
@@ -70,6 +78,7 @@ export default function App() {
   const [pos, setPos] = useState(0);
   const [selected, setSelected] = useState(null);
   const [score, setScore] = useState({ correct: 0, wrong: 0 });
+  const [wrongAnswers, setWrongAnswers] = useState([]);
   const [darkMode, setDarkMode] = useState(
     () => localStorage.getItem("darkMode") === "true"
   );
@@ -101,6 +110,7 @@ export default function App() {
       setPos(0);
       setSelected(null);
       setScore({ correct: 0, wrong: 0 });
+      setWrongAnswers([]);
       setScreen("quiz");
     },
     [buildDeck]
@@ -110,13 +120,14 @@ export default function App() {
     (i) => {
       if (answered || malformed) return;
       setSelected(i);
-      setScore((s) =>
-        i === correctIndex
-          ? { ...s, correct: s.correct + 1 }
-          : { ...s, wrong: s.wrong + 1 }
-      );
+      if (i === correctIndex) {
+        setScore((s) => ({ ...s, correct: s.correct + 1 }));
+      } else {
+        setScore((s) => ({ ...s, wrong: s.wrong + 1 }));
+        setWrongAnswers((wa) => [...wa, { question: q, pickedIndex: i, correctIndex }]);
+      }
     },
-    [answered, malformed, correctIndex]
+    [answered, malformed, correctIndex, q]
   );
 
   const next = useCallback(() => {
@@ -270,52 +281,100 @@ export default function App() {
     return (
       <div className={darkMode ? "dark" : ""}>
         {themeToggle}
-        <div className="min-h-screen bg-slate-50 dark:bg-slate-900 flex items-center justify-center p-6">
-          <div className="w-full max-w-md text-center bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700 shadow-sm p-8">
-            <p className="text-sm font-medium uppercase tracking-wide text-teal-700 dark:text-teal-400 mb-1">
-              Resultat
-            </p>
-            <p className="text-xs text-slate-400 dark:text-slate-500 mb-6">{topicLabel}</p>
+        <div className="min-h-screen bg-slate-50 dark:bg-slate-900 flex flex-col items-center py-8 px-6">
+          <div className="w-full max-w-md flex flex-col gap-6">
+            {/* Score card */}
+            <div className="text-center bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700 shadow-sm p-8">
+              <p className="text-sm font-medium uppercase tracking-wide text-teal-700 dark:text-teal-400 mb-1">
+                Resultat
+              </p>
+              <p className="text-xs text-slate-400 dark:text-slate-500 mb-6">{topicLabel}</p>
 
-            <div className="flex justify-center mb-6">
-              <svg width="140" height="140" viewBox="0 0 140 140">
-                <circle cx="70" cy="70" r={radius} fill="none" stroke={darkMode ? "#334155" : "#e2e8f0"} strokeWidth="12" />
-                <circle
-                  cx="70"
-                  cy="70"
-                  r={radius}
-                  fill="none"
-                  stroke="#0d9488"
-                  strokeWidth="12"
-                  strokeLinecap="round"
-                  strokeDasharray={`${dash} ${circ}`}
-                  transform="rotate(-90 70 70)"
-                />
-                <text x="70" y="70" textAnchor="middle" dominantBaseline="central" fontSize="30" fontWeight="700" fill={darkMode ? "#f1f5f9" : "#1e293b"}>
-                  {pct}%
-                </text>
-              </svg>
+              <div className="flex justify-center mb-6">
+                <svg width="140" height="140" viewBox="0 0 140 140">
+                  <circle cx="70" cy="70" r={radius} fill="none" stroke={darkMode ? "#334155" : "#e2e8f0"} strokeWidth="12" />
+                  <circle
+                    cx="70"
+                    cy="70"
+                    r={radius}
+                    fill="none"
+                    stroke="#0d9488"
+                    strokeWidth="12"
+                    strokeLinecap="round"
+                    strokeDasharray={`${dash} ${circ}`}
+                    transform="rotate(-90 70 70)"
+                  />
+                  <text x="70" y="70" textAnchor="middle" dominantBaseline="central" fontSize="30" fontWeight="700" fill={darkMode ? "#f1f5f9" : "#1e293b"}>
+                    {pct}%
+                  </text>
+                </svg>
+              </div>
+
+              <p className="text-slate-800 dark:text-slate-100 text-lg font-medium mb-1">
+                {score.correct} af {total} rigtige
+              </p>
+              <p className="text-slate-500 dark:text-slate-400 text-sm mb-8">{message}</p>
+
+              <div className="flex flex-col gap-3">
+                <button
+                  onClick={() => startTopic(activeTopic, shuffleOn)}
+                  className="w-full rounded-xl bg-teal-700 px-4 py-3 text-white font-medium hover:bg-teal-800 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-teal-500 focus-visible:ring-offset-2"
+                >
+                  Tag samme emne igen
+                </button>
+                <button
+                  onClick={() => setScreen("menu")}
+                  className="w-full rounded-xl border border-slate-300 dark:border-slate-600 px-4 py-3 text-slate-700 dark:text-slate-300 font-medium hover:bg-slate-100 dark:hover:bg-slate-700 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-teal-500 focus-visible:ring-offset-2"
+                >
+                  Vælg andet emne
+                </button>
+              </div>
             </div>
 
-            <p className="text-slate-800 dark:text-slate-100 text-lg font-medium mb-1">
-              {score.correct} af {total} rigtige
-            </p>
-            <p className="text-slate-500 dark:text-slate-400 text-sm mb-8">{message}</p>
-
-            <div className="flex flex-col gap-3">
-              <button
-                onClick={() => startTopic(activeTopic, shuffleOn)}
-                className="w-full rounded-xl bg-teal-700 px-4 py-3 text-white font-medium hover:bg-teal-800 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-teal-500 focus-visible:ring-offset-2"
-              >
-                Tag samme emne igen
-              </button>
-              <button
-                onClick={() => setScreen("menu")}
-                className="w-full rounded-xl border border-slate-300 dark:border-slate-600 px-4 py-3 text-slate-700 dark:text-slate-300 font-medium hover:bg-slate-100 dark:hover:bg-slate-700 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-teal-500 focus-visible:ring-offset-2"
-              >
-                Vælg andet emne
-              </button>
-            </div>
+            {/* Wrong answers list */}
+            {wrongAnswers.length > 0 && (
+              <div className="flex flex-col gap-4">
+                <h2 className="text-sm font-medium uppercase tracking-wide text-slate-500 dark:text-slate-400">
+                  Forkerte svar ({wrongAnswers.length})
+                </h2>
+                {wrongAnswers.map(({ question: wq, pickedIndex, correctIndex: ci }, idx) => (
+                  <div key={idx} className="bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700 shadow-sm p-5">
+                    <p className="text-xs text-slate-400 dark:text-slate-500 mb-1">{wq.topic}</p>
+                    <p className="text-slate-800 dark:text-slate-100 font-medium text-sm leading-snug mb-3">
+                      {wq.question}
+                    </p>
+                    <div className="flex flex-col gap-1.5">
+                      {wq.options.map((opt, i) => {
+                        const isCorrect = i === ci;
+                        const isPicked = i === pickedIndex;
+                        let textCls = "text-slate-400 dark:text-slate-500";
+                        let badgeCls = "bg-slate-100 dark:bg-slate-700 text-slate-400 dark:text-slate-500";
+                        if (isCorrect) {
+                          textCls = "text-emerald-700 dark:text-emerald-400 font-medium";
+                          badgeCls = "bg-emerald-500 text-white";
+                        } else if (isPicked) {
+                          textCls = "text-rose-500 dark:text-rose-400 line-through opacity-70";
+                          badgeCls = "bg-rose-500 text-white";
+                        }
+                        return (
+                          <div key={i} className={`flex items-start gap-2 text-sm ${textCls}`}>
+                            <span className={`mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded text-xs font-semibold ${badgeCls}`}>
+                              {LETTERS[i]}
+                            </span>
+                            <span>{opt}</span>
+                          </div>
+                        );
+                      })}
+                    </div>
+                    {wq.explanation && (
+                      <p className="mt-3 text-xs text-slate-600 dark:text-slate-300 leading-relaxed border-t border-slate-100 dark:border-slate-700 pt-3">
+                        {wq.explanation}
+                      </p>
+                    )}
+                  </div>
+                ))}
+              </div>
+            )}
           </div>
         </div>
       </div>
