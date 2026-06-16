@@ -1,0 +1,342 @@
+[
+  {
+    "topic": "Basal patologi",
+    "question": "Hvad kaldes en forøgelse af et vævs størrelse, som skyldes et øget ANTAL celler?",
+    "options": ["Hypertrofi", "Hyperplasi", "Atrofi", "Metaplasi"],
+    "correct": "B",
+    "explanation": "Hyperplasi = flere celler. Hypertrofi betyder derimod, at de enkelte celler bliver større, mens antallet er uændret."
+  },
+  {
+    "topic": "Basal patologi",
+    "question": "En kvinde styrketræner intensivt, og hendes skeletmuskelceller bliver større og kraftigere. Hvilken celleadaptation er der tale om?",
+    "options": ["Hyperplasi", "Hypertrofi", "Dysplasi", "Metaplasi"],
+    "correct": "B",
+    "explanation": "Skeletmuskelceller kan ikke dele sig, så vævet vokser ved at de enkelte celler bliver større — det er hypertrofi."
+  },
+  {
+    "topic": "Basal patologi",
+    "question": "Hvad er metaplasi?",
+    "options": [
+      "Ukontrolleret, malign cellevækst",
+      "Skrumpning af et organ pga. tab af celler",
+      "En reversibel ændring, hvor én moden celletype erstattes af en anden",
+      "Et fald i celledelingshastigheden"
+    ],
+    "correct": "C",
+    "explanation": "Metaplasi er, at én moden celletype erstattes af en anden (ofte mere robust) type, typisk som svar på kronisk irritation. Den er som udgangspunkt reversibel."
+  },
+  {
+    "topic": "Basal patologi",
+    "question": "Hos en patient med langvarig sure opstød (refluks) ses, at det normale pladeepitel nederst i spiserøret er erstattet af cylinderepitel (Barretts øsofagus). Hvilken proces er dette et eksempel på?",
+    "options": ["Atrofi", "Hypertrofi", "Metaplasi", "Hyperplasi"],
+    "correct": "C",
+    "explanation": "Det er metaplasi — kronisk syrepåvirkning får én epiteltype til at blive erstattet af en anden. Barretts øsofagus øger risikoen for senere dysplasi og kræft."
+  },
+  {
+    "topic": "Basal patologi",
+    "question": "En sengeliggende patient har efter flere ugers immobilisering tydeligt mindre lårmuskulatur. Hvad kaldes denne reduktion i vævets størrelse?",
+    "options": ["Atrofi", "Aplasi", "Dysplasi", "Nekrose"],
+    "correct": "A",
+    "explanation": "Atrofi er skrumpning af et tidligere normalt udviklet væv. Her skyldes det inaktivitet (inaktivitetsatrofi)."
+  },
+  {
+    "topic": "Basal patologi",
+    "question": "Hvad er den væsentligste forskel på nekrose og apoptose?",
+    "options": [
+      "Nekrose er programmeret celledød, apoptose er ukontrolleret",
+      "Apoptose er programmeret og ryddelig celledød uden inflammation, mens nekrose er ukontrolleret celledød der udløser inflammation",
+      "Det er to ord for præcis samme proces",
+      "Apoptose forekommer kun i kræftceller"
+    ],
+    "correct": "B",
+    "explanation": "Apoptose er styret, 'ryddelig' celledød, der ikke udløser inflammation. Nekrose er ukontrolleret celledød efter skade og udløser typisk inflammation."
+  },
+  {
+    "topic": "Basal patologi",
+    "question": "Hvad kendetegner primær sårheling (sanatio per primam)?",
+    "options": [
+      "Et stort vævstab, der gradvist fyldes op af rigeligt granulationsvæv",
+      "At sårranderne ligger tæt sammen (fx en syet incision), så der dannes et smalt ar",
+      "En heling der kun foregår i knoglevæv",
+      "Et sår der pr. definition er inficeret"
+    ],
+    "correct": "B",
+    "explanation": "Ved primær heling er sårranderne rene og tætte (fx en kirurgisk incision der sys). Det giver minimalt granulationsvæv og et smalt ar."
+  },
+  {
+    "topic": "Basal patologi",
+    "question": "Hvad er granulationsvæv?",
+    "options": [
+      "Modent, færdigt arvæv",
+      "Dødt, nekrotisk væv",
+      "Nydannet bindevæv med nye kapillærer og fibroblaster i et helende sår",
+      "En ophobning af pus"
+    ],
+    "correct": "C",
+    "explanation": "Granulationsvæv er det rødlige, nydannede væv med nye blodkar (angiogenese) og fibroblaster, der fylder sårdefekten ud under helingen."
+  },
+  {
+    "topic": "Basal patologi",
+    "question": "Hvilken af følgende faktorer HÆMMER sårheling?",
+    "options": [
+      "God blodforsyning til såret",
+      "Tilstrækkeligt indtag af protein og C-vitamin",
+      "Dårligt reguleret diabetes mellitus",
+      "Ung alder"
+    ],
+    "correct": "C",
+    "explanation": "Dårligt reguleret diabetes nedsætter sårheling — bl.a. via nedsat mikrocirkulation, svækket immunforsvar og neuropati. De øvrige faktorer fremmer heling."
+  },
+  {
+    "topic": "Basal patologi",
+    "question": "Hvad betyder iskæmi?",
+    "options": [
+      "For meget ilttilførsel til et væv",
+      "Utilstrækkelig blodforsyning og dermed ilttilførsel til et væv",
+      "Betændelse i en blodåre",
+      "Ophobning af væske i vævet"
+    ],
+    "correct": "B",
+    "explanation": "Iskæmi er nedsat blodforsyning, så vævet får for lidt ilt og næring. Det kan føre til hypoksisk skade og i værste fald nekrose (infarkt)."
+  },
+  {
+    "topic": "Basal patologi",
+    "question": "Hvad kendetegner det medfødte (innate) immunforsvar sammenlignet med det adaptive?",
+    "options": [
+      "Det er langsomt og meget specifikt",
+      "Det danner hukommelsesceller mod specifikke mikroorganismer",
+      "Det reagerer hurtigt og uspecifikt som kroppens første forsvarslinje",
+      "Det består udelukkende af antistoffer"
+    ],
+    "correct": "C",
+    "explanation": "Det medfødte immunforsvar (hud, slimhinder, neutrofile, makrofager m.m.) reagerer hurtigt og uspecifikt. Det adaptive er langsommere, specifikt og danner hukommelse."
+  },
+  {
+    "topic": "Basal patologi",
+    "question": "Hvilke celler producerer antistoffer?",
+    "options": [
+      "T-hjælperceller",
+      "Plasmaceller (modne B-lymfocytter)",
+      "Neutrofile granulocytter",
+      "Trombocytter"
+    ],
+    "correct": "B",
+    "explanation": "B-lymfocytter modnes til plasmaceller, som producerer antistoffer (immunglobuliner)."
+  },
+  {
+    "topic": "Basal patologi",
+    "question": "Hvad karakteriserer en autoimmun sygdom?",
+    "options": [
+      "En infektion forårsaget af bakterier",
+      "En tilstand hvor immunforsvaret angriber kroppens eget væv",
+      "En medfødt mangel på immunceller",
+      "En allergisk reaktion på fx pollen"
+    ],
+    "correct": "B",
+    "explanation": "Ved autoimmunitet retter immunsystemet sig fejlagtigt mod kroppens egne celler og væv — fx ved type 1-diabetes og reumatoid artrit."
+  },
+  {
+    "topic": "Basal patologi",
+    "question": "En patient får inden for få minutter efter et bistik hævelse, udbredt udslæt, åndenød og blodtryksfald. Hvilken type hypersensitivitetsreaktion er dette typisk udtryk for?",
+    "options": [
+      "Straksallergi (type I, IgE-medieret)",
+      "En forsinket reaktion, der først kommer efter flere døgn",
+      "En langsomt udviklende autoimmun reaktion",
+      "En helt normal fysiologisk reaktion uden risiko"
+    ],
+    "correct": "A",
+    "explanation": "Det er en type I- (straks-/IgE-medieret) reaktion — anafylaksi, der opstår inden for minutter og kan give livstruende kredsløbskollaps."
+  },
+  {
+    "topic": "Basal patologi",
+    "question": "Hvad er en hensigtsmæssig funktion af feber ved infektion?",
+    "options": [
+      "Det er udelukkende en skadelig bivirkning uden gavnlig funktion",
+      "At hæmme mange mikroorganismers vækst og styrke immunresponset",
+      "At sænke kroppens stofskifte",
+      "At nedsætte antallet af hvide blodlegemer"
+    ],
+    "correct": "B",
+    "explanation": "Feber er en del af forsvaret: den hæmmer mange mikroorganismers vækst og fremmer immuncellernes aktivitet."
+  },
+  {
+    "topic": "Basal patologi",
+    "question": "Hvilke er de fem klassiske kardinaltegn på akut inflammation?",
+    "options": [
+      "Rødme, varme, hævelse, smerte og nedsat funktion",
+      "Feber, kvalme, opkast, diarré og udslæt",
+      "Bleghed, kulde, atrofi, kløe og træthed",
+      "Hoste, åndenød, brystsmerter, ødem og cyanose"
+    ],
+    "correct": "A",
+    "explanation": "De klassiske tegn er rubor (rødme), calor (varme), tumor (hævelse), dolor (smerte) og functio laesa (nedsat funktion)."
+  },
+  {
+    "topic": "Basal patologi",
+    "question": "Hvilken celletype dominerer ved AKUT inflammation?",
+    "options": [
+      "Lymfocytter",
+      "Neutrofile granulocytter",
+      "Plasmaceller",
+      "Fibroblaster"
+    ],
+    "correct": "B",
+    "explanation": "Neutrofile granulocytter er de første og dominerende celler ved akut inflammation. Makrofager og lymfocytter dominerer mere ved kronisk inflammation."
+  },
+  {
+    "topic": "Basal patologi",
+    "question": "Hvad sker der med de små blodkar i et område med akut inflammation?",
+    "options": [
+      "De trækker sig sammen, så området bliver blegt og koldt",
+      "De udvider sig og bliver mere gennemtrængelige",
+      "De forsvinder helt fra området",
+      "De forkalker"
+    ],
+    "correct": "B",
+    "explanation": "Ved akut inflammation sker vasodilatation og øget karpermeabilitet, så mere blod og væske (ekssudat) når frem. Det giver rødme, varme og hævelse."
+  },
+  {
+    "topic": "Basal patologi",
+    "question": "Hvad kendetegner kronisk inflammation sammenlignet med akut inflammation?",
+    "options": [
+      "Den varer kortere tid og domineres af neutrofile",
+      "Den er langvarig, domineres af makrofager og lymfocytter og ledsages ofte af vævsdestruktion og bindevævsdannelse",
+      "Den giver aldrig vævsskade",
+      "Den ses udelukkende ved allergi"
+    ],
+    "correct": "B",
+    "explanation": "Kronisk inflammation er langvarig, drives af makrofager og lymfocytter og ledsages ofte af samtidig vævsdestruktion og fibrose (arvævsdannelse)."
+  },
+  {
+    "topic": "Basal patologi",
+    "question": "Hvad består pus (materie) hovedsageligt af?",
+    "options": [
+      "Klar vævsvæske",
+      "Døde neutrofile granulocytter, vævsrester og mikroorganismer",
+      "Nydannet, sundt bindevæv",
+      "Levret blod"
+    ],
+    "correct": "B",
+    "explanation": "Pus består primært af døde neutrofile granulocytter, nedbrudt væv og ofte bakterier — typisk ved bakteriel infektion."
+  },
+  {
+    "topic": "Basal patologi",
+    "question": "Mod hvilken type infektion vil antibiotika typisk være virkningsløs?",
+    "options": [
+      "En bakteriel lungebetændelse",
+      "En virusinfektion som almindelig forkølelse",
+      "En bakteriel urinvejsinfektion",
+      "En bakteriel sårinfektion"
+    ],
+    "correct": "B",
+    "explanation": "Antibiotika virker på bakterier, ikke på virus. Forkølelse er en virusinfektion og skal derfor ikke behandles med antibiotika."
+  },
+  {
+    "topic": "Basal patologi",
+    "question": "Hvad bygger skelnen mellem gram-positive og gram-negative bakterier på?",
+    "options": [
+      "Bakteriernes størrelse",
+      "Opbygningen af bakteriernes cellevæg, som farves forskelligt ved Gram-farvning",
+      "Om bakterierne kan bevæge sig",
+      "Bakteriernes farve set i dagslys"
+    ],
+    "correct": "B",
+    "explanation": "Gram-farvning skelner ud fra cellevæggens opbygning: gram-positive (tyk peptidoglykan) bliver blå/violette, gram-negative bliver røde."
+  },
+  {
+    "topic": "Basal patologi",
+    "question": "Hvad er sepsis?",
+    "options": [
+      "En lokal hudinfektion uden almensymptomer",
+      "En livstruende tilstand med et systemisk, dysreguleret respons på en infektion",
+      "En allergisk reaktion på medicin",
+      "En virussygdom der altid er ufarlig"
+    ],
+    "correct": "B",
+    "explanation": "Sepsis er en livstruende, systemisk reaktion på infektion, hvor immunresponset også skader kroppens egne organer. Det kræver hurtig behandling."
+  },
+  {
+    "topic": "Basal patologi",
+    "question": "Hvad menes med kroppens 'normalflora'?",
+    "options": [
+      "Sygdomsfremkaldende bakterier i blodbanen",
+      "De mikroorganismer, der naturligt lever på og i kroppen uden normalt at gøre skade",
+      "Virus i lungerne",
+      "Svampe, der altid medfører infektion"
+    ],
+    "correct": "B",
+    "explanation": "Normalfloraen er de mikroorganismer (fx tarmbakterier), der normalt findes på kroppen og ofte er gavnlige, men som kan give infektion, hvis de havner et forkert sted."
+  },
+  {
+    "topic": "Basal patologi",
+    "question": "En patient har en infektion, der spredes via små dråber, når vedkommende hoster og nyser. Hvilken smittevej er der tale om?",
+    "options": [
+      "Fækal-oral smitte",
+      "Dråbesmitte",
+      "Blodbåren smitte",
+      "Seksuel smitte"
+    ],
+    "correct": "B",
+    "explanation": "Smitte via dråber fra luftvejene ved hoste og nys kaldes dråbesmitte (ses fx ved influenza)."
+  },
+  {
+    "topic": "Basal patologi",
+    "question": "Hvilken undersøgelse er bedst egnet til hurtigt at vurdere en mistænkt knoglefraktur?",
+    "options": [
+      "Almindeligt røntgen",
+      "Ultralyd",
+      "EKG",
+      "En blodprøve"
+    ],
+    "correct": "A",
+    "explanation": "Røntgen er hurtigt, billigt og velegnet til at fremstille knogler og påvise frakturer."
+  },
+  {
+    "topic": "Basal patologi",
+    "question": "Hvilken af følgende billeddiagnostiske metoder anvender IKKE ioniserende stråling?",
+    "options": [
+      "Røntgen",
+      "CT-scanning",
+      "MR-scanning",
+      "Konventionel gennemlysning"
+    ],
+    "correct": "C",
+    "explanation": "MR (magnetisk resonans) bruger magnetfelt og radiobølger og giver ingen ioniserende stråling. Røntgen, CT og gennemlysning bruger røntgenstråling."
+  },
+  {
+    "topic": "Basal patologi",
+    "question": "Hvad er en CT-scanning grundlæggende?",
+    "options": [
+      "En undersøgelse med lydbølger",
+      "En computerbearbejdet serie af røntgenbilleder, der giver snitbilleder af kroppen",
+      "En måling af hjertets elektriske aktivitet",
+      "En undersøgelse med magnetfelt"
+    ],
+    "correct": "B",
+    "explanation": "CT (computertomografi) bruger røntgenstråler fra mange vinkler, som computeren samler til detaljerede snitbilleder (tværsnit) af kroppen."
+  },
+  {
+    "topic": "Basal patologi",
+    "question": "Til hvad er ultralydsscanning særligt velegnet?",
+    "options": [
+      "Detaljeret afbildning af knoglernes indre struktur",
+      "Undersøgelse af bløddele, organer og fostre uden brug af stråling",
+      "Vurdering af luftfyldt lungevæv",
+      "Detaljeret afbildning af hjernen gennem kraniet hos voksne"
+    ],
+    "correct": "B",
+    "explanation": "Ultralyd egner sig godt til bløddele, organer (fx lever og nyrer) og fosterundersøgelser og bruger ingen ioniserende stråling. Den egner sig dårligt til knogler og luftfyldt væv."
+  },
+  {
+    "topic": "Basal patologi",
+    "question": "Hvorfor tilstræber man at begrænse antallet af CT-scanninger, særligt hos børn?",
+    "options": [
+      "Fordi CT er meget dyrt og tager lang tid",
+      "På grund af stråledosis, da ioniserende stråling indebærer en lille øget kræftrisiko",
+      "Fordi CT kræver indlæggelse i flere dage",
+      "Fordi CT-billeder ikke kan gemmes"
+    ],
+    "correct": "B",
+    "explanation": "CT giver en relativt høj dosis ioniserende stråling, der over tid kan øge kræftrisikoen. Børn er mere strålefølsomme, så indikationen vejes ekstra nøje."
+  }
+]
