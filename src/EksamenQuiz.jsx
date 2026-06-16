@@ -6,6 +6,7 @@ import psykiatri from "./questions/psykiatri.json";
 import karoghjerte from "./questions/kar-og-hjerte.json";
 import endokrinologi from "./questions/endokrinologi.json";
 import onkologi from "./questions/onkologi.json";
+import reumatologi from "./questions/reumatologi.json";
 
 /* ============================================================================
    HOW TO ADD QUESTIONS
@@ -37,6 +38,7 @@ const QUESTIONS = [
   ...karoghjerte,
   ...endokrinologi,
   ...onkologi,
+  ...reumatologi,
 ];
 
 /* ============================================================================
