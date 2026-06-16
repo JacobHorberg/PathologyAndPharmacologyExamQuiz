@@ -1,0 +1,362 @@
+[
+  {
+    "topic": "Onkologi",
+    "question": "Hvad kendetegner kræft (en malign tumor)?",
+    "options": [
+      "En ukontrolleret, autonom cellevækst, der kan vokse invasivt ind i nabovæv og sprede sig (metastasere)",
+      "En velafgrænset knude, der aldrig vokser eller spreder sig",
+      "En forbigående hævelse pga. en infektion",
+      "En normal variation i vævet uden betydning"
+    ],
+    "correct": "A",
+    "explanation": "Kræft er en ukontrolleret, autonom vækst af celler, der ikke følger kroppens normale styring. Maligne tumorer vokser invasivt ind i omgivende væv og kan sprede sig til andre organer (metastasere)."
+  },
+  {
+    "topic": "Onkologi",
+    "question": "Hvad er den væsentligste forskel på en benign (godartet) og en malign (ondartet) tumor?",
+    "options": [
+      "Benigne tumorer er altid større end maligne",
+      "Benigne tumorer vokser lokalt og velafgrænset og metastaserer ikke, mens maligne vokser invasivt og kan sprede sig",
+      "Der er ingen forskel",
+      "Maligne tumorer er altid smertefulde, benigne aldrig"
+    ],
+    "correct": "B",
+    "explanation": "Benigne tumorer er typisk velafgrænsede, vokser langsomt og lokalt og spreder sig ikke. Maligne tumorer vokser invasivt ind i nabovæv og kan metastasere — det er afgørende for, hvor farlige de er."
+  },
+  {
+    "topic": "Onkologi",
+    "question": "Hvad er en metastase?",
+    "options": [
+      "En godartet knude i huden",
+      "En aflejring af kræftceller, der har spredt sig fra den oprindelige tumor til et andet sted i kroppen",
+      "En betændelse omkring en tumor",
+      "Et ar efter en operation"
+    ],
+    "correct": "B",
+    "explanation": "En metastase er kræftvæv, der er opstået ved spredning fra den primære tumor til et andet organ. Tilstedeværelsen af metastaser er ofte afgørende for prognosen."
+  },
+  {
+    "topic": "Onkologi",
+    "question": "Hvordan spreder kræftceller sig typisk i kroppen?",
+    "options": [
+      "Kun ved direkte berøring mellem mennesker (smitte)",
+      "Via lymfekarrene (til lymfeknuderne) og via blodbanen, samt ved direkte indvækst i nabovæv",
+      "Udelukkende gennem luftvejene",
+      "Kræft spreder sig aldrig"
+    ],
+    "correct": "B",
+    "explanation": "Kræft spreder sig dels ved direkte indvækst i nabovæv, dels via lymfesystemet til lymfeknuderne og via blodbanen til fjernere organer. Kræft smitter ikke fra person til person."
+  },
+  {
+    "topic": "Onkologi",
+    "question": "Hvilken af følgende er en kendt, påvirkelig risikofaktor for udvikling af kræft?",
+    "options": [
+      "Tobaksrygning",
+      "Regelmæssig søvn",
+      "Højt indtag af vand",
+      "At være ung"
+    ],
+    "correct": "A",
+    "explanation": "Tobaksrygning er en af de vigtigste påvirkelige risikofaktorer (især for lungekræft, men også flere andre). Andre faktorer omfatter fx UV-/ioniserende stråling, visse vira (fx HPV), alkohol, overvægt, fysisk inaktivitet og arv."
+  },
+  {
+    "topic": "Onkologi",
+    "question": "Hvilke af følgende kan være generelle advarselstegn (alarmsymptomer) på kræft, som bør føre til lægelig udredning?",
+    "options": [
+      "Uforklaret vægttab, en ny knude, ændrede afføringsvaner, blod i afføring/urin, vedvarende hoste eller et sår, der ikke vil hele",
+      "Forbigående muskelømhed efter træning",
+      "Lidt hovedpine efter en lang dag",
+      "Røde kinder efter løb"
+    ],
+    "correct": "A",
+    "explanation": "Klassiske alarmsymptomer er bl.a. uforklaret vægttab, nytilkommen knude, ændrede afførings- eller vandladningsvaner, blod i afføring/urin, vedvarende hoste/hæshed og sår, der ikke heler. Som fysioterapeut kan man være den, der opdager dem — og bør da opfordre til lægelig udredning."
+  },
+  {
+    "topic": "Onkologi",
+    "question": "Hvilke er de overordnede behandlingsmuligheder ved kræft?",
+    "options": [
+      "Kun sengeleje",
+      "Kirurgi, strålebehandling, medicinsk behandling (fx kemoterapi/cytostatika, hormon- og immunterapi) — alene eller i kombination",
+      "Udelukkende antibiotika",
+      "Kun fysioterapi"
+    ],
+    "correct": "B",
+    "explanation": "Kræft behandles med kirurgi, strålebehandling og medicinsk behandling (cytostatika, hormonbehandling, immunterapi m.m.) — ofte i kombination, afhængigt af kræfttype og stadie."
+  },
+  {
+    "topic": "Onkologi",
+    "question": "Hvorfor giver kemoterapi (cytostatika) ofte bivirkninger som hårtab, kvalme og øget infektionsrisiko?",
+    "options": [
+      "Fordi midlerne især rammer hurtigt-delende celler — ikke kun kræftceller, men også fx hårrødder, slimhinder og knoglemarv",
+      "Fordi midlerne kun virker på huden",
+      "Fordi de styrker immunforsvaret",
+      "Fordi de udelukkende påvirker kræftcellerne og intet andet"
+    ],
+    "correct": "A",
+    "explanation": "Cytostatika rammer hurtigt-delende celler. Det rammer kræftcellerne, men også normale hurtigt-delende celler i hårrødder (hårtab), slimhinder (kvalme/sår) og knoglemarv (færre blodlegemer → øget infektionsrisiko og træthed). Det er vigtigt at kende, fx ift. hygiejne og belastning ved træning."
+  },
+  {
+    "topic": "Onkologi",
+    "question": "Hvad ved man i dag om fysisk træning til patienter under og efter kræftbehandling?",
+    "options": [
+      "Træning frarådes altid og er farligt",
+      "Tilpasset fysisk træning er som regel sikkert og anbefales — det kan mindske cancer-relateret træthed (fatigue) og forbedre funktion og livskvalitet",
+      "Træning har ingen effekt overhovedet",
+      "Patienterne bør holde fuldstændig sengeleje"
+    ],
+    "correct": "B",
+    "explanation": "Forskning viser, at tilpasset træning generelt er sikkert og gavnligt under og efter kræftbehandling: det reducerer fatigue og forbedrer fysisk funktion og livskvalitet. Onkologisk rehabilitering er derfor et vigtigt fysioterapeutisk område (med individuel tilpasning)."
+  },
+  {
+    "topic": "Onkologi",
+    "question": "Hvorfor skal man være ekstra forsigtig hos en patient med kendte knoglemetastaser, fx ved manuel behandling og tung belastning?",
+    "options": [
+      "Fordi knoglen kan være svækket, så der er øget risiko for patologisk fraktur (knoglebrud uden større traume)",
+      "Fordi metastaser gør knoglerne stærkere",
+      "Fordi der slet ingen risiko er",
+      "Fordi knoglemetastaser kun findes i huden"
+    ],
+    "correct": "A",
+    "explanation": "Knoglemetastaser svækker knoglen og øger risikoen for patologiske frakturer. Derfor skal manuel behandling, høj belastning og visse øvelser tilpasses, og nye, vedvarende (især natlige) knoglesmerter hos en kræftpatient bør føre til lægelig vurdering."
+  },
+  {
+    "topic": "Onkologi",
+    "question": "Hvilken kræftform er den hyppigste hos kvinder?",
+    "options": [
+      "Brystkræft",
+      "Lungekræft",
+      "Hudkræft af typen modermærkekræft",
+      "Knoglekræft"
+    ],
+    "correct": "A",
+    "explanation": "Brystkræft er den hyppigste kræftform hos kvinder. Tidlig opsporing (bl.a. via screening med mammografi) forbedrer prognosen."
+  },
+  {
+    "topic": "Onkologi",
+    "question": "Hvilke fund kan være tegn på brystkræft?",
+    "options": [
+      "En (ofte uøm) knude i brystet, hudforandringer (fx indtrækning eller 'appelsinhud'), forandring af brystvorten eller en knude i armhulen",
+      "Belastningssmerter i læggen",
+      "Pludselig halvsidig lammelse",
+      "Hvæsende vejrtrækning"
+    ],
+    "correct": "A",
+    "explanation": "Klassiske fund er en typisk uøm knude i brystet, hudindtrækning eller 'appelsinhud', forandret/inddraget brystvorte og evt. forstørrede lymfeknuder i armhulen. Enhver ny, suspekt knude bør udredes."
+  },
+  {
+    "topic": "Onkologi",
+    "question": "Hvilken undersøgelse anvendes typisk til at undersøge for brystkræft?",
+    "options": [
+      "Mammografi (røntgen af brystet), ofte suppleret med ultralyd og vævsprøve (biopsi)",
+      "EKG",
+      "Blodsukkermåling",
+      "Lungefunktionsundersøgelse"
+    ],
+    "correct": "A",
+    "explanation": "Mammografi er den centrale undersøgelse (og bruges også i screeningsprogrammet). Den suppleres ofte med ultralyd og en vævsprøve (biopsi) for at stille den endelige diagnose."
+  },
+  {
+    "topic": "Onkologi",
+    "question": "En kvinde har fået fjernet lymfeknuder i armhulen (og fået strålebehandling) i forbindelse med brystkræft. Hvilken senfølge er fysioterapeutisk vigtig at kende?",
+    "options": [
+      "Lymfødem — hævelse af armen pga. forstyrret lymfedrænage",
+      "At armen bliver stærkere af sig selv",
+      "At huden bliver mere modstandsdygtig",
+      "At skulderen aldrig påvirkes"
+    ],
+    "correct": "A",
+    "explanation": "Fjernelse af lymfeknuder og stråling kan forstyrre lymfedrænagen og give lymfødem i armen. Fysioterapeuten har en central rolle i forebyggelse og behandling (fx kompression, øvelser, manuel lymfedrænage) samt i genoptræning af skulderfunktion og bevægelighed efter operationen."
+  },
+  {
+    "topic": "Onkologi",
+    "question": "Hvad er den vigtigste risikofaktor for lungekræft?",
+    "options": [
+      "Tobaksrygning",
+      "Regelmæssig motion",
+      "Lavt blodtryk",
+      "Højt væskeindtag"
+    ],
+    "correct": "A",
+    "explanation": "Tobaksrygning er langt den vigtigste årsag til lungekræft. Andre faktorer er bl.a. passiv rygning, radon, asbest og luftforurening."
+  },
+  {
+    "topic": "Onkologi",
+    "question": "Hvilke symptomer kan tyde på lungekræft?",
+    "options": [
+      "Vedvarende eller ændret hoste, hæmoptyse (blodigt opspyt), åndenød, brystsmerter og uforklaret vægttab",
+      "Hævede ankler som eneste tegn",
+      "Kløende udslæt over hele kroppen",
+      "Smerter kun ved vandladning"
+    ],
+    "correct": "A",
+    "explanation": "Lungekræft kan give vedvarende/ændret hoste, blodigt opspyt, åndenød, brystsmerter, gentagne luftvejsinfektioner og uforklaret vægttab. Symptomerne kommer ofte sent, hvilket bidrager til den ofte dårlige prognose."
+  },
+  {
+    "topic": "Onkologi",
+    "question": "En storryger har gennem flere uger haft en ny, vedvarende hoste og har nu hostet blod op (hæmoptyse). Hvad er det rigtige at gøre?",
+    "options": [
+      "Afvente nogle måneder mere",
+      "Opfordre til hurtig lægelig udredning, da det kan være et alarmsymptom på fx lungekræft",
+      "Anbefale mere træning som eneste tiltag",
+      "Ignorere det, da hoste altid er ufarligt"
+    ],
+    "correct": "B",
+    "explanation": "Ny, vedvarende hoste og hæmoptyse hos en (stor)ryger er alarmsymptomer, der skal udredes hurtigt. Som fysioterapeut bør man opfordre til straks lægekontakt frem for at afvente."
+  },
+  {
+    "topic": "Onkologi",
+    "question": "Hvad er typisk for prostatakræft?",
+    "options": [
+      "Det er en hyppig kræftform hos mænd, og risikoen stiger med alderen",
+      "Det rammer kun mænd under 30 år",
+      "Det er en kvindesygdom",
+      "Det smitter mellem personer"
+    ],
+    "correct": "A",
+    "explanation": "Prostatakræft er en af de hyppigste kræftformer hos mænd, og forekomsten stiger med alderen. Mange tilfælde er langsomt voksende."
+  },
+  {
+    "topic": "Onkologi",
+    "question": "Hvilke undersøgelser bruges typisk i udredningen for prostatakræft?",
+    "options": [
+      "PSA-blodprøve, rektaleksploration (følen på prostata gennem endetarmen) og vævsprøve (biopsi)",
+      "Spirometri",
+      "Mammografi",
+      "Blodsukkermåling"
+    ],
+    "correct": "A",
+    "explanation": "Udredningen bygger bl.a. på PSA (prostataspecifikt antigen) i blodet, rektaleksploration og — ved mistanke — MR og vævsprøve (biopsi)."
+  },
+  {
+    "topic": "Onkologi",
+    "question": "Til hvilket væv spreder prostatakræft sig ofte ved metastasering?",
+    "options": [
+      "Til knoglerne, særligt i ryggen (columna)",
+      "Kun til huden",
+      "Kun til håret",
+      "Prostatakræft metastaserer aldrig"
+    ],
+    "correct": "A",
+    "explanation": "Prostatakræft metastaserer hyppigt til knoglerne, særligt i columna (ryggen) og bækkenet. Nye, vedvarende rygsmerter (især natlige) hos en ældre mand med kendt eller mistænkt prostatakræft bør derfor give mistanke om knoglemetastaser og føre til lægelig vurdering."
+  },
+  {
+    "topic": "Onkologi",
+    "question": "Hvad er ofte karakteristisk for prostatakræft i de tidlige stadier?",
+    "options": [
+      "Den giver ofte ingen eller få symptomer og opdages tit ved en undersøgelse",
+      "Den giver altid voldsomme smerter fra starten",
+      "Den giver altid høj feber",
+      "Den ledsages altid af kraftig hoste"
+    ],
+    "correct": "A",
+    "explanation": "Tidlig prostatakræft er ofte symptomfattig. Vandladningssymptomer kan forekomme, men ligner dem ved godartet prostataforstørrelse. Mange tilfælde er langsomt voksende, og behandlingen spænder fra aktiv overvågning til kirurgi, stråle- og hormonbehandling."
+  },
+  {
+    "topic": "Onkologi",
+    "question": "Hvad er tarmkræft (kolorektal cancer)?",
+    "options": [
+      "Kræft i tyk- eller endetarmen, og en af de hyppigste kræftformer i Danmark",
+      "En infektion i tarmen, der altid går over af sig selv",
+      "En godartet hævelse uden betydning",
+      "En sygdom kun i tyndtarmen hos børn"
+    ],
+    "correct": "A",
+    "explanation": "Tarmkræft (kolorektal cancer) er kræft i tyktarm eller endetarm og er en af de hyppigste kræftformer. Den udvikler sig ofte over år fra forstadier (polypper)."
+  },
+  {
+    "topic": "Onkologi",
+    "question": "Hvilke symptomer kan tyde på tarmkræft?",
+    "options": [
+      "Ændrede afføringsvaner, blod i afføringen, uforklaret vægttab, mavesmerter og evt. blodmangel (anæmi)",
+      "Hævede ankler og åndenød",
+      "Pludselig eksplosiv hovedpine",
+      "Kløe og udslæt på brystet"
+    ],
+    "correct": "A",
+    "explanation": "Alarmsymptomer ved tarmkræft er bl.a. ændrede afføringsvaner (fx ny diarré/forstoppelse), blod i afføringen, uforklaret vægttab, mavesmerter og jernmangelanæmi. De bør udredes."
+  },
+  {
+    "topic": "Onkologi",
+    "question": "Hvordan forsøger man at opspore tarmkræft tidligt i screeningsprogrammet?",
+    "options": [
+      "Ved en afføringsprøve, der undersøger for usynligt blod i afføringen — og ved fund følges op med kikkertundersøgelse (koloskopi)",
+      "Ved en lungefunktionsundersøgelse",
+      "Ved en blodsukkermåling",
+      "Ved en synstest"
+    ],
+    "correct": "A",
+    "explanation": "Screeningen bygger på en afføringsprøve (test for usynligt/okkult blod). Er den positiv, tilbydes koloskopi, hvor man kan se tarmen og fjerne polypper, før de evt. udvikler sig til kræft."
+  },
+  {
+    "topic": "Onkologi",
+    "question": "Hvordan udvikler de fleste tilfælde af tarmkræft sig?",
+    "options": [
+      "Ofte gradvist fra godartede polypper (forstadier), der over tid kan udvikle sig til kræft (adenom-karcinom-sekvensen)",
+      "Altid pludseligt i løbet af få dage",
+      "Udelukkende efter en infektion",
+      "Kun som følge af et fald"
+    ],
+    "correct": "A",
+    "explanation": "De fleste kolorektale kræftformer udvikler sig over år fra polypper (adenomer). Derfor kan screening, hvor man finder og fjerner polypper, forebygge, at de bliver til kræft."
+  },
+  {
+    "topic": "Onkologi",
+    "question": "Hvilken livsstilsfaktor, som fysioterapeuten kan understøtte, er forbundet med en lavere risiko for bl.a. tarmkræft?",
+    "options": [
+      "Regelmæssig fysisk aktivitet (sammen med sund kost og normalvægt)",
+      "Mere stillesiddende tid",
+      "Højt indtag af forarbejdet kød og alkohol",
+      "Rygning"
+    ],
+    "correct": "A",
+    "explanation": "Regelmæssig fysisk aktivitet, sund og fiberrig kost, normalvægt samt begrænsning af rødt/forarbejdet kød, alkohol og rygning er forbundet med lavere risiko for flere kræftformer, herunder tarmkræft."
+  },
+  {
+    "topic": "Onkologi",
+    "question": "Hvad bruges begrebet 'prognose' om i forbindelse med kræft?",
+    "options": [
+      "Et skøn over det forventede sygdomsforløb og udsigterne (fx chancen for helbredelse), bl.a. ud fra kræfttype og stadie",
+      "Navnet på den kirurgiske operation",
+      "En type smertestillende medicin",
+      "Et mål for blodtrykket"
+    ],
+    "correct": "A",
+    "explanation": "Prognosen er et skøn over det forventede forløb og udsigterne. Den afhænger bl.a. af kræfttype, hvor udbredt sygdommen er (stadie/metastaser) og behandlingsmulighederne — derfor betyder tidlig opsporing ofte en bedre prognose."
+  },
+  {
+    "topic": "Onkologi",
+    "question": "Hvad betyder det, at en kræftsygdom er 'metastaseret' (dissemineret)?",
+    "options": [
+      "At den har spredt sig fra det oprindelige sted til et eller flere andre organer",
+      "At den er fuldstændig helbredt",
+      "At den kun sidder ét sted og er godartet",
+      "At den er smitsom"
+    ],
+    "correct": "A",
+    "explanation": "En metastaseret (dissemineret) kræftsygdom har spredt sig til andre organer end udgangspunktet. Det påvirker både behandlingsvalg og prognose."
+  },
+  {
+    "topic": "Onkologi",
+    "question": "Hvorfor er tidlig opsporing (fx via screening og hurtig udredning af alarmsymptomer) vigtig ved kræft?",
+    "options": [
+      "Fordi kræft, der opdages tidligt og ikke har spredt sig, oftest har en bedre prognose og flere behandlingsmuligheder",
+      "Fordi det ikke har nogen betydning, hvornår kræft opdages",
+      "Fordi tidlig opsporing forværrer prognosen",
+      "Fordi kræft kun kan behandles i sene stadier"
+    ],
+    "correct": "A",
+    "explanation": "Jo tidligere kræft opdages — før den har spredt sig — desto bedre er prognosen typisk, og desto flere (og ofte mindre indgribende) behandlingsmuligheder er der. Derfor er screening og hurtig reaktion på alarmsymptomer vigtig."
+  },
+  {
+    "topic": "Onkologi",
+    "question": "Hvad beskriver stadieinddeling (fx TNM-systemet) af en kræftsygdom?",
+    "options": [
+      "Hvor udbredt kræften er — bl.a. tumorens størrelse/udbredelse (T), om der er spredning til lymfeknuder (N), og om der er fjernmetastaser (M)",
+      "Hvilken farve tumoren har",
+      "Hvor gammel patienten er",
+      "Hvor på kroppen operationsarret sidder"
+    ],
+    "correct": "A",
+    "explanation": "TNM-systemet beskriver sygdommens udbredelse: T (tumorens størrelse/lokal udbredelse), N (spredning til regionale lymfeknuder) og M (fjernmetastaser). Stadiet har stor betydning for både behandlingsvalg og prognose."
+  }
+]
