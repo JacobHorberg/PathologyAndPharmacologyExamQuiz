@@ -1,4 +1,4 @@
-﻿import { useState, useEffect, useCallback, useMemo } from "react";
+import { useState, useEffect, useCallback, useMemo } from "react";
 import basalPatologi from "./questions/basal-patologi.json";
 import lungesygdomme from "./questions/lungesygdomme.json";
 import neurologi from "./questions/neurologi.json";
@@ -97,7 +97,7 @@ export default function App() {
   }, []);
 
   const [screen, setScreen] = useState("menu");
-  const [shuffleOn, setShuffleOn] = useState(false);
+  const [shuffleOn, setShuffleOn] = useState(true);
   const [activeTopic, setActiveTopic] = useState(ALL);
   const [deck, setDeck] = useState([]);
   const [pos, setPos] = useState(0);
@@ -105,9 +105,10 @@ export default function App() {
   const [score, setScore] = useState({ correct: 0, wrong: 0 });
   const [wrongAnswers, setWrongAnswers] = useState([]);
   const [customCounts, setCustomCounts] = useState({});
-  const [darkMode, setDarkMode] = useState(
-    () => localStorage.getItem("darkMode") === "true"
-  );
+  const [darkMode, setDarkMode] = useState(() => {
+    const stored = localStorage.getItem("darkMode");
+    return stored === null ? true : stored === "true";
+  });
 
   useEffect(() => {
     localStorage.setItem("darkMode", String(darkMode));
@@ -194,6 +195,14 @@ export default function App() {
     }
   }, [answered, pos, total]);
 
+  const retakeSameDeck = useCallback(() => {
+    setPos(0);
+    setSelected(null);
+    setScore({ correct: 0, wrong: 0 });
+    setWrongAnswers([]);
+    setScreen("quiz");
+  }, []);
+
   // Keyboard: number/letter to answer, Enter/→ for next.
   useEffect(() => {
     if (screen !== "quiz") return;
@@ -216,34 +225,62 @@ export default function App() {
     return () => window.removeEventListener("keydown", onKey);
   }, [screen, q, answered, handleAnswer, next]);
 
-  const topicLabel = activeTopic === ALL ? "Alle emner" : activeTopic === CUSTOM ? "Tilpasset quiz" : activeTopic;
+  const topicLabel =
+    activeTopic === ALL ? "Alle emner" :
+    activeTopic === CUSTOM ? "Tilpasset quiz" :
+    activeTopic;
 
-  // Dark mode toggle button shown on all screens
   const themeToggle = (
     <button
       onClick={() => setDarkMode((d) => !d)}
-      className="fixed top-4 right-4 z-50 rounded-full w-9 h-9 flex items-center justify-center bg-white dark:bg-slate-700 border border-slate-200 dark:border-slate-600 shadow-sm text-slate-600 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-slate-600 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-teal-500"
-      aria-label={darkMode ? "Skift til lys tilstand" : "Skift til mørk tilstand"}
+      aria-label="Skift tema"
+      title="Skift tema"
+      style={{
+        position: "fixed", top: 18, right: 18, zIndex: 50,
+        width: 42, height: 42,
+        display: "flex", alignItems: "center", justifyContent: "center",
+        borderRadius: "50%",
+        background: "var(--surface)",
+        border: "1px solid var(--border)",
+        boxShadow: "var(--shadow)",
+        color: "var(--text-dim)",
+        fontSize: 18, cursor: "pointer",
+        transition: "background .15s",
+      }}
     >
-      {darkMode ? "☀" : "🌙"}
+      {darkMode ? "☀" : "☾"}
     </button>
+  );
+
+  const pageWrap = (content) => (
+    <div className={darkMode ? "dark" : ""}>
+      <div style={{
+        minHeight: "100vh",
+        background: "var(--bg)",
+        color: "var(--text)",
+        transition: "background .25s ease",
+      }}>
+        {themeToggle}
+        {content}
+      </div>
+    </div>
   );
 
   // ---------- Empty state ----------
   if (QUESTIONS.length === 0) {
-    return (
-      <div className={darkMode ? "dark" : ""}>
-        {themeToggle}
-        <div className="min-h-screen bg-slate-50 dark:bg-slate-900 flex items-center justify-center p-6">
-          <div className="max-w-md text-center bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700 shadow-sm p-8">
-            <h1 className="text-xl font-semibold text-slate-800 dark:text-slate-100 mb-2">
-              Ingen spørgsmål endnu
-            </h1>
-            <p className="text-slate-600 dark:text-slate-300 text-sm leading-relaxed">
-              Tilføj spørgsmål i <span className="font-mono">QUESTIONS</span>-listen
-              øverst i koden, så dukker de op her.
-            </p>
-          </div>
+    return pageWrap(
+      <div className="flex items-center justify-center min-h-screen p-6">
+        <div style={{
+          maxWidth: 400, textAlign: "center",
+          background: "var(--surface)", border: "1px solid var(--border)",
+          borderRadius: 20, boxShadow: "var(--shadow)", padding: 32,
+        }}>
+          <h1 style={{ margin: "0 0 8px", fontSize: 20, fontWeight: 700, color: "var(--text)" }}>
+            Ingen spørgsmål endnu
+          </h1>
+          <p style={{ margin: 0, fontSize: 14, color: "var(--text-dim)", lineHeight: 1.6 }}>
+            Tilføj spørgsmål i <code>QUESTIONS</code>-listen øverst i koden, så dukker de op her.
+          </p>
         </div>
       </div>
     );
@@ -251,101 +288,159 @@ export default function App() {
 
   // ---------- Menu screen ----------
   if (screen === "menu") {
-    return (
-      <div className={darkMode ? "dark" : ""}>
-        {themeToggle}
-        <div className="min-h-screen bg-slate-50 dark:bg-slate-900 flex flex-col items-center p-4 sm:p-6">
-          <div className="w-full max-w-xl">
-            <header className="mb-6 pt-2">
-              <h1 className="text-xl sm:text-2xl font-semibold text-slate-800 dark:text-slate-100">
-                Patologi &amp; Farmakologi
-              </h1>
-              <p className="text-sm text-slate-500 dark:text-slate-400 mt-1">
-                Vælg et emne at træne.
-              </p>
-            </header>
+    return pageWrap(
+      <div style={{ maxWidth: 620, margin: "0 auto", padding: "48px 20px 64px" }}>
+        {/* Header */}
+        <header style={{ marginBottom: 28 }}>
+          <p style={{
+            margin: "0 0 8px", fontSize: 12, fontWeight: 700,
+            letterSpacing: ".14em", textTransform: "uppercase",
+            color: "var(--teal)",
+          }}>Eksamenstræning</p>
+          <h1 style={{
+            margin: 0, fontSize: 34, fontWeight: 800,
+            letterSpacing: "-.02em", lineHeight: 1.1,
+            color: "var(--text)",
+          }}>Patologi &amp; Farmakologi</h1>
+          <p style={{ margin: "10px 0 0", fontSize: 16, color: "var(--text-dim)" }}>
+            Vælg hvordan du vil træne i dag.
+          </p>
+        </header>
 
-            <label className="mb-4 flex items-center gap-2 text-sm text-slate-600 dark:text-slate-300 cursor-pointer select-none">
-              <input
-                type="checkbox"
-                checked={shuffleOn}
-                onChange={(e) => setShuffleOn(e.target.checked)}
-                className="h-4 w-4 accent-teal-700"
-              />
-              Bland spørgsmålenes rækkefølge
-            </label>
+        {/* Mode cards — 2-col grid */}
+        <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 14, marginBottom: 14 }}>
+          <button
+            onClick={() => startTopic(ALL, shuffleOn)}
+            className="q-card-lift"
+            style={{
+              display: "flex", flexDirection: "column", textAlign: "left",
+              padding: 20, borderRadius: 20,
+              border: "1.5px solid var(--teal-tint-bd)",
+              background: "var(--teal-tint)",
+              minHeight: 138, cursor: "pointer",
+            }}
+          >
+            <span style={{
+              display: "flex", alignItems: "center", justifyContent: "center",
+              width: 40, height: 40, borderRadius: 12,
+              background: "var(--teal)", color: "#fff", fontSize: 20,
+              marginBottom: "auto",
+            }}>⚡</span>
+            <span style={{ display: "block", fontSize: 18, fontWeight: 700, color: "var(--text)", marginTop: 14 }}>
+              Alle emner
+            </span>
+            <span style={{ display: "block", fontSize: 13, color: "var(--text-dim)", marginTop: 3 }}>
+              {QUESTIONS.length} spørgsmål i én blandet runde
+            </span>
+          </button>
 
-            {/* All topics */}
-            <button
-              onClick={() => startTopic(ALL, shuffleOn)}
-              className="w-full mb-3 flex items-center justify-between rounded-2xl border border-teal-200 dark:border-teal-800 bg-teal-50 dark:bg-teal-950 px-5 py-4 text-left hover:bg-teal-100 dark:hover:bg-teal-900 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-teal-500"
-            >
-              <span>
-                <span className="block font-semibold text-teal-900 dark:text-teal-100">
-                  Alle emner
-                </span>
-                <span className="block text-xs text-teal-700 dark:text-teal-300 mt-0.5">
-                  Alle {QUESTIONS.length} spørgsmål blandet sammen
-                </span>
-              </span>
-              <span className="text-teal-700 dark:text-teal-300 text-xl" aria-hidden>
-                →
-              </span>
-            </button>
-
-            {/* Custom quiz */}
-            <button
-              onClick={openCustomScreen}
-              className="w-full mb-3 flex items-center justify-between rounded-2xl border border-violet-200 dark:border-violet-800 bg-violet-50 dark:bg-violet-950 px-5 py-4 text-left hover:bg-violet-100 dark:hover:bg-violet-900 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-violet-500"
-            >
-              <span>
-                <span className="block font-semibold text-violet-900 dark:text-violet-100">
-                  Tilpasset quiz
-                </span>
-                <span className="block text-xs text-violet-700 dark:text-violet-300 mt-0.5">
-                  Vælg antal spørgsmål fra hvert emne
-                </span>
-              </span>
-              <span className="text-violet-700 dark:text-violet-300 text-xl" aria-hidden>
-                →
-              </span>
-            </button>
-
-            {/* Topic list */}
-            <div className="flex flex-col gap-2">
-              {topics.map((t) => (
-                <button
-                  key={t.name}
-                  onClick={() => startTopic(t.name, shuffleOn)}
-                  className="w-full flex items-center justify-between rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-5 py-3.5 text-left hover:border-teal-400 hover:bg-teal-50 dark:hover:border-teal-500 dark:hover:bg-teal-950 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-teal-500"
-                >
-                  <span className="font-medium text-slate-800 dark:text-slate-100">{t.name}</span>
-                  <span className="flex items-center gap-2">
-                    <span className="text-xs text-slate-400 dark:text-slate-500">
-                      {t.count} {t.count === 1 ? "spørgsmål" : "spørgsmål"}
-                    </span>
-                    <span className="text-slate-300 dark:text-slate-600" aria-hidden>
-                      →
-                    </span>
-                  </span>
-                </button>
-              ))}
-            </div>
-
-            <p className="mt-6 text-xs text-slate-400 dark:text-slate-500 text-center leading-relaxed">
-              Spørgsmålene er genereret med AI og kan indeholde fejl.{" "}
-              <a
-                href={`${GITHUB_REPO}/issues`}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="underline hover:text-slate-600 dark:hover:text-slate-300"
-              >
-                Rapportér et problem
-              </a>{" "}
-              hvis du finder noget forkert.
-            </p>
-          </div>
+          <button
+            onClick={openCustomScreen}
+            className="q-card-lift"
+            style={{
+              display: "flex", flexDirection: "column", textAlign: "left",
+              padding: 20, borderRadius: 20,
+              border: "1.5px solid var(--violet-tint-bd)",
+              background: "var(--violet-tint)",
+              minHeight: 138, cursor: "pointer",
+            }}
+          >
+            <span style={{
+              display: "flex", alignItems: "center", justifyContent: "center",
+              width: 40, height: 40, borderRadius: 12,
+              background: "var(--violet)", color: "#fff", fontSize: 20,
+              marginBottom: "auto",
+            }}>⚙</span>
+            <span style={{ display: "block", fontSize: 18, fontWeight: 700, color: "var(--text)", marginTop: 14 }}>
+              Tilpasset quiz
+            </span>
+            <span style={{ display: "block", fontSize: 13, color: "var(--text-dim)", marginTop: 3 }}>
+              Vælg antal spørgsmål fra hvert emne
+            </span>
+          </button>
         </div>
+
+        {/* Shuffle toggle */}
+        <button
+          onClick={() => setShuffleOn((s) => !s)}
+          style={{
+            display: "flex", alignItems: "center", gap: 12,
+            width: "100%", padding: "13px 16px", borderRadius: 14,
+            border: "1px solid var(--border)",
+            background: "var(--surface)",
+            marginBottom: 26, textAlign: "left", cursor: "pointer",
+          }}
+        >
+          <span style={{
+            flexShrink: 0, position: "relative",
+            width: 42, height: 24, borderRadius: 99,
+            background: shuffleOn ? "var(--teal)" : "var(--border-strong)",
+            transition: "background .18s",
+          }}>
+            <span style={{
+              position: "absolute", top: 3, left: 3,
+              width: 18, height: 18, borderRadius: "50%",
+              background: "#fff",
+              boxShadow: "0 1px 3px rgba(0,0,0,.3)",
+              transition: "transform .18s",
+              transform: shuffleOn ? "translateX(18px)" : "translateX(0)",
+            }} />
+          </span>
+          <span style={{ display: "block" }}>
+            <span style={{ display: "block", fontSize: 14, fontWeight: 600, color: "var(--text)" }}>
+              Bland rækkefølgen
+            </span>
+            <span style={{ display: "block", fontSize: 12, color: "var(--text-faint)" }}>
+              Stil spørgsmålene i tilfældig rækkefølge
+            </span>
+          </span>
+        </button>
+
+        {/* Section label */}
+        <p style={{
+          margin: "0 0 14px", fontSize: 12, fontWeight: 700,
+          letterSpacing: ".1em", textTransform: "uppercase",
+          color: "var(--text-faint)",
+        }}>Eller vælg ét emne</p>
+
+        {/* Topic grid — 2-col */}
+        <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 10 }}>
+          {topics.map((t) => (
+            <button
+              key={t.name}
+              onClick={() => startTopic(t.name, shuffleOn)}
+              className="q-topic-btn"
+              style={{
+                display: "flex", alignItems: "center", justifyContent: "space-between",
+                gap: 10, textAlign: "left", padding: "15px 16px", borderRadius: 14,
+                border: "1px solid var(--border)",
+                background: "var(--surface)",
+                minHeight: 62, cursor: "pointer",
+              }}
+            >
+              <span style={{ fontSize: 14.5, fontWeight: 600, color: "var(--text)", lineHeight: 1.25 }}>
+                {t.name}
+              </span>
+              <span style={{
+                flexShrink: 0, fontSize: 12, fontWeight: 700,
+                color: "var(--teal)", background: "var(--teal-tint)",
+                borderRadius: 99, padding: "3px 9px",
+              }}>{t.count}</span>
+            </button>
+          ))}
+        </div>
+
+        {/* Footer */}
+        <p style={{ margin: "28px 0 0", fontSize: 12, lineHeight: 1.6, color: "var(--text-faint)", textAlign: "center" }}>
+          Spørgsmålene er genereret med AI og kan indeholde fejl.{" "}
+          <a
+            href={`${GITHUB_REPO}/issues`}
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ color: "var(--teal)", textDecoration: "underline" }}
+          >Rapportér et problem</a>{" "}
+          hvis du finder noget forkert.
+        </p>
       </div>
     );
   }
@@ -365,360 +460,450 @@ export default function App() {
       setCustomCounts((prev) => ({ ...prev, [name]: n }));
     };
 
-    return (
-      <div className={darkMode ? "dark" : ""}>
-        {themeToggle}
-        <div className="min-h-screen bg-slate-50 dark:bg-slate-900 flex flex-col items-center p-4 sm:p-6 pb-28">
-          <div className="w-full max-w-xl">
-            <header className="mb-6 pt-2">
-              <button
-                onClick={() => setScreen("menu")}
-                className="text-sm text-slate-500 dark:text-slate-400 hover:text-slate-800 dark:hover:text-slate-100 transition-colors flex items-center gap-1 mb-3 focus:outline-none focus-visible:ring-2 focus-visible:ring-teal-500 rounded"
-              >
-                <span aria-hidden>←</span> Tilbage
-              </button>
-              <h1 className="text-xl sm:text-2xl font-semibold text-slate-800 dark:text-slate-100">
-                Tilpasset quiz
-              </h1>
-              <p className="text-sm text-slate-500 dark:text-slate-400 mt-1">
-                Vælg antal tilfældige spørgsmål fra hvert emne.
-              </p>
-            </header>
+    return pageWrap(
+      <>
+        <div style={{ maxWidth: 620, margin: "0 auto", padding: "40px 20px 130px" }}>
+          {/* Back */}
+          <button
+            onClick={() => setScreen("menu")}
+            className="q-nav-btn"
+            style={{
+              display: "inline-flex", alignItems: "center", gap: 6,
+              background: "none", border: "none", padding: 0,
+              cursor: "pointer", fontSize: 14,
+              color: "var(--text-dim)", marginBottom: 18,
+            }}
+          >← Tilbage</button>
 
-            {/* Quick-set buttons */}
-            <div className="mb-4 flex flex-wrap gap-2">
+          <h1 style={{ margin: 0, fontSize: 28, fontWeight: 800, letterSpacing: "-.02em", color: "var(--text)" }}>
+            Byg din egen quiz
+          </h1>
+          <p style={{ margin: "8px 0 22px", fontSize: 15, color: "var(--text-dim)" }}>
+            Træk i skyderne, eller brug knapperne nedenfor.
+          </p>
+
+          {/* Quick-action chips */}
+          <div style={{ display: "flex", flexWrap: "wrap", gap: 8, marginBottom: 22 }}>
+            {[
+              { label: "Nulstil", action: () => setAll(0) },
+              { label: "5 fra hver", action: () => setAll(5) },
+              { label: "Alle", action: () => setAll(null) },
+            ].map(({ label, action }) => (
               <button
-                onClick={() => setAll(0)}
-                className="rounded-lg border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-3 py-1.5 text-xs font-medium text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-700 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-teal-500"
-              >
-                Nulstil alle
-              </button>
-              {[5, 10, 15].map((n) => (
-                <button
-                  key={n}
-                  onClick={() => setAll(n)}
-                  className="rounded-lg border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-3 py-1.5 text-xs font-medium text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-700 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-teal-500"
+                key={label}
+                onClick={action}
+                className="q-chip-btn"
+                style={{
+                  borderRadius: 99, border: "1px solid var(--border)",
+                  background: "var(--surface)", padding: "7px 14px",
+                  fontSize: 13, fontWeight: 600,
+                  color: "var(--text-dim)", cursor: "pointer",
+                }}
+              >{label}</button>
+            ))}
+          </div>
+
+          {/* Topic rows */}
+          <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
+            {topics.map((t) => {
+              const val = customCounts[t.name] || 0;
+              return (
+                <div
+                  key={t.name}
+                  style={{
+                    borderRadius: 16, border: "1px solid var(--border)",
+                    background: "var(--surface)", padding: "14px 16px",
+                  }}
                 >
-                  {n} fra hvert
-                </button>
-              ))}
-              <button
-                onClick={() => setAll(null)}
-                className="rounded-lg border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-3 py-1.5 text-xs font-medium text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-700 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-teal-500"
-              >
-                Alle fra hvert
-              </button>
-            </div>
-
-            {/* Topic rows */}
-            <div className="flex flex-col gap-2 mb-6">
-              {topics.map((t) => {
-                const val = customCounts[t.name] || 0;
-                return (
-                  <div
-                    key={t.name}
-                    className="flex items-center justify-between gap-3 rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3"
-                  >
-                    <div className="min-w-0">
-                      <p className="font-medium text-sm text-slate-800 dark:text-slate-100 truncate">{t.name}</p>
-                      <p className="text-xs text-slate-400 dark:text-slate-500">{t.count} i alt</p>
+                  <div style={{
+                    display: "flex", alignItems: "center", justifyContent: "space-between",
+                    gap: 12, marginBottom: 11,
+                  }}>
+                    <div style={{ minWidth: 0 }}>
+                      <p style={{ margin: 0, fontSize: 14.5, fontWeight: 600, color: "var(--text)", lineHeight: 1.2 }}>
+                        {t.name}
+                      </p>
+                      <p style={{ margin: "2px 0 0", fontSize: 12, color: "var(--text-faint)" }}>
+                        {t.count} tilgængelige
+                      </p>
                     </div>
-                    <div className="flex items-center gap-1.5 shrink-0">
+                    <div style={{ display: "flex", alignItems: "center", gap: 8, flexShrink: 0 }}>
                       <button
                         onClick={() => setCount(t.name, val - 1, t.count)}
                         disabled={val === 0}
                         aria-label="Færre"
-                        className="w-7 h-7 flex items-center justify-center rounded-lg border border-slate-200 dark:border-slate-600 bg-slate-50 dark:bg-slate-700 text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-600 disabled:opacity-30 disabled:cursor-not-allowed transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-teal-500"
-                      >
-                        −
-                      </button>
-                      <input
-                        type="number"
-                        min={0}
-                        max={t.count}
-                        value={val}
-                        onChange={(e) => setCount(t.name, parseInt(e.target.value) || 0, t.count)}
-                        className="w-12 text-center text-sm font-medium rounded-lg border border-slate-200 dark:border-slate-600 bg-white dark:bg-slate-700 text-slate-800 dark:text-slate-100 py-1 focus:outline-none focus:ring-2 focus:ring-teal-500"
-                      />
+                        style={{
+                          width: 30, height: 30,
+                          display: "flex", alignItems: "center", justifyContent: "center",
+                          borderRadius: 9, border: "1px solid var(--border-strong)",
+                          background: "var(--surface-2)", color: "var(--text)",
+                          fontSize: 18, lineHeight: 1,
+                          cursor: val === 0 ? "not-allowed" : "pointer",
+                          opacity: val === 0 ? 0.4 : 1,
+                        }}
+                      >−</button>
+                      <span style={{
+                        minWidth: 26, textAlign: "center", fontSize: 16, fontWeight: 700,
+                        color: val > 0 ? "var(--violet)" : "var(--text-faint)",
+                      }}>{val}</span>
                       <button
                         onClick={() => setCount(t.name, val + 1, t.count)}
                         disabled={val >= t.count}
                         aria-label="Flere"
-                        className="w-7 h-7 flex items-center justify-center rounded-lg border border-slate-200 dark:border-slate-600 bg-slate-50 dark:bg-slate-700 text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-600 disabled:opacity-30 disabled:cursor-not-allowed transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-teal-500"
-                      >
-                        +
-                      </button>
+                        style={{
+                          width: 30, height: 30,
+                          display: "flex", alignItems: "center", justifyContent: "center",
+                          borderRadius: 9, border: "1px solid var(--border-strong)",
+                          background: "var(--surface-2)", color: "var(--text)",
+                          fontSize: 18, lineHeight: 1,
+                          cursor: val >= t.count ? "not-allowed" : "pointer",
+                          opacity: val >= t.count ? 0.4 : 1,
+                        }}
+                      >+</button>
                     </div>
                   </div>
-                );
-              })}
-            </div>
+                  <input
+                    type="range"
+                    min={0}
+                    max={t.count}
+                    value={val}
+                    onChange={(e) => setCount(t.name, parseInt(e.target.value, 10), t.count)}
+                  />
+                </div>
+              );
+            })}
           </div>
         </div>
 
-        {/* Sticky start bar */}
-        <div className="fixed bottom-0 left-0 right-0 bg-white dark:bg-slate-800 border-t border-slate-200 dark:border-slate-700 p-4 flex items-center justify-between gap-4">
-          <span className="text-sm text-slate-500 dark:text-slate-400">
-            {totalCustom === 0 ? "Ingen spørgsmål valgt" : `${totalCustom} spørgsmål valgt`}
-          </span>
-          <button
-            onClick={() => startCustomQuiz(customCounts)}
-            disabled={totalCustom === 0}
-            className="rounded-xl bg-violet-700 px-6 py-2.5 text-white text-sm font-medium hover:bg-violet-800 transition-colors disabled:opacity-40 disabled:cursor-not-allowed focus:outline-none focus-visible:ring-2 focus-visible:ring-violet-500 focus-visible:ring-offset-2"
-          >
-            Start quiz
-          </button>
+        {/* Sticky footer bar */}
+        <div style={{
+          position: "fixed", bottom: 0, left: 0, right: 0, zIndex: 40,
+          background: "var(--surface)",
+          borderTop: "1px solid var(--border)",
+          boxShadow: "0 -4px 20px rgba(0,0,0,.08)",
+        }}>
+          <div style={{
+            maxWidth: 620, margin: "0 auto", padding: "14px 20px",
+            display: "flex", alignItems: "center", justifyContent: "space-between", gap: 16,
+          }}>
+            <span style={{ fontSize: 14, fontWeight: 600, color: "var(--text-dim)" }}>
+              {totalCustom === 0 ? "Ingen spørgsmål valgt" : `${totalCustom} spørgsmål valgt`}
+            </span>
+            <button
+              onClick={() => startCustomQuiz(customCounts)}
+              disabled={totalCustom === 0}
+              className={totalCustom > 0 ? "q-btn-violet" : ""}
+              style={{
+                border: "none", borderRadius: 13,
+                fontSize: 15, fontWeight: 700, padding: "12px 22px",
+                transition: "opacity .14s, background-color .14s",
+                ...(totalCustom === 0
+                  ? { background: "var(--surface-2)", color: "var(--text-faint)", cursor: "not-allowed" }
+                  : { background: "var(--violet)", color: "#fff", cursor: "pointer" }
+                ),
+              }}
+            >Start quiz →</button>
+          </div>
         </div>
-      </div>
+      </>
     );
   }
 
   // ---------- Summary screen ----------
   if (screen === "summary") {
     const pct = total > 0 ? Math.round((score.correct / total) * 100) : 0;
-    const radius = 52;
-    const circ = 2 * Math.PI * radius;
+    const r = 58;
+    const circ = 2 * Math.PI * r;
     const dash = (pct / 100) * circ;
-    const message =
-      pct >= 80
-        ? "Flot! Du er godt klædt på."
-        : pct >= 50
-        ? "Godt på vej — kør en runde til."
-        : "Bare rolig — repetition gør mester. Prøv igen.";
 
-    return (
-      <div className={darkMode ? "dark" : ""}>
-        {themeToggle}
-        <div className="min-h-screen bg-slate-50 dark:bg-slate-900 flex flex-col items-center py-8 px-6">
-          <div className="w-full max-w-md flex flex-col gap-6">
-            {/* Score card */}
-            <div className="text-center bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700 shadow-sm p-8">
-              <p className="text-sm font-medium uppercase tracking-wide text-teal-700 dark:text-teal-400 mb-1">
-                Resultat
-              </p>
-              <p className="text-xs text-slate-400 dark:text-slate-500 mb-6">{topicLabel}</p>
+    return pageWrap(
+      <div style={{ maxWidth: 520, margin: "0 auto", padding: "48px 20px 64px", display: "flex", flexDirection: "column", gap: 22 }}>
+        {/* Result card */}
+        <div style={{
+          textAlign: "center",
+          background: "var(--surface)", border: "1px solid var(--border)",
+          borderRadius: 24, boxShadow: "var(--shadow)", padding: "36px 28px",
+        }}>
+          <p style={{
+            margin: "0 0 4px", fontSize: 12, fontWeight: 700,
+            letterSpacing: ".12em", textTransform: "uppercase",
+            color: "var(--teal)",
+          }}>Resultat</p>
+          <p style={{ margin: "0 0 22px", fontSize: 13, color: "var(--text-faint)" }}>{topicLabel}</p>
 
-              <div className="flex justify-center mb-6">
-                <svg width="140" height="140" viewBox="0 0 140 140">
-                  <circle cx="70" cy="70" r={radius} fill="none" stroke={darkMode ? "#334155" : "#e2e8f0"} strokeWidth="12" />
-                  <circle
-                    cx="70"
-                    cy="70"
-                    r={radius}
-                    fill="none"
-                    stroke="#0d9488"
-                    strokeWidth="12"
-                    strokeLinecap="round"
-                    strokeDasharray={`${dash} ${circ}`}
-                    transform="rotate(-90 70 70)"
-                  />
-                  <text x="70" y="70" textAnchor="middle" dominantBaseline="central" fontSize="30" fontWeight="700" fill={darkMode ? "#f1f5f9" : "#1e293b"}>
-                    {pct}%
-                  </text>
-                </svg>
-              </div>
+          {/* Donut ring */}
+          <div style={{ display: "flex", justifyContent: "center", marginBottom: 22 }}>
+            <svg width="150" height="150" viewBox="0 0 150 150">
+              <circle cx="75" cy="75" r={r} fill="none" stroke="var(--surface-2)" strokeWidth="13" />
+              <circle
+                cx="75" cy="75" r={r} fill="none"
+                stroke="var(--teal)" strokeWidth="13" strokeLinecap="round"
+                strokeDasharray={`${dash} ${circ}`}
+                transform="rotate(-90 75 75)"
+              />
+              <text
+                x="75" y="75" textAnchor="middle" dominantBaseline="central"
+                fontSize="34" fontWeight="800"
+                fontFamily="Manrope, system-ui, sans-serif"
+                fill="var(--text)"
+              >{pct}%</text>
+            </svg>
+          </div>
 
-              <p className="text-slate-800 dark:text-slate-100 text-lg font-medium mb-1">
-                {score.correct} af {total} rigtige
-              </p>
-              <p className="text-slate-500 dark:text-slate-400 text-sm mb-8">{message}</p>
+          <p style={{ margin: "0 0 26px", fontSize: 19, fontWeight: 700, color: "var(--text)" }}>
+            {score.correct} af {total} rigtige
+          </p>
 
-              <div className="flex flex-col gap-3">
-                <button
-                  onClick={() => activeTopic === CUSTOM ? startCustomQuiz(customCounts) : startTopic(activeTopic, shuffleOn)}
-                  className="w-full rounded-xl bg-teal-700 px-4 py-3 text-white font-medium hover:bg-teal-800 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-teal-500 focus-visible:ring-offset-2"
-                >
-                  {activeTopic === CUSTOM ? "Tag samme quiz igen" : "Tag samme emne igen"}
-                </button>
-                {activeTopic === CUSTOM && (
-                  <button
-                    onClick={openCustomScreen}
-                    className="w-full rounded-xl border border-violet-300 dark:border-violet-700 px-4 py-3 text-violet-700 dark:text-violet-300 font-medium hover:bg-violet-50 dark:hover:bg-violet-950 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-violet-500 focus-visible:ring-offset-2"
-                  >
-                    Tilpas quiz
-                  </button>
-                )}
-                <button
-                  onClick={() => setScreen("menu")}
-                  className="w-full rounded-xl border border-slate-300 dark:border-slate-600 px-4 py-3 text-slate-700 dark:text-slate-300 font-medium hover:bg-slate-100 dark:hover:bg-slate-700 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-teal-500 focus-visible:ring-offset-2"
-                >
-                  Vælg andet emne
-                </button>
-              </div>
-            </div>
-
-            {/* Wrong answers list */}
-            {wrongAnswers.length > 0 && (
-              <div className="flex flex-col gap-4">
-                <h2 className="text-sm font-medium uppercase tracking-wide text-slate-500 dark:text-slate-400">
-                  Forkerte svar ({wrongAnswers.length})
-                </h2>
-                {wrongAnswers.map(({ question: wq, pickedIndex, correctIndex: ci }, idx) => (
-                  <div key={idx} className="bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700 shadow-sm p-5">
-                    <p className="text-xs text-slate-400 dark:text-slate-500 mb-1">{wq.topic}</p>
-                    <p className="text-slate-800 dark:text-slate-100 font-medium text-sm leading-snug mb-3">
-                      {wq.question}
-                    </p>
-                    <div className="flex flex-col gap-1.5">
-                      {wq.options.map((opt, i) => {
-                        const isCorrect = i === ci;
-                        const isPicked = i === pickedIndex;
-                        let textCls = "text-slate-400 dark:text-slate-500";
-                        let badgeCls = "bg-slate-100 dark:bg-slate-700 text-slate-400 dark:text-slate-500";
-                        if (isCorrect) {
-                          textCls = "text-emerald-700 dark:text-emerald-400 font-medium";
-                          badgeCls = "bg-emerald-500 text-white";
-                        } else if (isPicked) {
-                          textCls = "text-rose-500 dark:text-rose-400 line-through opacity-70";
-                          badgeCls = "bg-rose-500 text-white";
-                        }
-                        return (
-                          <div key={i} className={`flex items-start gap-2 text-sm ${textCls}`}>
-                            <span className={`mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded text-xs font-semibold ${badgeCls}`}>
-                              {LETTERS[i]}
-                            </span>
-                            <span>{opt}</span>
-                          </div>
-                        );
-                      })}
-                    </div>
-                    {wq.explanation && (
-                      <p className="mt-3 text-xs text-slate-600 dark:text-slate-300 leading-relaxed border-t border-slate-100 dark:border-slate-700 pt-3">
-                        {wq.explanation}
-                      </p>
-                    )}
-                  </div>
-                ))}
-              </div>
-            )}
+          <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
+            <button
+              onClick={retakeSameDeck}
+              className="q-btn-teal"
+              style={{
+                width: "100%", border: "none", borderRadius: 14,
+                background: "var(--teal)", color: "#fff",
+                fontSize: 15, fontWeight: 700, padding: 14,
+                cursor: "pointer",
+              }}
+            >Tag quizzen igen</button>
+            <button
+              onClick={() => setScreen("menu")}
+              className="q-btn-outline"
+              style={{
+                width: "100%", border: "1px solid var(--border-strong)", borderRadius: 14,
+                background: "transparent", color: "var(--text-dim)",
+                fontSize: 15, fontWeight: 600, padding: 13,
+                cursor: "pointer",
+              }}
+            >Til forsiden</button>
           </div>
         </div>
+
+        {/* Wrong answers */}
+        {wrongAnswers.length > 0 && (
+          <div style={{ display: "flex", flexDirection: "column", gap: 14 }}>
+            <h2 style={{
+              margin: 0, fontSize: 13, fontWeight: 700,
+              letterSpacing: ".1em", textTransform: "uppercase",
+              color: "var(--text-faint)",
+            }}>Forkerte svar ({wrongAnswers.length})</h2>
+
+            {wrongAnswers.map(({ question: wq, pickedIndex, correctIndex: ci }, idx) => (
+              <div key={idx} style={{
+                background: "var(--surface)", border: "1px solid var(--border)",
+                borderRadius: 18, boxShadow: "var(--shadow)", padding: 20,
+              }}>
+                <p style={{ margin: "0 0 4px", fontSize: 12, fontWeight: 600, color: "var(--teal)" }}>
+                  {wq.topic}
+                </p>
+                <p style={{ margin: "0 0 14px", fontSize: 15, fontWeight: 600, lineHeight: 1.4, color: "var(--text)" }}>
+                  {wq.question}
+                </p>
+                <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
+                  {wq.options.map((opt, i) => {
+                    const isCorrect = i === ci;
+                    const isPicked = i === pickedIndex;
+                    let badgeBg = "var(--surface-2)", badgeColor = "var(--text-faint)";
+                    let tc = "var(--text-dim)", fw = 400;
+                    if (isCorrect) { badgeBg = "var(--emerald)"; badgeColor = "#fff"; tc = "var(--text)"; fw = 600; }
+                    else if (isPicked) { badgeBg = "var(--rose)"; badgeColor = "#fff"; }
+                    return (
+                      <div key={i} style={{ display: "flex", alignItems: "flex-start", gap: 9 }}>
+                        <span style={{
+                          flexShrink: 0, display: "flex", alignItems: "center", justifyContent: "center",
+                          width: 22, height: 22, borderRadius: 6,
+                          fontSize: 11, fontWeight: 700,
+                          background: badgeBg, color: badgeColor,
+                        }}>{LETTERS[i]}</span>
+                        <span style={{ fontSize: 14, lineHeight: 1.4, color: tc, fontWeight: fw }}>
+                          {opt}
+                        </span>
+                      </div>
+                    );
+                  })}
+                </div>
+                {wq.explanation && (
+                  <p style={{
+                    margin: "14px 0 0", paddingTop: 13,
+                    borderTop: "1px solid var(--border)",
+                    fontSize: 13.5, lineHeight: 1.55, color: "var(--text-dim)",
+                  }}>{wq.explanation}</p>
+                )}
+              </div>
+            ))}
+          </div>
+        )}
       </div>
     );
   }
 
   // ---------- Quiz screen ----------
-  return (
-    <div className={darkMode ? "dark" : ""}>
-      {themeToggle}
-      <div className="min-h-screen bg-slate-50 dark:bg-slate-900 flex flex-col items-center p-4 sm:p-6">
-        <div className="w-full max-w-xl">
-          <header className="mb-4">
-            <div className="flex items-center justify-between gap-3 mb-3">
-              <button
-                onClick={() => setScreen("menu")}
-                className="text-sm text-slate-500 dark:text-slate-400 hover:text-slate-800 dark:hover:text-slate-100 transition-colors flex items-center gap-1 focus:outline-none focus-visible:ring-2 focus-visible:ring-teal-500 rounded"
+  return pageWrap(
+    <div style={{ maxWidth: 620, margin: "0 auto", padding: "36px 20px 56px" }}>
+      {/* Top bar */}
+      <div style={{
+        display: "flex", alignItems: "center", justifyContent: "space-between",
+        gap: 12, marginBottom: 14,
+      }}>
+        <button
+          onClick={() => setScreen("menu")}
+          className="q-nav-btn"
+          style={{
+            display: "inline-flex", alignItems: "center", gap: 6,
+            background: "none", border: "none", padding: 0,
+            cursor: "pointer", fontSize: 14, fontWeight: 600,
+            color: "var(--text-dim)", minWidth: 0,
+          }}
+        >
+          ← <span style={{ overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>
+            {topicLabel}
+          </span>
+        </button>
+        <div style={{
+          display: "flex", alignItems: "center", gap: 14,
+          flexShrink: 0, fontSize: 14, fontWeight: 700,
+        }}>
+          <span style={{ display: "inline-flex", alignItems: "center", gap: 6, color: "var(--emerald)" }}>
+            <span style={{ width: 8, height: 8, borderRadius: "50%", background: "var(--emerald)", display: "inline-block" }} />
+            {score.correct}
+          </span>
+          <span style={{ display: "inline-flex", alignItems: "center", gap: 6, color: "var(--rose)" }}>
+            <span style={{ width: 8, height: 8, borderRadius: "50%", background: "var(--rose)", display: "inline-block" }} />
+            {score.wrong}
+          </span>
+        </div>
+      </div>
+
+      {/* Progress bar */}
+      <div style={{ height: 7, width: "100%", borderRadius: 99, background: "var(--surface-2)", overflow: "hidden" }}>
+        <div style={{
+          height: "100%", borderRadius: 99, background: "var(--teal)",
+          transition: "width .3s ease", width: `${progressPct}%`,
+        }} />
+      </div>
+      <p style={{ margin: "9px 0 20px", fontSize: 12.5, fontWeight: 600, color: "var(--text-faint)" }}>
+        Spørgsmål {pos + 1} af {total}
+      </p>
+
+      {/* Question card */}
+      <div style={{
+        background: "var(--surface)", border: "1px solid var(--border)",
+        borderRadius: 22, boxShadow: "var(--shadow)", padding: "26px 24px",
+      }}>
+        {malformed ? (
+          <p style={{ fontSize: 14, color: "var(--rose)" }}>
+            Dette spørgsmål er sat forkert op: det rigtige svar ("{String(q.correct)}") passer ikke
+            til svarmulighederne. Tjek <code>correct</code> for dette spørgsmål i koden.
+          </p>
+        ) : (
+          <>
+            {/* Topic eyebrow */}
+            <p style={{
+              margin: "0 0 8px", fontSize: 12, fontWeight: 700,
+              letterSpacing: ".08em", textTransform: "uppercase",
+              color: "var(--teal)",
+            }}>{q.topic}</p>
+
+            {/* Question */}
+            <h2 style={{
+              margin: "0 0 22px", fontSize: 21, fontWeight: 700,
+              lineHeight: 1.32, letterSpacing: "-.01em", color: "var(--text)",
+            }}>{q.question}</h2>
+
+            {/* Options */}
+            <div style={{ display: "flex", flexDirection: "column", gap: 11 }}>
+              {q.options.map((opt, i) => {
+                const isCorrect = i === correctIndex;
+                const isPicked = i === selected;
+                let bg = "var(--surface)", bd = "var(--border)";
+                let badgeBg = "var(--surface-2)", badgeColor = "var(--text-dim)";
+                if (answered) {
+                  if (isCorrect) {
+                    bg = "var(--emerald-tint)"; bd = "var(--emerald)";
+                    badgeBg = "var(--emerald)"; badgeColor = "#fff";
+                  } else if (isPicked) {
+                    bg = "var(--rose-tint)"; bd = "var(--rose)";
+                    badgeBg = "var(--rose)"; badgeColor = "#fff";
+                  }
+                }
+                return (
+                  <button
+                    key={i}
+                    onClick={() => handleAnswer(i)}
+                    disabled={answered}
+                    style={{
+                      display: "flex", alignItems: "flex-start", gap: 13,
+                      width: "100%", textAlign: "left",
+                      padding: "14px 16px", borderRadius: 14,
+                      border: `1.5px solid ${bd}`, background: bg,
+                      cursor: answered ? "default" : "pointer",
+                      transition: "border-color .14s, background-color .14s",
+                    }}
+                  >
+                    <span style={{
+                      flexShrink: 0, display: "flex", alignItems: "center", justifyContent: "center",
+                      width: 26, height: 26, borderRadius: 8,
+                      fontSize: 13, fontWeight: 700,
+                      background: badgeBg, color: badgeColor,
+                    }}>{LETTERS[i]}</span>
+                    <span style={{ fontSize: 15.5, lineHeight: 1.4, color: "var(--text)", paddingTop: 2 }}>
+                      {opt}
+                    </span>
+                  </button>
+                );
+              })}
+            </div>
+
+            {/* Feedback block */}
+            {answered && (
+              <div
+                style={{ marginTop: 20, paddingTop: 18, borderTop: "1px solid var(--border)" }}
+                aria-live="polite"
               >
-                <span aria-hidden>←</span> {topicLabel}
-              </button>
-              <div className="flex items-center gap-3 text-sm shrink-0">
-                <span className="inline-flex items-center gap-1 font-medium text-emerald-700 dark:text-emerald-400">
-                  <span className="h-2 w-2 rounded-full bg-emerald-500" />
-                  {score.correct}
-                </span>
-                <span className="inline-flex items-center gap-1 font-medium text-rose-600 dark:text-rose-400">
-                  <span className="h-2 w-2 rounded-full bg-rose-500" />
-                  {score.wrong}
-                </span>
-              </div>
-            </div>
-
-            <div className="h-1.5 w-full rounded-full bg-slate-200 dark:bg-slate-700 overflow-hidden">
-              <div className="h-full bg-teal-600 transition-all duration-300" style={{ width: `${progressPct}%` }} />
-            </div>
-            <span className="mt-2 block text-xs text-slate-500 dark:text-slate-400">
-              Spørgsmål {pos + 1} af {total}
-            </span>
-          </header>
-
-          <div className="bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700 shadow-sm p-5 sm:p-7">
-            {malformed ? (
-              <p className="text-rose-600 dark:text-rose-400 text-sm">
-                Dette spørgsmål er sat forkert op: det rigtige svar ("
-                {String(q.correct)}") passer ikke til svarmulighederne. Tjek{" "}
-                <span className="font-mono">correct</span> for dette spørgsmål i koden.
-              </p>
-            ) : (
-              <>
-                <p className="text-xs text-slate-400 dark:text-slate-500 mb-2">{q.topic}</p>
-                <h2 className="text-lg sm:text-xl font-medium text-slate-800 dark:text-slate-100 leading-snug mb-5">
-                  {q.question}
-                </h2>
-
-                <div className="flex flex-col gap-2.5">
-                  {q.options.map((opt, i) => {
-                    const isCorrect = i === correctIndex;
-                    const isPicked = i === selected;
-
-                    let cls = "border-slate-200 dark:border-slate-600 bg-white dark:bg-slate-700 hover:border-teal-400 hover:bg-teal-50 dark:hover:border-teal-500 dark:hover:bg-teal-900";
-                    if (answered) {
-                      if (isCorrect) cls = "border-emerald-500 bg-emerald-50 dark:bg-emerald-950";
-                      else if (isPicked) cls = "border-rose-400 bg-rose-50 dark:bg-rose-950";
-                      else cls = "border-slate-200 dark:border-slate-600 bg-white dark:bg-slate-700 opacity-60";
-                    }
-
-                    let badgeCls = "bg-slate-100 dark:bg-slate-600 text-slate-500 dark:text-slate-300";
-                    if (answered && isCorrect) badgeCls = "bg-emerald-500 text-white";
-                    else if (answered && isPicked) badgeCls = "bg-rose-500 text-white";
-
-                    return (
-                      <button
-                        key={i}
-                        onClick={() => handleAnswer(i)}
-                        disabled={answered}
-                        className={`flex items-start gap-3 w-full text-left rounded-xl border px-4 py-3 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-teal-500 ${cls} ${
-                          answered ? "cursor-default" : "cursor-pointer"
-                        }`}
-                      >
-                        <span className={`mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-md text-xs font-semibold ${badgeCls}`}>
-                          {LETTERS[i]}
-                        </span>
-                        <span className="text-slate-800 dark:text-slate-100 text-sm sm:text-base leading-snug">
-                          {opt}
-                        </span>
-                      </button>
-                    );
-                  })}
-                </div>
-
-                {answered && (
-                  <div className="mt-5" aria-live="polite">
-                    <p className={`text-sm font-semibold mb-1 ${selected === correctIndex ? "text-emerald-700 dark:text-emerald-400" : "text-rose-600 dark:text-rose-400"}`}>
-                      {selected === correctIndex ? "Rigtigt!" : "Forkert"}
-                    </p>
-                    {q.explanation && (
-                      <p className="text-sm text-slate-600 dark:text-slate-300 leading-relaxed">
-                        {q.explanation}
-                      </p>
-                    )}
-                  </div>
+                <p style={{
+                  margin: 0, fontSize: 15, fontWeight: 700,
+                  color: selected === correctIndex ? "var(--emerald)" : "var(--rose)",
+                }}>
+                  {selected === correctIndex ? "✓ Rigtigt!" : "✗ Forkert"}
+                </p>
+                {q.explanation && (
+                  <p style={{ margin: "6px 0 0", fontSize: 14.5, lineHeight: 1.55, color: "var(--text-dim)" }}>
+                    {q.explanation}
+                  </p>
                 )}
-              </>
-            )}
-
-            <div className="mt-6 flex items-center justify-between gap-3">
-              <a
-                href={flagIssueUrl(q)}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-xs text-slate-400 dark:text-slate-500 hover:text-rose-500 dark:hover:text-rose-400 transition-colors flex items-center gap-1"
-              >
-                <span aria-hidden>⚑</span> Rapportér fejl
-              </a>
-              <div className="flex items-center gap-3">
-                <span className="text-xs text-slate-400 dark:text-slate-500">
-                  {answered ? "Tryk Enter for næste" : ""}
-                </span>
-                <button
-                  onClick={next}
-                  disabled={!answered}
-                  className="rounded-xl bg-teal-700 px-5 py-2.5 text-white text-sm font-medium hover:bg-teal-800 transition-colors disabled:opacity-40 disabled:cursor-not-allowed focus:outline-none focus-visible:ring-2 focus-visible:ring-teal-500 focus-visible:ring-offset-2"
-                >
-                  {pos + 1 >= total ? "Se resultat" : "Næste"}
-                </button>
               </div>
-            </div>
-          </div>
+            )}
+          </>
+        )}
+
+        {/* Bottom row */}
+        <div style={{
+          marginTop: 24, display: "flex", alignItems: "center",
+          justifyContent: "space-between", gap: 12,
+        }}>
+          <a
+            href={flagIssueUrl(q)}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="q-flag-link"
+            style={{
+              fontSize: 12.5, color: "var(--text-faint)",
+              textDecoration: "none",
+              display: "inline-flex", alignItems: "center", gap: 5,
+            }}
+          >⚑ Rapportér fejl</a>
+          <button
+            onClick={next}
+            disabled={!answered}
+            style={{
+              border: "none", borderRadius: 12,
+              fontSize: 14.5, fontWeight: 700, padding: "11px 20px",
+              transition: "opacity .14s",
+              ...(answered
+                ? { background: "var(--teal)", color: "#fff", cursor: "pointer" }
+                : { background: "var(--surface-2)", color: "var(--text-faint)", cursor: "not-allowed" }
+              ),
+            }}
+          >{pos + 1 >= total ? "Se resultat" : "Næste →"}</button>
         </div>
       </div>
     </div>
