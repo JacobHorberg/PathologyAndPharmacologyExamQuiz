@@ -8,6 +8,7 @@ import endokrinologi from "./questions/endokrinologi.json";
 import onkologi from "./questions/onkologi.json";
 import reumatologi from "./questions/reumatologi.json";
 import ortopædkirurgi from "./questions/ortopaedkirurgi.json";
+import operationspatienten from "./questions/operationspatienten.json";
 
 /* ============================================================================
    HOW TO ADD QUESTIONS
@@ -41,6 +42,7 @@ const QUESTIONS = [
   ...onkologi,
   ...reumatologi,
   ...ortopædkirurgi,
+  ...operationspatienten,
 ];
 
 /* ============================================================================
