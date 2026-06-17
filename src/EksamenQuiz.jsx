@@ -106,6 +106,7 @@ export default function App() {
   const [wrongAnswers, setWrongAnswers] = useState([]);
   const [customCounts, setCustomCounts] = useState({});
   const [randomCount, setRandomCount] = useState(20);
+  const [masterVal, setMasterVal] = useState(0);
   const [darkMode, setDarkMode] = useState(() => {
     const stored = localStorage.getItem("darkMode");
     return stored === null ? true : stored === "true";
@@ -315,12 +316,12 @@ export default function App() {
             color: "var(--text)",
           }}>Patologi &amp; Farmakologi</h1>
           <p style={{ margin: "10px 0 0", fontSize: 16, color: "var(--text-dim)" }}>
-            Vælg et emne eller byg din egen quiz.
+            Vælg en af følgende valgmuligheder for at starte en quiz
           </p>
         </header>
 
-        {/* Mode cards — 2-col grid */}
-        <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 14, marginBottom: 14 }}>
+        {/* Mode cards — 3-col grid */}
+        <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr 1fr", gap: 14, marginBottom: 14 }}>
           <button
             onClick={() => startTopic(ALL, shuffleOn)}
             className="q-card-lift"
@@ -338,12 +339,78 @@ export default function App() {
               background: "var(--teal)", color: "#fff", fontSize: 20,
               marginBottom: "auto",
             }}>⚡</span>
-            <span style={{ display: "block", fontSize: 18, fontWeight: 700, color: "var(--text)", marginTop: 14 }}>
+            <span style={{ display: "block", fontSize: 16, fontWeight: 700, color: "var(--text)", marginTop: 14 }}>
               Alle emner
             </span>
-            <span style={{ display: "block", fontSize: 13, color: "var(--text-dim)", marginTop: 3 }}>
-              {QUESTIONS.length} spørgsmål i én blandet runde
+            <span style={{ display: "block", fontSize: 12, color: "var(--text-dim)", marginTop: 3 }}>
+              {QUESTIONS.length} spørgsmål
             </span>
+          </button>
+
+          <button
+            onClick={() => startRandomQuiz(randomCount)}
+            className="q-card-lift"
+            style={{
+              display: "flex", flexDirection: "column", textAlign: "left",
+              padding: 20, borderRadius: 20,
+              border: "1.5px solid var(--yellow-tint-bd)",
+              background: "var(--yellow-tint)",
+              minHeight: 138, cursor: "pointer",
+            }}
+          >
+            <span style={{
+              display: "flex", alignItems: "center", justifyContent: "center",
+              width: 40, height: 40, borderRadius: 12,
+              background: "var(--yellow)", color: "#fff", fontSize: 20,
+              marginBottom: "auto",
+            }}>⚄</span>
+            <span style={{ display: "block", fontSize: 16, fontWeight: 700, color: "var(--text)", marginTop: 14 }}>
+              Tilfældig blanding
+            </span>
+            {/* Centered counter with stepper */}
+            <span style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 8, marginTop: 8 }}>
+              <button
+                onClick={(e) => { e.stopPropagation(); setRandomCount((c) => Math.max(1, c - 1)); }}
+                aria-label="Færre spørgsmål"
+                style={{
+                  width: 22, height: 22, borderRadius: 7,
+                  border: "1.5px solid var(--yellow-tint-bd)",
+                  background: "transparent", color: "var(--yellow)",
+                  fontSize: 15, lineHeight: 1, cursor: "pointer",
+                  display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0,
+                }}
+              >−</button>
+              <span style={{ textAlign: "center", lineHeight: 1 }}>
+                <span style={{ display: "block", fontSize: 20, fontWeight: 800, color: "var(--yellow)" }}>
+                  {randomCount}
+                </span>
+                <span style={{ display: "block", fontSize: 10, color: "var(--text-faint)", marginTop: 1, letterSpacing: ".04em" }}>
+                  SPØRGSMÅL
+                </span>
+              </span>
+              <button
+                onClick={(e) => { e.stopPropagation(); setRandomCount((c) => Math.min(QUESTIONS.length, c + 1)); }}
+                aria-label="Flere spørgsmål"
+                style={{
+                  width: 22, height: 22, borderRadius: 7,
+                  border: "1.5px solid var(--yellow-tint-bd)",
+                  background: "transparent", color: "var(--yellow)",
+                  fontSize: 15, lineHeight: 1, cursor: "pointer",
+                  display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0,
+                }}
+              >+</button>
+            </span>
+            {/* Slider */}
+            <input
+              type="range"
+              className="q-slider-yellow"
+              min={1}
+              max={QUESTIONS.length}
+              value={randomCount}
+              onClick={(e) => e.stopPropagation()}
+              onChange={(e) => { e.stopPropagation(); setRandomCount(parseInt(e.target.value, 10)); }}
+              style={{ marginTop: 10 }}
+            />
           </button>
 
           <button
@@ -363,11 +430,11 @@ export default function App() {
               background: "var(--violet)", color: "#fff", fontSize: 20,
               marginBottom: "auto",
             }}>⚙</span>
-            <span style={{ display: "block", fontSize: 18, fontWeight: 700, color: "var(--text)", marginTop: 14 }}>
+            <span style={{ display: "block", fontSize: 16, fontWeight: 700, color: "var(--text)", marginTop: 14 }}>
               Tilpasset quiz
             </span>
-            <span style={{ display: "block", fontSize: 13, color: "var(--text-dim)", marginTop: 3 }}>
-              Vælg antal spørgsmål fra hvert emne
+            <span style={{ display: "block", fontSize: 12, color: "var(--text-dim)", marginTop: 3 }}>
+              Vælg per emne
             </span>
           </button>
         </div>
@@ -491,82 +558,8 @@ export default function App() {
             Byg din egen quiz
           </h1>
           <p style={{ margin: "8px 0 22px", fontSize: 15, color: "var(--text-dim)" }}>
-            Vælg et tilfældigt antal, eller sæt præcis hvor mange fra hvert emne.
+            Træk i skyderne, eller brug knapperne nedenfor.
           </p>
-
-          {/* Random total section */}
-          <div style={{
-            borderRadius: 16, border: "1px solid var(--border)",
-            background: "var(--surface)", padding: "14px 16px", marginBottom: 22,
-          }}>
-            <div style={{
-              display: "flex", alignItems: "center", justifyContent: "space-between",
-              gap: 12, marginBottom: 11,
-            }}>
-              <div style={{ minWidth: 0 }}>
-                <p style={{ margin: 0, fontSize: 14.5, fontWeight: 600, color: "var(--text)", lineHeight: 1.2 }}>
-                  Tilfældig blanding
-                </p>
-                <p style={{ margin: "2px 0 0", fontSize: 12, color: "var(--text-faint)" }}>
-                  Trækker fra alle {QUESTIONS.length} spørgsmål
-                </p>
-              </div>
-              <div style={{ display: "flex", alignItems: "center", gap: 8, flexShrink: 0 }}>
-                <button
-                  onClick={() => setRandomCount((c) => Math.max(1, c - 1))}
-                  aria-label="Færre"
-                  style={{
-                    width: 30, height: 30,
-                    display: "flex", alignItems: "center", justifyContent: "center",
-                    borderRadius: 9, border: "1px solid var(--border-strong)",
-                    background: "var(--surface-2)", color: "var(--text)",
-                    fontSize: 18, lineHeight: 1, cursor: "pointer",
-                  }}
-                >−</button>
-                <span style={{
-                  minWidth: 26, textAlign: "center", fontSize: 16, fontWeight: 700,
-                  color: "var(--violet)",
-                }}>{randomCount}</span>
-                <button
-                  onClick={() => setRandomCount((c) => Math.min(QUESTIONS.length, c + 1))}
-                  aria-label="Flere"
-                  style={{
-                    width: 30, height: 30,
-                    display: "flex", alignItems: "center", justifyContent: "center",
-                    borderRadius: 9, border: "1px solid var(--border-strong)",
-                    background: "var(--surface-2)", color: "var(--text)",
-                    fontSize: 18, lineHeight: 1, cursor: "pointer",
-                  }}
-                >+</button>
-              </div>
-            </div>
-            <input
-              type="range"
-              min={1}
-              max={QUESTIONS.length}
-              value={randomCount}
-              onChange={(e) => setRandomCount(parseInt(e.target.value, 10))}
-            />
-            <div style={{ display: "flex", justifyContent: "flex-end", marginTop: 12 }}>
-              <button
-                onClick={() => startRandomQuiz(randomCount)}
-                className="q-btn-teal"
-                style={{
-                  border: "none", borderRadius: 10,
-                  background: "var(--teal)", color: "#fff",
-                  fontSize: 14, fontWeight: 700, padding: "9px 18px",
-                  cursor: "pointer",
-                }}
-              >Start tilfældig →</button>
-            </div>
-          </div>
-
-          {/* Per-topic section label */}
-          <p style={{
-            margin: "0 0 14px", fontSize: 12, fontWeight: 700,
-            letterSpacing: ".1em", textTransform: "uppercase",
-            color: "var(--text-faint)",
-          }}>Eller vælg per emne</p>
 
           {/* Quick-action chips */}
           <div style={{ display: "flex", flexWrap: "wrap", gap: 8, marginBottom: 14 }}>
@@ -589,6 +582,21 @@ export default function App() {
                 }}
               >{label}</button>
             ))}
+          </div>
+
+          {/* Master slider */}
+          <div style={{ padding: "0 17px", marginBottom: 14 }}>
+            <input
+              type="range"
+              min={0}
+              max={Math.max(...topics.map((t) => t.count))}
+              value={masterVal}
+              onChange={(e) => {
+                const n = parseInt(e.target.value, 10);
+                setMasterVal(n);
+                setAll(n);
+              }}
+            />
           </div>
 
           {/* Topic rows */}

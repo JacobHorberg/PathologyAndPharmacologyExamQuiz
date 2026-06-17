@@ -21,6 +21,10 @@
   --violet-tint-bd: #ddd6fe;
   --emerald: #059669;
   --emerald-tint: #ecfdf5;
+  --emerald-tint-bd: #6ee7b7;
+  --yellow: #d97706;
+  --yellow-tint: #fffbeb;
+  --yellow-tint-bd: #fde68a;
   --rose: #e11d48;
   --rose-tint: #fff1f2;
   --shadow: 0 1px 2px rgba(15,23,42,.04), 0 4px 16px rgba(15,23,42,.05);
@@ -46,6 +50,10 @@
   --violet-tint-bd: rgba(167,139,250,.38);
   --emerald: #34d399;
   --emerald-tint: rgba(52,211,153,.13);
+  --emerald-tint-bd: rgba(52,211,153,.35);
+  --yellow: #fbbf24;
+  --yellow-tint: rgba(251,191,36,.13);
+  --yellow-tint-bd: rgba(251,191,36,.38);
   --rose: #fb7185;
   --rose-tint: rgba(251,113,133,.13);
   --shadow: 0 1px 2px rgba(0,0,0,.3), 0 4px 18px rgba(0,0,0,.35);
@@ -97,6 +105,14 @@ input[type=range]::-moz-range-thumb {
   border: 3px solid var(--surface);
   box-shadow: 0 1px 4px rgba(0,0,0,.25);
 }
+
+/* ── Emerald slider variant ── */
+.q-slider-emerald::-webkit-slider-thumb { background: var(--emerald) !important; }
+.q-slider-emerald::-moz-range-thumb { background: var(--emerald) !important; }
+
+/* ── Yellow slider variant ── */
+.q-slider-yellow::-webkit-slider-thumb { background: var(--yellow) !important; }
+.q-slider-yellow::-moz-range-thumb { background: var(--yellow) !important; }
 
 /* ── Interactive helpers ── */
 .q-card-lift { transition: transform .16s, box-shadow .16s; }
