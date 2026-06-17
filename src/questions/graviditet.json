@@ -1,0 +1,362 @@
+[
+  {
+    "topic": "Graviditet",
+    "question": "Hvad er gestationel diabetes (graviditetsbetinget sukkersyge)?",
+    "options": [
+      "Forhøjet blodsukker, der opstår eller opdages under graviditeten pga. en øget insulinresistens",
+      "En medfødt hjertefejl hos barnet",
+      "En infektion i livmoderen",
+      "Et fald i blodtrykket sent i graviditeten"
+    ],
+    "correct": "A",
+    "explanation": "Gestationel diabetes (GDM) er forhøjet blodsukker, der opstår under graviditeten. Det skyldes, at graviditetshormoner øger insulinresistensen, og at nogle kvinder ikke kan kompensere med tilstrækkelig insulinproduktion."
+  },
+  {
+    "topic": "Graviditet",
+    "question": "Hvorfor opstår gestationel diabetes?",
+    "options": [
+      "Hormoner fra moderkagen (placenta) øger insulinresistensen, så blodsukkeret stiger, hvis kroppen ikke kan producere nok insulin til at modvirke det",
+      "Fordi moderen spiser for lidt",
+      "Fordi der mangler moderkage",
+      "Fordi blodtrykket falder"
+    ],
+    "correct": "A",
+    "explanation": "Moderkagen producerer hormoner, der øger insulinresistensen hen gennem graviditeten (for at sikre barnet næring). Hvis moderens bugspytkirtel ikke kan kompensere med ekstra insulin, stiger blodsukkeret — og der opstår gestationel diabetes."
+  },
+  {
+    "topic": "Graviditet",
+    "question": "Hvilke faktorer øger risikoen for gestationel diabetes?",
+    "options": [
+      "Overvægt, tidligere gestationel diabetes, familiær disposition til diabetes, høj alder og tidligere fødsel af et stort barn",
+      "Lav kropsvægt og daglig motion som eneste faktorer",
+      "Ung alder uden andre faktorer",
+      "Højt indtag af vand"
+    ],
+    "correct": "A",
+    "explanation": "Risikofaktorer er bl.a. overvægt, tidligere gestationel diabetes, arvelig disposition til diabetes, høj alder, PCOS og tidligere fødsel af et stort barn (makrosomi)."
+  },
+  {
+    "topic": "Graviditet",
+    "question": "Hvordan påvises gestationel diabetes typisk?",
+    "options": [
+      "Med en oral glukosebelastningstest (OGTT), hvor blodsukkeret måles efter indtag af en sukkeropløsning",
+      "Med en lungefunktionsundersøgelse",
+      "Med en ultralyd af benene",
+      "Med en synstest"
+    ],
+    "correct": "A",
+    "explanation": "Gestationel diabetes påvises typisk med en oral glukosebelastningstest (OGTT), der tilbydes gravide med risikofaktorer. Blodsukkeret måles fastende og efter en standardiseret sukkeropløsning."
+  },
+  {
+    "topic": "Graviditet",
+    "question": "Hvilken konsekvens for barnet er forbundet med dårligt reguleret gestationel diabetes?",
+    "options": [
+      "Et stort barn (makrosomi), der kan give problemer ved fødslen, samt risiko for lavt blodsukker hos barnet lige efter fødslen",
+      "At barnet altid bliver undervægtigt",
+      "At barnet fødes uden risiko uanset blodsukker",
+      "At barnet får knogleskørhed"
+    ],
+    "correct": "A",
+    "explanation": "Højt blodsukker hos moderen kan give et stort barn (makrosomi), hvilket øger risikoen for komplikationer under fødslen, samt risiko for lavt blodsukker (hypoglykæmi) hos barnet umiddelbart efter fødslen."
+  },
+  {
+    "topic": "Graviditet",
+    "question": "Hvad sker der typisk med gestationel diabetes efter fødslen?",
+    "options": [
+      "Blodsukkeret normaliseres oftest, men kvinden har øget risiko for senere at udvikle type 2-diabetes",
+      "Den udvikler sig altid til type 1-diabetes",
+      "Den forsvinder aldrig",
+      "Den smitter barnet"
+    ],
+    "correct": "A",
+    "explanation": "Hos de fleste normaliseres blodsukkeret efter fødslen, når placentahormonerne forsvinder. Kvinden har dog en øget risiko for senere at udvikle type 2-diabetes, så livsstil og opfølgning er vigtig."
+  },
+  {
+    "topic": "Graviditet",
+    "question": "Hvad er grundlaget i behandlingen af gestationel diabetes?",
+    "options": [
+      "Kostvejledning og fysisk aktivitet samt blodsukkermonitorering — og insulin, hvis det ikke er nok",
+      "Sengeleje resten af graviditeten",
+      "Antibiotika",
+      "Fuldstændig faste"
+    ],
+    "correct": "A",
+    "explanation": "Behandlingen starter med kostændringer og fysisk aktivitet samt måling af blodsukkeret. Er det ikke tilstrækkeligt, gives insulin. Tæt kontrol mindsker risikoen for komplikationer for mor og barn."
+  },
+  {
+    "topic": "Graviditet",
+    "question": "Hvad ved man om fysisk aktivitet i forbindelse med gestationel diabetes og ukompliceret graviditet generelt?",
+    "options": [
+      "Tilpasset fysisk aktivitet er gavnligt — det hjælper bl.a. med at regulere blodsukkeret og anbefales generelt ved ukompliceret graviditet",
+      "Al fysisk aktivitet bør undgås under graviditet",
+      "Fysisk aktivitet hæver altid blodsukkeret kraftigt",
+      "Kun sengeleje anbefales"
+    ],
+    "correct": "A",
+    "explanation": "Tilpasset fysisk aktivitet forbedrer blodsukkerreguleringen (via øget insulinfølsomhed) og anbefales generelt ved ukompliceret graviditet, medmindre der er specifikke kontraindikationer. Fysioterapeuten kan vejlede om sikker, tilpasset træning."
+  },
+  {
+    "topic": "Graviditet",
+    "question": "Hvad er bækkenrelaterede smerter (ofte kaldt 'bækkenløsning') i graviditeten?",
+    "options": [
+      "Smerter omkring bækkenleddene (symfysen og baglæns ved sacroiliacaleddene) pga. hormonel opblødning af ledbånd og ændret belastning",
+      "En infektion i bækkenet",
+      "Et brud på bækkenet",
+      "En blodprop i bækkenets vener"
+    ],
+    "correct": "A",
+    "explanation": "Bækkenrelaterede graviditetssmerter skyldes en kombination af hormonel opblødning af ledbåndene (øget ledløshed) og ændret belastning/biomekanik, efterhånden som maven vokser. Smerterne sidder omkring symfysen og/eller sacroiliacaleddene."
+  },
+  {
+    "topic": "Graviditet",
+    "question": "Hvilket hormon bidrager til den øgede ledløshed (opblødning af ledbånd) i graviditeten?",
+    "options": [
+      "Relaxin",
+      "Insulin",
+      "Adrenalin",
+      "Thyroideahormon"
+    ],
+    "correct": "A",
+    "explanation": "Relaxin (sammen med bl.a. østrogen/progesteron) øger ledbåndenes eftergivelighed under graviditeten — bl.a. for at gøre bækkenet klar til fødslen. Det bidrager til den øgede ledløshed og dermed til bækkenrelaterede smerter."
+  },
+  {
+    "topic": "Graviditet",
+    "question": "En gravid i 3. trimester har smerter over symfysen og bagtil i bækkenet, som forværres ved gang, trappegang, ved at vende sig i sengen og ved at stå på ét ben. Hvad passer bedst?",
+    "options": [
+      "Det er typiske bækkenrelaterede graviditetssmerter",
+      "Det er helt sikkert en dyb venetrombose",
+      "Det er tegn på gestationel diabetes",
+      "Det er præeklampsi"
+    ],
+    "correct": "A",
+    "explanation": "Smerter over symfysen og i bækkenet, der provokeres af belastning og asymmetriske bevægelser (gang, trapper, vende sig i seng, stå på ét ben), er klassiske for bækkenrelaterede graviditetssmerter."
+  },
+  {
+    "topic": "Graviditet",
+    "question": "Hvad indgår typisk i den fysioterapeutiske håndtering af bækkenrelaterede graviditetssmerter?",
+    "options": [
+      "Vejledning og aktivitetstilpasning, stabiliserende øvelser (bl.a. bækkenbund og dybe stabiliserende muskler), evt. bækkenbælte og smertehåndtering",
+      "Fuldstændig sengeleje hele graviditeten",
+      "Tunge løft og maksimal styrketræning",
+      "At undgå al bevægelse"
+    ],
+    "correct": "A",
+    "explanation": "Fysioterapi ved bækkensmerter omfatter typisk information/tryghed, råd om aktivitet og forflytninger (undgå smerteprovokerende, asymmetrisk belastning), stabiliserende øvelser, evt. bækkenbælte og smertehåndtering — frem for ro og inaktivitet."
+  },
+  {
+    "topic": "Graviditet",
+    "question": "Hvorfor er lændesmerter meget almindelige under graviditeten?",
+    "options": [
+      "Pga. vægtøgning, et fremskudt tyngdepunkt og ændret holdning (øget lændesvaj) samt hormonel ledopblødning",
+      "Fordi gravide bevæger sig for meget",
+      "Fordi blodsukkeret falder",
+      "Fordi der opstår en infektion i ryggen"
+    ],
+    "correct": "A",
+    "explanation": "Den voksende mave flytter tyngdepunktet fremad og øger lændesvajet (lordosen), samtidig med vægtøgning og hormonel opblødning af ledbånd. Det belaster lænden og giver hyppigt lændesmerter."
+  },
+  {
+    "topic": "Graviditet",
+    "question": "Hvilken holdningsændring ses typisk hos den gravide, efterhånden som maven vokser?",
+    "options": [
+      "Øget svaj i lænden (lændelordose) og et fremskudt tyngdepunkt",
+      "Fuldstændig udretning af rygsøjlen",
+      "Nedsat vægt på benene",
+      "Ingen ændring i holdning eller tyngdepunkt"
+    ],
+    "correct": "A",
+    "explanation": "Når maven vokser, flyttes tyngdepunktet fremad, og mange kompenserer med øget lændelordose (svaj). Det ændrer belastningen på ryg og bækken og bidrager til muskuloskeletale gener."
+  },
+  {
+    "topic": "Graviditet",
+    "question": "Hvad er en rectusdiastase (diastase recti)?",
+    "options": [
+      "En adskillelse af de lige mavemuskler (m. rectus abdominis) langs midtlinjen, som ofte ses pga. den voksende livmoder",
+      "Et brud på bækkenet",
+      "En betændelse i mavemusklerne",
+      "En blodprop i maven"
+    ],
+    "correct": "A",
+    "explanation": "Ved en rectusdiastase trækkes de to lige mavemuskler fra hinanden langs midtlinjen (linea alba), efterhånden som livmoderen vokser. Det er meget almindeligt i graviditeten og bedres ofte efter fødslen — evt. støttet af målrettet genoptræning."
+  },
+  {
+    "topic": "Graviditet",
+    "question": "Hvordan gribes en rectusdiastase ofte an fysioterapeutisk efter fødslen?",
+    "options": [
+      "Med gradvis genoptræning af bugvæg og dybe stabiliserende muskler (inkl. bækkenbund) samt vejledning i hensigtsmæssig belastning",
+      "Med fuldstændig undgåelse af al mavebevægelse for altid",
+      "Med tunge mavebøjninger fra dag ét uanset tilstand",
+      "Den kræver altid operation"
+    ],
+    "correct": "A",
+    "explanation": "Postpartum arbejdes der typisk med gradvis genoptræning af bugvæggen og de dybe stabiliserende muskler (inkl. bækkenbund) samt vejledning i belastning. De fleste bedres uden operation, som kun sjældent er nødvendig."
+  },
+  {
+    "topic": "Graviditet",
+    "question": "Hvorfor kan gravide udvikle karpaltunnelsyndrom (snurren/følelsesløshed i fingrene)?",
+    "options": [
+      "Væskeophobning under graviditeten kan øge trykket på medianusnerven i håndleddet — symptomerne svinder ofte efter fødslen",
+      "Fordi gravide aldrig får nervepåvirkning",
+      "Fordi blodsukkeret falder",
+      "Fordi der opstår et brud i håndleddet"
+    ],
+    "correct": "A",
+    "explanation": "Den øgede væskeophobning i graviditeten kan øge trykket i karpaltunnelen og dermed på medianusnerven, hvilket giver snurren/følelsesløshed i fingrene (typisk tommel, pege- og langfinger). Det er ofte forbigående og bedres efter fødslen."
+  },
+  {
+    "topic": "Graviditet",
+    "question": "Hvorfor er bækkenbundstræning relevant i forbindelse med graviditet og fødsel?",
+    "options": [
+      "Fordi bækkenbunden belastes under graviditet og fødsel, og træning kan forebygge og behandle bl.a. urininkontinens",
+      "Fordi bækkenbunden ikke har nogen funktion",
+      "Fordi træning af bækkenbunden skader fosteret",
+      "Fordi bækkenbunden kun har betydning for mænd"
+    ],
+    "correct": "A",
+    "explanation": "Bækkenbunden bærer ekstra belastning under graviditeten og strækkes ved en vaginal fødsel. Bækkenbundstræning kan både forebygge og behandle problemer som urininkontinens — et vigtigt fysioterapeutisk indsatsområde."
+  },
+  {
+    "topic": "Graviditet",
+    "question": "Hvilken almindelig, ufarlig gene oplever mange gravide, især om natten?",
+    "options": [
+      "Lægkramper",
+      "Pludselig halvsidig lammelse",
+      "Synstab på det ene øje",
+      "Kramper i hele kroppen med bevidsthedstab"
+    ],
+    "correct": "A",
+    "explanation": "Lægkramper, ofte om natten, er almindelige og som regel ufarlige i graviditeten. (Pludselig halvsidig lammelse eller synstab er derimod alarmsymptomer, der kræver akut vurdering.)"
+  },
+  {
+    "topic": "Graviditet",
+    "question": "Hvad er den generelle anbefaling om fysisk aktivitet ved en ukompliceret graviditet?",
+    "options": [
+      "Regelmæssig, tilpasset fysisk aktivitet anbefales og er gavnligt for bl.a. ryg, bækken, vægt, humør og generel sundhed",
+      "Al fysisk aktivitet bør undgås",
+      "Kun maksimal, hård træning gavner",
+      "Sengeleje anbefales gennem hele graviditeten"
+    ],
+    "correct": "A",
+    "explanation": "Ved en ukompliceret graviditet anbefales regelmæssig, tilpasset fysisk aktivitet. Det er gavnligt for ryg- og bækkengener, vægtregulering, blodsukker, humør og kondition — og kan have positiv betydning for forløbet."
+  },
+  {
+    "topic": "Graviditet",
+    "question": "Hvilken forholdsregel er relevant ved træning sent i graviditeten?",
+    "options": [
+      "Undgå langvarig træning i fladt rygleje, da den store livmoder kan trykke på den store hulvene (vena cava) og give blodtryksfald/svimmelhed",
+      "Træn altid kun i fladt rygleje",
+      "Undgå al opretstående aktivitet",
+      "Hold vejret under alle øvelser"
+    ],
+    "correct": "A",
+    "explanation": "Sent i graviditeten kan den voksende livmoder i fladt rygleje trykke på vena cava og nedsætte tilbageløbet af blod til hjertet (med blodtryksfald og svimmelhed). Derfor undgås langvarig rygliggende træning, og man vælger fx side- eller halvsiddende stillinger."
+  },
+  {
+    "topic": "Graviditet",
+    "question": "Hvad sker der typisk med bækken- og rygsmerter relateret til graviditeten efter fødslen?",
+    "options": [
+      "De aftager oftest gradvist i tiden efter fødslen, efterhånden som belastning og hormonniveauer normaliseres",
+      "De bliver altid permanente",
+      "De forsvinder altid øjeblikkeligt ved fødslen",
+      "De forværres altid efter fødslen"
+    ],
+    "correct": "A",
+    "explanation": "For de fleste aftager bækken- og rygsmerterne gradvist efter fødslen, når hormonniveauer og belastning normaliseres. Hos nogle varer generne længere og kan have gavn af fortsat fysioterapeutisk genoptræning."
+  },
+  {
+    "topic": "Graviditet",
+    "question": "Hvad er præeklampsi (svangerskabsforgiftning)?",
+    "options": [
+      "En graviditetskomplikation (typisk efter uge 20) med forhøjet blodtryk og tegn på organpåvirkning, klassisk protein i urinen",
+      "En infektion i livmoderen",
+      "Et fald i blodtrykket under graviditeten",
+      "En harmløs hævelse af benene uden betydning"
+    ],
+    "correct": "A",
+    "explanation": "Præeklampsi er en alvorlig graviditetskomplikation, der typisk opstår efter graviditetsuge 20. Den kendetegnes ved nyopstået forhøjet blodtryk og tegn på organpåvirkning (klassisk proteinuri — protein i urinen)."
+  },
+  {
+    "topic": "Graviditet",
+    "question": "Hvilke symptomer kan være advarselstegn på (forværring af) præeklampsi?",
+    "options": [
+      "Svær hovedpine, synsforstyrrelser, smerter under højre ribbensbue/øvre del af maven og pludselige, kraftige hævelser (især i ansigt og hænder)",
+      "Lette lægkramper om natten",
+      "En enkelt nys",
+      "Let sult mellem måltider"
+    ],
+    "correct": "A",
+    "explanation": "Advarselstegn er bl.a. svær hovedpine, synsforstyrrelser (fx lysglimt/sløret syn), smerter øverst i maven/under højre ribbensbue og pludselige kraftige hævelser. De kræver hurtig vurdering, da tilstanden kan forværres hastigt. Tidlig præeklampsi kan dog også være symptomfattig."
+  },
+  {
+    "topic": "Graviditet",
+    "question": "Hvorfor er præeklampsi alvorlig?",
+    "options": [
+      "Den kan udvikle sig og give livstruende komplikationer for både mor og barn — bl.a. krampeanfald (eklampsi) og HELLP-syndrom",
+      "Den er altid helt ufarlig",
+      "Den påvirker kun huden",
+      "Den forsvinder altid af sig selv uden behandling"
+    ],
+    "correct": "A",
+    "explanation": "Ubehandlet eller svær præeklampsi kan udvikle sig til livstruende tilstande for både mor og barn, herunder eklampsi (krampeanfald) og HELLP-syndrom (med bl.a. leverpåvirkning og lavt antal blodplader). Derfor kræver den tæt overvågning."
+  },
+  {
+    "topic": "Graviditet",
+    "question": "Hvilke faktorer øger risikoen for præeklampsi?",
+    "options": [
+      "Førstegangsgraviditet, tidligere præeklampsi, kronisk forhøjet blodtryk, diabetes, adipositas, flerfoldsgraviditet og høj alder",
+      "Lav alder og normalvægt som eneste faktorer",
+      "Regelmæssig motion",
+      "Højt indtag af vand"
+    ],
+    "correct": "A",
+    "explanation": "Risikofaktorer er bl.a. at være førstegangsgravid, tidligere præeklampsi, kronisk hypertension, diabetes, adipositas, flerfoldsgraviditet (tvillinger m.m.) og høj alder."
+  },
+  {
+    "topic": "Graviditet",
+    "question": "Hvordan opdages præeklampsi typisk i svangreomsorgen?",
+    "options": [
+      "Ved måling af blodtryk og undersøgelse af urinen for protein ved graviditetskontrollerne",
+      "Ved en lungefunktionsundersøgelse",
+      "Ved en synstest",
+      "Ved en knogletæthedsscanning"
+    ],
+    "correct": "A",
+    "explanation": "Ved de rutinemæssige graviditetskontroller måles blodtryk og urinen undersøges for protein. Forhøjet blodtryk kombineret med protein i urinen (eller anden organpåvirkning) rejser mistanke om præeklampsi."
+  },
+  {
+    "topic": "Graviditet",
+    "question": "Hvad er den eneste egentlige helbredende behandling af præeklampsi?",
+    "options": [
+      "Forløsning (fødsel), så moderkagen kommer ud — indtil da overvåges og behandles tilstanden (bl.a. med blodtryksmedicin)",
+      "Antibiotika",
+      "Et stort væskeindtag",
+      "Fuldstændig faste"
+    ],
+    "correct": "A",
+    "explanation": "Den eneste kurative behandling er fødslen (forløsning af moderkagen). Indtil forløsning er mulig/forsvarlig, overvåges mor og barn tæt, og blodtrykket behandles. Timingen afvejes mod barnets modenhed."
+  },
+  {
+    "topic": "Graviditet",
+    "question": "Hvad er eklampsi?",
+    "options": [
+      "Krampeanfald, der opstår som en alvorlig, akut komplikation til præeklampsi",
+      "En harmløs hævelse af fødderne",
+      "En normal del af enhver fødsel",
+      "Et lavt blodsukker hos barnet"
+    ],
+    "correct": "A",
+    "explanation": "Eklampsi er krampeanfald, der opstår som en alvorlig komplikation til præeklampsi. Det er en akut, livstruende tilstand for både mor og barn og kræver omgående behandling."
+  },
+  {
+    "topic": "Graviditet",
+    "question": "En gravid, du har til træning/behandling, klager pludselig over svær hovedpine, synsforstyrrelser og kraftige hævelser i ansigt og hænder. Hvad er det rigtige at gøre?",
+    "options": [
+      "Afbryde og sørge for hurtig svangre-/lægelig vurdering, da det kan være tegn på præeklampsi",
+      "Fortsætte med hård træning",
+      "Anbefale at afvente en uges tid",
+      "Ignorere det, da hævelser altid er normale"
+    ],
+    "correct": "A",
+    "explanation": "Svær hovedpine, synsforstyrrelser og pludselige kraftige hævelser hos en gravid er alarmsymptomer på mulig præeklampsi. Træningen afbrydes, og der sørges for hurtig svangre-/lægelig vurdering. Ved (svær) præeklampsi er anstrengende træning ikke passende."
+  }
+]
