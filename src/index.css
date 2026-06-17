@@ -1,2 +1,124 @@
 @import "tailwindcss";
 @variant dark (&:where(.dark, .dark *));
+
+/* ── Design tokens ── */
+:root {
+  --bg: #f6f7f9;
+  --surface: #ffffff;
+  --surface-2: #f1f5f9;
+  --border: #e7ebf0;
+  --border-strong: #d6dde5;
+  --text: #1e293b;
+  --text-dim: #64748b;
+  --text-faint: #94a3b8;
+  --teal: #0d9488;
+  --teal-strong: #0f766e;
+  --teal-tint: #f0fdfa;
+  --teal-tint-bd: #99f6e4;
+  --violet: #7c3aed;
+  --violet-strong: #6d28d9;
+  --violet-tint: #f5f3ff;
+  --violet-tint-bd: #ddd6fe;
+  --emerald: #059669;
+  --emerald-tint: #ecfdf5;
+  --rose: #e11d48;
+  --rose-tint: #fff1f2;
+  --shadow: 0 1px 2px rgba(15,23,42,.04), 0 4px 16px rgba(15,23,42,.05);
+  --shadow-lift: 0 6px 24px rgba(15,23,42,.10);
+}
+
+.dark {
+  --bg: #0c1322;
+  --surface: #16213a;
+  --surface-2: #1f2d49;
+  --border: #28385a;
+  --border-strong: #3a4d72;
+  --text: #eef2f8;
+  --text-dim: #9fb0cb;
+  --text-faint: #6b7e9e;
+  --teal: #2dd4bf;
+  --teal-strong: #5eead4;
+  --teal-tint: rgba(45,212,191,.12);
+  --teal-tint-bd: rgba(45,212,191,.35);
+  --violet: #a78bfa;
+  --violet-strong: #c4b5fd;
+  --violet-tint: rgba(167,139,250,.13);
+  --violet-tint-bd: rgba(167,139,250,.38);
+  --emerald: #34d399;
+  --emerald-tint: rgba(52,211,153,.13);
+  --rose: #fb7185;
+  --rose-tint: rgba(251,113,133,.13);
+  --shadow: 0 1px 2px rgba(0,0,0,.3), 0 4px 18px rgba(0,0,0,.35);
+  --shadow-lift: 0 8px 30px rgba(0,0,0,.45);
+}
+
+/* ── Global resets ── */
+*, *::before, *::after { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: Manrope, system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+button, input, select, textarea { font: inherit; }
+
+/* ── Range slider ── */
+input[type=range] {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 6px;
+  border-radius: 99px;
+  background: var(--surface-2);
+  outline: none;
+  width: 100%;
+  display: block;
+  cursor: pointer;
+}
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: var(--violet);
+  cursor: pointer;
+  border: 3px solid var(--surface);
+  box-shadow: 0 1px 4px rgba(0,0,0,.25);
+  transition: transform .12s;
+}
+input[type=range]::-webkit-slider-thumb:hover { transform: scale(1.12); }
+input[type=range]::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: var(--violet);
+  cursor: pointer;
+  border: 3px solid var(--surface);
+  box-shadow: 0 1px 4px rgba(0,0,0,.25);
+}
+
+/* ── Interactive helpers ── */
+.q-card-lift { transition: transform .16s, box-shadow .16s; }
+.q-card-lift:hover { transform: translateY(-2px); box-shadow: var(--shadow-lift); }
+
+.q-topic-btn { transition: border-color .14s, background-color .14s; }
+.q-topic-btn:hover { border-color: var(--teal) !important; background-color: var(--teal-tint) !important; }
+
+.q-chip-btn { transition: background-color .14s; }
+.q-chip-btn:hover { background-color: var(--surface-2) !important; }
+
+.q-nav-btn { transition: color .14s; }
+.q-nav-btn:hover { color: var(--text) !important; }
+
+.q-btn-teal { transition: background-color .14s; }
+.q-btn-teal:hover { background-color: var(--teal-strong) !important; }
+
+.q-btn-outline { transition: background-color .14s; }
+.q-btn-outline:hover { background-color: var(--surface-2) !important; }
+
+.q-btn-violet { transition: background-color .14s; }
+.q-btn-violet:hover { background-color: var(--violet-strong) !important; }
+
+.q-flag-link { transition: color .14s; }
+.q-flag-link:hover { color: var(--rose) !important; }

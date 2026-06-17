@@ -4,117 +4,117 @@
     "question": "Hvad kendetegner en personlighedsforstyrrelse?",
     "options": [
       "En forbigående reaktion på en akut belastning",
-      "Et gennemgribende og vedvarende mønster i tænkning, følelser og adfærd, der afviger fra det forventede og giver problemer i hverdagen",
       "En infektion i centralnervesystemet",
+      "Et gennemgribende og vedvarende mønster i tænkning, følelser og adfærd, der afviger fra det forventede og giver problemer i hverdagen",
       "En akut psykotisk tilstand, der går over i løbet af timer"
     ],
-    "correct": "B",
+    "correct": "C",
     "explanation": "Personlighedsforstyrrelser er dybtliggende, vedvarende og gennemgribende mønstre (ikke episodiske), der typisk viser sig fra ungdommen og giver vanskeligheder i relationer og funktion."
   },
   {
     "topic": "Psykiatri",
     "question": "Hvad er typisk for emotionelt ustabil personlighedsstruktur (borderline-type)?",
     "options": [
-      "Stabilt humør og faste, varige relationer",
-      "Følelsesmæssig ustabilitet, impulsivitet, ustabile relationer og ofte selvskadende adfærd",
+      "Vrangforestillinger og hallucinationer som hovedtræk",
       "Hviletremor og muskelstivhed",
-      "Vrangforestillinger og hallucinationer som hovedtræk"
+      "Stabilt humør og faste, varige relationer",
+      "Følelsesmæssig ustabilitet, impulsivitet, ustabile relationer og ofte selvskadende adfærd"
     ],
-    "correct": "B",
+    "correct": "D",
     "explanation": "Emotionelt ustabil (borderline) personlighedsforstyrrelse præges af affektlabilitet, impulsivitet, ustabilt selvbillede, intense og ustabile relationer samt tendens til selvskade."
   },
   {
     "topic": "Psykiatri",
     "question": "Hvad adskiller en personlighedsforstyrrelse fra en affektiv lidelse som depression?",
     "options": [
-      "Personlighedsforstyrrelsen er et vedvarende træk, mens depression typisk optræder i afgrænsede episoder",
-      "Der er ingen forskel",
       "Depression er medfødt, mens personlighedsforstyrrelse altid opstår akut",
-      "Personlighedsforstyrrelser ses kun hos ældre"
+      "Der er ingen forskel",
+      "Personlighedsforstyrrelser ses kun hos ældre",
+      "Personlighedsforstyrrelsen er et vedvarende træk, mens depression typisk optræder i afgrænsede episoder"
     ],
-    "correct": "A",
+    "correct": "D",
     "explanation": "En personlighedsforstyrrelse er et stabilt, gennemgribende mønster over tid, mens depression er en episodisk tilstand med en begyndelse og (ofte) en afslutning."
   },
   {
     "topic": "Psykiatri",
     "question": "Hvilke tre symptomer regnes som kernesymptomerne ved depression?",
     "options": [
-      "Nedtrykt stemningsleje, nedsat lyst/interesse og nedsat energi/øget træthed",
       "Feber, hovedpine og nakkestivhed",
+      "Nedtrykt stemningsleje, nedsat lyst/interesse og nedsat energi/øget træthed",
       "Hjertebanken, sveden og rysten",
       "Hviletremor, rigiditet og bradykinesi"
     ],
-    "correct": "A",
+    "correct": "B",
     "explanation": "De tre kernesymptomer er forsænket stemningsleje (nedtrykthed), nedsat lyst og interesse (anhedoni) samt nedsat energi/øget trætbarhed."
   },
   {
     "topic": "Psykiatri",
     "question": "Ud over kernesymptomerne — hvilket af følgende er et typisk ledsagesymptom ved depression?",
     "options": [
-      "Forbedret koncentration og højt selvværd",
-      "Søvnforstyrrelser, ændret appetit, koncentrationsbesvær og skyldfølelse",
       "Øget energi og nedsat søvnbehov",
-      "Hørelseshallucinationer som eneste symptom"
+      "Hørelseshallucinationer som eneste symptom",
+      "Søvnforstyrrelser, ændret appetit, koncentrationsbesvær og skyldfølelse",
+      "Forbedret koncentration og højt selvværd"
     ],
-    "correct": "B",
+    "correct": "C",
     "explanation": "Depression ledsages ofte af søvn- og appetitforstyrrelser, koncentrationsbesvær, nedsat selvværd, skyldfølelse og tanker om døden."
   },
   {
     "topic": "Psykiatri",
     "question": "Hvad er typisk for en manisk episode?",
     "options": [
-      "Nedtrykthed og energiløshed",
       "Opstemt eller irritabel stemning, øget aktivitet/energi, nedsat søvnbehov og evt. storhedsidéer og impulsiv adfærd",
       "Nakkestivhed og lysskyhed",
+      "Nedtrykthed og energiløshed",
       "Hviletremor og langsomme bevægelser"
     ],
-    "correct": "B",
+    "correct": "A",
     "explanation": "Mani præges af abnormt løftet eller irritabelt stemningsleje, øget energi og aktivitet, nedsat søvnbehov, taletrang, storhedstanker og impulsiv, ofte risikofyldt adfærd."
   },
   {
     "topic": "Psykiatri",
     "question": "Hvad kendetegner bipolar affektiv lidelse?",
     "options": [
+      "Udelukkende angstanfald",
       "Vedvarende, uændret nedtrykthed hele livet",
       "Vekslen mellem episoder med depression og episoder med mani (eller hypomani)",
-      "Udelukkende angstanfald",
       "Kronisk psykose uden stemningsændringer"
     ],
-    "correct": "B",
+    "correct": "C",
     "explanation": "Bipolar lidelse er karakteriseret ved skiftende episoder af depression og mani/hypomani, ofte med mere normale perioder imellem."
   },
   {
     "topic": "Psykiatri",
     "question": "Hvilken vurdering er særligt vigtig hos en patient med svær depression?",
     "options": [
-      "Vurdering af blodsukker",
-      "Vurdering af risikoen for selvmordstanker og selvmord",
       "Måling af lungefunktion",
-      "Vurdering af synsstyrke"
+      "Vurdering af blodsukker",
+      "Vurdering af synsstyrke",
+      "Vurdering af risikoen for selvmordstanker og selvmord"
     ],
-    "correct": "B",
+    "correct": "D",
     "explanation": "Selvmordsrisiko er en central del af vurderingen ved depression, da svær depression er forbundet med øget risiko. Det er vigtigt at spørge åbent og roligt ind til tanker om at dø eller om at gøre skade på sig selv."
   },
   {
     "topic": "Psykiatri",
     "question": "Hvad er ofte førstevalg i den medicinske behandling af moderat til svær depression?",
     "options": [
-      "Antibiotika",
       "SSRI (selektive serotonin-genoptagshæmmere)",
+      "Betablokkere",
       "Insulin",
-      "Betablokkere"
+      "Antibiotika"
     ],
-    "correct": "B",
+    "correct": "A",
     "explanation": "SSRI er ofte førstevalg ved medicinsk behandling af depression, gerne kombineret med psykoterapi. Dette uddybes i farmakologi-delen."
   },
   {
     "topic": "Psykiatri",
     "question": "Hvad kendetegner generaliseret angst (GAD)?",
     "options": [
-      "Pludselige, kortvarige angstanfald, der topper på minutter",
+      "Tvangshandlinger",
       "Vedvarende, overdreven og svært kontrollerbar bekymring om mange dagligdags forhold gennem længere tid",
       "Genoplevelser af en traumatisk hændelse",
-      "Tvangshandlinger"
+      "Pludselige, kortvarige angstanfald, der topper på minutter"
     ],
     "correct": "B",
     "explanation": "GAD præges af vedvarende, generaliseret og overdreven bekymring (typisk mindst 6 måneder) ledsaget af bl.a. rastløshed, anspændthed, koncentrationsbesvær og søvnproblemer."
@@ -124,81 +124,81 @@
     "question": "Hvad kendetegner et panikanfald?",
     "options": [
       "En langsomt indsættende nedtrykthed over uger",
-      "Et pludseligt anfald af intens angst med kraftige fysiske symptomer (hjertebanken, åndenød, sveden, svimmelhed), der topper inden for få minutter",
+      "Hørelseshallucinationer",
       "Vedvarende tvangstanker",
-      "Hørelseshallucinationer"
+      "Et pludseligt anfald af intens angst med kraftige fysiske symptomer (hjertebanken, åndenød, sveden, svimmelhed), der topper inden for få minutter"
     ],
-    "correct": "B",
+    "correct": "D",
     "explanation": "Panikanfald kommer pludseligt, topper hurtigt (typisk inden for minutter) og ledsages af udtalte kropslige symptomer samt ofte dødsangst eller frygt for at miste kontrollen."
   },
   {
     "topic": "Psykiatri",
     "question": "En 30-årig kommer akut med hjertebanken, åndenød, brystubehag og en stærk følelse af at skulle dø. Symptomerne toppede på få minutter og klinger nu af, og hjerteundersøgelser er normale. Hvad kan forklare anfaldet, når alvorlig fysisk sygdom er udelukket?",
     "options": [
-      "Et panikanfald",
-      "En akut blodprop i lungen",
+      "En migræne",
       "Et epileptisk anfald",
-      "En migræne"
+      "Et panikanfald",
+      "En akut blodprop i lungen"
     ],
-    "correct": "A",
+    "correct": "C",
     "explanation": "Når akut hjerte-/lungesygdom er udelukket, kan et anfald med pludselig intens angst og kraftige kropslige symptomer, der topper hurtigt, være et panikanfald. Man skal dog altid først udelukke somatiske årsager."
   },
   {
     "topic": "Psykiatri",
     "question": "Hvad er centrale symptomer ved PTSD (posttraumatisk belastningsreaktion)?",
     "options": [
-      "Tvangstanker og tvangshandlinger",
       "Genoplevelser (flashbacks/mareridt) af en traumatisk hændelse, undgåelse af det, der minder om den, samt øget vagtsomhed (hyperarousal)",
+      "Tvangstanker og tvangshandlinger",
       "Opstemthed og nedsat søvnbehov",
       "Hviletremor og rigiditet"
     ],
-    "correct": "B",
+    "correct": "A",
     "explanation": "PTSD opstår efter en alvorlig traumatisk hændelse og præges af påtrængende genoplevelser, undgåelsesadfærd, negativ stemning og forhøjet alarmberedskab (hyperarousal)."
   },
   {
     "topic": "Psykiatri",
     "question": "Hvad består OCD (obsessiv-kompulsiv tilstand) af?",
     "options": [
-      "Tvangstanker (obsessioner) og tvangshandlinger (kompulsioner)",
-      "Genoplevelser af et traume",
       "Opstemthed og storhedstanker",
-      "Vrangforestillinger og hallucinationer"
+      "Genoplevelser af et traume",
+      "Vrangforestillinger og hallucinationer",
+      "Tvangstanker (obsessioner) og tvangshandlinger (kompulsioner)"
     ],
-    "correct": "A",
+    "correct": "D",
     "explanation": "OCD består af tvangstanker (påtrængende, uønskede tanker, der skaber angst) og tvangshandlinger (gentagne handlinger eller ritualer, der udføres for at dæmpe angsten)."
   },
   {
     "topic": "Psykiatri",
     "question": "Hvorfor udfører en person med OCD gentagne tvangshandlinger (fx hyppig håndvask)?",
     "options": [
-      "For at opnå nydelse",
       "For midlertidigt at dæmpe den angst og det ubehag, som tvangstankerne fremkalder",
+      "For at opnå nydelse",
       "For at træne musklerne",
       "Fordi de hører stemmer, der befaler det"
     ],
-    "correct": "B",
+    "correct": "A",
     "explanation": "Tvangshandlinger reducerer kortvarigt den angst, tvangstankerne udløser. Lettelsen er dog midlertidig, og mønsteret forstærker sig selv over tid."
   },
   {
     "topic": "Psykiatri",
     "question": "Hvilken af følgende er IKKE en angstlidelse?",
     "options": [
-      "Generaliseret angst (GAD)",
       "Panikangst",
+      "Skizofreni",
       "OCD",
-      "Skizofreni"
+      "Generaliseret angst (GAD)"
     ],
-    "correct": "D",
+    "correct": "B",
     "explanation": "Skizofreni er en psykotisk lidelse, ikke en angstlidelse. GAD, panikangst og OCD hører til angstspektret."
   },
   {
     "topic": "Psykiatri",
     "question": "Hvad kendetegner en psykose?",
     "options": [
-      "Bevaret realitetssans men nedtrykt humør",
-      "En tilstand med svigtende realitetstestning, fx vrangforestillinger og/eller hallucinationer",
       "En forbigående muskelsvaghed",
-      "En akut infektion i hjernehinderne"
+      "En tilstand med svigtende realitetstestning, fx vrangforestillinger og/eller hallucinationer",
+      "En akut infektion i hjernehinderne",
+      "Bevaret realitetssans men nedtrykt humør"
     ],
     "correct": "B",
     "explanation": "Psykose indebærer en forstyrret realitetstestning, hvor personen oplever vrangforestillinger og/eller hallucinationer og kan have svært ved at skelne det indre fra den ydre virkelighed."
@@ -207,60 +207,60 @@
     "topic": "Psykiatri",
     "question": "Hvad er en hallucination?",
     "options": [
+      "En forbigående hukommelsessvækkelse",
       "En fast, fejlagtig overbevisning",
       "En sanseoplevelse uden et ydre stimulus — fx at høre eller se noget, der ikke er der",
-      "En forbigående hukommelsessvækkelse",
       "En kraftig hovedpine"
     ],
-    "correct": "B",
+    "correct": "C",
     "explanation": "En hallucination er en sanseoplevelse uden tilsvarende ydre stimulus. Ved skizofreni er hørelseshallucinationer (stemmer) de hyppigste."
   },
   {
     "topic": "Psykiatri",
     "question": "Hvad er en vrangforestilling (delusion)?",
     "options": [
-      "En sanseoplevelse uden ydre stimulus",
       "En fast, urokkelig overbevisning, der ikke svarer til virkeligheden, og som ikke kan korrigeres med argumenter",
+      "En sanseoplevelse uden ydre stimulus",
       "En normal bekymring",
       "Et fysisk symptom fra hjertet"
     ],
-    "correct": "B",
+    "correct": "A",
     "explanation": "En vrangforestilling er en fastlåst, fejlagtig overbevisning, som personen fastholder trods modbeviser, og som ikke deles af den kulturelle baggrund."
   },
   {
     "topic": "Psykiatri",
     "question": "Hvilket af følgende er et NEGATIVT symptom ved skizofreni?",
     "options": [
-      "Hørelseshallucinationer",
       "Vrangforestillinger",
       "Affektaffladning, initiativløshed og social tilbagetrækning",
+      "Hørelseshallucinationer",
       "Tankeforstyrrelser med usammenhængende tale"
     ],
-    "correct": "C",
+    "correct": "B",
     "explanation": "Positive symptomer er noget, der 'kommer til' (hallucinationer, vrangforestillinger). Negative symptomer er noget, der 'mangler' — fx følelsesmæssig affladning, manglende initiativ og social tilbagetrækning."
   },
   {
     "topic": "Psykiatri",
     "question": "Hvad kendetegner anorexia nervosa?",
     "options": [
+      "Pludselige panikanfald",
       "Tilbagevendende overspisning uden kompenserende adfærd",
       "Bevidst lav kropsvægt, intens frygt for vægtøgning og en forstyrret oplevelse af egen krop",
-      "Vekslende episoder af mani og depression",
-      "Pludselige panikanfald"
+      "Vekslende episoder af mani og depression"
     ],
-    "correct": "B",
+    "correct": "C",
     "explanation": "Anorexia nervosa præges af betydeligt undervægt, en intens frygt for at tage på samt en forstyrret krops- og selvopfattelse."
   },
   {
     "topic": "Psykiatri",
     "question": "Hvad kendetegner bulimia nervosa?",
     "options": [
+      "Manglende interesse for mad uden andre symptomer",
       "Vedvarende meget lav kropsvægt",
       "Episoder med overspisning efterfulgt af kompenserende adfærd (fx selvfremkaldt opkastning eller misbrug af afføringsmidler), ofte ved normal vægt",
-      "Manglende interesse for mad uden andre symptomer",
       "Tvangstanker om smitte"
     ],
-    "correct": "B",
+    "correct": "C",
     "explanation": "Bulimi er karakteriseret ved gentagne overspisningsepisoder med tab af kontrol, efterfulgt af kompenserende adfærd. Vægten er ofte inden for normalområdet."
   },
   {
@@ -268,29 +268,34 @@
     "question": "Hvilke somatiske komplikationer kan ses ved svær anoreksi?",
     "options": [
       "Forhøjet kropsvægt og forhøjet blodtryk",
-      "Elektrolytforstyrrelser, langsom puls (bradykardi), udeblivende menstruation og knogleskørhed",
+      "Ingen fysiske konsekvenser overhovedet",
       "Forbedret knoglestyrke",
-      "Ingen fysiske konsekvenser overhovedet"
+      "Elektrolytforstyrrelser, langsom puls (bradykardi), udeblivende menstruation og knogleskørhed"
     ],
-    "correct": "B",
+    "correct": "D",
     "explanation": "Svær underernæring kan give bl.a. elektrolytforstyrrelser (med risiko for hjertepåvirkning), bradykardi, hormonforstyrrelser med amenoré og nedsat knoglemineralisering (osteoporose). Det gør anoreksi til en alvorlig somatisk tilstand."
   },
   {
     "topic": "Psykiatri",
     "question": "Hvad kendetegner binge eating disorder (tvangsoverspisning)?",
     "options": [
+      "Manglende sult og fuldstændig madafvisning",
       "Gentagne episoder med overspisning og tab af kontrol UDEN regelmæssig kompenserende adfærd",
       "Vedvarende meget lav vægt",
-      "Selvfremkaldt opkastning efter hvert måltid",
-      "Manglende sult og fuldstændig madafvisning"
+      "Selvfremkaldt opkastning efter hvert måltid"
     ],
-    "correct": "A",
+    "correct": "B",
     "explanation": "Binge eating disorder er gentagne overspisningsepisoder med kontroltab, men uden den regelmæssige kompenserende adfærd (opkastning, faste, overdreven motion), man ser ved bulimi."
   },
   {
     "topic": "Psykiatri",
     "question": "Hos en ældre patient kan svær depression nogle gange ligne demens, med dårlig hukommelse og koncentration. Hvad kaldes dette fænomen?",
-    "options": ["Pseudodemens", "Delir", "Mani", "Psykose"],
+    "options": [
+      "Pseudodemens",
+      "Mani",
+      "Psykose",
+      "Delir"
+    ],
     "correct": "A",
     "explanation": "Depression hos ældre kan give kognitive symptomer, der minder om demens (pseudodemens). Det er vigtigt at skelne, fordi depressionen kan behandles og symptomerne dermed bedres."
   },
@@ -298,34 +303,34 @@
     "topic": "Psykiatri",
     "question": "Demens ledsages ofte af adfærdsmæssige og psykologiske symptomer (BPSD). Hvilket er et eksempel herpå?",
     "options": [
+      "Anfaldsvis hovedpine",
       "Forbedret hukommelse",
-      "Uro, vrangforestillinger, aggression eller apati",
       "Øget muskelstyrke",
-      "Anfaldsvis hovedpine"
+      "Uro, vrangforestillinger, aggression eller apati"
     ],
-    "correct": "B",
+    "correct": "D",
     "explanation": "Ud over de kognitive symptomer ses ofte adfærdsmæssige og psykologiske symptomer (BPSD) som uro, angst, depression, vrangforestillinger, aggression eller apati."
   },
   {
     "topic": "Psykiatri",
     "question": "Hvad sker der i kroppen ved en akut stressreaktion ('kamp-flugt')?",
     "options": [
-      "Frigivelse af stresshormoner som adrenalin og kortisol med øget puls, blodtryk og årvågenhed",
+      "Tab af følesans i fødderne",
       "Et fald i puls og blodtryk samt dyb afslapning",
-      "En akut allergisk reaktion",
-      "Tab af følesans i fødderne"
+      "Frigivelse af stresshormoner som adrenalin og kortisol med øget puls, blodtryk og årvågenhed",
+      "En akut allergisk reaktion"
     ],
-    "correct": "A",
+    "correct": "C",
     "explanation": "Den akutte stressrespons aktiverer det sympatiske nervesystem og frigiver adrenalin og kortisol, hvilket bl.a. øger puls, blodtryk, blodsukker og årvågenhed — kroppen gøres klar til kamp eller flugt."
   },
   {
     "topic": "Psykiatri",
     "question": "Hvad kan langvarig (kronisk) stress føre til?",
     "options": [
-      "Ingen helbredsmæssige konsekvenser",
-      "Fysiske og psykiske symptomer som træthed, søvnproblemer, koncentrationsbesvær og øget risiko for sygdom",
       "Permanent forbedret immunforsvar",
-      "Øget muskelmasse"
+      "Fysiske og psykiske symptomer som træthed, søvnproblemer, koncentrationsbesvær og øget risiko for sygdom",
+      "Øget muskelmasse",
+      "Ingen helbredsmæssige konsekvenser"
     ],
     "correct": "B",
     "explanation": "Vedvarende stress kan give både kropslige og psykiske symptomer (træthed, søvn- og koncentrationsproblemer, hovedpine, irritabilitet) og over tid øge risikoen for bl.a. hjerte-kar-sygdom, angst og depression."
@@ -335,11 +340,11 @@
     "question": "Delir kan inddeles i en hyperaktiv og en hypoaktiv form. Hvad kendetegner den hypoaktive form, som ofte overses?",
     "options": [
       "Udtalt motorisk uro og aggression",
-      "Sløvhed, tilbagetrækning og nedsat aktivitet",
       "Opstemthed og storhedstanker",
+      "Sløvhed, tilbagetrækning og nedsat aktivitet",
       "Pludselige panikanfald"
     ],
-    "correct": "B",
+    "correct": "C",
     "explanation": "Hypoaktivt delir viser sig ved sløvhed, stilhed og tilbagetrækning og overses let, fordi patienten ikke er urolig. Det er dog lige så alvorligt som den hyperaktive form."
   },
   {
@@ -347,9 +352,9 @@
     "question": "Hvad er det vigtigste i behandlingen af delir?",
     "options": [
       "At finde og behandle den udløsende årsag (fx infektion, dehydrering, smerter eller medicin)",
-      "At ignorere tilstanden, da den altid går over af sig selv",
+      "At udskrive patienten hurtigst muligt",
       "Udelukkende at give beroligende medicin",
-      "At udskrive patienten hurtigst muligt"
+      "At ignorere tilstanden, da den altid går over af sig selv"
     ],
     "correct": "A",
     "explanation": "Delir er som regel udløst af en bagvedliggende årsag. Den vigtigste behandling er at finde og behandle årsagen samt sørge for ro, orientering og et trygt miljø."

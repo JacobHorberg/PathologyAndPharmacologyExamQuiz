@@ -5,8 +5,8 @@
     "options": [
       "En degenerativ nedslidning af ledbrusken uden inflammation",
       "En kronisk autoimmun ledbetændelse, der typisk rammer symmetrisk i de små led (hænder og fødder) og giver morgenstivhed",
-      "En bakteriel infektion i ét led",
-      "En knogletab-sygdom uden ledsymptomer"
+      "En knogletab-sygdom uden ledsymptomer",
+      "En bakteriel infektion i ét led"
     ],
     "correct": "B",
     "explanation": "RA er en kronisk, autoimmun, inflammatorisk ledsygdom. Den rammer typisk symmetrisk og fortrinsvis de små led i hænder og fødder, med hævelse, ømhed og udtalt morgenstivhed. Ubehandlet kan den ødelægge leddene."
@@ -15,45 +15,45 @@
     "topic": "Reumatologi",
     "question": "Hvordan adskiller morgenstivheden sig typisk ved reumatoid artrit sammenlignet med artrose?",
     "options": [
-      "Ved RA er morgenstivheden langvarig (ofte over en time), mens den ved artrose er kortvarig (typisk under 30 minutter)",
-      "Ved RA er der slet ingen morgenstivhed",
       "Ved artrose varer morgenstivheden altid hele dagen",
+      "Ved RA er der slet ingen morgenstivhed",
+      "Ved RA er morgenstivheden langvarig (ofte over en time), mens den ved artrose er kortvarig (typisk under 30 minutter)",
       "Der er ingen forskel"
     ],
-    "correct": "A",
+    "correct": "C",
     "explanation": "Langvarig morgenstivhed (ofte >60 min) er typisk for inflammatoriske ledsygdomme som RA. Ved artrose ses kortvarig 'start-/igangsætningsstivhed' (oftest <30 min), der hurtigt aftager, når leddet kommer i gang."
   },
   {
     "topic": "Reumatologi",
     "question": "Hvilke led rammes oftest tidligt ved reumatoid artrit?",
     "options": [
-      "De store vægtbærende led som hofte og knæ alene",
-      "Symmetrisk i de små led i hænder (fingre og håndled) og fødder",
+      "Kun kæbeleddet",
       "Kun rygsøjlen",
-      "Kun kæbeleddet"
+      "Symmetrisk i de små led i hænder (fingre og håndled) og fødder",
+      "De store vægtbærende led som hofte og knæ alene"
     ],
-    "correct": "B",
+    "correct": "C",
     "explanation": "RA rammer klassisk symmetrisk og typisk de små led i hænder (fx grundled og mellemled) og fødder samt håndleddene. Det er med til at adskille den fra artrose, der ofte rammer vægtbærende led og fingrenes yderled."
   },
   {
     "topic": "Reumatologi",
     "question": "Hvilken komplikation kan ubehandlet reumatoid artrit medføre?",
     "options": [
-      "Ledødelæggelse med fejlstillinger og deformiteter (fx skæv stilling af fingrene)",
+      "Ingen blivende forandringer",
       "Forbedret ledfunktion over tid",
       "Stærkere knogler",
-      "Ingen blivende forandringer"
+      "Ledødelæggelse med fejlstillinger og deformiteter (fx skæv stilling af fingrene)"
     ],
-    "correct": "A",
+    "correct": "D",
     "explanation": "Den vedvarende inflammation kan ødelægge brusk og knogle i leddet og føre til fejlstillinger og deformiteter (fx ulnardeviation af fingrene). Tidlig medicinsk behandling (fx methotrexat) er vigtig for at forebygge dette."
   },
   {
     "topic": "Reumatologi",
     "question": "Hvordan bør fysisk aktivitet gribes an hos en patient med reumatoid artrit?",
     "options": [
-      "Patienten bør undgå al bevægelse for altid",
-      "Under et akut, aktivt attack med varme, hævede led skånes/aflastes leddet, men uden for attakker er tilpasset bevægelse og træning vigtig for at bevare funktion og styrke",
       "Der skal altid trænes hårdt, også i et akut attack",
+      "Under et akut, aktivt attack med varme, hævede led skånes/aflastes leddet, men uden for attakker er tilpasset bevægelse og træning vigtig for at bevare funktion og styrke",
+      "Patienten bør undgå al bevægelse for altid",
       "Træning forværrer altid sygdommen"
     ],
     "correct": "B",
@@ -63,36 +63,36 @@
     "topic": "Reumatologi",
     "question": "Hvad er osteoporose?",
     "options": [
-      "En betændelse i leddene",
-      "Nedsat knoglemasse og -styrke, så knoglerne lettere brækker (lavenergifrakturer)",
       "En nedslidning af ledbrusken",
-      "En autoimmun muskelsygdom"
+      "En autoimmun muskelsygdom",
+      "Nedsat knoglemasse og -styrke, så knoglerne lettere brækker (lavenergifrakturer)",
+      "En betændelse i leddene"
     ],
-    "correct": "B",
+    "correct": "C",
     "explanation": "Ved osteoporose (knogleskørhed) er knoglemassen og knoglekvaliteten nedsat, så knoglerne bliver skøre. Det øger risikoen for brud ved selv mindre belastning (lavenergifrakturer)."
   },
   {
     "topic": "Reumatologi",
     "question": "Hvilke knoglebrud er særligt typiske ved osteoporose?",
     "options": [
-      "Brud i håndled, hofte og sammenfald af ryghvirvler (columna)",
       "Brud på kraniet",
-      "Brud i fingrenes yderled",
-      "Brud i tænderne"
+      "Brud i tænderne",
+      "Brud i håndled, hofte og sammenfald af ryghvirvler (columna)",
+      "Brud i fingrenes yderled"
     ],
-    "correct": "A",
+    "correct": "C",
     "explanation": "Klassiske osteoporotiske brud er håndledsbrud, hoftebrud og sammenfald (kompressionsfrakturer) i ryghvirvlerne. Sidstnævnte kan give højdetab og foroverbøjet holdning (kyfose)."
   },
   {
     "topic": "Reumatologi",
     "question": "Hvilke forhold øger risikoen for osteoporose?",
     "options": [
+      "Ung alder og høj fysisk aktivitet",
       "Stigende alder, østrogenmangel efter overgangsalderen, fysisk inaktivitet, rygning og langvarig behandling med binyrebarkhormon (glukokortikoid)",
       "Regelmæssig vægtbærende træning",
-      "Ung alder og høj fysisk aktivitet",
       "Højt indtag af calcium og D-vitamin"
     ],
-    "correct": "A",
+    "correct": "B",
     "explanation": "Risikofaktorer er bl.a. alder, østrogenmangel (postmenopause), inaktivitet/immobilisering, rygning, lav kropsvægt og langvarig steroidbehandling. Vægtbærende træning samt calcium/D-vitamin virker derimod forebyggende."
   },
   {
@@ -100,9 +100,9 @@
     "question": "Hvad er vigtigt at vide om fysioterapi ved osteoporose?",
     "options": [
       "Vægtbærende træning og styrketræning kan styrke knoglerne, og faldforebyggelse er centralt — men ved osteoporose i ryggen skal man være varsom med kraftig foroverbøjning/fleksionsbelastning",
-      "Al træning er farligt og bør undgås",
       "Kun siddende hvile anbefales",
-      "Foroverbøjning med tunge løft er den bedste øvelse"
+      "Foroverbøjning med tunge løft er den bedste øvelse",
+      "Al træning er farligt og bør undgås"
     ],
     "correct": "A",
     "explanation": "Vægtbærende aktivitet, styrke- og balancetræning samt faldforebyggelse er hjørnesten. Ved rygosteoporose bør man være forsigtig med kraftig/belastet foroverbøjning (fleksion), da det øger risikoen for sammenfald i hvirvlerne — fokus lægges ofte på ekstension, holdning og balance."
@@ -111,10 +111,10 @@
     "topic": "Reumatologi",
     "question": "Hvad er osteoartrose (slidgigt)?",
     "options": [
-      "En autoimmun betændelse i mange led samtidig",
-      "En degenerativ ledsygdom med gradvis nedslidning af ledbrusken, typisk i vægtbærende led som knæ og hofte",
       "En bakteriel ledinfektion",
-      "En knogletab-sygdom uden ledsymptomer"
+      "En degenerativ ledsygdom med gradvis nedslidning af ledbrusken, typisk i vægtbærende led som knæ og hofte",
+      "En knogletab-sygdom uden ledsymptomer",
+      "En autoimmun betændelse i mange led samtidig"
     ],
     "correct": "B",
     "explanation": "Artrose er en degenerativ ledsygdom, hvor ledbrusken gradvist nedslides. Den rammer typisk vægtbærende led (knæ, hofte) samt hænder. I modsætning til RA er der ikke samme udtalte systemiske inflammation."
@@ -123,12 +123,12 @@
     "topic": "Reumatologi",
     "question": "Hvilke symptomer er typiske for artrose?",
     "options": [
-      "Belastningsudløste ledsmerter, der bedres ved hvile, kortvarig startstivhed, knasen (krepitation) og evt. knoglefortykkelse omkring leddet",
       "Langvarig morgenstivhed på flere timer og symmetrisk hævelse af alle fingerled",
+      "Belastningsudløste ledsmerter, der bedres ved hvile, kortvarig startstivhed, knasen (krepitation) og evt. knoglefortykkelse omkring leddet",
       "Høj feber og et enkelt akut rødt, varmt led",
       "Udbredte smerter i hele kroppen uden ledfund"
     ],
-    "correct": "A",
+    "correct": "B",
     "explanation": "Artrose giver typisk belastningsrelaterede smerter (værre ved aktivitet, bedre ved hvile), kortvarig startstivhed, nedsat bevægelighed, knasen og evt. knoglefortykkelse. Smerterne forværres altså af belastning — modsat inflammatoriske ledsygdomme."
   },
   {
@@ -136,9 +136,9 @@
     "question": "Hvad er førstevalg i den konservative behandling af artrose — og et kerneområde for fysioterapeuten?",
     "options": [
       "Superviseret træning og vægttab (samt patientuddannelse), evt. suppleret med smertestillende",
-      "Fuldstændig aflastning og undgåelse af al bevægelse",
+      "Sengeleje i flere uger",
       "Operation med det samme hos alle",
-      "Sengeleje i flere uger"
+      "Fuldstændig aflastning og undgåelse af al bevægelse"
     ],
     "correct": "A",
     "explanation": "Træning (styrke og kondition), vægttab og patientuddannelse er veldokumenteret førstevalg ved artrose og kan reducere smerter og forbedre funktion. Smertestillende kan supplere, og ledudskiftning (protese) overvejes først ved svær, behandlingsresistent artrose."
@@ -147,24 +147,24 @@
     "topic": "Reumatologi",
     "question": "Hvad er den grundlæggende forskel på artrose og en inflammatorisk ledsygdom som reumatoid artrit?",
     "options": [
-      "Artrose er primært en degenerativ slitage-/nedslidningssygdom, mens RA er en inflammatorisk (autoimmun) ledsygdom",
       "Artrose er smitsom, RA er ikke",
       "RA findes kun hos børn",
+      "Artrose er primært en degenerativ slitage-/nedslidningssygdom, mens RA er en inflammatorisk (autoimmun) ledsygdom",
       "Der er ingen forskel"
     ],
-    "correct": "A",
+    "correct": "C",
     "explanation": "Artrose skyldes degenerativ nedslidning af brusken, mens RA skyldes en autoimmun, inflammatorisk proces. Det afspejler sig bl.a. i symptommønstret (belastningssmerter og kort startstivhed ved artrose vs. langvarig morgenstivhed og symmetrisk hævelse ved RA)."
   },
   {
     "topic": "Reumatologi",
     "question": "Hvad kendetegner morbus Bechterew (ankyloserende spondylitis)?",
     "options": [
-      "En kronisk inflammatorisk rygsygdom, der ofte debuterer hos yngre og kan føre til stivhed og sammenvoksning af rygsøjlen",
       "En degenerativ slidgigt i fingrenes yderled",
+      "En kronisk inflammatorisk rygsygdom, der ofte debuterer hos yngre og kan føre til stivhed og sammenvoksning af rygsøjlen",
       "En akut bakteriel infektion i et knæ",
       "En knogletab-sygdom uden rygsymptomer"
     ],
-    "correct": "A",
+    "correct": "B",
     "explanation": "Mb. Bechterew er en spondylartrit — en kronisk inflammatorisk sygdom i rygsøjlen og bækkenleddene (sacroiliaca). Den debuterer ofte hos yngre voksne og kan på sigt give tiltagende stivhed og sammenvoksning (ankylose) af columna."
   },
   {
@@ -172,9 +172,9 @@
     "question": "Hvordan adskiller inflammatorisk rygsmerte (fx ved Mb. Bechterew) sig typisk fra mekanisk rygsmerte?",
     "options": [
       "Inflammatorisk rygsmerte har morgenstivhed, bedres ved aktivitet/bevægelse og forværres ved hvile (og kan vække patienten om natten); mekanisk rygsmerte bedres derimod typisk ved hvile og forværres ved aktivitet",
-      "Inflammatorisk rygsmerte forsvinder altid ved hvile",
       "Mekanisk rygsmerte ledsages altid af feber",
-      "Der er ingen forskel"
+      "Der er ingen forskel",
+      "Inflammatorisk rygsmerte forsvinder altid ved hvile"
     ],
     "correct": "A",
     "explanation": "Et klassisk og fysioterapeutisk vigtigt skel: inflammatorisk rygsmerte (snigende debut hos yngre) har morgenstivhed, lindres ved bevægelse og forværres af hvile/inaktivitet — modsat mekanisk rygsmerte, der typisk lindres ved hvile og forværres ved belastning."
@@ -183,12 +183,12 @@
     "topic": "Reumatologi",
     "question": "Hvad er en hjørnesten i behandlingen af Mb. Bechterew — og særligt relevant for fysioterapeuten?",
     "options": [
-      "Regelmæssig trænings-, bevægeligheds- og holdningstræning for at bevare bevægelighed og funktion og modvirke stivhed",
+      "At undgå al fysisk aktivitet",
       "Fuldstændig ro og undgåelse af bevægelse",
-      "Sengeleje i lange perioder",
-      "At undgå al fysisk aktivitet"
+      "Regelmæssig trænings-, bevægeligheds- og holdningstræning for at bevare bevægelighed og funktion og modvirke stivhed",
+      "Sengeleje i lange perioder"
     ],
-    "correct": "A",
+    "correct": "C",
     "explanation": "Træning — især bevægeligheds-, holdnings- og styrketræning samt åndedrætsøvelser (pga. nedsat brystkasse-bevægelighed) — er afgørende ved Mb. Bechterew for at bevare funktion og modvirke stivhed/fejlstilling. Det er et centralt fysioterapeutisk indsatsområde."
   },
   {
@@ -197,8 +197,8 @@
     "options": [
       "En bakteriel infektion i et led, der giver et akut varmt, hævet, rødt og meget ømt (oftest enkelt) led, ofte med feber",
       "En degenerativ nedslidning af brusken",
-      "En kronisk, symmetrisk ledbetændelse i hænderne",
-      "En harmløs ledhævelse uden behandlingsbehov"
+      "En harmløs ledhævelse uden behandlingsbehov",
+      "En kronisk, symmetrisk ledbetændelse i hænderne"
     ],
     "correct": "A",
     "explanation": "Septisk artrit er en infektion (oftest bakteriel) i et led. Den giver typisk ét akut meget hævet, varmt, rødt og smertefuldt led, ofte ledsaget af feber og påvirket almentilstand. Det er en akut tilstand, der hurtigt kan ødelægge leddet."
@@ -207,12 +207,12 @@
     "topic": "Reumatologi",
     "question": "En patient får i løbet af kort tid ét akut meget hævet, varmt, rødt og smertefuldt led og har feber. Hvad er den rigtige håndtering hos fysioterapeuten?",
     "options": [
-      "Træne og mobilisere leddet kraftigt for at mindske hævelsen",
-      "Mistænke septisk artrit, undlade at træne/belaste leddet og henvise til akut lægelig vurdering",
       "Anbefale tung styrketræning af leddet",
-      "Afvente en uges tid og se, om det går over"
+      "Afvente en uges tid og se, om det går over",
+      "Mistænke septisk artrit, undlade at træne/belaste leddet og henvise til akut lægelig vurdering",
+      "Træne og mobilisere leddet kraftigt for at mindske hævelsen"
     ],
-    "correct": "B",
+    "correct": "C",
     "explanation": "Et akut, varmt, rødt, hævet og meget ømt enkeltled med feber kan være septisk artrit — en akut tilstand. Man skal IKKE træne/belaste leddet, men henvise til hurtig lægelig vurdering, da infektionen hurtigt kan ødelægge leddet og kræver akut behandling."
   },
   {
@@ -220,8 +220,8 @@
     "question": "Hvad kendetegner reaktiv artrit?",
     "options": [
       "En steril ledbetændelse, der opstår dage til uger efter en infektion (typisk i tarmen eller urinvejene), ofte asymmetrisk i underekstremiteterne",
-      "En direkte bakteriel infektion i selve leddet",
       "En degenerativ slidgigt",
+      "En direkte bakteriel infektion i selve leddet",
       "En knogletab-sygdom"
     ],
     "correct": "A",
@@ -232,9 +232,9 @@
     "question": "Reaktiv artrit kan klassisk optræde sammen med en symptomtriade. Hvilken?",
     "options": [
       "Ledbetændelse, øjenbetændelse (conjunctivitis) og urinrørsbetændelse (urethritis)",
+      "Vægttab, hjertebanken og varmeintolerance",
       "Feber, hovedpine og nakkestivhed",
-      "Hoste, åndenød og brystsmerter",
-      "Vægttab, hjertebanken og varmeintolerance"
+      "Hoste, åndenød og brystsmerter"
     ],
     "correct": "A",
     "explanation": "Reaktiv artrit kan ledsages af en klassisk triade: artrit, conjunctivitis (øjenbetændelse) og urethritis (urinrørsbetændelse). Alle elementer er dog ikke altid til stede."
@@ -243,12 +243,12 @@
     "topic": "Reumatologi",
     "question": "Hvad er artritis urica (urinsyregigt/podagra)?",
     "options": [
+      "En knoglebrud-sygdom",
       "Aflejring af urinsyrekrystaller i et led, der giver et akut, meget smertefuldt, rødt og varmt led — klassisk i storetåens grundled",
-      "En degenerativ nedslidning af knæleddet",
       "En autoimmun betændelse i mange led",
-      "En knoglebrud-sygdom"
+      "En degenerativ nedslidning af knæleddet"
     ],
-    "correct": "A",
+    "correct": "B",
     "explanation": "Ved artritis urica udfældes urinsyrekrystaller i leddet og udløser en akut, kraftig inflammation. Det klassiske anfald (podagra) sidder i storetåens grundled, som bliver rødt, varmt, hævet og meget ømt."
   },
   {
@@ -267,12 +267,12 @@
     "topic": "Reumatologi",
     "question": "Hvad kendetegner psoriasisartrit?",
     "options": [
+      "En akut bakteriel ledinfektion",
       "Ledbetændelse hos personer med hudsygdommen psoriasis, ofte med hævede 'pølsefingre/-tæer' (dactylitis) og negleforandringer",
       "En degenerativ slidgigt uden hudforandringer",
-      "En akut bakteriel ledinfektion",
       "En sygdom helt uden ledsymptomer"
     ],
-    "correct": "A",
+    "correct": "B",
     "explanation": "Psoriasisartrit er en inflammatorisk ledsygdom hos nogle med psoriasis. Karakteristisk ses bl.a. dactylitis (hævede 'pølse'-fingre/-tæer) og negleforandringer, og mønstret kan variere fra få til mange led."
   },
   {
@@ -280,9 +280,9 @@
     "question": "Hvad er vaskulitis?",
     "options": [
       "En inflammation i blodkarrenes vægge",
-      "En nedslidning af ledbrusken",
       "Et knoglebrud",
-      "En muskelbristning"
+      "En muskelbristning",
+      "En nedslidning af ledbrusken"
     ],
     "correct": "A",
     "explanation": "Vaskulitis er en betændelse i karvæggen, som kan forstyrre blodforsyningen til de væv, karret forsyner. Der findes mange former, afhængigt af hvilke kar der rammes."
@@ -291,72 +291,72 @@
     "topic": "Reumatologi",
     "question": "En ældre patient har ensidig tindingehovedpine, ømhed over tindingen, smerter i kæben ved tygning og forbigående sløret syn. Hvilken tilstand bør man mistænke — og hvorfor haster det?",
     "options": [
-      "Arteritis temporalis (kæmpecellearteritis) — der er risiko for pludseligt, varigt synstab, så det kræver akut behandling",
       "Spændingshovedpine, der kan afvente",
+      "Slidgigt i kæben uden alvorlige følger",
       "En simpel forkølelse",
-      "Slidgigt i kæben uden alvorlige følger"
+      "Arteritis temporalis (kæmpecellearteritis) — der er risiko for pludseligt, varigt synstab, så det kræver akut behandling"
     ],
-    "correct": "A",
+    "correct": "D",
     "explanation": "Tindingehovedpine, ømhed over a. temporalis, kæbeklaudikation og synsforstyrrelser hos en ældre er klassisk for arteritis temporalis (kæmpecellearteritis). Ubehandlet er der risiko for pludseligt, blivende synstab, så det kræver akut lægelig vurdering og behandling (binyrebarkhormon)."
   },
   {
     "topic": "Reumatologi",
     "question": "Hvad kendetegner fibromyalgi (en form for bløddelsreumatisme)?",
     "options": [
-      "Udbredte, kroniske smerter i muskler og bløddele med træthed, søvnforstyrrelser og ømme punkter — uden tegn på ledbetændelse eller vævsødelæggelse",
-      "Et akut rødt, varmt enkeltled med feber",
       "Symmetrisk hævelse og ødelæggelse af fingerleddene",
-      "Nedsat knoglemasse med brud"
+      "Nedsat knoglemasse med brud",
+      "Udbredte, kroniske smerter i muskler og bløddele med træthed, søvnforstyrrelser og ømme punkter — uden tegn på ledbetændelse eller vævsødelæggelse",
+      "Et akut rødt, varmt enkeltled med feber"
     ],
-    "correct": "A",
+    "correct": "C",
     "explanation": "Fibromyalgi giver udbredte, langvarige smerter i muskler/bløddele ledsaget af bl.a. træthed, søvnproblemer, ømme punkter og koncentrationsbesvær. Der er ikke inflammation eller strukturel ledskade — tilstanden knyttes til ændret smertebearbejdning (central sensibilisering)."
   },
   {
     "topic": "Reumatologi",
     "question": "Hvad finder man typisk ved blodprøver og billeddiagnostik hos en patient med fibromyalgi?",
     "options": [
-      "Normale fund uden tegn på inflammation eller strukturel skade — diagnosen er klinisk",
       "Kraftigt forhøjede infektionstal",
       "Tydelig ledødelæggelse på røntgen",
+      "Normale fund uden tegn på inflammation eller strukturel skade — diagnosen er klinisk",
       "Knoglemetastaser"
     ],
-    "correct": "A",
+    "correct": "C",
     "explanation": "Ved fibromyalgi er blodprøver og billeddiagnostik typisk normale (ingen inflammation eller strukturelle skader). Undersøgelserne bruges mest til at udelukke andre sygdomme — selve diagnosen stilles klinisk ud fra symptombilledet."
   },
   {
     "topic": "Reumatologi",
     "question": "Hvad er en central del af behandlingen ved fibromyalgi — og relevant for fysioterapeuten?",
     "options": [
-      "Tilpasset, gradvist optrappet fysisk aktivitet (især aerob træning) sammen med patientuddannelse og fokus på søvn og smertehåndtering",
-      "Fuldstændig ro og undgåelse af al aktivitet",
       "Hård maksimal træning fra start uanset symptomer",
+      "Fuldstændig ro og undgåelse af al aktivitet",
+      "Tilpasset, gradvist optrappet fysisk aktivitet (især aerob træning) sammen med patientuddannelse og fokus på søvn og smertehåndtering",
       "Sengeleje på ubestemt tid"
     ],
-    "correct": "A",
+    "correct": "C",
     "explanation": "Tilpasset, gradvist optrappet fysisk aktivitet (særligt aerob træning) har god effekt ved fibromyalgi sammen med patientuddannelse, søvn og smertehåndtering. Træningen skal doseres varsomt og øges gradvist, da for hård start kan forværre symptomerne."
   },
   {
     "topic": "Reumatologi",
     "question": "Hvad er forskellen på en forstuvning (distorsion) og en forstrækning/muskelbristning i idrætsmedicinsk sammenhæng?",
     "options": [
+      "En forstrækning rammer kun huden",
       "En forstuvning er en skade på et ledbånd (ligament), mens en forstrækning/bristning er en skade på en muskel eller sene",
       "De er præcis det samme",
-      "En forstuvning rammer altid en knogle",
-      "En forstrækning rammer kun huden"
+      "En forstuvning rammer altid en knogle"
     ],
-    "correct": "A",
+    "correct": "B",
     "explanation": "En forstuvning (distorsion) er en overbelastning/skade på et ledbånd (ligament), fx ved en vrikket ankel. En forstrækning eller muskelbristning er derimod en skade på muskel-/senevæv. Skelnen har betydning for behandling og genoptræning."
   },
   {
     "topic": "Reumatologi",
     "question": "Hvad er den anbefalede akutte håndtering af en frisk bløddelsskade, fx en forstuvet ankel (RICE/POLICE-princippet)?",
     "options": [
-      "Beskyttelse og aflastning i den første fase, is, kompression og elevation — efterfulgt af tidlig, skånsom og gradvist øget bevægelse/belastning frem for lang immobilisering",
-      "Hård træning og fuld belastning straks efter skaden",
       "Fuldstændig immobilisering i mange uger",
-      "Varme og massage direkte på det hævede væv i de første timer"
+      "Varme og massage direkte på det hævede væv i de første timer",
+      "Beskyttelse og aflastning i den første fase, is, kompression og elevation — efterfulgt af tidlig, skånsom og gradvist øget bevægelse/belastning frem for lang immobilisering",
+      "Hård træning og fuld belastning straks efter skaden"
     ],
-    "correct": "A",
+    "correct": "C",
     "explanation": "Akut håndteres bløddelsskader efter RICE/POLICE: beskyttelse, (relativ) aflastning, is, kompression og elevation i den tidlige fase. Moderne princip (POLICE) lægger vægt på 'optimal loading' — tidlig, kontrolleret og gradvist øget belastning fremmer helingen bedre end lang immobilisering."
   }
 ]

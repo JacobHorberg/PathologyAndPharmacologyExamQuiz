@@ -5,8 +5,8 @@
     "options": [
       "Et aldersrelateret tab af muskelmasse og muskelstyrke",
       "Et tab af knoglemasse",
-      "En ophobning af fedt i leveren",
-      "En betændelse i flere led"
+      "En betændelse i flere led",
+      "En ophobning af fedt i leveren"
     ],
     "correct": "A",
     "explanation": "Sarkopeni er det aldersrelaterede tab af muskelmasse og -styrke. Det nedsætter funktion og balance og øger risikoen for fald — men kan i høj grad modvirkes med styrketræning og tilstrækkelig protein."
@@ -15,72 +15,72 @@
     "topic": "Aldring",
     "question": "Hvad sker der typisk med knoglerne med alderen?",
     "options": [
-      "Knoglemassen falder gradvist, hvilket øger risikoen for knogleskørhed (osteoporose) og brud",
-      "Knoglerne bliver tættere og stærkere",
       "Knoglerne vokser sig længere",
-      "Knoglerne påvirkes ikke af alder"
+      "Knoglemassen falder gradvist, hvilket øger risikoen for knogleskørhed (osteoporose) og brud",
+      "Knoglerne påvirkes ikke af alder",
+      "Knoglerne bliver tættere og stærkere"
     ],
-    "correct": "A",
+    "correct": "B",
     "explanation": "Med alderen aftager knoglemassen (særligt hos kvinder efter overgangsalderen), hvilket øger risikoen for osteoporose og lavenergifrakturer. Vægtbærende aktivitet og styrketræning modvirker knogletabet."
   },
   {
     "topic": "Aldring",
     "question": "Hvilke aldersforandringer bidrager til den øgede faldrisiko hos ældre?",
     "options": [
-      "Nedsat muskelstyrke og balance, langsommere gang og reaktionsevne samt nedsatte sanser (syn, følesans)",
       "Forbedret balance og hurtigere reaktioner",
-      "Stærkere muskler end i ungdommen",
-      "Ingen ændringer i balance eller styrke"
+      "Nedsat muskelstyrke og balance, langsommere gang og reaktionsevne samt nedsatte sanser (syn, følesans)",
+      "Ingen ændringer i balance eller styrke",
+      "Stærkere muskler end i ungdommen"
     ],
-    "correct": "A",
+    "correct": "B",
     "explanation": "Aldring medfører bl.a. nedsat muskelstyrke og balance, langsommere gang og reaktionsevne samt svækkede sanser (syn, hørelse, følesans/proprioception). Tilsammen øger det faldrisikoen — og meget kan trænes."
   },
   {
     "topic": "Aldring",
     "question": "Hvad sker der med kredsløbet og konditionen med alderen?",
     "options": [
+      "Hjertets reserve stiger med alderen",
       "Den maksimale iltoptagelse og hjertets/kredsløbets reservekapacitet falder gradvist",
       "Konditionen forbedres med alderen uden træning",
-      "Hjertets reserve stiger med alderen",
       "Kredsløbet er upåvirket af alder"
     ],
-    "correct": "A",
+    "correct": "B",
     "explanation": "Med alderen falder den maksimale iltoptagelse (kondition) og hjertets/kredsløbets reservekapacitet. Det betyder mindre at trække på ved belastning og sygdom — men regelmæssig træning bevarer en stor del af kapaciteten."
   },
   {
     "topic": "Aldring",
     "question": "Hvordan påvirkes sanserne typisk med alderen?",
     "options": [
-      "Syn, hørelse og følesans/proprioception svækkes ofte, hvilket bl.a. påvirker balance og funktion",
-      "Alle sanser forbedres med alderen",
       "Kun smagssansen ændres",
+      "Alle sanser forbedres med alderen",
+      "Syn, hørelse og følesans/proprioception svækkes ofte, hvilket bl.a. påvirker balance og funktion",
       "Sanserne er helt uændrede gennem livet"
     ],
-    "correct": "A",
+    "correct": "C",
     "explanation": "Aldring medfører typisk nedsat syn og hørelse samt nedsat følesans/proprioception. Det forringer bl.a. balancen og øger faldrisikoen og har betydning for fx træning og instruktion."
   },
   {
     "topic": "Aldring",
     "question": "Hvad menes med, at ældre har en nedsat 'organreserve'?",
     "options": [
-      "At organernes reservekapacitet er mindre, så ældre tåler belastning og sygdom dårligere og er mindre robuste",
       "At organerne bliver større og stærkere",
-      "At ældre slet ikke kan blive syge",
-      "At organerne arbejder hurtigere"
+      "At organerne arbejder hurtigere",
+      "At organernes reservekapacitet er mindre, så ældre tåler belastning og sygdom dårligere og er mindre robuste",
+      "At ældre slet ikke kan blive syge"
     ],
-    "correct": "A",
+    "correct": "C",
     "explanation": "Med alderen falder organernes reservekapacitet (hjerte, lunger, nyrer m.m.). Det betyder, at ældre har mindre at trække på ved ekstra belastning eller sygdom og derfor lettere bliver alvorligt påvirkede."
   },
   {
     "topic": "Aldring",
     "question": "Hvilken hudforandring med alderen har betydning for fx tryksår?",
     "options": [
-      "Huden bliver tyndere og mindre elastisk, og helingen bliver langsommere, hvilket øger risikoen for tryksår og hudskader",
-      "Huden bliver tykkere og mere modstandsdygtig",
+      "Huden påvirkes ikke af alder",
       "Huden heler hurtigere med alderen",
-      "Huden påvirkes ikke af alder"
+      "Huden bliver tyndere og mindre elastisk, og helingen bliver langsommere, hvilket øger risikoen for tryksår og hudskader",
+      "Huden bliver tykkere og mere modstandsdygtig"
     ],
-    "correct": "A",
+    "correct": "C",
     "explanation": "Ældre hud er tyndere, mindre elastisk og har langsommere heling samt ofte dårligere mikrocirkulation. Det øger sårbarheden over for tryksår (decubitus) og andre hudskader — vigtigt ved immobile patienter."
   },
   {
@@ -88,9 +88,9 @@
     "question": "Hvad er frailty (skrøbelighed)?",
     "options": [
       "En tilstand med nedsat fysiologisk reserve og øget sårbarhed, så selv mindre belastninger (sygdom, indlæggelse, medicin) kan give stort funktionstab",
+      "En psykisk lidelse",
       "En enkelt, klart afgrænset sygdom i ét organ",
-      "En normal, uundgåelig følge af at fylde 65 år",
-      "En psykisk lidelse"
+      "En normal, uundgåelig følge af at fylde 65 år"
     ],
     "correct": "A",
     "explanation": "Frailty er en tilstand med nedsat reserve i flere systemer og øget sårbarhed. Selv små påvirkninger kan udløse et uforholdsmæssigt stort fald i funktion. Det er ikke en enkelt sygdom, men en samlet tilstand."
@@ -99,72 +99,72 @@
     "topic": "Aldring",
     "question": "Hvilke kendetegn indgår ofte i vurderingen af frailty?",
     "options": [
-      "Utilsigtet vægttab, udmattelse/træthed, nedsat (gribe)styrke, langsom ganghastighed og lavt fysisk aktivitetsniveau",
-      "Højt aktivitetsniveau og stor muskelstyrke",
       "Hurtig gang og stærkt greb",
-      "Forbedret udholdenhed"
+      "Forbedret udholdenhed",
+      "Højt aktivitetsniveau og stor muskelstyrke",
+      "Utilsigtet vægttab, udmattelse/træthed, nedsat (gribe)styrke, langsom ganghastighed og lavt fysisk aktivitetsniveau"
     ],
-    "correct": "A",
+    "correct": "D",
     "explanation": "Frailty vurderes ofte ud fra kendetegn som utilsigtet vægttab, udmattelse, nedsat gribestyrke, langsom ganghastighed og lavt aktivitetsniveau. Jo flere, desto mere skrøbelig."
   },
   {
     "topic": "Aldring",
     "question": "Hvilke konsekvenser er frailty forbundet med?",
     "options": [
-      "Øget risiko for fald, indlæggelse, funktionstab, plejebehov og død",
-      "Lavere risiko for alle sygdomme",
       "Forbedret robusthed over for sygdom",
-      "Ingen helbredsmæssig betydning"
+      "Ingen helbredsmæssig betydning",
+      "Øget risiko for fald, indlæggelse, funktionstab, plejebehov og død",
+      "Lavere risiko for alle sygdomme"
     ],
-    "correct": "A",
+    "correct": "C",
     "explanation": "Frailty øger risikoen for fald, indlæggelser, komplikationer, tab af selvhjulpenhed, plejebehov og død. Derfor er tidlig opsporing og indsats vigtig."
   },
   {
     "topic": "Aldring",
     "question": "Er frailty en uundgåelig del af at blive gammel?",
     "options": [
-      "Nej — frailty er en tilstand, der kan forebygges og ofte forbedres",
       "Ja, alle ældre er per definition frail",
-      "Ja, og det kan aldrig ændres",
-      "Frailty findes kun hos unge"
+      "Frailty findes kun hos unge",
+      "Nej — frailty er en tilstand, der kan forebygges og ofte forbedres",
+      "Ja, og det kan aldrig ændres"
     ],
-    "correct": "A",
+    "correct": "C",
     "explanation": "Frailty er ikke en uundgåelig følge af alder. Den kan forebygges og i mange tilfælde bedres — bl.a. med styrke- og balancetræning, fysisk aktivitet og god ernæring."
   },
   {
     "topic": "Aldring",
     "question": "Hvad er fysioterapeutens vigtigste bidrag til at modvirke frailty?",
     "options": [
-      "Styrke-, balance- og funktionel træning (sammen med fokus på aktivitet og ernæring)",
-      "At anbefale sengeleje og ro",
+      "Kun at give smertestillende",
       "At fraråde al fysisk aktivitet",
-      "Kun at give smertestillende"
+      "Styrke-, balance- og funktionel træning (sammen med fokus på aktivitet og ernæring)",
+      "At anbefale sengeleje og ro"
     ],
-    "correct": "A",
+    "correct": "C",
     "explanation": "Styrke-, balance- og funktionel træning er veldokumenteret til at modvirke og forbedre frailty, da det øger muskelstyrke, balance og funktionsevne. Det kombineres med fokus på fysisk aktivitet og tilstrækkelig (protein)ernæring."
   },
   {
     "topic": "Aldring",
     "question": "Hvad er comorbiditet (multimorbiditet)?",
     "options": [
-      "At en person har flere kroniske sygdomme samtidig — meget almindeligt hos ældre",
       "At en person kun har én enkelt sygdom",
-      "En smitsom sygdom",
-      "En sygdom, der kun rammer børn"
+      "En sygdom, der kun rammer børn",
+      "At en person har flere kroniske sygdomme samtidig — meget almindeligt hos ældre",
+      "En smitsom sygdom"
     ],
-    "correct": "A",
+    "correct": "C",
     "explanation": "Comorbiditet/multimorbiditet betyder, at en person har flere kroniske sygdomme på samme tid (fx diabetes, hjertesygdom og artrose). Det er meget udbredt hos ældre."
   },
   {
     "topic": "Aldring",
     "question": "Hvorfor er comorbiditet en udfordring i behandlingen?",
     "options": [
-      "Fordi sygdommene og deres behandlinger kan påvirke hinanden, hvilket øger kompleksiteten, medicinforbruget og risikoen for komplikationer",
-      "Fordi det altid gør behandlingen enklere",
+      "Fordi det ingen betydning har",
       "Fordi flere sygdomme altid helbreder hinanden",
-      "Fordi det ingen betydning har"
+      "Fordi det altid gør behandlingen enklere",
+      "Fordi sygdommene og deres behandlinger kan påvirke hinanden, hvilket øger kompleksiteten, medicinforbruget og risikoen for komplikationer"
     ],
-    "correct": "A",
+    "correct": "D",
     "explanation": "Når flere sygdomme er til stede samtidig, kan symptomer og behandlinger overlappe og modvirke hinanden. Det øger kompleksiteten, medicinmængden (polyfarmaci) og risikoen for komplikationer — og kræver en helhedsorienteret tilgang."
   },
   {
@@ -184,9 +184,9 @@
     "question": "Hvad er polyfarmaci?",
     "options": [
       "Samtidig brug af mange lægemidler (ofte defineret som fem eller flere)",
-      "Brug af kun ét enkelt lægemiddel",
       "En type kostvejledning",
-      "En operationsmetode"
+      "En operationsmetode",
+      "Brug af kun ét enkelt lægemiddel"
     ],
     "correct": "A",
     "explanation": "Polyfarmaci betegner samtidig brug af mange lægemidler (ofte defineret som ≥5). Det er udbredt hos ældre med flere kroniske sygdomme (comorbiditet)."
@@ -196,9 +196,9 @@
     "question": "Hvorfor er polyfarmaci særligt problematisk hos ældre?",
     "options": [
       "Fordi det øger risikoen for bivirkninger og uhensigtsmæssige vekselvirkninger (interaktioner) mellem lægemidlerne",
+      "Fordi det ingen betydning har",
       "Fordi flere lægemidler altid virker bedre uden risiko",
-      "Fordi ældre tåler medicin bedre end yngre",
-      "Fordi det ingen betydning har"
+      "Fordi ældre tåler medicin bedre end yngre"
     ],
     "correct": "A",
     "explanation": "Jo flere lægemidler, desto større er risikoen for bivirkninger og interaktioner. Hos ældre forstærkes dette af, at kroppen håndterer medicin anderledes — så bivirkninger og skader (fx fald) bliver hyppigere."
@@ -207,36 +207,36 @@
     "topic": "Aldring",
     "question": "Hvordan håndterer den ældre krop typisk lægemidler sammenlignet med en yngre?",
     "options": [
-      "Lægemidler omsættes og udskilles ofte langsommere (bl.a. pga. nedsat nyre- og leverfunktion), så virkning og bivirkning kan blive kraftigere/længerevarende — ofte er der behov for lavere doser",
       "Lægemidler udskilles altid hurtigere hos ældre",
       "Alderen har ingen betydning for medicinens virkning",
+      "Lægemidler omsættes og udskilles ofte langsommere (bl.a. pga. nedsat nyre- og leverfunktion), så virkning og bivirkning kan blive kraftigere/længerevarende — ofte er der behov for lavere doser",
       "Ældre kan altid tåle højere doser"
     ],
-    "correct": "A",
+    "correct": "C",
     "explanation": "Med alderen falder bl.a. nyre- og leverfunktionen, og kropssammensætningen ændres. Det betyder, at mange lægemidler omsættes og udskilles langsommere, så virkningen (og bivirkninger) kan blive kraftigere og vare længere. Derfor bruges ofte lavere doser."
   },
   {
     "topic": "Aldring",
     "question": "Hvordan kan polyfarmaci bidrage til fald hos ældre?",
     "options": [
-      "Visse lægemidler (fx beroligende, sovemedicin og blodtryksmedicin) kan give svimmelhed, sløvhed eller blodtryksfald og dermed øge faldrisikoen",
+      "Kun knoglerne har betydning for fald",
       "Medicin kan aldrig påvirke faldrisikoen",
-      "Mere medicin gør altid balancen bedre",
-      "Kun knoglerne har betydning for fald"
+      "Visse lægemidler (fx beroligende, sovemedicin og blodtryksmedicin) kan give svimmelhed, sløvhed eller blodtryksfald og dermed øge faldrisikoen",
+      "Mere medicin gør altid balancen bedre"
     ],
-    "correct": "A",
+    "correct": "C",
     "explanation": "Flere lægemidler — især beroligende/sovemedicin, visse psykofarmaka og blodtrykssænkende — kan give svimmelhed, sløvhed, langsommere reaktion eller blodtryksfald (ortostatisk hypotension) og dermed øge faldrisikoen. Det er vigtigt at have med i en faldvurdering."
   },
   {
     "topic": "Aldring",
     "question": "Hvad er en vigtig indsats over for polyfarmaci hos ældre?",
     "options": [
+      "At lade patienten selv fordoble doserne",
       "Regelmæssig medicingennemgang, hvor man revurderer, om alle lægemidler stadig er nødvendige (og evt. saneres/afmedicineres)",
-      "At tilføje endnu flere lægemidler",
       "Aldrig at ændre på medicinen",
-      "At lade patienten selv fordoble doserne"
+      "At tilføje endnu flere lægemidler"
     ],
-    "correct": "A",
+    "correct": "B",
     "explanation": "En regelmæssig medicingennemgang — hvor man vurderer indikation, dosis, bivirkninger og interaktioner og evt. afmedicinerer (seponerer) unødvendig medicin — er central for at mindske skader ved polyfarmaci hos ældre."
   },
   {
@@ -244,8 +244,8 @@
     "question": "Hvad menes med atypisk sygdomspræsentation hos ældre?",
     "options": [
       "At sygdom ofte viser sig uden de klassiske symptomer — i stedet ses fx konfusion (delir), fald, nedsat funktionsniveau eller appetitløshed",
-      "At ældre altid får meget tydelige, klassiske symptomer",
       "At ældre aldrig bliver syge",
+      "At ældre altid får meget tydelige, klassiske symptomer",
       "At symptomer altid er de samme som hos yngre"
     ],
     "correct": "A",
@@ -255,24 +255,24 @@
     "topic": "Aldring",
     "question": "En 86-årig bliver pludselig konfus, falder og er nedsat i sit funktionsniveau, men har ingen tydelig feber. Hvad er vigtigt at huske?",
     "options": [
-      "At en infektion (fx urinvejsinfektion eller lungebetændelse) hos ældre kan optræde uden feber og i stedet vise sig som delir, fald eller funktionstab",
       "At det aldrig kan være en infektion uden feber",
+      "At symptomerne kan ignoreres",
       "At det altid blot er normal alderdom uden behandlingsbehov",
-      "At symptomerne kan ignoreres"
+      "At en infektion (fx urinvejsinfektion eller lungebetændelse) hos ældre kan optræde uden feber og i stedet vise sig som delir, fald eller funktionstab"
     ],
-    "correct": "A",
+    "correct": "D",
     "explanation": "Infektioner hos ældre præsenterer sig ofte atypisk og kan mangle feber. I stedet ses fx akut konfusion (delir), fald eller pludseligt funktionstab. Sådanne ændringer bør føre til lægelig vurdering for at finde en evt. bagvedliggende årsag."
   },
   {
     "topic": "Aldring",
     "question": "Hvordan kan et akut hjerteinfarkt præsentere sig hos en ældre?",
     "options": [
+      "Det viser sig altid som et brækket ben",
       "Det kan vise sig uden de klassiske brystsmerter — fx som åndenød, træthed, kvalme eller konfusion",
-      "Det giver altid kraftige, klassiske brystsmerter hos ældre",
       "Det kan ikke forekomme hos ældre",
-      "Det viser sig altid som et brækket ben"
+      "Det giver altid kraftige, klassiske brystsmerter hos ældre"
     ],
-    "correct": "A",
+    "correct": "B",
     "explanation": "Hos ældre (og fx diabetikere) kan et hjerteinfarkt være 'stumt' eller atypisk og mangle de klassiske brystsmerter. Det kan i stedet vise sig som åndenød, træthed, kvalme, svimmelhed eller konfusion — hvilket gør det let at overse."
   },
   {
@@ -280,9 +280,9 @@
     "question": "Hvorfor kan et nyt fald eller et pludseligt funktionstab hos en ældre være vigtigt at reagere på?",
     "options": [
       "Fordi det kan være første tegn på en underliggende akut sygdom (fx infektion eller anden akut tilstand)",
-      "Fordi det altid blot er tilfældigt og uden betydning",
+      "Fordi fald hos ældre er fuldstændig normalt og uden risiko",
       "Fordi det aldrig hænger sammen med sygdom",
-      "Fordi fald hos ældre er fuldstændig normalt og uden risiko"
+      "Fordi det altid blot er tilfældigt og uden betydning"
     ],
     "correct": "A",
     "explanation": "Et nyt fald eller pludseligt funktionstab kan hos ældre være den måde, en akut sygdom (fx infektion, hjerteproblem eller medicinbivirkning) viser sig på. Det bør derfor udløse en vurdering frem for at blive afskrevet som 'bare alderdom'."
@@ -291,72 +291,72 @@
     "topic": "Aldring",
     "question": "Hvorfor er det vigtigt at kende til atypisk sygdomspræsentation hos ældre?",
     "options": [
-      "Fordi alvorlig sygdom ellers let kan overses, når symptomerne er uspecifikke — og fordi rettidig vurdering kan være afgørende",
       "Fordi det er uden klinisk betydning",
+      "Fordi uspecifikke symptomer aldrig betyder noget",
       "Fordi ældre altid skal behandles som yngre",
-      "Fordi uspecifikke symptomer aldrig betyder noget"
+      "Fordi alvorlig sygdom ellers let kan overses, når symptomerne er uspecifikke — og fordi rettidig vurdering kan være afgørende"
     ],
-    "correct": "A",
+    "correct": "D",
     "explanation": "Når symptomer er uspecifikke (fald, konfusion, træthed, nedsat funktion), er der risiko for, at alvorlig, behandlelig sygdom overses. Kendskab til atypisk præsentation gør, at man reagerer rettidigt — også som fysioterapeut, der ofte ser patienten ofte."
   },
   {
     "topic": "Aldring",
     "question": "Hvilke faktorer øger risikoen for fald hos ældre?",
     "options": [
-      "Nedsat muskelstyrke og balance, nedsat syn, svimmelhed, visse lægemidler (polyfarmaci), tidligere fald og miljøfaktorer (løse tæpper, dårligt lys)",
       "Stærke ben og god balance",
       "Regelmæssig styrketræning",
-      "Godt syn og sikre omgivelser"
+      "Godt syn og sikre omgivelser",
+      "Nedsat muskelstyrke og balance, nedsat syn, svimmelhed, visse lægemidler (polyfarmaci), tidligere fald og miljøfaktorer (løse tæpper, dårligt lys)"
     ],
-    "correct": "A",
+    "correct": "D",
     "explanation": "Faldrisiko er multifaktoriel: nedsat styrke/balance, nedsat syn, svimmelhed, blodtryksfald, visse lægemidler, kognitiv svækkelse, tidligere fald samt miljøfaktorer (løse tæpper, dårlig belysning, manglende støtte). Mange faktorer kan påvirkes."
   },
   {
     "topic": "Aldring",
     "question": "Hvilke konsekvenser kan fald hos ældre have?",
     "options": [
-      "Frakturer (især hoftebrud), faldangst og nedsat aktivitet, funktionstab og indlæggelse",
       "Forbedret balance og styrke",
+      "Stærkere knogler",
       "Ingen konsekvenser overhovedet",
-      "Stærkere knogler"
+      "Frakturer (især hoftebrud), faldangst og nedsat aktivitet, funktionstab og indlæggelse"
     ],
-    "correct": "A",
+    "correct": "D",
     "explanation": "Fald kan give frakturer (særligt hoftebrud), bløddelsskader og hovedtraumer samt faldangst, der fører til mindre aktivitet, funktionstab og isolation. Det kan starte en nedadgående spiral, som er vigtig at forebygge."
   },
   {
     "topic": "Aldring",
     "question": "Hvad er den mest veldokumenterede fysioterapeutiske indsats mod fald hos ældre?",
     "options": [
-      "Styrke- og balancetræning (ofte kombineret med medicingennemgang, synskorrektion og tilpasning af hjemmet)",
+      "At undgå al gang",
       "Sengeleje og undgåelse af bevægelse",
       "Kun at give smertestillende",
-      "At undgå al gang"
+      "Styrke- og balancetræning (ofte kombineret med medicingennemgang, synskorrektion og tilpasning af hjemmet)"
     ],
-    "correct": "A",
+    "correct": "D",
     "explanation": "Målrettet styrke- og balancetræning er veldokumenteret til at reducere fald hos ældre. Det indgår ofte i en bredere, multifaktoriel indsats (medicingennemgang, syn, fodtøj, boligtilpasning). At fjerne aktivitet ville derimod øge faldrisikoen."
   },
   {
     "topic": "Aldring",
     "question": "Hvilke sygdomme er almindeligt forekommende i alderdommen?",
     "options": [
-      "Bl.a. osteoporose, artrose, demens, apopleksi, hjerteinsufficiens og type 2-diabetes — ofte flere samtidig",
       "Udelukkende børnesygdomme",
+      "Ingen sygdomme er hyppige hos ældre",
       "Kun forkølelse",
-      "Ingen sygdomme er hyppige hos ældre"
+      "Bl.a. osteoporose, artrose, demens, apopleksi, hjerteinsufficiens og type 2-diabetes — ofte flere samtidig"
     ],
-    "correct": "A",
+    "correct": "D",
     "explanation": "Hyppige sygdomme i alderdommen omfatter bl.a. osteoporose, artrose, demens, apopleksi, hjerteinsufficiens, hypertension og type 2-diabetes. De optræder ofte samtidig (comorbiditet), hvilket øger kompleksiteten."
   },
   {
     "topic": "Aldring",
     "question": "Hvad menes med 'geriatriske syndromer'?",
     "options": [
-      "Tilstande, der er hyppige hos ældre og typisk har flere samtidige årsager — fx fald, delir, inkontinens og tryksår",
       "En enkelt arvelig sygdom",
       "Sygdomme, der kun rammer børn",
-      "En type knoglebrud"
+      "En type knoglebrud",
+      "Tilstande, der er hyppige hos ældre og typisk har flere samtidige årsager — fx fald, delir, inkontinens og tryksår"
     ],
-    "correct": "A",
+    "correct": "D",
     "explanation": "Geriatriske syndromer er hyppige tilstande hos ældre, som ofte er multifaktorielle (har flere samtidige årsager) — fx fald, delir, inkontinens, immobilitet og tryksår. De kræver en helhedsorienteret tilgang frem for en enkelt 'diagnose'."
   }
 ]

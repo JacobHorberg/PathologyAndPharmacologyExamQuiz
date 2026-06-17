@@ -3,21 +3,21 @@
     "topic": "Livsstilsrelaterede tilstande",
     "question": "Hvad sker der i kroppen ved en akut stressreaktion ('kamp-flugt')?",
     "options": [
-      "Det sympatiske nervesystem aktiveres, og der frigives stresshormoner (adrenalin og kortisol), så puls, blodtryk, blodsukker og årvågenhed stiger",
       "Puls og blodtryk falder, og kroppen slapper dybt af",
+      "Det sympatiske nervesystem aktiveres, og der frigives stresshormoner (adrenalin og kortisol), så puls, blodtryk, blodsukker og årvågenhed stiger",
       "Immunforsvaret slukkes helt",
       "Stofskiftet går i stå"
     ],
-    "correct": "A",
+    "correct": "B",
     "explanation": "Ved akut stress aktiveres det sympatiske nervesystem, og der frigives adrenalin og kortisol. Det øger puls, blodtryk, blodsukker og årvågenhed og gør kroppen klar til kamp eller flugt — en hensigtsmæssig, kortvarig reaktion."
   },
   {
     "topic": "Livsstilsrelaterede tilstande",
     "question": "Hvilket hormon kaldes ofte kroppens vigtigste 'stresshormon' og frigives bl.a. ved længerevarende stress?",
     "options": [
-      "Insulin",
-      "Kortisol",
       "Melatonin",
+      "Kortisol",
+      "Insulin",
       "Thyroideahormon"
     ],
     "correct": "B",
@@ -27,12 +27,12 @@
     "topic": "Livsstilsrelaterede tilstande",
     "question": "Hvad er den væsentligste forskel på akut og kronisk stress?",
     "options": [
-      "Akut stress er en kortvarig, ofte hensigtsmæssig reaktion, mens kronisk (vedvarende) stress uden tilstrækkelig restitution kan være skadelig for helbredet",
       "Akut stress er altid farligt, kronisk stress er altid gavnligt",
-      "Der er ingen forskel",
-      "Kronisk stress varer kun få minutter"
+      "Kronisk stress varer kun få minutter",
+      "Akut stress er en kortvarig, ofte hensigtsmæssig reaktion, mens kronisk (vedvarende) stress uden tilstrækkelig restitution kan være skadelig for helbredet",
+      "Der er ingen forskel"
     ],
-    "correct": "A",
+    "correct": "C",
     "explanation": "Akut stress er en kortvarig, tilpasningsdygtig reaktion, der hjælper os med at præstere. Problemet opstår ved kronisk stress — vedvarende aktivering uden tilstrækkelig restitution — som over tid belaster kroppen og øger sygdomsrisikoen."
   },
   {
@@ -51,192 +51,192 @@
     "topic": "Livsstilsrelaterede tilstande",
     "question": "Hvilke helbredskonsekvenser er langvarig stress forbundet med?",
     "options": [
-      "Øget risiko for bl.a. hjerte-kar-sygdom, angst og depression, svækket immunforsvar og søvnforstyrrelser",
       "Stærkere knogler og bedre kondition",
-      "Lavere risiko for alle sygdomme",
-      "Ingen helbredsmæssig betydning"
+      "Ingen helbredsmæssig betydning",
+      "Øget risiko for bl.a. hjerte-kar-sygdom, angst og depression, svækket immunforsvar og søvnforstyrrelser",
+      "Lavere risiko for alle sygdomme"
     ],
-    "correct": "A",
+    "correct": "C",
     "explanation": "Vedvarende stress øger over tid risikoen for bl.a. hjerte-kar-sygdom, angst og depression, søvnforstyrrelser og et svækket immunforsvar. Derfor er stresshåndtering også vigtig for det fysiske helbred."
   },
   {
     "topic": "Livsstilsrelaterede tilstande",
     "question": "Hvordan kan stress vise sig i bevægeapparatet — relevant i fysioterapeutisk praksis?",
     "options": [
+      "Stress påvirker aldrig muskler og led",
       "Som øgede muskelspændinger og smerter, fx i nakke og skuldre, samt spændingshovedpine",
       "Som stærkere og mere afslappede muskler",
-      "Som et knoglebrud",
-      "Stress påvirker aldrig muskler og led"
+      "Som et knoglebrud"
     ],
-    "correct": "A",
+    "correct": "B",
     "explanation": "Stress kan give og forværre muskelspændinger (typisk i nakke/skuldre) og bidrage til fx spændingshovedpine og kroniske smerter. Det er ofte en del af billedet hos fysioterapeutiske patienter."
   },
   {
     "topic": "Livsstilsrelaterede tilstande",
     "question": "Hvad sker der typisk, hvis kroppen udsættes for vedvarende stress uden tilstrækkelig restitution?",
     "options": [
+      "Der sker ingenting",
       "Den vedvarende belastning slider på kroppen over tid og kan føre til udmattelse og øget sygdomsrisiko",
-      "Kroppen bliver gradvist stærkere og mere udhvilet",
       "Stressresponsen forsvinder helt og varigt",
-      "Der sker ingenting"
+      "Kroppen bliver gradvist stærkere og mere udhvilet"
     ],
-    "correct": "A",
+    "correct": "B",
     "explanation": "Stressresponsen er gavnlig kortvarigt, men uden perioder med restitution slider den vedvarende aktivering på kroppen (allostatisk belastning). Det kan over tid føre til udmattelse, symptomer og øget sygdomsrisiko."
   },
   {
     "topic": "Livsstilsrelaterede tilstande",
     "question": "Hvilken indsats, som fysioterapeuten kan understøtte, kan hjælpe med at håndtere stress?",
     "options": [
-      "Regelmæssig fysisk aktivitet sammen med god søvn, restitution og afspænding",
-      "Mere stillesiddende tid og mindre søvn",
       "Øget koffein- og alkoholindtag",
-      "At undgå al bevægelse"
+      "Mere stillesiddende tid og mindre søvn",
+      "At undgå al bevægelse",
+      "Regelmæssig fysisk aktivitet sammen med god søvn, restitution og afspænding"
     ],
-    "correct": "A",
+    "correct": "D",
     "explanation": "Regelmæssig fysisk aktivitet kan dæmpe stress og forbedre humør og søvn. Sammen med god søvn, restitution og afspændingsteknikker er det en vigtig del af stresshåndteringen — et område, fysioterapeuten kan bidrage til."
   },
   {
     "topic": "Livsstilsrelaterede tilstande",
     "question": "Hvordan hænger stress og søvn ofte sammen?",
     "options": [
-      "Stress kan forstyrre søvnen, og dårlig søvn kan forværre stress — en selvforstærkende (ond) cirkel",
-      "Stress forbedrer altid søvnen",
+      "Mere stress giver altid mere dyb søvn",
       "Søvn har ingen betydning for stress",
-      "Mere stress giver altid mere dyb søvn"
+      "Stress kan forstyrre søvnen, og dårlig søvn kan forværre stress — en selvforstærkende (ond) cirkel",
+      "Stress forbedrer altid søvnen"
     ],
-    "correct": "A",
+    "correct": "C",
     "explanation": "Stress gør det ofte sværere at falde i søvn og sove uforstyrret, og utilstrækkelig søvn nedsætter evnen til at håndtere stress. Det kan blive en ond cirkel, som det er vigtigt at bryde."
   },
   {
     "topic": "Livsstilsrelaterede tilstande",
     "question": "Hvad kendetegner en egentlig stressbelastning/udbrændthed sammenlignet med en enkelt, kortvarig stressfuld situation?",
     "options": [
-      "Den udvikler sig over længere tid med vedvarende belastning og kan give udtalt udmattelse samt fysiske og psykiske symptomer",
-      "Den varer kun få sekunder",
       "Den giver altid forbedret overskud",
-      "Den har ingen symptomer"
+      "Den har ingen symptomer",
+      "Den varer kun få sekunder",
+      "Den udvikler sig over længere tid med vedvarende belastning og kan give udtalt udmattelse samt fysiske og psykiske symptomer"
     ],
-    "correct": "A",
+    "correct": "D",
     "explanation": "En enkelt stressende situation er kortvarig og normal. Egentlig stressbelastning/udbrændthed udvikler sig over længere tid med vedvarende belastning uden restitution og kan give udtalt udmattelse, koncentrationsbesvær og en række kropslige og psykiske symptomer."
   },
   {
     "topic": "Livsstilsrelaterede tilstande",
     "question": "Hvad forstås ved adipositas (svær overvægt)?",
     "options": [
-      "En tilstand med ophobning af så meget kropsfedt, at det øger risikoen for sygdom",
-      "En forbigående væskeophobning",
       "En muskelsygdom",
-      "Et begreb for undervægt"
+      "En forbigående væskeophobning",
+      "Et begreb for undervægt",
+      "En tilstand med ophobning af så meget kropsfedt, at det øger risikoen for sygdom"
     ],
-    "correct": "A",
+    "correct": "D",
     "explanation": "Adipositas er en sygelig ophobning af kropsfedt i et omfang, der øger risikoen for følgesygdomme (fx type 2-diabetes og hjerte-kar-sygdom). Det betragtes som en kronisk tilstand."
   },
   {
     "topic": "Livsstilsrelaterede tilstande",
     "question": "Hvordan klassificeres vægt ofte ved hjælp af BMI (Body Mass Index) hos voksne?",
     "options": [
+      "Alle med BMI over 20 har adipositas",
       "Normalvægt ca. 18,5-24,9; overvægt 25-29,9; adipositas (svær overvægt) ved BMI 30 og derover",
-      "Adipositas starter allerede ved BMI 18",
       "BMI måler kun knoglemassen",
-      "Alle med BMI over 20 har adipositas"
+      "Adipositas starter allerede ved BMI 18"
     ],
-    "correct": "A",
+    "correct": "B",
     "explanation": "BMI (vægt i kg divideret med højden i meter i anden) bruges som et groft mål: normalområdet er ca. 18,5-24,9, overvægt 25-29,9 og adipositas BMI ≥30. BMI siger dog ikke alt — fx skelner det ikke mellem fedt og muskelmasse eller fedtets placering."
   },
   {
     "topic": "Livsstilsrelaterede tilstande",
     "question": "Hvorfor anses bugfedme (abdominalt fedt) for særligt sundhedsskadeligt?",
     "options": [
-      "Fordi fedt omkring de indre organer er stærkt forbundet med insulinresistens og øget risiko for type 2-diabetes og hjerte-kar-sygdom",
-      "Fordi det altid er helt uden betydning",
+      "Fordi det beskytter mod alle sygdomme",
       "Fordi det kun har kosmetisk betydning",
-      "Fordi det beskytter mod alle sygdomme"
+      "Fordi det altid er helt uden betydning",
+      "Fordi fedt omkring de indre organer er stærkt forbundet med insulinresistens og øget risiko for type 2-diabetes og hjerte-kar-sygdom"
     ],
-    "correct": "A",
+    "correct": "D",
     "explanation": "Visceralt (intra-abdominalt) fedt er metabolisk aktivt og særligt knyttet til insulinresistens og en øget kardiometabolisk risiko — mere end fedt, der sidder på fx hofter og lår. Derfor bruges fx taljemål som et supplerende risikomål."
   },
   {
     "topic": "Livsstilsrelaterede tilstande",
     "question": "Hvilke følgesygdomme er adipositas forbundet med?",
     "options": [
+      "Ingen helbredsmæssige følger",
       "Bl.a. type 2-diabetes, hjerte-kar-sygdom, forhøjet blodtryk, artrose i vægtbærende led, søvnapnø og visse kræftformer",
-      "Kun forkølelse",
       "Stærkere knogler og bedre kondition",
-      "Ingen helbredsmæssige følger"
+      "Kun forkølelse"
     ],
-    "correct": "A",
+    "correct": "B",
     "explanation": "Adipositas øger risikoen for en lang række følgesygdomme: type 2-diabetes, hjerte-kar-sygdom, hypertension, artrose (pga. øget ledbelastning), søvnapnø og visse kræftformer m.m."
   },
   {
     "topic": "Livsstilsrelaterede tilstande",
     "question": "Hvordan påvirker adipositas bevægeapparatet — relevant for fysioterapeuten?",
     "options": [
+      "Den har ingen betydning for led og bevægelse",
       "Den øgede belastning på vægtbærende led (især knæ og hofter) bidrager til ledsmerter og artrose",
-      "Den styrker leddene og forebygger artrose",
       "Den påvirker kun huden",
-      "Den har ingen betydning for led og bevægelse"
+      "Den styrker leddene og forebygger artrose"
     ],
-    "correct": "A",
+    "correct": "B",
     "explanation": "Overvægt øger belastningen på de vægtbærende led (knæ, hofter) og er en risikofaktor for artrose og ledsmerter. Selv et moderat vægttab kan mindske ledbelastningen, og ledskånsom træning er ofte en del af indsatsen."
   },
   {
     "topic": "Livsstilsrelaterede tilstande",
     "question": "Hvad er det grundlæggende princip bag udvikling af overvægt over tid?",
     "options": [
-      "Et vedvarende energiindtag, der er større end energiforbruget (positiv energibalance)",
       "At man spiser for lidt",
-      "At man bevæger sig for meget",
-      "At kroppen holder op med at optage næring"
+      "At kroppen holder op med at optage næring",
+      "Et vedvarende energiindtag, der er større end energiforbruget (positiv energibalance)",
+      "At man bevæger sig for meget"
     ],
-    "correct": "A",
+    "correct": "C",
     "explanation": "Overvægt udvikles over tid ved en positiv energibalance — energiindtaget overstiger forbruget. Mange faktorer påvirker dette (kost, aktivitetsniveau, søvn, miljø, gener, sygdom og medicin), så det er sjældent kun et spørgsmål om viljestyrke."
   },
   {
     "topic": "Livsstilsrelaterede tilstande",
     "question": "Hvad er grundstenen i behandlingen af adipositas?",
     "options": [
-      "Livsstilsændringer med øget fysisk aktivitet og sundere kostvaner (ved svær adipositas evt. suppleret med medicin eller kirurgi)",
       "Fuldstændig faste i lange perioder",
       "Sengeleje",
+      "Livsstilsændringer med øget fysisk aktivitet og sundere kostvaner (ved svær adipositas evt. suppleret med medicin eller kirurgi)",
       "At undgå al fysisk aktivitet"
     ],
-    "correct": "A",
+    "correct": "C",
     "explanation": "Behandlingen bygger på varige livsstilsændringer — øget fysisk aktivitet og sundere kostvaner. Ved svær adipositas kan medicinsk behandling eller kirurgi (fx gastric bypass/sleeve) komme på tale som supplement. Fysioterapeuten understøtter især den fysiske aktivitet."
   },
   {
     "topic": "Livsstilsrelaterede tilstande",
     "question": "Hvad ved man om fysisk aktivitet hos personer med adipositas — også selv uden stort vægttab?",
     "options": [
-      "Fysisk aktivitet er gavnligt i sig selv: det forbedrer kondition, blodsukker, blodtryk og funktion, uanset om vægten ændrer sig meget",
-      "Det har ingen effekt uden samtidigt stort vægttab",
+      "Det forværrer altid helbredet",
       "Det er altid farligt ved overvægt",
-      "Det forværrer altid helbredet"
+      "Fysisk aktivitet er gavnligt i sig selv: det forbedrer kondition, blodsukker, blodtryk og funktion, uanset om vægten ændrer sig meget",
+      "Det har ingen effekt uden samtidigt stort vægttab"
     ],
-    "correct": "A",
+    "correct": "C",
     "explanation": "Fysisk aktivitet forbedrer kondition, insulinfølsomhed, blodtryk og funktion og mindsker sygdomsrisiko — også selv uden et stort vægttab. Ved ledproblemer vælges ofte ledskånsomme aktiviteter som cykling eller træning i vand."
   },
   {
     "topic": "Livsstilsrelaterede tilstande",
     "question": "Hvilken tilstand, der er forbundet med adipositas, giver vejrtrækningsstop under søvn, snorken og dagtræthed?",
     "options": [
-      "Obstruktiv søvnapnø",
-      "Migræne",
+      "Reaktiv artrit",
       "Claudicatio intermittens",
-      "Reaktiv artrit"
+      "Migræne",
+      "Obstruktiv søvnapnø"
     ],
-    "correct": "A",
+    "correct": "D",
     "explanation": "Obstruktiv søvnapnø er hyppigere ved overvægt og giver gentagne vejrtrækningsstop under søvnen, snorken og udtalt dagtræthed. Det belaster bl.a. hjerte-kar-systemet og forringer livskvaliteten."
   },
   {
     "topic": "Livsstilsrelaterede tilstande",
     "question": "Hvad ved man om fedtvæv og inflammation ved adipositas?",
     "options": [
-      "Fedtvæv er metabolisk aktivt og kan ved adipositas bidrage til en kronisk, lavgradig inflammation i kroppen",
-      "Fedtvæv er fuldstændig inaktivt og uden funktion",
       "Fedtvæv hæmmer al inflammation",
-      "Fedtvæv består kun af vand"
+      "Fedtvæv består kun af vand",
+      "Fedtvæv er fuldstændig inaktivt og uden funktion",
+      "Fedtvæv er metabolisk aktivt og kan ved adipositas bidrage til en kronisk, lavgradig inflammation i kroppen"
     ],
-    "correct": "A",
+    "correct": "D",
     "explanation": "Fedtvæv er ikke blot et passivt depot — det er metabolisk aktivt og udskiller signalstoffer. Ved adipositas kan det bidrage til en kronisk, lavgradig inflammation, som menes at indgå i udviklingen af fx type 2-diabetes og hjerte-kar-sygdom."
   },
   {
@@ -244,9 +244,9 @@
     "question": "Hvad ved man om fysisk inaktivitet som risikofaktor?",
     "options": [
       "Fysisk inaktivitet er en selvstændig risikofaktor, der øger risikoen for bl.a. hjerte-kar-sygdom, type 2-diabetes, visse kræftformer og tidlig død",
-      "Inaktivitet har ingen helbredsmæssig betydning",
+      "Kun kosten har betydning, ikke aktivitetsniveauet",
       "Inaktivitet beskytter mod sygdom",
-      "Kun kosten har betydning, ikke aktivitetsniveauet"
+      "Inaktivitet har ingen helbredsmæssig betydning"
     ],
     "correct": "A",
     "explanation": "Fysisk inaktivitet er en af de vigtigste påvirkelige risikofaktorer for sygdom og er forbundet med øget risiko for hjerte-kar-sygdom, type 2-diabetes, flere kræftformer, knogleskørhed, depression og tidlig død."
@@ -256,8 +256,8 @@
     "question": "Hvad sker der med musklerne ved længere tids inaktivitet/immobilisering?",
     "options": [
       "Muskelatrofi — tab af muskelmasse og -styrke",
-      "Musklerne bliver stærkere og større",
       "Musklerne forbliver helt uændrede",
+      "Musklerne bliver stærkere og større",
       "Musklerne bliver til knogle"
     ],
     "correct": "A",
@@ -268,9 +268,9 @@
     "question": "Hvordan påvirker langvarig inaktivitet/aflastning knoglerne?",
     "options": [
       "Knoglemassen falder (knogletab), hvilket på sigt øger risikoen for knogleskørhed",
-      "Knoglerne bliver stærkere uden belastning",
       "Knoglerne påvirkes slet ikke af aktivitetsniveau",
-      "Knoglerne vokser sig længere"
+      "Knoglerne vokser sig længere",
+      "Knoglerne bliver stærkere uden belastning"
     ],
     "correct": "A",
     "explanation": "Knogler tilpasser sig belastning. Ved inaktivitet og aflastning (fx sengeleje eller vægtløshed) mistes knoglemasse, hvilket på sigt øger risikoen for osteoporose. Vægtbærende aktivitet vedligeholder derimod knoglestyrken."
@@ -280,9 +280,9 @@
     "question": "Hvilken konsekvens af inaktivitet/immobilisering relaterer sig til kredsløbet?",
     "options": [
       "Nedsat kondition og øget risiko for dyb venetrombose (pga. nedsat blodstrøm i benene)",
-      "Forbedret kondition",
+      "Ingen påvirkning af kredsløbet",
       "Lavere risiko for blodpropper",
-      "Ingen påvirkning af kredsløbet"
+      "Forbedret kondition"
     ],
     "correct": "A",
     "explanation": "Inaktivitet nedsætter konditionen og øger — især ved immobilisering/sengeleje — risikoen for dyb venetrombose, fordi blodstrømmen i benene bliver langsommere. Bevægelse holder kredsløbet i gang."
@@ -291,72 +291,72 @@
     "topic": "Livsstilsrelaterede tilstande",
     "question": "Hvad kan langvarig immobilisering gøre ved led og bindevæv?",
     "options": [
-      "Nedsætte bevægeligheden og i værste fald give kontrakturer (varig forkortning, så leddet ikke kan bevæges frit)",
-      "Øge bevægeligheden i alle led",
       "Gøre leddene mere smidige",
-      "Have ingen effekt på led og bindevæv"
+      "Have ingen effekt på led og bindevæv",
+      "Nedsætte bevægeligheden og i værste fald give kontrakturer (varig forkortning, så leddet ikke kan bevæges frit)",
+      "Øge bevægeligheden i alle led"
     ],
-    "correct": "A",
+    "correct": "C",
     "explanation": "Når et led ikke bevæges, afkortes og stivner bløddele og ledkapsel gradvist, hvilket nedsætter bevægeligheden og kan ende i kontrakturer. Bevægelighedstræning forebygger dette."
   },
   {
     "topic": "Livsstilsrelaterede tilstande",
     "question": "Hvilke komplikationer kan samlet set opstå ved langvarigt sengeleje (immobilisering)?",
     "options": [
-      "Muskelatrofi, knogletab, tryksår (decubitus), dyb venetrombose, lungebetændelse, blodtryksfald ved opstigning og forstoppelse",
       "Kun forbedret helbred",
       "Stærkere muskler og knogler",
-      "Ingen komplikationer"
+      "Ingen komplikationer",
+      "Muskelatrofi, knogletab, tryksår (decubitus), dyb venetrombose, lungebetændelse, blodtryksfald ved opstigning og forstoppelse"
     ],
-    "correct": "A",
+    "correct": "D",
     "explanation": "Langvarigt sengeleje rammer mange systemer: muskelatrofi, knogletab, tryksår, dyb venetrombose, lungekomplikationer (atelektase/pneumoni), ortostatisk blodtryksfald og obstipation. Derfor er tidlig mobilisering så vigtig."
   },
   {
     "topic": "Livsstilsrelaterede tilstande",
     "question": "Hvad menes med, at stillesiddende adfærd ('sidde-syge') er et selvstændigt problem?",
     "options": [
-      "At meget langvarig stillesidden kan være skadeligt i sig selv — også hos personer, der ellers træner — så det anbefales at bryde lange perioders stillesidden",
-      "At det er helt uden betydning, hvor meget man sidder ned",
+      "At stillesidden altid er sundt",
       "At man kun skal bekymre sig om kosten",
-      "At stillesidden altid er sundt"
+      "At det er helt uden betydning, hvor meget man sidder ned",
+      "At meget langvarig stillesidden kan være skadeligt i sig selv — også hos personer, der ellers træner — så det anbefales at bryde lange perioders stillesidden"
     ],
-    "correct": "A",
+    "correct": "D",
     "explanation": "Forskning tyder på, at megen sammenhængende stillesiddende tid er en selvstændig sundhedsrisiko — selv hos folk, der opfylder motionsanbefalingerne. Derfor anbefales det også at afbryde lange perioder med stillesidden i løbet af dagen."
   },
   {
     "topic": "Livsstilsrelaterede tilstande",
     "question": "Hvad er den almindelige anbefaling for fysisk aktivitet til voksne (fra bl.a. Sundhedsstyrelsen/WHO)?",
     "options": [
+      "Kun hård træning hver dag eller intet",
       "Mindst ca. 150 minutters moderat fysisk aktivitet om ugen (eller tilsvarende), gerne suppleret med styrketræning et par gange ugentligt",
-      "Højst 10 minutters bevægelse om ugen",
       "Slet ingen fysisk aktivitet",
-      "Kun hård træning hver dag eller intet"
+      "Højst 10 minutters bevægelse om ugen"
     ],
-    "correct": "A",
+    "correct": "B",
     "explanation": "Anbefalingen til voksne er som udgangspunkt mindst ca. 150 minutters moderat (eller 75 minutters høj) fysisk aktivitet om ugen, suppleret med muskelstyrkende aktivitet et par gange om ugen. Al bevægelse tæller, og lidt er bedre end ingenting."
   },
   {
     "topic": "Livsstilsrelaterede tilstande",
     "question": "Hvorfor er tidlig mobilisering vigtig for at modvirke dekonditionering ved sygdom/immobilisering?",
     "options": [
-      "Fordi tab af muskelstyrke, kondition og funktion kan ske hurtigt ved inaktivitet, hvorefter det tager længere tid at genvinde",
-      "Fordi funktion aldrig tabes ved inaktivitet",
       "Fordi mobilisering forværrer alle tilstande",
-      "Fordi dekonditionering kun rammer atleter"
+      "Fordi dekonditionering kun rammer atleter",
+      "Fordi tab af muskelstyrke, kondition og funktion kan ske hurtigt ved inaktivitet, hvorefter det tager længere tid at genvinde",
+      "Fordi funktion aldrig tabes ved inaktivitet"
     ],
-    "correct": "A",
+    "correct": "C",
     "explanation": "Styrke, kondition og funktion kan tabes overraskende hurtigt under inaktivitet og immobilisering (dekonditionering), og det tager typisk længere tid at genopbygge end at tabe. Derfor er tidlig mobilisering og genoptræning vigtig."
   },
   {
     "topic": "Livsstilsrelaterede tilstande",
     "question": "Hvilken sammenhæng er der mellem fysisk aktivitet og psykisk helbred?",
     "options": [
-      "Fysisk inaktivitet er forbundet med øget risiko for depression og angst, mens regelmæssig fysisk aktivitet har en gavnlig effekt på humør og mental sundhed",
-      "Fysisk aktivitet forværrer altid det psykiske helbred",
+      "Kun medicin kan påvirke humøret",
       "Der er ingen sammenhæng",
-      "Kun medicin kan påvirke humøret"
+      "Fysisk aktivitet forværrer altid det psykiske helbred",
+      "Fysisk inaktivitet er forbundet med øget risiko for depression og angst, mens regelmæssig fysisk aktivitet har en gavnlig effekt på humør og mental sundhed"
     ],
-    "correct": "A",
+    "correct": "D",
     "explanation": "Regelmæssig fysisk aktivitet har en dokumenteret gavnlig effekt på humør, stress og symptomer på angst og depression, mens inaktivitet er forbundet med øget risiko. Træning indgår derfor også i forebyggelse og behandling af visse psykiske lidelser."
   }
 ]
