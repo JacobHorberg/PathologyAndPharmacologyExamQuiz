@@ -50,6 +50,20 @@ const QUESTIONS = [
 const LETTERS = ["A", "B", "C", "D", "E", "F"];
 const ALL = "__ALLE_EMNER__";
 const CUSTOM = "__TILPASSET__";
+const GITHUB_REPO = "https://github.com/JacobHorberg/PathologyAndPharmacologyExamQuiz";
+
+function flagIssueUrl(q) {
+  const shortQ = q.question.length > 60 ? q.question.slice(0, 60) + "…" : q.question;
+  const title = `Ret spørgsmål: "${shortQ}" (emne: ${q.topic})`;
+  const optionLines = q.options.map((opt, i) => `- **${LETTERS[i]}:** ${opt}`).join("\n");
+  const body =
+    `**Emne:** ${q.topic}\n\n` +
+    `**Spørgsmål:**\n${q.question}\n\n` +
+    `**Svarmuligheder:**\n${optionLines}\n\n` +
+    `**Korrekt svar:** ${q.correct}\n\n` +
+    `---\n\n**Hvad er forkert med spørgsmålet?**\n\n<!-- Beskriv problemet her -->`;
+  return `${GITHUB_REPO}/issues/new?title=${encodeURIComponent(title)}&body=${encodeURIComponent(body)}`;
+}
 
 function topicOf(q) {
   return q.topic && String(q.topic).trim() ? String(q.topic).trim() : "Andet";
@@ -309,6 +323,19 @@ export default function App() {
                 </button>
               ))}
             </div>
+
+            <p className="mt-6 text-xs text-slate-400 dark:text-slate-500 text-center leading-relaxed">
+              Spørgsmålene er genereret med AI og kan indeholde fejl.{" "}
+              <a
+                href={`${GITHUB_REPO}/issues`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline hover:text-slate-600 dark:hover:text-slate-300"
+              >
+                Rapportér et problem
+              </a>{" "}
+              hvis du finder noget forkert.
+            </p>
           </div>
         </div>
       </div>
@@ -661,17 +688,27 @@ export default function App() {
               </>
             )}
 
-            <div className="mt-6 flex items-center justify-between">
-              <span className="text-xs text-slate-400 dark:text-slate-500">
-                {answered ? "Tryk Enter for næste" : "Vælg et svar"}
-              </span>
-              <button
-                onClick={next}
-                disabled={!answered}
-                className="rounded-xl bg-teal-700 px-5 py-2.5 text-white text-sm font-medium hover:bg-teal-800 transition-colors disabled:opacity-40 disabled:cursor-not-allowed focus:outline-none focus-visible:ring-2 focus-visible:ring-teal-500 focus-visible:ring-offset-2"
+            <div className="mt-6 flex items-center justify-between gap-3">
+              <a
+                href={flagIssueUrl(q)}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-xs text-slate-400 dark:text-slate-500 hover:text-rose-500 dark:hover:text-rose-400 transition-colors flex items-center gap-1"
               >
-                {pos + 1 >= total ? "Se resultat" : "Næste"}
-              </button>
+                <span aria-hidden>⚑</span> Rapportér fejl
+              </a>
+              <div className="flex items-center gap-3">
+                <span className="text-xs text-slate-400 dark:text-slate-500">
+                  {answered ? "Tryk Enter for næste" : ""}
+                </span>
+                <button
+                  onClick={next}
+                  disabled={!answered}
+                  className="rounded-xl bg-teal-700 px-5 py-2.5 text-white text-sm font-medium hover:bg-teal-800 transition-colors disabled:opacity-40 disabled:cursor-not-allowed focus:outline-none focus-visible:ring-2 focus-visible:ring-teal-500 focus-visible:ring-offset-2"
+                >
+                  {pos + 1 >= total ? "Se resultat" : "Næste"}
+                </button>
+              </div>
             </div>
           </div>
         </div>
