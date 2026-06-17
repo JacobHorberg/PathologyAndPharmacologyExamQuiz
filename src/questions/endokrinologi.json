@@ -3,12 +3,12 @@
     "topic": "Endokrinologi",
     "question": "Hvad er den grundlæggende årsag til type 1-diabetes?",
     "options": [
-      "Cellernes nedsatte følsomhed over for insulin (insulinresistens)",
       "En autoimmun ødelæggelse af de insulinproducerende betaceller i bugspytkirtlen, så der opstår absolut insulinmangel",
+      "Cellernes nedsatte følsomhed over for insulin (insulinresistens)",
       "For højt indtag af sukker som eneste årsag",
       "En forsnævring af bugspytkirtlens udførselsgang"
     ],
-    "correct": "B",
+    "correct": "A",
     "explanation": "Ved type 1-diabetes ødelægger immunforsvaret betacellerne i pancreas, så kroppen næsten ikke kan producere insulin (absolut insulinmangel). Derfor er behandling med insulin livsnødvendig."
   },
   {
@@ -16,9 +16,9 @@
     "question": "Hvilke symptomer er klassiske ved nydebuteret type 1-diabetes?",
     "options": [
       "Stor tørst, hyppig og rigelig vandladning, vægttab og træthed",
+      "Kløende udslæt over hele kroppen",
       "Forstoppelse og vægtøgning",
-      "Belastningssmerter i læggen ved gang",
-      "Kløende udslæt over hele kroppen"
+      "Belastningssmerter i læggen ved gang"
     ],
     "correct": "A",
     "explanation": "Det høje blodsukker trækker vand med ud i urinen, hvilket giver hyppig vandladning (polyuri) og dermed tørst (polydipsi). Hertil kommer vægttab og træthed, fordi cellerne mangler glukose som brændstof."
@@ -28,9 +28,9 @@
     "question": "Hvad er den nødvendige behandling ved type 1-diabetes?",
     "options": [
       "Livslang insulinbehandling",
+      "Blodfortyndende medicin",
       "Kun kostomlægning uden medicin",
-      "Antibiotika",
-      "Blodfortyndende medicin"
+      "Antibiotika"
     ],
     "correct": "A",
     "explanation": "Da kroppen ikke selv kan danne insulin, er livslang tilførsel af insulin (typisk som injektioner eller pumpe) livsnødvendig ved type 1-diabetes."
@@ -39,24 +39,24 @@
     "topic": "Endokrinologi",
     "question": "Hvad er den væsentligste forskel på type 1- og type 2-diabetes?",
     "options": [
-      "Type 1 skyldes absolut insulinmangel (ødelagte betaceller), mens type 2 primært skyldes insulinresistens og relativ insulinmangel",
       "Type 2 rammer kun børn",
       "Type 1 kræver aldrig medicin",
-      "Der er ingen forskel"
+      "Der er ingen forskel",
+      "Type 1 skyldes absolut insulinmangel (ødelagte betaceller), mens type 2 primært skyldes insulinresistens og relativ insulinmangel"
     ],
-    "correct": "A",
+    "correct": "D",
     "explanation": "Type 1 skyldes manglende insulinproduktion (absolut mangel). Ved type 2 producerer kroppen stadig insulin, men cellerne reagerer dårligere på den (insulinresistens), ofte kombineret med en aftagende produktion."
   },
   {
     "topic": "Endokrinologi",
     "question": "Hvad er typisk for debut af type 1-diabetes sammenlignet med type 2?",
     "options": [
-      "Den udvikler sig ofte hurtigt og debuterer hyppigt i barndom/ungdom",
       "Den ses kun hos ældre over 70 år",
-      "Den udvikler sig altid umærkeligt over mange år",
-      "Den optræder kun under graviditet"
+      "Den optræder kun under graviditet",
+      "Den udvikler sig ofte hurtigt og debuterer hyppigt i barndom/ungdom",
+      "Den udvikler sig altid umærkeligt over mange år"
     ],
-    "correct": "A",
+    "correct": "C",
     "explanation": "Type 1 debuterer ofte relativt hurtigt og typisk i barne- eller ungdomsårene (men kan opstå i alle aldre). Type 2 udvikler sig derimod oftest snigende over år hos voksne."
   },
   {
@@ -75,36 +75,36 @@
     "topic": "Endokrinologi",
     "question": "Hvilke faktorer øger risikoen for type 2-diabetes?",
     "options": [
-      "Overvægt (især bugfedme), fysisk inaktivitet, arv og stigende alder",
-      "Lavt kolesterol og daglig motion",
       "Højt indtag af vand",
-      "Ung alder uden andre faktorer"
+      "Ung alder uden andre faktorer",
+      "Lavt kolesterol og daglig motion",
+      "Overvægt (især bugfedme), fysisk inaktivitet, arv og stigende alder"
     ],
-    "correct": "A",
+    "correct": "D",
     "explanation": "Overvægt, fysisk inaktivitet, arvelig disposition og alder er centrale risikofaktorer. Mange af dem er påvirkelige gennem livsstil."
   },
   {
     "topic": "Endokrinologi",
     "question": "Hvad er førstevalg i behandlingen af type 2-diabetes?",
     "options": [
-      "Livsstilsændringer (kost, vægttab og fysisk aktivitet), ofte suppleret med metformin",
-      "Insulin fra første dag hos alle",
       "Antibiotika",
-      "Fuldstændig faste"
+      "Fuldstændig faste",
+      "Livsstilsændringer (kost, vægttab og fysisk aktivitet), ofte suppleret med metformin",
+      "Insulin fra første dag hos alle"
     ],
-    "correct": "A",
+    "correct": "C",
     "explanation": "Behandlingen starter med livsstil — sund kost, vægttab og fysisk aktivitet — typisk kombineret med metformin som første medicinske valg. Insulin kan komme på tale senere i forløbet."
   },
   {
     "topic": "Endokrinologi",
     "question": "Hvorfor er fysisk aktivitet en vigtig del af behandlingen ved type 2-diabetes — og direkte relevant for fysioterapeuten?",
     "options": [
-      "Fordi træning forbedrer cellernes insulinfølsomhed og hjælper med at sænke blodsukkeret",
+      "Fordi træning erstatter behovet for al medicin hos alle",
       "Fordi træning øger insulinresistensen",
-      "Fordi træning ikke har nogen effekt på blodsukkeret",
-      "Fordi træning erstatter behovet for al medicin hos alle"
+      "Fordi træning forbedrer cellernes insulinfølsomhed og hjælper med at sænke blodsukkeret",
+      "Fordi træning ikke har nogen effekt på blodsukkeret"
     ],
-    "correct": "A",
+    "correct": "C",
     "explanation": "Fysisk aktivitet øger musklernes optag af glukose og forbedrer insulinfølsomheden, hvilket sænker blodsukkeret. Det gør målrettet træning til en hjørnesten i behandlingen — og et område, hvor fysioterapeuten spiller en central rolle."
   },
   {
@@ -112,9 +112,9 @@
     "question": "Hvad er typisk for de tidlige stadier af type 2-diabetes?",
     "options": [
       "Den kan i lang tid være symptomfattig og opdages ofte tilfældigt ved en blodprøve",
-      "Den giver altid akutte, voldsomme symptomer fra dag ét",
+      "Den kan kun opdages ved en CT-scanning",
       "Den ledsages altid af kraftig feber",
-      "Den kan kun opdages ved en CT-scanning"
+      "Den giver altid akutte, voldsomme symptomer fra dag ét"
     ],
     "correct": "A",
     "explanation": "Type 2-diabetes udvikler sig snigende og kan være næsten symptomfri i årevis. Derfor opdages den ofte tilfældigt — fx ved en rutineblodprøve — eller først når der er opstået komplikationer."
@@ -124,71 +124,71 @@
     "question": "Hvad fortæller blodprøven HbA1c (langtidsblodsukker) om?",
     "options": [
       "Det aktuelle blodsukker lige nu",
-      "Det gennemsnitlige blodsukkerniveau over de seneste ca. 2-3 måneder",
       "Mængden af insulin i en injektion",
+      "Det gennemsnitlige blodsukkerniveau over de seneste ca. 2-3 måneder",
       "Blodtrykket over et døgn"
     ],
-    "correct": "B",
+    "correct": "C",
     "explanation": "HbA1c afspejler, hvor højt blodsukkeret har ligget i gennemsnit over de seneste ca. 2-3 måneder, og bruges til at vurdere, hvor godt diabetesen er reguleret."
   },
   {
     "topic": "Endokrinologi",
     "question": "Hvilke symptomer er typiske ved hypoglykæmi (for lavt blodsukker)?",
     "options": [
-      "Sveden, rysten, sult, hjertebanken, koncentrationsbesvær og evt. konfusion",
-      "Langsomt indsættende vægtøgning over uger",
       "Tør hud og forstoppelse",
-      "Belastningssmerter i læggen"
+      "Langsomt indsættende vægtøgning over uger",
+      "Belastningssmerter i læggen",
+      "Sveden, rysten, sult, hjertebanken, koncentrationsbesvær og evt. konfusion"
     ],
-    "correct": "A",
+    "correct": "D",
     "explanation": "Lavt blodsukker giver typisk svedtendens, rysten, sult, hjertebanken, uro og koncentrationsbesvær. Falder blodsukkeret yderligere, kan det give konfusion, kramper og bevidstløshed."
   },
   {
     "topic": "Endokrinologi",
     "question": "En insulinbehandlet patient bliver under træning pludselig bleg, svedig, rystende og konfus, men er vågen og kan synke. Hvad er den rigtige håndtering?",
     "options": [
-      "Øge træningsintensiteten for at få gang i kredsløbet",
       "Stoppe træningen og give hurtigtvirkende sukker (fx saft, juice eller druesukker)",
+      "Lade patienten ligge ned og fortsætte bagefter uden videre",
       "Give insulin",
-      "Lade patienten ligge ned og fortsætte bagefter uden videre"
+      "Øge træningsintensiteten for at få gang i kredsløbet"
     ],
-    "correct": "B",
+    "correct": "A",
     "explanation": "Symptomerne tyder på hypoglykæmi. Er patienten vågen og kan synke, gives hurtigtvirkende kulhydrat (fx saft/druesukker). Er patienten bevidstløs eller ikke kan synke, gives IKKE noget i munden — ring 112. Insulin ville forværre tilstanden."
   },
   {
     "topic": "Endokrinologi",
     "question": "Hvorfor er det vigtigt at være opmærksom på blodsukkeret omkring træning hos en insulinbehandlet patient med diabetes?",
     "options": [
+      "Fordi træning ophæver virkningen af al mad",
       "Fordi fysisk aktivitet sænker blodsukkeret og dermed kan øge risikoen for hypoglykæmi",
-      "Fordi træning altid hæver blodsukkeret kraftigt",
       "Fordi blodsukkeret er ligegyldigt ved træning",
-      "Fordi træning ophæver virkningen af al mad"
+      "Fordi træning altid hæver blodsukkeret kraftigt"
     ],
-    "correct": "A",
+    "correct": "B",
     "explanation": "Træning øger musklernes glukoseforbrug og forstærker insulinets virkning, så blodsukkeret falder. Hos insulinbehandlede kan det give hypoglykæmi — derfor anbefales måling af blodsukker før (og ofte efter) træning og evt. justering af mad/insulin."
   },
   {
     "topic": "Endokrinologi",
     "question": "Hvad er diabetisk ketoacidose (DKA)?",
     "options": [
-      "En harmløs, forbigående tilstand uden behandlingsbehov",
-      "En akut, livstruende tilstand med meget højt blodsukker og syreophobning (ketoner), der især ses ved type 1-diabetes",
       "Et udtryk for for lavt blodsukker",
-      "En kronisk hudlidelse"
+      "En kronisk hudlidelse",
+      "En harmløs, forbigående tilstand uden behandlingsbehov",
+      "En akut, livstruende tilstand med meget højt blodsukker og syreophobning (ketoner), der især ses ved type 1-diabetes"
     ],
-    "correct": "B",
+    "correct": "D",
     "explanation": "Ved svær insulinmangel (især type 1) forbrænder kroppen fedt og danner ketoner, som forsurer blodet. DKA giver bl.a. kvalme, mavesmerter, dyb vejrtrækning (Kussmaul), acetoneånde og sløvhed — det er livstruende og kræver akut behandling."
   },
   {
     "topic": "Endokrinologi",
     "question": "Hvordan præsenterer en diabetisk perifer neuropati sig typisk?",
     "options": [
-      "Pludselig halvsidig lammelse",
-      "Symmetriske føleforstyrrelser, snurren og nedsat følesans, der starter distalt i fødderne i et 'strømpe'-mønster",
       "Anfaldsvis, pulserende hovedpine",
-      "Akut feber og nakkestivhed"
+      "Akut feber og nakkestivhed",
+      "Pludselig halvsidig lammelse",
+      "Symmetriske føleforstyrrelser, snurren og nedsat følesans, der starter distalt i fødderne i et 'strømpe'-mønster"
     ],
-    "correct": "B",
+    "correct": "D",
     "explanation": "Langvarigt højt blodsukker skader de perifere nerver. Det giver typisk symmetriske, distale føleforstyrrelser (snurren, nedsat følesans) i et strømpe-handske-mønster, ofte værst i fødderne."
   },
   {
@@ -196,8 +196,8 @@
     "question": "Hvorfor er fodinspektion og fodpleje særligt vigtigt hos en patient med diabetes og neuropati — også i fysioterapeutisk praksis?",
     "options": [
       "Fordi nedsat følesans gør, at sår og tryk fra fx fodtøj let overses og kan udvikle sig til alvorlige fodsår",
-      "Fordi fødderne altid bliver større ved diabetes",
       "Fordi neuropati gør huden mere modstandsdygtig",
+      "Fordi fødderne altid bliver større ved diabetes",
       "Fordi fodsår heler hurtigere ved diabetes"
     ],
     "correct": "A",
@@ -207,24 +207,24 @@
     "topic": "Endokrinologi",
     "question": "Hvordan inddeles de langvarige (sen-)komplikationer ved diabetes ofte?",
     "options": [
-      "I mikrovaskulære (øjne/retinopati, nyrer/nefropati, nerver/neuropati) og makrovaskulære (iskæmisk hjertesygdom, apopleksi, perifer arteriesygdom)",
-      "I akutte og allergiske",
+      "Der findes ingen senkomplikationer",
       "I medfødte og smitsomme",
-      "Der findes ingen senkomplikationer"
+      "I akutte og allergiske",
+      "I mikrovaskulære (øjne/retinopati, nyrer/nefropati, nerver/neuropati) og makrovaskulære (iskæmisk hjertesygdom, apopleksi, perifer arteriesygdom)"
     ],
-    "correct": "A",
+    "correct": "D",
     "explanation": "Diabetes skader både de små kar (mikrovaskulært: retinopati, nefropati, neuropati) og de store kar (makrovaskulært: aterosklerose med iskæmisk hjertesygdom, apopleksi og perifer arteriesygdom)."
   },
   {
     "topic": "Endokrinologi",
     "question": "Hvorfor kan diabetisk perifer neuropati være relevant for faldrisiko og balancetræning?",
     "options": [
-      "Fordi nedsat følesans i fødderne forringer balancen og øger risikoen for fald",
-      "Fordi neuropati forbedrer balancen",
+      "Fordi neuropati gør musklerne stærkere",
       "Fordi neuropati kun påvirker synet",
-      "Fordi neuropati gør musklerne stærkere"
+      "Fordi neuropati forbedrer balancen",
+      "Fordi nedsat følesans i fødderne forringer balancen og øger risikoen for fald"
     ],
-    "correct": "A",
+    "correct": "D",
     "explanation": "Når følesansen i fødderne er nedsat, mister kroppen vigtig sensorisk information til balancen. Det øger faldrisikoen — og gør balance- og styrketræning til en relevant fysioterapeutisk indsats."
   },
   {
@@ -232,59 +232,59 @@
     "question": "Hvad er metabolisk syndrom?",
     "options": [
       "En enkelt arvelig sygdom i bugspytkirtlen",
-      "En samling af risikofaktorer, der typisk omfatter bugfedme, forhøjet blodtryk, forhøjet blodsukker og forstyrret blodfedt (forhøjede triglycerider/lavt HDL)",
       "En akut infektion",
-      "En autoimmun nervesygdom"
+      "En autoimmun nervesygdom",
+      "En samling af risikofaktorer, der typisk omfatter bugfedme, forhøjet blodtryk, forhøjet blodsukker og forstyrret blodfedt (forhøjede triglycerider/lavt HDL)"
     ],
-    "correct": "B",
+    "correct": "D",
     "explanation": "Metabolisk syndrom er en ophobning af flere risikofaktorer i samme person: central (abdominal) fedme, forhøjet blodtryk, forhøjet (faste-)blodsukker samt forstyrret blodfedt. Tilsammen øger de risikoen markant."
   },
   {
     "topic": "Endokrinologi",
     "question": "Hvorfor er metabolisk syndrom vigtigt at opdage?",
     "options": [
+      "Fordi det kun påvirker huden",
       "Fordi det markant øger risikoen for type 2-diabetes og hjerte-kar-sygdom",
       "Fordi det altid er ufarligt",
-      "Fordi det kun påvirker huden",
       "Fordi det forsvinder af sig selv"
     ],
-    "correct": "A",
+    "correct": "B",
     "explanation": "Metabolisk syndrom øger risikoen for at udvikle type 2-diabetes og hjerte-kar-sygdom (fx iskæmisk hjertesygdom og apopleksi) betydeligt. Tidlig indsats kan forebygge dette."
   },
   {
     "topic": "Endokrinologi",
     "question": "Hvad er den vigtigste behandling af metabolisk syndrom — og oplagt for fysioterapeuten at bidrage til?",
     "options": [
-      "Livsstilsændringer med vægttab, øget fysisk aktivitet og sundere kost",
+      "Mindre søvn og mere stillesiddende tid",
       "Sengeleje",
-      "Antibiotika",
-      "Mindre søvn og mere stillesiddende tid"
+      "Livsstilsændringer med vægttab, øget fysisk aktivitet og sundere kost",
+      "Antibiotika"
     ],
-    "correct": "A",
+    "correct": "C",
     "explanation": "Grundbehandlingen er livsstil: vægttab, regelmæssig fysisk aktivitet og sund kost (samt rygestop). Det forbedrer flere af risikofaktorerne på én gang — og fysioterapeuten kan understøtte især den fysiske aktivitet."
   },
   {
     "topic": "Endokrinologi",
     "question": "Hvilken type fedtfordeling er særligt forbundet med insulinresistens og metabolisk syndrom?",
     "options": [
-      "Central (abdominal) fedme — fedt omkring maven og de indre organer",
       "Fedt udelukkende på fødderne",
+      "Fedt kun i ørerne",
       "Helt jævnt fordelt fedt uden betydning",
-      "Fedt kun i ørerne"
+      "Central (abdominal) fedme — fedt omkring maven og de indre organer"
     ],
-    "correct": "A",
+    "correct": "D",
     "explanation": "Bugfedme (visceralt fedt omkring de indre organer) er særligt knyttet til insulinresistens og en øget kardiometabolisk risiko — mere end fedt, der sidder på fx hofter og lår."
   },
   {
     "topic": "Endokrinologi",
     "question": "Hvad kendetegner hyperthyroidisme (for højt stofskifte)?",
     "options": [
-      "For lav produktion af stofskiftehormon, så stofskiftet sættes ned",
-      "For høj produktion af stofskiftehormon, så kroppens stofskifte speedes op",
       "En infektion i skjoldbruskkirtlen som eneste mulighed",
-      "En tilstand uden symptomer overhovedet"
+      "En tilstand uden symptomer overhovedet",
+      "For lav produktion af stofskiftehormon, så stofskiftet sættes ned",
+      "For høj produktion af stofskiftehormon, så kroppens stofskifte speedes op"
     ],
-    "correct": "B",
+    "correct": "D",
     "explanation": "Ved hyperthyroidisme producerer skjoldbruskkirtlen for meget stofskiftehormon, hvilket øger kroppens forbrænding og aktiverer mange organsystemer."
   },
   {
@@ -292,9 +292,9 @@
     "question": "Hvilke symptomer er typiske ved hyperthyroidisme?",
     "options": [
       "Vægttab trods god appetit, hjertebanken, varmeintolerance, svedtendens, rastløshed og evt. rysten på hænderne",
-      "Vægtøgning, frysighed og forstoppelse",
+      "Pludselig halvsidig lammelse",
       "Belastningssmerter i læggen",
-      "Pludselig halvsidig lammelse"
+      "Vægtøgning, frysighed og forstoppelse"
     ],
     "correct": "A",
     "explanation": "Det høje stofskifte giver bl.a. vægttab trods god appetit, hjertebanken/hurtig puls, varmeintolerance og svedtendens, indre uro/nervøsitet samt fin tremor. Nogle får også diarré og søvnproblemer."
@@ -304,9 +304,9 @@
     "question": "Hvad er en hyppig årsag til hyperthyroidisme?",
     "options": [
       "Graves' sygdom (en autoimmun lidelse)",
-      "Et brækket ben",
       "En virusinfektion i lungerne",
-      "For lavt indtag af vand"
+      "For lavt indtag af vand",
+      "Et brækket ben"
     ],
     "correct": "A",
     "explanation": "Graves' sygdom er en hyppig årsag til hyperthyroidisme. Det er en autoimmun tilstand, hvor antistoffer stimulerer skjoldbruskkirtlen til at producere for meget hormon (kan bl.a. ledsages af udstående øjne, exophthalmus)."
@@ -315,12 +315,12 @@
     "topic": "Endokrinologi",
     "question": "Hvad kendetegner hypothyroidisme (for lavt stofskifte)?",
     "options": [
-      "For lav produktion af stofskiftehormon, så kroppens stofskifte sættes ned",
-      "For høj produktion af stofskiftehormon",
       "En akut blodprop i hjertet",
-      "En allergisk reaktion"
+      "En allergisk reaktion",
+      "For høj produktion af stofskiftehormon",
+      "For lav produktion af stofskiftehormon, så kroppens stofskifte sættes ned"
     ],
-    "correct": "A",
+    "correct": "D",
     "explanation": "Ved hypothyroidisme danner skjoldbruskkirtlen for lidt stofskiftehormon, så kroppens forbrænding og mange funktioner kører langsommere."
   },
   {
@@ -329,8 +329,8 @@
     "options": [
       "Træthed, vægtøgning, frysighed (kuldskærhed), forstoppelse, langsom puls og tør hud",
       "Vægttab, hjertebanken og varmeintolerance",
-      "Pludselig eksplosiv hovedpine",
-      "Hvæsende vejrtrækning og hoste"
+      "Hvæsende vejrtrækning og hoste",
+      "Pludselig eksplosiv hovedpine"
     ],
     "correct": "A",
     "explanation": "Det lave stofskifte giver bl.a. træthed, vægtøgning, frysighed, forstoppelse, langsom puls (bradykardi), tør hud og ofte langsommere tempo samt nedtrykthed."
@@ -339,24 +339,24 @@
     "topic": "Endokrinologi",
     "question": "Hvad bruges blodprøven TSH typisk til?",
     "options": [
-      "At vurdere skjoldbruskkirtlens funktion (om stofskiftet er for højt eller for lavt)",
       "At måle blodsukkeret",
       "At måle blodtrykket",
+      "At vurdere skjoldbruskkirtlens funktion (om stofskiftet er for højt eller for lavt)",
       "At måle iltmætningen"
     ],
-    "correct": "A",
+    "correct": "C",
     "explanation": "TSH (thyreoideastimulerende hormon) er den centrale blodprøve til at vurdere stofskiftet. Forenklet: ved primært for lavt stofskifte er TSH typisk forhøjet, og ved primært for højt stofskifte er TSH typisk lavt."
   },
   {
     "topic": "Endokrinologi",
     "question": "Hvorfor er personer med dårligt reguleret diabetes mere udsatte for infektioner og dårlig sårheling?",
     "options": [
-      "Fordi højt blodsukker over tid svækker immunforsvaret og nedsætter blodforsyningen (mikrocirkulationen) samt nervefunktionen",
       "Fordi diabetes gør huden mere modstandsdygtig",
-      "Fordi diabetes forbedrer blodforsyningen til såret",
-      "Fordi infektioner aldrig forekommer ved diabetes"
+      "Fordi højt blodsukker over tid svækker immunforsvaret og nedsætter blodforsyningen (mikrocirkulationen) samt nervefunktionen",
+      "Fordi infektioner aldrig forekommer ved diabetes",
+      "Fordi diabetes forbedrer blodforsyningen til såret"
     ],
-    "correct": "A",
+    "correct": "B",
     "explanation": "Vedvarende højt blodsukker hæmmer immuncellernes funktion, skader de små kar (nedsat mikrocirkulation) og nerverne (neuropati). Tilsammen nedsætter det sårhelingen og øger infektionsrisikoen — vigtigt at kende ved fx fodsår og efter skader."
   }
 ]

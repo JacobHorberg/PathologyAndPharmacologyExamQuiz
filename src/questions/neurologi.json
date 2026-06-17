@@ -4,8 +4,8 @@
     "question": "Hvilke er de klassiske kernesymptomer (kardinalsymptomer) ved Parkinsons sygdom?",
     "options": [
       "Hviletremor, rigiditet (muskelstivhed) og bradykinesi (langsomme bevægelser)",
-      "Feber, nakkestivhed og lysskyhed",
       "Pludselig halvsidig lammelse og taleforstyrrelse",
+      "Feber, nakkestivhed og lysskyhed",
       "Anfaldsvis åndenød og hvæsen"
     ],
     "correct": "A",
@@ -15,24 +15,24 @@
     "topic": "Neurologi",
     "question": "Hvad er den grundlæggende patofysiologiske årsag til Parkinsons sygdom?",
     "options": [
+      "En blodprop i en hjernearterie",
       "Demyelinisering af nerver i centralnervesystemet",
       "Tab af dopaminproducerende nerveceller i substantia nigra",
-      "En blodprop i en hjernearterie",
       "Antistoffer mod acetylkolinreceptorer"
     ],
-    "correct": "B",
+    "correct": "C",
     "explanation": "Ved Parkinson degenererer de dopaminproducerende celler i substantia nigra, hvilket giver dopaminmangel i hjernens motoriske kredsløb og dermed bevægesymptomerne."
   },
   {
     "topic": "Neurologi",
     "question": "Hvilket lægemiddel er hjørnestenen i den medicinske behandling af Parkinsons sygdom?",
     "options": [
-      "Levodopa (L-dopa)",
       "Penicillin",
+      "Acetylsalicylsyre",
       "Insulin",
-      "Acetylsalicylsyre"
+      "Levodopa (L-dopa)"
     ],
-    "correct": "A",
+    "correct": "D",
     "explanation": "Levodopa omdannes til dopamin i hjernen og afhjælper dopaminmanglen. Det er den mest effektive symptomatiske behandling ved Parkinson."
   },
   {
@@ -40,8 +40,8 @@
     "question": "Hvad er den hyppigste årsag til demens?",
     "options": [
       "Alzheimers sygdom",
-      "Parkinsons sygdom",
       "Dissemineret sklerose",
+      "Parkinsons sygdom",
       "Migræne"
     ],
     "correct": "A",
@@ -51,10 +51,10 @@
     "topic": "Neurologi",
     "question": "Hvad kendetegner demens?",
     "options": [
-      "En akut, forbigående forvirring over få timer",
+      "En anfaldsvis, pulserende hovedpine",
       "En kronisk, progressiv svækkelse af hukommelse og andre kognitive funktioner, der påvirker dagligdagen",
       "En forbigående lammelse, der går væk i løbet af et døgn",
-      "En anfaldsvis, pulserende hovedpine"
+      "En akut, forbigående forvirring over få timer"
     ],
     "correct": "B",
     "explanation": "Demens er en erhvervet, kronisk og typisk fremadskridende svækkelse af kognitive funktioner (hukommelse, sprog, orientering m.m.), som nedsætter funktionsevnen i hverdagen."
@@ -64,35 +64,35 @@
     "question": "Hvad kendetegner delir?",
     "options": [
       "En snigende, irreversibel kognitiv svækkelse over år",
-      "En akut indsættende, ofte svingende (fluktuerende) forvirringstilstand med opmærksomhedsforstyrrelse",
       "En medfødt tilstand uden udløsende årsag",
+      "En akut indsættende, ofte svingende (fluktuerende) forvirringstilstand med opmærksomhedsforstyrrelse",
       "En kronisk hovedpine"
     ],
-    "correct": "B",
+    "correct": "C",
     "explanation": "Delir opstår akut, svinger i løbet af døgnet og rammer især opmærksomhed og bevidsthedsniveau. Det er ofte reversibelt, når den udløsende årsag behandles."
   },
   {
     "topic": "Neurologi",
     "question": "En 82-årig med kendt urinvejsinfektion bliver i løbet af et døgn pludselig forvirret og urolig, med svingende symptomer. Hvad er den mest sandsynlige tilstand?",
     "options": [
-      "Delir, sandsynligvis udløst af infektionen",
-      "Nyopstået Alzheimers demens",
       "Migræne med aura",
-      "Et epileptisk anfald"
+      "Et epileptisk anfald",
+      "Delir, sandsynligvis udløst af infektionen",
+      "Nyopstået Alzheimers demens"
     ],
-    "correct": "A",
+    "correct": "C",
     "explanation": "Akut, fluktuerende forvirring hos en ældre med en samtidig infektion peger på delir. Infektion (fx UVI eller pneumoni) er en meget hyppig udløsende årsag."
   },
   {
     "topic": "Neurologi",
     "question": "Hvad er den hyppigste type apopleksi (stroke)?",
     "options": [
-      "Iskæmisk apopleksi (blodprop)",
       "Hæmoragisk apopleksi (hjerneblødning)",
       "Subduralt hæmatom",
-      "Migrænøst infarkt"
+      "Migrænøst infarkt",
+      "Iskæmisk apopleksi (blodprop)"
     ],
-    "correct": "A",
+    "correct": "D",
     "explanation": "Cirka 85 % af alle apopleksier er iskæmiske (en blodprop blokerer en hjernearterie). Resten skyldes blødning (hæmoragisk apopleksi)."
   },
   {
@@ -100,119 +100,119 @@
     "question": "Hvilke symptomer indgår i 'FAST'-tegnene, man bruger til hurtigt at mistænke apopleksi?",
     "options": [
       "Feber, appetitløshed, søvnighed og tørst",
-      "Skæv ansigtsmimik, nedsat kraft i en arm og uklar/påvirket tale — og dermed behov for at reagere hurtigt på tid",
+      "Hoste, åndenød, brystsmerter og blålige læber",
       "Hovedpine, kvalme, lysskyhed og kuldegysninger",
-      "Hoste, åndenød, brystsmerter og blålige læber"
+      "Skæv ansigtsmimik, nedsat kraft i en arm og uklar/påvirket tale — og dermed behov for at reagere hurtigt på tid"
     ],
-    "correct": "B",
+    "correct": "D",
     "explanation": "FAST står for Face (skæv ansigtsmimik), Arms (kraftnedsættelse i arm), Speech (taleforstyrrelse) og Time (ring 112 straks). Hurtig erkendelse er afgørende."
   },
   {
     "topic": "Neurologi",
     "question": "Hvorfor er det afgørende at handle hurtigt ('time is brain') ved mistanke om iskæmisk apopleksi?",
     "options": [
-      "Fordi symptomerne altid forsvinder af sig selv inden for en time",
       "Fordi behandling, der genåbner karret (fx trombolyse/trombektomi), kun virker inden for et begrænset tidsvindue og redder hjernevæv",
+      "Fordi symptomerne altid forsvinder af sig selv inden for en time",
       "Fordi apopleksi ikke kan behandles",
       "Fordi patienten skal faste i mange dage først"
     ],
-    "correct": "B",
+    "correct": "A",
     "explanation": "Ved iskæmi dør hjernevæv hurtigt. Revaskulariserende behandling (trombolyse/trombektomi) har et snævert tidsvindue, så jo hurtigere, jo mere væv kan reddes."
   },
   {
     "topic": "Neurologi",
     "question": "Hvad kendetegner en TCI (transitorisk cerebral iskæmi)?",
     "options": [
-      "Apopleksilignende symptomer, der går helt væk inden for kort tid og uden blivende vævsskade",
+      "En medfødt misdannelse i hjernen",
       "En permanent halvsidig lammelse",
       "En kronisk hovedpine over måneder",
-      "En medfødt misdannelse i hjernen"
+      "Apopleksilignende symptomer, der går helt væk inden for kort tid og uden blivende vævsskade"
     ],
-    "correct": "A",
+    "correct": "D",
     "explanation": "Ved TCI ('lille drypslag') optræder forbigående iskæmiske symptomer, der svinder uden varigt infarkt. Det er et vigtigt advarselstegn om øget risiko for senere apopleksi."
   },
   {
     "topic": "Neurologi",
     "question": "Hvad er den grundlæggende patofysiologi ved dissemineret sklerose (MS)?",
     "options": [
-      "En autoimmun demyelinisering (nedbrydning af myelinskeden) i centralnervesystemet",
-      "En blodprop i hjertet",
       "En bakteriel infektion i rygmarven",
-      "Tab af dopaminceller i substantia nigra"
+      "En blodprop i hjertet",
+      "Tab af dopaminceller i substantia nigra",
+      "En autoimmun demyelinisering (nedbrydning af myelinskeden) i centralnervesystemet"
     ],
-    "correct": "A",
+    "correct": "D",
     "explanation": "MS er en autoimmun sygdom, hvor immunforsvaret angriber myelinskeden omkring nervetrådene i CNS, så nerveimpulserne forstyrres."
   },
   {
     "topic": "Neurologi",
     "question": "Hvilket forløb er mest typisk for dissemineret sklerose ved sygdomsdebut?",
     "options": [
-      "Et attakvist (relapsing-remitting) forløb med forværringer (attakker) afløst af bedring",
       "En akut, livstruende tilstand inden for timer",
       "Et fuldstændigt symptomfrit forløb hele livet",
+      "Et attakvist (relapsing-remitting) forløb med forværringer (attakker) afløst af bedring",
       "Et anfald, der altid kun varer få sekunder"
     ],
-    "correct": "A",
+    "correct": "C",
     "explanation": "De fleste debuterer med et attakvist forløb (relapsing-remitting): episoder med neurologiske symptomer, der helt eller delvist svinder igen mellem attakkerne."
   },
   {
     "topic": "Neurologi",
     "question": "En 28-årig kvinde får over få dage nedsat syn på det ene øje med smerter ved øjenbevægelser, og har tidligere haft forbigående føleforstyrrelser i benene. Hvilken sygdom bør man mistænke?",
     "options": [
-      "Dissemineret sklerose",
+      "Karpaltunnelsyndrom",
       "Parkinsons sygdom",
-      "Migræne",
-      "Karpaltunnelsyndrom"
+      "Dissemineret sklerose",
+      "Migræne"
     ],
-    "correct": "A",
+    "correct": "C",
     "explanation": "Synsnervebetændelse (opticusneuritis) hos en ung kvinde sammen med tidligere forbigående neurologiske symptomer fra et andet område er klassisk for MS — symptomer spredt i tid og sted."
   },
   {
     "topic": "Neurologi",
     "question": "Hvad er en meget hyppig årsag til perifer polyneuropati?",
     "options": [
-      "Diabetes mellitus",
-      "Migræne",
       "Forkølelse",
-      "Lavt blodtryk"
+      "Lavt blodtryk",
+      "Migræne",
+      "Diabetes mellitus"
     ],
-    "correct": "A",
+    "correct": "D",
     "explanation": "Diabetes er en af de hyppigste årsager til perifer polyneuropati, hvor høje blodsukre over tid skader de perifere nerver."
   },
   {
     "topic": "Neurologi",
     "question": "Hvordan præsenterer en perifer polyneuropati sig typisk?",
     "options": [
-      "Pludselig halvsidig lammelse",
-      "Symmetriske føleforstyrrelser, snurren og følelsesløshed, der starter distalt (fødder/hænder) i 'strømpe-handske'-mønster",
+      "Akut nakkestivhed og feber",
       "Anfaldsvis, pulserende hovedpine",
-      "Akut nakkestivhed og feber"
+      "Pludselig halvsidig lammelse",
+      "Symmetriske føleforstyrrelser, snurren og følelsesløshed, der starter distalt (fødder/hænder) i 'strømpe-handske'-mønster"
     ],
-    "correct": "B",
+    "correct": "D",
     "explanation": "Perifer polyneuropati giver typisk symmetriske, distale sensoriske symptomer (snurren, prikken, nedsat følesans) i et 'strømpe-handske'-mønster, ofte værst i fødderne."
   },
   {
     "topic": "Neurologi",
     "question": "Hvilke symptomer er klassiske for akut bakteriel meningitis?",
     "options": [
-      "Feber, kraftig hovedpine, nakkestivhed og lysskyhed",
       "Langsomt indsættende hukommelsestab over år",
+      "Anfaldsvis åndenød og hvæsen",
       "Belastningsudløste smerter i lægmusklen",
-      "Anfaldsvis åndenød og hvæsen"
+      "Feber, kraftig hovedpine, nakkestivhed og lysskyhed"
     ],
-    "correct": "A",
+    "correct": "D",
     "explanation": "Akut bakteriel meningitis giver typisk feber, svær hovedpine, nakkestivhed og lysskyhed. Ved meningokokker kan der tilkomme petekkier (små hudblødninger). Det er en akut, livstruende tilstand."
   },
   {
     "topic": "Neurologi",
     "question": "Hvad er encephalitis?",
     "options": [
+      "En forsnævring af luftvejene",
       "En inflammation i selve hjernevævet, ofte forårsaget af virus",
       "En blodprop i benets dybe vener",
-      "En forsnævring af luftvejene",
       "En degeneration af dopaminceller"
     ],
-    "correct": "A",
+    "correct": "B",
     "explanation": "Encephalitis er en betændelse i selve hjernevævet (oftest viral), som ud over feber/hovedpine kan give bevidsthedspåvirkning, adfærdsændringer og kramper. Meningitis er derimod betændelse i hjernehinderne."
   },
   {
@@ -231,9 +231,9 @@
     "topic": "Neurologi",
     "question": "Hvad kendetegner en spændingshovedpine?",
     "options": [
-      "Ensidig pulserende smerte med kvalme",
-      "Bilateral, pressende eller strammende smerte (som et bånd om hovedet), mild til moderat og uden væsentlig kvalme",
       "Pludselig værste hovedpine i livet",
+      "Bilateral, pressende eller strammende smerte (som et bånd om hovedet), mild til moderat og uden væsentlig kvalme",
+      "Ensidig pulserende smerte med kvalme",
       "Anfald med tåreflåd og rindende næse"
     ],
     "correct": "B",
@@ -244,21 +244,21 @@
     "question": "Hvad er karakteristisk for Hortons hovedpine (klyngehovedpine)?",
     "options": [
       "Mild, bilateral pressende hovedpine",
-      "Voldsom, ensidig smerte omkring/bag øjet med autonome symptomer (tåreflåd, rindende/tilstoppet næse), i anfald der kommer i perioder ('klynger')",
       "Langsomt tiltagende hukommelsestab",
+      "Voldsom, ensidig smerte omkring/bag øjet med autonome symptomer (tåreflåd, rindende/tilstoppet næse), i anfald der kommer i perioder ('klynger')",
       "Smerter, der kun opstår ved fysisk anstrengelse i benene"
     ],
-    "correct": "B",
+    "correct": "C",
     "explanation": "Hortons hovedpine giver kortvarige, meget voldsomme ensidige smerter omkring øjet med autonome symptomer på samme side (tåreflåd, næseflåd, ptose). Anfaldene optræder klyngevist."
   },
   {
     "topic": "Neurologi",
     "question": "Hvad er den grundlæggende mekanisme bag et epileptisk anfald?",
     "options": [
-      "En forbigående afbrydelse af blodforsyningen til hjernen",
+      "En infektion i hjernehinderne",
       "En abnorm, overdreven og synkron elektrisk aktivitet i hjernens nerveceller",
       "En autoimmun nedbrydning af myelin",
-      "En infektion i hjernehinderne"
+      "En forbigående afbrydelse af blodforsyningen til hjernen"
     ],
     "correct": "B",
     "explanation": "Et epileptisk anfald skyldes pludselig, abnorm og synkron elektrisk udladning i grupper af hjerneceller, hvilket kan give kramper, bevidsthedstab eller andre symptomer."
@@ -267,24 +267,24 @@
     "topic": "Neurologi",
     "question": "En person får et generaliseret krampeanfald. Hvad er den korrekte akutte førstehjælp?",
     "options": [
-      "Holde fast i personens arme og ben for at stoppe krampen",
       "Lægge noget mellem tænderne for at beskytte tungen",
       "Beskytte personen mod skader, lægge vedkommende i aflåst sideleje når krampen er ovre, og tilkalde hjælp",
+      "Holde fast i personens arme og ben for at stoppe krampen",
       "Påbegynde hjertemassage straks under krampen"
     ],
-    "correct": "C",
+    "correct": "B",
     "explanation": "Man skal beskytte personen mod tilskadekomst, fjerne farlige genstande, ikke holde fast eller putte noget i munden, og lægge vedkommende i sideleje efter anfaldet. Tilkald hjælp ved langvarigt eller gentaget anfald."
   },
   {
     "topic": "Neurologi",
     "question": "En patient beskriver en pludselig, eksplosiv hovedpine — 'den værste i mit liv' — der toppede på få sekunder. Hvilken tilstand bør man frem for alt mistænke?",
     "options": [
-      "Subaraknoidalblødning (SAH)",
       "Spændingshovedpine",
-      "Migræne uden aura",
-      "Perifer neuropati"
+      "Perifer neuropati",
+      "Subaraknoidalblødning (SAH)",
+      "Migræne uden aura"
     ],
-    "correct": "A",
+    "correct": "C",
     "explanation": "Pludselig, eksplosiv 'tordenskraldshovedpine' er klassisk for subaraknoidalblødning, oftest pga. bristning af et aneurisme. Det er en akut, livstruende tilstand."
   },
   {
@@ -304,9 +304,9 @@
     "question": "Hvilken patientgruppe er særligt udsat for et subduralt hæmatom (SDH), ofte efter et beskedent traume?",
     "options": [
       "Ældre og personer med stort alkoholforbrug",
+      "Personer med migræne",
       "Småbørn uden traume",
-      "Unge eliteatleter",
-      "Personer med migræne"
+      "Unge eliteatleter"
     ],
     "correct": "A",
     "explanation": "SDH skyldes typisk venøs blødning fra brovener og ses især hos ældre og personer med alkoholoverforbrug (hjerneatrofi strækker venerne). Symptomerne kan udvikle sig snigende over dage til uger."
@@ -315,12 +315,12 @@
     "topic": "Neurologi",
     "question": "Hvad kendetegner amyotrofisk lateralsklerose (ALS)?",
     "options": [
-      "Fremadskridende degeneration af de motoriske nerveceller med tiltagende muskelsvækkelse og -svind, mens følesans og kognition typisk er bevaret",
       "En autoimmun demyelinisering med synstab",
+      "En forbigående forvirringstilstand",
       "En akut blodprop i hjernen",
-      "En forbigående forvirringstilstand"
+      "Fremadskridende degeneration af de motoriske nerveceller med tiltagende muskelsvækkelse og -svind, mens følesans og kognition typisk er bevaret"
     ],
-    "correct": "A",
+    "correct": "D",
     "explanation": "ALS rammer både øvre og nedre motoriske neuroner, hvilket giver progredierende muskelsvaghed, svind og spasticitet. Følesans og som regel kognition er upåvirket."
   },
   {
@@ -328,8 +328,8 @@
     "question": "Hvad er ataksi?",
     "options": [
       "En koordinationsforstyrrelse med fx usikker, bredsporet gang og upræcise bevægelser",
-      "En anfaldsvis, ensidig hovedpine",
       "En akut infektion i hjernehinderne",
+      "En anfaldsvis, ensidig hovedpine",
       "En forhøjet muskelkraft"
     ],
     "correct": "A",
@@ -339,24 +339,24 @@
     "topic": "Neurologi",
     "question": "Hvad kendetegner myasthenia gravis?",
     "options": [
-      "Udtrættelig muskelsvaghed pga. antistoffer mod acetylkolinreceptorerne ved den neuromuskulære overgang — fx hængende øjenlåg og dobbeltsyn, værst sidst på dagen",
-      "Hviletremor og rigiditet pga. dopaminmangel",
       "Pludselig halvsidig lammelse pga. blodprop",
-      "Demyelinisering med attakvise synstab"
+      "Hviletremor og rigiditet pga. dopaminmangel",
+      "Demyelinisering med attakvise synstab",
+      "Udtrættelig muskelsvaghed pga. antistoffer mod acetylkolinreceptorerne ved den neuromuskulære overgang — fx hængende øjenlåg og dobbeltsyn, værst sidst på dagen"
     ],
-    "correct": "A",
+    "correct": "D",
     "explanation": "Myasthenia gravis er autoimmun: antistoffer mod acetylkolinreceptorerne forstyrrer signaloverførslen til musklen. Det giver udtrættelig svaghed, der forværres ved gentagen brug og hen over dagen (ofte ptose og dobbeltsyn)."
   },
   {
     "topic": "Neurologi",
     "question": "Hvad udgør centralnervesystemet (CNS)?",
     "options": [
-      "Hjernen og rygmarven",
+      "Musklerne og senerne",
       "De perifere nerver og nervepletter ude i kroppen",
       "Kun synsnerven",
-      "Musklerne og senerne"
+      "Hjernen og rygmarven"
     ],
-    "correct": "A",
+    "correct": "D",
     "explanation": "CNS består af hjernen og rygmarven. Det perifere nervesystem (PNS) omfatter nerverne uden for CNS, der forbinder CNS med kroppens øvrige væv."
   }
 ]

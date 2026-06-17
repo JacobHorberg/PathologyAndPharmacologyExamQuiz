@@ -3,36 +3,36 @@
     "topic": "Operationspatienten",
     "question": "Hvad er en cikatrice (ar)?",
     "options": [
-      "Det bindevæv (arvæv), der dannes, når en vævsskade/sår heler",
       "En akut betændelse i et led",
       "En blodprop i en vene",
-      "En ophobning af luft i tarmen"
+      "En ophobning af luft i tarmen",
+      "Det bindevæv (arvæv), der dannes, når en vævsskade/sår heler"
     ],
-    "correct": "A",
+    "correct": "D",
     "explanation": "En cikatrice er det arvæv, kroppen danner for at lukke og reparere en sårskade. Arvæv er ikke helt identisk med det oprindelige væv og er fx ofte mindre elastisk."
   },
   {
     "topic": "Operationspatienten",
     "question": "Hvad kendetegner et keloid sammenlignet med et almindeligt (eller hypertrofisk) ar?",
     "options": [
-      "Et keloid er en overdreven arvævsdannelse, der vokser ud over selve det oprindelige sårområde",
       "Et keloid er et ar, der altid forsvinder helt",
+      "Et keloid er en overdreven arvævsdannelse, der vokser ud over selve det oprindelige sårområde",
       "Et keloid betyder, at såret er inficeret",
       "Et keloid er det samme som et tryksår"
     ],
-    "correct": "A",
+    "correct": "B",
     "explanation": "Ved hypertrofiske ar er der kraftig arvævsdannelse inden for sårets grænser. Et keloid vokser derimod ud over det oprindelige sårområde. Begge skyldes en overdreven arvævsproduktion under helingen."
   },
   {
     "topic": "Operationspatienten",
     "question": "Hvorfor kan et ar give funktionelle problemer — relevant for fysioterapeuten?",
     "options": [
-      "Fordi arvæv kan blive stramt og uelastisk og — især hen over et led — begrænse bevægeligheden (risiko for kontraktur)",
-      "Fordi ar altid gør huden stærkere og mere bevægelig",
+      "Fordi ar kun har kosmetisk betydning og aldrig påvirker funktion",
       "Fordi ar forhindrer al heling",
-      "Fordi ar kun har kosmetisk betydning og aldrig påvirker funktion"
+      "Fordi arvæv kan blive stramt og uelastisk og — især hen over et led — begrænse bevægeligheden (risiko for kontraktur)",
+      "Fordi ar altid gør huden stærkere og mere bevægelig"
     ],
-    "correct": "A",
+    "correct": "C",
     "explanation": "Arvæv er mindre eftergiveligt end normalt væv. Ligger arret hen over et led, kan det stramme og begrænse bevægeligheden og i værste fald give kontraktur. Derfor er bevægelighed og arbehandling relevant i genoptræningen."
   },
   {
@@ -41,8 +41,8 @@
     "options": [
       "Blød vævsbehandling/armobilisering og bevægelsestræning for at forbedre arrets eftergivelighed og den omkringliggende bevægelighed",
       "Massere kraftigt i et åbent, ikke-helet sår",
-      "Undgå al bevægelse af området for altid",
-      "Ingenting, da ar aldrig kan påvirkes"
+      "Ingenting, da ar aldrig kan påvirkes",
+      "Undgå al bevægelse af området for altid"
     ],
     "correct": "A",
     "explanation": "Når såret er lukket og helet, kan armobilisering, blød vævsbehandling og bevægelsestræning bidrage til et mere eftergiveligt ar og bevare bevægelighed. Man arbejder naturligvis ikke i et åbent eller ikke-helet sår."
@@ -53,8 +53,8 @@
     "options": [
       "Den indledende inflammationsfase er en normal og nødvendig del af helingen (oprydning og igangsætning af reparationen)",
       "Inflammation er altid et tegn på infektion og bør altid undgås",
-      "Inflammation forhindrer al heling",
-      "Inflammation har ingen betydning for sår"
+      "Inflammation har ingen betydning for sår",
+      "Inflammation forhindrer al heling"
     ],
     "correct": "A",
     "explanation": "Sårheling indledes med en inflammationsfase, hvor bl.a. immunceller rydder op og sætter reparationen i gang. Inflammation er altså en normal og nødvendig del af helingen — ikke det samme som infektion."
@@ -63,48 +63,48 @@
     "topic": "Operationspatienten",
     "question": "Hvordan adskiller normal postoperativ inflammation sig fra en sårinfektion?",
     "options": [
-      "Let rødme, varme og hævelse de første dage kan være normal heling, mens tiltagende rødme, varme, pus/sekretion, øget smerte og feber tyder på infektion",
-      "Der er ingen forskel — al hævelse er infektion",
+      "Normal heling giver altid pus",
       "Infektion giver aldrig feber",
-      "Normal heling giver altid pus"
+      "Let rødme, varme og hævelse de første dage kan være normal heling, mens tiltagende rødme, varme, pus/sekretion, øget smerte og feber tyder på infektion",
+      "Der er ingen forskel — al hævelse er infektion"
     ],
-    "correct": "A",
+    "correct": "C",
     "explanation": "En vis rødme, varme og hævelse omkring et frisk sår kan høre til den normale inflammatoriske helingsfase. Men tiltagende rødme/varme/hævelse, pus, øget smerte og feber peger mod en infektion, der skal vurderes."
   },
   {
     "topic": "Operationspatienten",
     "question": "I hvilken rækkefølge forløber sårhelingens faser typisk?",
     "options": [
-      "Inflammationsfase → proliferationsfase (nydannelse af granulationsvæv) → remodelleringsfase (modning af arvæv)",
-      "Remodellering → inflammation → proliferation",
       "Der er kun én fase",
-      "Proliferation → inflammation → infektion"
+      "Proliferation → inflammation → infektion",
+      "Inflammationsfase → proliferationsfase (nydannelse af granulationsvæv) → remodelleringsfase (modning af arvæv)",
+      "Remodellering → inflammation → proliferation"
     ],
-    "correct": "A",
+    "correct": "C",
     "explanation": "Heling forløber typisk i faser: først inflammation (oprydning), så proliferation (nyt granulationsvæv, nye kar, sammentrækning) og til sidst remodellering, hvor arvævet modnes og bliver stærkere over uger til måneder."
   },
   {
     "topic": "Operationspatienten",
     "question": "Hvad er den kirurgiske stressrespons?",
     "options": [
-      "Kroppens neuroendokrine og metaboliske reaktion på operationstraumet, bl.a. med frigivelse af stresshormoner (kortisol, katekolaminer) og øget nedbrydning (katabolisme)",
+      "En psykisk lidelse efter operation",
       "En allergisk reaktion på bedøvelse",
       "En infektion i operationssåret",
-      "En psykisk lidelse efter operation"
+      "Kroppens neuroendokrine og metaboliske reaktion på operationstraumet, bl.a. med frigivelse af stresshormoner (kortisol, katekolaminer) og øget nedbrydning (katabolisme)"
     ],
-    "correct": "A",
+    "correct": "D",
     "explanation": "Operation er et traume, som kroppen reagerer på med en stressrespons: frigivelse af bl.a. kortisol og katekolaminer, øget stofskifte, katabolisme og væske-/saltretention. Responsen påvirker restitutionen efter operationen."
   },
   {
     "topic": "Operationspatienten",
     "question": "Hvilke konsekvenser kan den kirurgiske stressrespons have for patienten?",
     "options": [
-      "Øget nedbrydning af kroppens reserver (katabolisme), væske-/saltophobning og øget belastning af kredsløbet",
-      "Hurtigere muskelopbygning end normalt",
       "Nedsat behov for ernæring og søvn",
+      "Hurtigere muskelopbygning end normalt",
+      "Øget nedbrydning af kroppens reserver (katabolisme), væske-/saltophobning og øget belastning af kredsløbet",
       "Ingen påvirkning af kroppen overhovedet"
     ],
-    "correct": "A",
+    "correct": "C",
     "explanation": "Stressresponsen er bl.a. katabol (nedbrydende), giver væske- og saltretention og øger kredsløbets arbejde. Det kan forlænge restitutionen og bidrage til træthed og muskeltab efter operationen."
   },
   {
@@ -113,8 +113,8 @@
     "options": [
       "God smertelindring, tidlig ernæring og tidlig mobilisering",
       "Lang sengeleje og faste i mange dage",
-      "Undgåelse af al bevægelse efter operationen",
-      "At patienten ligger helt stille indtil udskrivelse"
+      "At patienten ligger helt stille indtil udskrivelse",
+      "Undgåelse af al bevægelse efter operationen"
     ],
     "correct": "A",
     "explanation": "Accelererede forløb (fast-track/ERAS) bygger bl.a. på effektiv smertebehandling, tidlig ernæring og tidlig mobilisering. Det dæmper følgerne af stressresponsen, forebygger komplikationer og fremskynder restitutionen — og fysioterapeuten har en central rolle i mobiliseringen."
@@ -123,108 +123,108 @@
     "topic": "Operationspatienten",
     "question": "Hvad er postoperativ fatigue?",
     "options": [
+      "En psykose efter bedøvelse",
       "En udtalt træthed og udmattelse efter operation, som typisk er multifaktoriel (stressrespons, søvnmangel, smerte, inaktivitet, evt. blodmangel)",
       "En akut infektion i såret",
-      "En blodprop i lungen",
-      "En psykose efter bedøvelse"
+      "En blodprop i lungen"
     ],
-    "correct": "A",
+    "correct": "B",
     "explanation": "Postoperativ fatigue er en almindelig, udtalt træthed efter operation. Den har flere årsager — bl.a. den kirurgiske stressrespons, forstyrret søvn, smerter, inaktivitet og evt. anæmi — og kan vare et stykke tid efter indgrebet."
   },
   {
     "topic": "Operationspatienten",
     "question": "Hvordan håndteres postoperativ fatigue bedst i genoptræningen?",
     "options": [
-      "Gradvis genoptagelse af aktivitet og mobilisering frem for langvarig sengeleje",
-      "Fuldstændig sengeleje indtil al træthed er væk",
       "Hård maksimal træning straks efter operationen",
-      "At undgå al bevægelse"
+      "At undgå al bevægelse",
+      "Fuldstændig sengeleje indtil al træthed er væk",
+      "Gradvis genoptagelse af aktivitet og mobilisering frem for langvarig sengeleje"
     ],
-    "correct": "A",
+    "correct": "D",
     "explanation": "Langvarig sengeleje forværrer træthed, muskeltab og komplikationsrisiko. En gradvis, tilpasset genoptagelse af aktivitet og tidlig mobilisering fremmer derimod restitutionen ved postoperativ fatigue."
   },
   {
     "topic": "Operationspatienten",
     "question": "Hvad er vigtigt at vide om postoperativ feber?",
     "options": [
-      "Den kan have mange årsager afhængigt af tidspunktet — fx lungekomplikation (atelektase) tidligt, urinvejsinfektion, sårinfektion, dyb venetrombose eller medicin",
-      "Den skyldes altid en sårinfektion",
+      "Feber kan aldrig opstå efter en operation",
       "Den er altid helt ufarlig og kræver aldrig udredning",
-      "Feber kan aldrig opstå efter en operation"
+      "Den skyldes altid en sårinfektion",
+      "Den kan have mange årsager afhængigt af tidspunktet — fx lungekomplikation (atelektase) tidligt, urinvejsinfektion, sårinfektion, dyb venetrombose eller medicin"
     ],
-    "correct": "A",
+    "correct": "D",
     "explanation": "Postoperativ feber har flere mulige årsager, og tidspunktet giver et fingerpeg: tidligt ses ofte lungeforhold (atelektase/pneumoni), senere kan det være urinvejsinfektion, sårinfektion, dyb venetrombose eller medicin. Derfor skal årsagen vurderes."
   },
   {
     "topic": "Operationspatienten",
     "question": "En patient får tidligt efter en større operation let feber og har overfladisk vejrtrækning med nedsat lungeudfoldelse. Hvad er en hyppig årsag — og hvad kan forebygge det?",
     "options": [
-      "Atelektase (sammenfald af lungeafsnit) — dybe vejrtrækningsøvelser og tidlig mobilisering forebygger og afhjælper",
-      "En allergisk reaktion, som kun behandles med medicin",
+      "Et tryksår på ryggen",
       "En muskelforstrækning, der kræver hvile",
-      "Et tryksår på ryggen"
+      "Atelektase (sammenfald af lungeafsnit) — dybe vejrtrækningsøvelser og tidlig mobilisering forebygger og afhjælper",
+      "En allergisk reaktion, som kun behandles med medicin"
     ],
-    "correct": "A",
+    "correct": "C",
     "explanation": "Tidlig postoperativ feber med nedsat lungeudfoldelse skyldes ofte atelektase (sammenfaldne lungeafsnit), bl.a. pga. overfladisk vejrtrækning og inaktivitet. Respirationsfysioterapi (dybe vejrtrækningsøvelser, host) og tidlig mobilisering forebygger og afhjælper det."
   },
   {
     "topic": "Operationspatienten",
     "question": "Hvornår er postoperativ feber særligt alarmerende?",
     "options": [
+      "Aldrig — feber efter operation er altid ufarlig",
       "Ved høj eller vedvarende feber med påvirket almentilstand og evt. tegn på sårinfektion eller sepsis — det kræver lægelig vurdering",
       "Ved enhver minimal temperaturstigning, som altid er kritisk",
-      "Aldrig — feber efter operation er altid ufarlig",
       "Kun hvis patienten samtidig har hovedpine"
     ],
-    "correct": "A",
+    "correct": "B",
     "explanation": "Høj eller vedvarende feber kombineret med påvirket almentilstand, tegn på sårinfektion eller systemiske infektionstegn (sepsis) er alarmerende og kræver hurtig lægelig vurdering."
   },
   {
     "topic": "Operationspatienten",
     "question": "Hvilke tegn tyder på en infektion i operationssåret (surgical site infection)?",
     "options": [
-      "Tiltagende rødme, varme, hævelse, øget smerte og pus/sekretion fra såret, evt. med feber",
-      "At såret bliver mindre rødt og helt smertefrit",
       "At arret bliver blegt og blødt",
+      "At såret bliver mindre rødt og helt smertefrit",
+      "Tiltagende rødme, varme, hævelse, øget smerte og pus/sekretion fra såret, evt. med feber",
       "Kløe uden andre forandringer"
     ],
-    "correct": "A",
+    "correct": "C",
     "explanation": "En sårinfektion viser sig typisk ved tiltagende rødme, varme, hævelse og smerte omkring såret, pus/sekretion og evt. feber. Det adskiller sig fra den normale, aftagende inflammation under helingen."
   },
   {
     "topic": "Operationspatienten",
     "question": "Hvad bidrager til at forebygge infektioner og komplikationer hos den opererede patient?",
     "options": [
-      "God håndhygiejne/aseptik samt tidlig mobilisering (der bl.a. forebygger lunge-, kredsløbs- og sårkomplikationer)",
       "Langvarig sengeleje uden bevægelse",
+      "At holde patienten fastende i mange dage",
       "At undlade håndhygiejne",
-      "At holde patienten fastende i mange dage"
+      "God håndhygiejne/aseptik samt tidlig mobilisering (der bl.a. forebygger lunge-, kredsløbs- og sårkomplikationer)"
     ],
-    "correct": "A",
+    "correct": "D",
     "explanation": "Forebyggelse handler bl.a. om hygiejne/aseptik og om tidlig mobilisering, som modvirker en række postoperative komplikationer (atelektase/pneumoni, DVT, tryksår, nedsat tarmfunktion m.m.)."
   },
   {
     "topic": "Operationspatienten",
     "question": "Hvad er sepsis i forbindelse med en postoperativ infektion?",
     "options": [
+      "En forbigående træthed uden betydning",
       "En alvorlig, systemisk (kroppen over) reaktion på infektionen, der kan være livstruende — fx med feber/kulderystelser, hurtig puls og vejrtrækning, forvirring og lavt blodtryk",
-      "En harmløs, lokal hudirritation",
       "Et almindeligt ar",
-      "En forbigående træthed uden betydning"
+      "En harmløs, lokal hudirritation"
     ],
-    "correct": "A",
+    "correct": "B",
     "explanation": "Sepsis er en livstruende, systemisk reaktion på en infektion. Advarselstegn er bl.a. feber/kulderystelser, hurtig puls og vejrtrækning, forvirring/sløvhed og lavt blodtryk. Det kræver akut behandling."
   },
   {
     "topic": "Operationspatienten",
     "question": "Hvorfor er den opererede patient i øget risiko for postoperativ lungebetændelse (pneumoni), og hvad kan fysioterapeuten gøre?",
     "options": [
-      "Immobilisering, smerter og overfladisk vejrtrækning giver sekretophobning og nedsat lungeudfoldelse; respirationsfysioterapi (dybe vejrtrækningsøvelser, host) og mobilisering forebygger",
-      "Der er ingen øget risiko, og fysioterapi har ingen rolle",
+      "Kun antibiotika kan have nogen effekt",
       "Risikoen mindskes af at ligge helt stille",
-      "Kun antibiotika kan have nogen effekt"
+      "Der er ingen øget risiko, og fysioterapi har ingen rolle",
+      "Immobilisering, smerter og overfladisk vejrtrækning giver sekretophobning og nedsat lungeudfoldelse; respirationsfysioterapi (dybe vejrtrækningsøvelser, host) og mobilisering forebygger"
     ],
-    "correct": "A",
+    "correct": "D",
     "explanation": "Efter operation fører smerter, inaktivitet og overfladisk vejrtrækning til sekretophobning og dårlig ventilation af lungerne, hvilket øger risikoen for atelektase og pneumoni. Respirationsfysioterapi og tidlig mobilisering er vigtige forebyggende indsatser."
   },
   {
@@ -232,9 +232,9 @@
     "question": "Hvad er postoperativ (paralytisk) ileus?",
     "options": [
       "En midlertidig lammelse/stilstand af tarmens bevægelser efter en operation (især bugkirurgi), så tarmindholdet ikke transporteres videre",
+      "Et tryksår på maven",
       "En blodprop i tarmens vener",
-      "En infektion i operationssåret",
-      "Et tryksår på maven"
+      "En infektion i operationssåret"
     ],
     "correct": "A",
     "explanation": "Postoperativ paralytisk ileus er en forbigående standsning af tarmens peristaltik efter operation (typisk bugkirurgi). Tarmindholdet transporteres ikke, hvilket giver oppustethed og kvalme, indtil tarmfunktionen kommer i gang igen."
@@ -245,8 +245,8 @@
     "options": [
       "Oppustet/spændt mave, manglende afgang af luft (flatus) og afføring, kvalme/opkast og manglende eller nedsatte tarmlyde",
       "Belastningssmerter i læggen ved gang",
-      "Hævede ankler og halsvenestase",
-      "Pludselig brystsmerte med udstråling til arm"
+      "Pludselig brystsmerte med udstråling til arm",
+      "Hævede ankler og halsvenestase"
     ],
     "correct": "A",
     "explanation": "Ileus giver en oppustet, spændt mave, manglende afgang af luft og afføring, kvalme/opkast og sparsomme/manglende tarmlyde. Det skyldes, at tarmens transport er gået i stå."
@@ -255,12 +255,12 @@
     "topic": "Operationspatienten",
     "question": "Hvad er med til at få tarmfunktionen i gang igen efter en operation?",
     "options": [
-      "Tidlig mobilisering og (når det er tilladt) tidlig ernæring",
-      "Lang sengeleje og faste",
+      "Kun smertestillende uden mobilisering",
       "At undgå al bevægelse",
-      "Kun smertestillende uden mobilisering"
+      "Lang sengeleje og faste",
+      "Tidlig mobilisering og (når det er tilladt) tidlig ernæring"
     ],
-    "correct": "A",
+    "correct": "D",
     "explanation": "Tidlig mobilisering og tidlig ernæring stimulerer tarmens bevægelser og hjælper med at normalisere tarmfunktionen efter operation — endnu en grund til, at mobilisering prioriteres i moderne forløb."
   },
   {
@@ -268,9 +268,9 @@
     "question": "Hvorfor er opererede patienter i øget risiko for dyb venetrombose (DVT)?",
     "options": [
       "Pga. immobilisering, vævsskade fra operationen og en øget tendens til blodpropdannelse (jf. Virchows triade)",
-      "Fordi de bevæger sig for meget efter operationen",
       "Fordi blodet bliver mere tyndtflydende efter operation",
-      "Der er ingen øget risiko efter operation"
+      "Der er ingen øget risiko efter operation",
+      "Fordi de bevæger sig for meget efter operationen"
     ],
     "correct": "A",
     "explanation": "Efter operation er alle tre elementer i Virchows triade ofte til stede: nedsat blodstrøm (immobilisering), karvægsskade (operationen) og øget koagulationstendens. Det giver en øget risiko for DVT."
@@ -279,48 +279,48 @@
     "topic": "Operationspatienten",
     "question": "Hvordan forebygges DVT og lungeemboli hos den opererede patient — og hvad er fysioterapeutens vigtigste bidrag?",
     "options": [
-      "Tidlig mobilisering (fysioterapeutens kerneindsats), kompressionsstrømper og blodfortyndende tromboseprofylakse",
-      "Lang sengeleje uden bevægelse",
       "Kun at hæve hovedgærdet",
-      "At undgå væske helt"
+      "Tidlig mobilisering (fysioterapeutens kerneindsats), kompressionsstrømper og blodfortyndende tromboseprofylakse",
+      "At undgå væske helt",
+      "Lang sengeleje uden bevægelse"
     ],
-    "correct": "A",
+    "correct": "B",
     "explanation": "Forebyggelsen hviler på tidlig mobilisering, kompressionsstrømper og medicinsk tromboseprofylakse (blodfortyndende). Tidlig mobilisering er fysioterapeutens vigtigste bidrag, fordi bevægelse holder blodstrømmen i gang i benene."
   },
   {
     "topic": "Operationspatienten",
     "question": "Hvilke tegn tyder på en dyb venetrombose i benet hos en opereret patient?",
     "options": [
-      "Ensidig hævelse, varme, rødme og ømhed, oftest i læggen",
       "Dobbeltsidig kløe uden hævelse",
-      "En bleg, kold fod uden puls",
-      "Udslæt på brystet"
+      "Ensidig hævelse, varme, rødme og ømhed, oftest i læggen",
+      "Udslæt på brystet",
+      "En bleg, kold fod uden puls"
     ],
-    "correct": "A",
+    "correct": "B",
     "explanation": "DVT giver typisk ensidig hævelse, varme, rødme og ømhed i benet (oftest læggen). Bemærkes dette, bør benet ikke masseres/manipuleres kraftigt, og der henvises til lægelig vurdering."
   },
   {
     "topic": "Operationspatienten",
     "question": "Hvilke symptomer kan tyde på en lungeemboli efter en operation?",
     "options": [
-      "Pludselig åndenød, brystsmerter (ofte pleuritiske) og hurtig puls",
+      "Tør hud og frysighed",
       "Langsomt indsættende forstoppelse over uger",
-      "Hævede fingerled",
-      "Tør hud og frysighed"
+      "Pludselig åndenød, brystsmerter (ofte pleuritiske) og hurtig puls",
+      "Hævede fingerled"
     ],
-    "correct": "A",
+    "correct": "C",
     "explanation": "En lungeemboli (typisk fra en DVT, der løsner sig) giver klassisk pludselig åndenød, pleuritiske brystsmerter og hurtig puls. En stor emboli kan give kredsløbskollaps og er livstruende."
   },
   {
     "topic": "Operationspatienten",
     "question": "En nyligt opereret patient får under mobilisering pludselig åndenød, brystsmerter og hurtig puls. Hvad gør fysioterapeuten?",
     "options": [
-      "Afbryder aktiviteten, lader patienten hvile og tilkalder akut hjælp/lægelig vurdering — mistanke om lungeemboli",
+      "Ignorerer det, da det altid er normalt",
       "Fortsætter mobiliseringen i højere tempo",
-      "Lader patienten gå en lang tur for at 'ryste det af sig'",
-      "Ignorerer det, da det altid er normalt"
+      "Afbryder aktiviteten, lader patienten hvile og tilkalder akut hjælp/lægelig vurdering — mistanke om lungeemboli",
+      "Lader patienten gå en lang tur for at 'ryste det af sig'"
     ],
-    "correct": "A",
+    "correct": "C",
     "explanation": "Pludselig åndenød, brystsmerter og takykardi hos en nyopereret (og dermed trombosedisponeret) patient kan være lungeemboli — en livstruende, akut tilstand. Aktiviteten afbrydes, og der tilkaldes akut hjælp."
   },
   {
@@ -328,9 +328,9 @@
     "question": "Hvad er decubitus (tryksår)?",
     "options": [
       "En vævsskade, der opstår pga. vedvarende tryk (ofte over knoglefremspring), som nedsætter blodforsyningen til huden og det underliggende væv",
+      "En nedslidning af ledbrusken",
       "En infektion i et led",
-      "En blodprop i lungen",
-      "En nedslidning af ledbrusken"
+      "En blodprop i lungen"
     ],
     "correct": "A",
     "explanation": "Decubitus (tryksår/liggesår) opstår, når vedvarende tryk — ofte over knoglefremspring — afklemmer blodforsyningen, så vævet skades. Det ses især hos immobile patienter."
@@ -339,24 +339,24 @@
     "topic": "Operationspatienten",
     "question": "Hvilke faktorer og steder er typiske ved decubitus (tryksår)?",
     "options": [
-      "Risiko ved immobilisering/sengeleje, nedsat følesans, dårlig ernæring og fugt; typiske steder er hæle, korsben (sacrum), hofter og albuer",
-      "Det opstår kun i ansigtet",
       "Det rammer kun aktive, mobile personer",
+      "Det opstår kun i ansigtet",
+      "Risiko ved immobilisering/sengeleje, nedsat følesans, dårlig ernæring og fugt; typiske steder er hæle, korsben (sacrum), hofter og albuer",
       "Det opstår kun ved infektion"
     ],
-    "correct": "A",
+    "correct": "C",
     "explanation": "Tryksår opstår over knoglefremspring som hæle, korsben, hofter og albuer. Risikoen øges af immobilisering, nedsat følesans (så trykket ikke mærkes), dårlig ernæring og fugt (fx inkontinens)."
   },
   {
     "topic": "Operationspatienten",
     "question": "Hvad er de vigtigste forebyggende tiltag mod decubitus — og oplagt for fysioterapeuten at bidrage til?",
     "options": [
-      "Regelmæssige lejringsskift/vendinger, tidlig mobilisering, trykaflastende underlag og hudpleje",
       "At lade patienten ligge i samme stilling så længe som muligt",
       "At undgå al bevægelse og vending",
-      "Kun at give smertestillende"
+      "Kun at give smertestillende",
+      "Regelmæssige lejringsskift/vendinger, tidlig mobilisering, trykaflastende underlag og hudpleje"
     ],
-    "correct": "A",
+    "correct": "D",
     "explanation": "Tryksår forebygges ved at fjerne/fordele trykket: hyppige stillingsskift og vendinger, tidlig mobilisering, trykaflastende madras/puder og god hud- og ernæringspleje. Tidlig mobilisering er igen en central fysioterapeutisk indsats."
   }
 ]

@@ -4,9 +4,9 @@
     "question": "Hvad er en tendinopati (tidligere ofte kaldt tendinit)?",
     "options": [
       "En overbelastnings-/degenerativ tilstand i en sene med smerter, nedsat belastningstolerance og evt. fortykkelse",
+      "En blodprop i en dyb vene",
       "Et brud på en knogle",
-      "En bakteriel infektion i et led",
-      "En blodprop i en dyb vene"
+      "En bakteriel infektion i et led"
     ],
     "correct": "A",
     "explanation": "Tendinopati er en typisk overbelastningsbetinget tilstand i en sene (fx akillessene eller skuldersener), hvor senen bliver smertefuld og tåler mindre belastning. Den skyldes oftere degeneration/fejlbelastning end egentlig akut inflammation."
@@ -15,60 +15,60 @@
     "topic": "Ortopædkirurgi",
     "question": "Hvad er en hjørnesten i behandlingen af tendinopati — og et fysioterapeutisk kerneområde?",
     "options": [
-      "Fuldstændig hvile og undgåelse af al belastning i lang tid",
       "Progressiv, belastningsstyret træning (ofte med fokus på langsomme/excentriske øvelser)",
-      "Operation hos alle med det samme",
-      "Gipsbandage i flere uger"
+      "Fuldstændig hvile og undgåelse af al belastning i lang tid",
+      "Gipsbandage i flere uger",
+      "Operation hos alle med det samme"
     ],
-    "correct": "B",
+    "correct": "A",
     "explanation": "Tendinopati behandles bedst med gradvist optrappet, belastningsstyret styrketræning, der får senen til at tilpasse sig og tåle mere — ikke med fuldstændig hvile, der ofte forværrer belastningstolerancen yderligere."
   },
   {
     "topic": "Ortopædkirurgi",
     "question": "Hvad er en lumbal diskusprolaps?",
     "options": [
-      "Et brud på en ryghvirvel",
       "At en del af en bandskive (diskus) buler/glider ud og kan trykke på en nerverod, hvilket kan give rygsmerter med udstråling ned i benet (iskias)",
       "En infektion i rygmarven",
-      "En forsnævret hjerteklap"
+      "En forsnævret hjerteklap",
+      "Et brud på en ryghvirvel"
     ],
-    "correct": "B",
+    "correct": "A",
     "explanation": "Ved en diskusprolaps presses noget af bandskivens indhold ud og kan irritere/trykke på en nerverod. Det giver ofte rygsmerter med udstråling ned i benet (radikulære smerter/iskias), evt. med føleforstyrrelser eller kraftnedsættelse."
   },
   {
     "topic": "Ortopædkirurgi",
     "question": "Hvad er karakteristisk for lumbal spinalstenose (forsnævring af rygmarvskanalen)?",
     "options": [
-      "Bensymptomer ved gang/stående (neurogen claudicatio), der typisk lindres, når patienten bøjer sig forover eller sætter sig",
-      "Smerter, der altid forsvinder ved at stå helt rank",
       "Et akut rødt, varmt led med feber",
-      "Pludselig eksplosiv hovedpine"
+      "Pludselig eksplosiv hovedpine",
+      "Bensymptomer ved gang/stående (neurogen claudicatio), der typisk lindres, når patienten bøjer sig forover eller sætter sig",
+      "Smerter, der altid forsvinder ved at stå helt rank"
     ],
-    "correct": "A",
+    "correct": "C",
     "explanation": "Spinalstenose giver ofte 'neurogen claudicatio': tunge/smertende ben ved gang og stående, som lindres ved fleksion af ryggen (foroverbøjning, at sætte sig). Det adskiller den fra vaskulær claudicatio, der lindres blot ved at standse uanset stilling."
   },
   {
     "topic": "Ortopædkirurgi",
     "question": "Hvad er en endoprotese (ledalloplastik)?",
     "options": [
-      "Et kunstigt led, der kirurgisk indsættes for at erstatte et nedslidt eller beskadiget led (fx hofte eller knæ)",
       "En gipsbandage",
-      "Et stykke medicin",
-      "En type knoglebrud"
+      "Et kunstigt led, der kirurgisk indsættes for at erstatte et nedslidt eller beskadiget led (fx hofte eller knæ)",
+      "En type knoglebrud",
+      "Et stykke medicin"
     ],
-    "correct": "A",
+    "correct": "B",
     "explanation": "En endoprotese/alloplastik er et kunstigt led, der erstatter et ødelagt led. Hofte- og knæalloplastik er blandt de hyppigste, oftest pga. svær artrose."
   },
   {
     "topic": "Ortopædkirurgi",
     "question": "Hvad er den typiske indikation for at indsætte en hoftealloplastik?",
     "options": [
+      "En almindelig forkølelse",
       "Svær hofteartrose med smerter og funktionstab, hvor konservativ behandling (træning, vægttab, smertestillende) ikke længere er tilstrækkelig",
-      "Lette forbigående muskelsmerter efter træning",
       "En akut forstuvet ankel",
-      "En almindelig forkølelse"
+      "Lette forbigående muskelsmerter efter træning"
     ],
-    "correct": "A",
+    "correct": "B",
     "explanation": "Hoftealloplastik overvejes ved svær, invaliderende hofteartrose (eller fx hoftebrud), når konservativ behandling ikke længere giver tilstrækkelig smertelindring og funktion."
   },
   {
@@ -76,9 +76,9 @@
     "question": "Hvad er vigtigt i den tidlige fysioterapeutiske genoptræning efter en knæalloplastik?",
     "options": [
       "Tidlig mobilisering med fokus på at genvinde bevægelighed (særligt fuld ekstension og fleksion) og styrke i lårmusklen (m. quadriceps)",
+      "At undgå at bruge benet overhovedet",
       "Fuldstændig immobilisering i mange uger",
-      "Kun siddende hvile uden bevægelse",
-      "At undgå at bruge benet overhovedet"
+      "Kun siddende hvile uden bevægelse"
     ],
     "correct": "A",
     "explanation": "Efter en knæalloplastik er tidlig mobilisering vigtig: at genvinde bevægelighed (især fuld strækning og bøjning) og styrke i quadriceps samt gangfunktion. Det forebygger stivhed og fremmer et godt funktionelt resultat."
@@ -87,24 +87,24 @@
     "topic": "Ortopædkirurgi",
     "question": "Efter en hoftealloplastik (særligt med bagre operationsadgang) skal patienten typisk i den tidlige fase undgå visse bevægelser for at mindske risikoen for luksation. Hvilke?",
     "options": [
-      "Kraftig bøjning af hoften (over ca. 90°), at føre benet ind over midtlinjen (adduktion) og indadrotation",
       "Al brug af benet, inklusive at stå op",
-      "At trække vejret dybt",
-      "At spise og drikke"
+      "At spise og drikke",
+      "Kraftig bøjning af hoften (over ca. 90°), at føre benet ind over midtlinjen (adduktion) og indadrotation",
+      "At trække vejret dybt"
     ],
-    "correct": "A",
+    "correct": "C",
     "explanation": "Ved bagre adgang er den nye hofte mest udsat for at gå af led ved samtidig kraftig fleksion (>90°), adduktion (ben ind over midten) og indadrotation. Disse bevægelseskombinationer undgås tidligt — en vigtig fysioterapeutisk forholdsregel og instruktion til patienten."
   },
   {
     "topic": "Ortopædkirurgi",
     "question": "Hvad er vigtigt i rehabiliteringen efter en benamputation?",
     "options": [
-      "Forebyggelse af kontrakturer, stumppleje/-bandagering samt senere tilpasning og træning med protese",
-      "Fuldstændig ro, så stumpen aldrig bevæges",
       "At undgå al genoptræning",
-      "Kun smertestillende uden træning"
+      "Kun smertestillende uden træning",
+      "Forebyggelse af kontrakturer, stumppleje/-bandagering samt senere tilpasning og træning med protese",
+      "Fuldstændig ro, så stumpen aldrig bevæges"
     ],
-    "correct": "A",
+    "correct": "C",
     "explanation": "Efter amputation arbejdes der bl.a. med at forebygge kontrakturer, forme og passe stumpen (bandagering/ødemkontrol), bevare styrke og balance samt senere protesetilpasning og gangtræning — en central, tværfaglig fysioterapeutisk opgave."
   },
   {
@@ -112,8 +112,8 @@
     "question": "Hvad er fantomsmerter?",
     "options": [
       "Smerter, der opleves i en legemsdel, som er blevet amputeret (og altså ikke længere er der)",
-      "Smerter, der kun opstår om natten i ryggen",
       "En type hovedpine",
+      "Smerter, der kun opstår om natten i ryggen",
       "Smerter ved vandladning"
     ],
     "correct": "A",
@@ -124,9 +124,9 @@
     "question": "Hvad er osteomyelit?",
     "options": [
       "En infektion i knoglen (ofte bakteriel), der kan give smerter, hævelse, rødme, varme og feber",
+      "En godartet muskelknude",
       "En nedslidning af ledbrusken",
-      "Et knoglebrud uden infektion",
-      "En godartet muskelknude"
+      "Et knoglebrud uden infektion"
     ],
     "correct": "A",
     "explanation": "Osteomyelit er en knogleinfektion, oftest bakteriel. Den kan give lokale infektionstegn (smerte, hævelse, rødme, varme) og almensymptomer som feber, og den kan blive kronisk, hvis den ikke behandles."
@@ -135,22 +135,22 @@
     "topic": "Ortopædkirurgi",
     "question": "Hvilken alvorlig komplikation kan opstå efter indsættelse af en ledprotese?",
     "options": [
+      "At der aldrig kan opstå problemer",
       "En infektion omkring protesen (protese-/dyb infektion), der kan kræve fornyet operation og langvarig antibiotika",
-      "At protesen gør knoglen stærkere af sig selv",
       "At leddet bliver helt smertefrit uden risiko",
-      "At der aldrig kan opstå problemer"
+      "At protesen gør knoglen stærkere af sig selv"
     ],
-    "correct": "A",
+    "correct": "B",
     "explanation": "En dyb infektion omkring protesen er en alvorlig komplikation. Den kan kræve revision/udskiftning af protesen samt langvarig antibiotisk behandling. Tegn er bl.a. tiltagende smerter, hævelse, varme, rødme, feber eller sekretion fra såret."
   },
   {
     "topic": "Ortopædkirurgi",
     "question": "En patient, der for nylig er opereret, får i dagene efter tiltagende smerte, rødme, varme og hævelse omkring operationsstedet, evt. med feber og sekretion fra såret. Hvad bør fysioterapeuten gøre?",
     "options": [
-      "Træne hårdere for at mindske hævelsen",
+      "Anbefale varme og kraftig massage over såret",
       "Mistænke en infektion og sørge for lægelig vurdering",
-      "Ignorere det, da det altid er normalt",
-      "Anbefale varme og kraftig massage over såret"
+      "Træne hårdere for at mindske hævelsen",
+      "Ignorere det, da det altid er normalt"
     ],
     "correct": "B",
     "explanation": "Tiltagende lokale infektionstegn (rødme, varme, hævelse, øget smerte) og feber/sekretion efter en operation kan være tegn på en postoperativ infektion. Det skal vurderes lægeligt — ikke trænes væk."
@@ -159,48 +159,48 @@
     "topic": "Ortopædkirurgi",
     "question": "Hvad er den hyppigste type ondartet knogletumor hos voksne?",
     "options": [
-      "Metastaser fra kræft andetsteds i kroppen (fx bryst-, prostata- eller lungekræft)",
       "Primær knoglekræft, som er langt det hyppigste",
       "Godartede knuder, der altid bliver ondartede",
-      "Der findes ikke ondartede knogletumorer"
+      "Der findes ikke ondartede knogletumorer",
+      "Metastaser fra kræft andetsteds i kroppen (fx bryst-, prostata- eller lungekræft)"
     ],
-    "correct": "A",
+    "correct": "D",
     "explanation": "Hos voksne er ondartede knogleforandringer langt oftest metastaser fra anden kræft (fx bryst, prostata, lunge, nyre) end primær knoglekræft. Primære knoglekræftformer (fx osteosarkom) er sjældnere og ses bl.a. hos yngre."
   },
   {
     "topic": "Ortopædkirurgi",
     "question": "Hvilke smertekarakteristika ved knoglesmerter bør give mistanke om en mulig tumor og føre til udredning?",
     "options": [
-      "Dybe, vedvarende knoglesmerter — især hvilesmerter og natlige smerter — evt. ledsaget af uforklaret vægttab eller almen svækkelse",
-      "Smerter, der kun opstår under hård træning og forsvinder straks ved hvile",
+      "Smerter, der altid forsvinder med det samme",
       "Lette muskelømheder dagen efter træning",
-      "Smerter, der altid forsvinder med det samme"
+      "Dybe, vedvarende knoglesmerter — især hvilesmerter og natlige smerter — evt. ledsaget af uforklaret vægttab eller almen svækkelse",
+      "Smerter, der kun opstår under hård træning og forsvinder straks ved hvile"
     ],
-    "correct": "A",
+    "correct": "C",
     "explanation": "Vedvarende dybe knoglesmerter, særligt hvile- og natlige smerter, samt uforklaret vægttab er 'røde flag', der bør føre til udredning. Som fysioterapeut bør man være opmærksom og henvise ved mistanke."
   },
   {
     "topic": "Ortopædkirurgi",
     "question": "Hvad er forskellen på nociceptiv og neuropatisk smerte?",
     "options": [
-      "Nociceptiv smerte skyldes (truende) vævsskade og opfanges af smertereceptorer, mens neuropatisk smerte skyldes skade eller dysfunktion i selve nervevævet (ofte brændende, jagende, snurrende)",
-      "De er præcis det samme",
       "Nociceptiv smerte findes kun i nerverne",
-      "Neuropatisk smerte skyldes altid et knoglebrud"
+      "De er præcis det samme",
+      "Neuropatisk smerte skyldes altid et knoglebrud",
+      "Nociceptiv smerte skyldes (truende) vævsskade og opfanges af smertereceptorer, mens neuropatisk smerte skyldes skade eller dysfunktion i selve nervevævet (ofte brændende, jagende, snurrende)"
     ],
-    "correct": "A",
+    "correct": "D",
     "explanation": "Nociceptiv smerte stammer fra (truende) vævsskade og registreres af smertereceptorer (fx ved et brud eller en forstuvning). Neuropatisk smerte skyldes skade/dysfunktion i nervevævet og beskrives ofte som brændende, jagende eller med snurren/prikken."
   },
   {
     "topic": "Ortopædkirurgi",
     "question": "Hvad kendetegner kronisk smerte sammenlignet med akut smerte?",
     "options": [
-      "Akut smerte er en kortvarig advarsel om (vævs)skade, mens kronisk smerte er vedvarende (typisk over ca. 3 måneder) og ikke altid svarer til en aktuel vævsskade",
-      "Kronisk smerte varer altid under et minut",
       "Akut smerte varer altid i mange år",
-      "Der er ingen forskel på de to"
+      "Kronisk smerte varer altid under et minut",
+      "Der er ingen forskel på de to",
+      "Akut smerte er en kortvarig advarsel om (vævs)skade, mens kronisk smerte er vedvarende (typisk over ca. 3 måneder) og ikke altid svarer til en aktuel vævsskade"
     ],
-    "correct": "A",
+    "correct": "D",
     "explanation": "Akut smerte er en nyttig, kortvarig advarsel om skade. Kronisk smerte varer ud over den normale helingstid (typisk >3 måneder), er ofte multifaktoriel og afspejler ikke nødvendigvis en aktuel vævsskade — det har betydning for behandlingstilgangen."
   },
   {
@@ -219,24 +219,24 @@
     "topic": "Ortopædkirurgi",
     "question": "Hvad er forskellen på en åben og en lukket fraktur?",
     "options": [
-      "Ved en åben fraktur er der forbindelse mellem brudstedet og omgivelserne gennem et sår i huden (øget infektionsrisiko); ved en lukket fraktur er huden intakt",
-      "En åben fraktur er altid ufarlig",
       "En lukket fraktur betyder, at knoglen er smuldret væk",
-      "Der er ingen forskel"
+      "En åben fraktur er altid ufarlig",
+      "Der er ingen forskel",
+      "Ved en åben fraktur er der forbindelse mellem brudstedet og omgivelserne gennem et sår i huden (øget infektionsrisiko); ved en lukket fraktur er huden intakt"
     ],
-    "correct": "A",
+    "correct": "D",
     "explanation": "Ved en åben (kompliceret) fraktur er der et sår, så brudstedet har forbindelse til omgivelserne, hvilket giver markant øget infektionsrisiko og kræver hurtig behandling. Ved en lukket fraktur er huden intakt over bruddet."
   },
   {
     "topic": "Ortopædkirurgi",
     "question": "Hvad er grundprincippet i frakturbehandling for at knoglen kan hele?",
     "options": [
+      "Brudstedet skal holdes konstant i bevægelse uden støtte",
       "Brudenderne bringes på plads (reponeres) og holdes stabile (fx med gips eller osteosyntese/operation), så knoglen kan vokse sammen",
-      "Knoglen skal belastes maksimalt fra dag ét",
       "Bruddet skal masseres kraftigt hver dag",
-      "Brudstedet skal holdes konstant i bevægelse uden støtte"
+      "Knoglen skal belastes maksimalt fra dag ét"
     ],
-    "correct": "A",
+    "correct": "B",
     "explanation": "For at en fraktur kan hele, skal brudenderne være nogenlunde på plads og stabiliseres — enten konservativt (gips/skinne) eller kirurgisk (osteosyntese med fx plade/skruer/søm). Vægtbæring og genoptræning følger den ordinerede plan."
   },
   {
@@ -244,9 +244,9 @@
     "question": "Hvorfor er tidlig mobilisering vigtig efter et hoftebrud (collum femoris-fraktur) hos en ældre patient?",
     "options": [
       "For at mindske risikoen for sengelejekomplikationer (fx lungebetændelse, tryksår og dyb venetrombose) og bevare funktionsevnen",
-      "Fordi bruddet heler hurtigere af, at patienten ligger helt stille",
+      "For at patienten skal udskrives samme dag uanset tilstand",
       "Fordi mobilisering er uden betydning hos ældre",
-      "For at patienten skal udskrives samme dag uanset tilstand"
+      "Fordi bruddet heler hurtigere af, at patienten ligger helt stille"
     ],
     "correct": "A",
     "explanation": "Hoftebrud hos ældre opereres oftest, og tidlig mobilisering er vigtig for at undgå komplikationer ved sengeleje (pneumoni, tryksår, DVT, funktionstab) og for at genvinde gangfunktion og selvhjulpenhed."
@@ -255,72 +255,72 @@
     "topic": "Ortopædkirurgi",
     "question": "En patient med en underbensfraktur (fx i gips) får tiltagende, voldsomme smerter, der virker uforholdsmæssigt store, forværres kraftigt ved passivt stræk af tæerne, og underbenet føles spændt/hårdt. Hvad skal man mistænke?",
     "options": [
-      "Kompartmentsyndrom — en akut tilstand, der kræver omgående lægelig vurdering",
       "Helt normal smerte efter et brud, der kan afvente",
+      "At gipsen blot skal strammes yderligere",
       "En forkølelse",
-      "At gipsen blot skal strammes yderligere"
+      "Kompartmentsyndrom — en akut tilstand, der kræver omgående lægelig vurdering"
     ],
-    "correct": "A",
+    "correct": "D",
     "explanation": "Voldsomme smerter ud over det forventede, kraftig smerte ved passivt stræk og en spændt, hård muskelloge er klassiske tegn på kompartmentsyndrom — et trykproblem i muskellogen, der kan ødelægge væv og nerver. Det er akut og kan kræve aflastning af gips og kirurgi (fasciotomi)."
   },
   {
     "topic": "Ortopædkirurgi",
     "question": "Hvilke komplikationer er typiske at være opmærksom på efter en fraktur og længere tids immobilisering?",
     "options": [
+      "Ingen følger overhovedet",
       "Dyb venetrombose, muskelatrofi og nedsat ledbevægelighed, som kræver genoptræning",
-      "Forbedret muskelstyrke og bevægelighed",
       "Stærkere knogler end før bruddet med det samme",
-      "Ingen følger overhovedet"
+      "Forbedret muskelstyrke og bevægelighed"
     ],
-    "correct": "A",
+    "correct": "B",
     "explanation": "Immobilisering øger risikoen for dyb venetrombose og fører til muskelatrofi og stivhed/nedsat bevægelighed i de berørte led. Derfor er målrettet genoptræning vigtig efter frakturbehandling."
   },
   {
     "topic": "Ortopædkirurgi",
     "question": "Hvad er en luksation (ledskred)?",
     "options": [
-      "At ledfladerne i et led mister kontakten med hinanden, så leddet går 'af led' og skal sættes på plads (reponeres)",
       "Et brud midt på en knogle",
       "En betændelse i en sene",
-      "En blodprop i en vene"
+      "En blodprop i en vene",
+      "At ledfladerne i et led mister kontakten med hinanden, så leddet går 'af led' og skal sættes på plads (reponeres)"
     ],
-    "correct": "A",
+    "correct": "D",
     "explanation": "Ved en luksation går leddet af led, så ledfladerne ikke længere er i kontakt. Det kræver reponering (at sætte leddet på plads), og der kan samtidig være skader på ledbånd, ledkapsel, kar eller nerver."
   },
   {
     "topic": "Ortopædkirurgi",
     "question": "Hvad er karakteristisk for en skulderluksation?",
     "options": [
-      "Skulderleddet er et af de hyppigst luxerende led; luksationen er oftest fremadrettet (anterior), og der er øget risiko for fornyet luksation (recidiv)",
       "Skulderen kan aldrig gå af led",
+      "Skulderleddet er et af de hyppigst luxerende led; luksationen er oftest fremadrettet (anterior), og der er øget risiko for fornyet luksation (recidiv)",
       "Det rammer kun fingrene",
       "Det er altid helt smertefrit"
     ],
-    "correct": "A",
+    "correct": "B",
     "explanation": "Skulderleddet er meget bevægeligt og dermed det hyppigst luxerende led. Luksationen er oftest anterior (fremad). Efter reponering er genoptræning af stabilitet og muskelkontrol vigtig, da der er risiko for recidiv."
   },
   {
     "topic": "Ortopædkirurgi",
     "question": "Hvordan opstår en skade på forreste korsbånd (ACL) typisk?",
     "options": [
-      "Ved en vridning/drejning af knæet, ofte ved opbremsning, retningsskift eller landing (typisk i sport), og giver tit hævelse og en følelse af, at knæet 'svigter' (instabilitet)",
       "Ved at sidde stille i lang tid",
-      "Ved en let forkølelse",
-      "Kun ved et direkte slag mod hovedet"
+      "Kun ved et direkte slag mod hovedet",
+      "Ved en vridning/drejning af knæet, ofte ved opbremsning, retningsskift eller landing (typisk i sport), og giver tit hævelse og en følelse af, at knæet 'svigter' (instabilitet)",
+      "Ved en let forkølelse"
     ],
-    "correct": "A",
+    "correct": "C",
     "explanation": "Forreste korsbånd skades typisk ved en vridning/opbremsning/landing med fikseret fod (ofte i sport). Det giver ofte hurtig hævelse (ledblødning) og en følelse af ustabilitet ('giving way'). Behandlingen kan være genoptræning og/eller operation."
   },
   {
     "topic": "Ortopædkirurgi",
     "question": "Hvordan graderes ligamentskader (forstuvninger) typisk?",
     "options": [
-      "Grad 1 (let overrivning/udtrækning), grad 2 (delvis ruptur) og grad 3 (total ruptur)",
-      "Kun som 'let' eller 'dødelig'",
       "Efter knoglens længde",
+      "Kun som 'let' eller 'dødelig'",
+      "Grad 1 (let overrivning/udtrækning), grad 2 (delvis ruptur) og grad 3 (total ruptur)",
       "Efter patientens alder"
     ],
-    "correct": "A",
+    "correct": "C",
     "explanation": "Ligamentskader inddeles ofte i grad 1 (overstrækning/mikroskopiske skader, stabilt led), grad 2 (delvis ruptur, vis løshed) og grad 3 (komplet ruptur med tydelig instabilitet). Graden styrer behandling og genoptræning."
   },
   {
@@ -328,8 +328,8 @@
     "question": "Hvilket ledbånd skades typisk ved en almindelig 'forvredet ankel' (supinationstraume)?",
     "options": [
       "De laterale (udvendige) ankelligamenter på ydersiden af anklen",
-      "Forreste korsbånd i knæet",
       "Ledbåndene i håndleddet",
+      "Forreste korsbånd i knæet",
       "Akillessenen"
     ],
     "correct": "A",
@@ -339,24 +339,24 @@
     "topic": "Ortopædkirurgi",
     "question": "Hvad er typisk for en menisklæsion i knæet?",
     "options": [
+      "Påvirker kun fingrenes led",
       "Opstår ofte ved en vridning af det belastede knæ og kan give smerter langs ledlinjen, hævelse og evt. låsninger ('locking') af knæet",
-      "Opstår kun ved et slag mod hovedet",
       "Giver altid feber og udslæt",
-      "Påvirker kun fingrenes led"
+      "Opstår kun ved et slag mod hovedet"
     ],
-    "correct": "A",
+    "correct": "B",
     "explanation": "Menisken kan skades ved en vridning af det belastede knæ (eller degenerativt med alderen). Typiske fund er smerter langs ledlinjen, hævelse, og ved større flapper evt. mekaniske gener som låsninger eller 'giving way'."
   },
   {
     "topic": "Ortopædkirurgi",
     "question": "Hvad er typisk for en akillesseneruptur?",
     "options": [
-      "Pludselig, ofte under afsæt/spring, hvor patienten føler et 'spark' eller smæld i læggen, får nedsat kraft til at stå på tå, og hvor Thompsons test er positiv",
-      "En langsomt indsættende hovedpine over uger",
+      "En tilstand uden påvirkning af gangfunktionen",
       "Smerter kun ved vandladning",
-      "En tilstand uden påvirkning af gangfunktionen"
+      "En langsomt indsættende hovedpine over uger",
+      "Pludselig, ofte under afsæt/spring, hvor patienten føler et 'spark' eller smæld i læggen, får nedsat kraft til at stå på tå, og hvor Thompsons test er positiv"
     ],
-    "correct": "A",
+    "correct": "D",
     "explanation": "En akillesseneruptur sker ofte akut under afsæt/spring, beskrives som et 'spark' eller smæld bagi læggen, og giver nedsat plantarfleksionskraft. Ved Thompsons test (klem på læggen) udebliver plantarfleksionen, hvis senen er overrevet."
   }
 ]

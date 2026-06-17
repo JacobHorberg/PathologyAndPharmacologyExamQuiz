@@ -3,24 +3,24 @@
     "topic": "Kar og hjerte",
     "question": "Hvad er aterosklerose?",
     "options": [
-      "En akut bakteriel betændelse i en blodåre",
-      "En gradvis ophobning af plak (bl.a. fedt, kolesterol og inflammationsceller) i arterievæggen, som gør karret stivere og snævrere",
       "En medfødt misdannelse af hjerteklapperne",
-      "En blodprop i en dyb vene"
+      "En blodprop i en dyb vene",
+      "En gradvis ophobning af plak (bl.a. fedt, kolesterol og inflammationsceller) i arterievæggen, som gør karret stivere og snævrere",
+      "En akut bakteriel betændelse i en blodåre"
     ],
-    "correct": "B",
+    "correct": "C",
     "explanation": "Aterosklerose er en kronisk proces, hvor der dannes plak i arteriernes vægge. Karret bliver stivere og snævrere, hvilket nedsætter blodgennemstrømningen og kan give iskæmi."
   },
   {
     "topic": "Kar og hjerte",
     "question": "Hvilken af følgende er en påvirkelig (modificerbar) risikofaktor for aterosklerose, som fysioterapeuten kan være med til at adressere?",
     "options": [
-      "Alder",
-      "Køn",
       "Fysisk inaktivitet og rygning",
+      "Køn",
+      "Alder",
       "Arvelig disposition"
     ],
-    "correct": "C",
+    "correct": "A",
     "explanation": "Alder, køn og arv kan ikke ændres. Fysisk inaktivitet, rygning, forhøjet blodtryk, højt kolesterol og dårligt reguleret diabetes er påvirkelige — og regelmæssig fysisk aktivitet er en vigtig del af forebyggelsen."
   },
   {
@@ -28,9 +28,9 @@
     "question": "Aterosklerose er den fælles bagvedliggende årsag til flere sygdomme. Hvilken kombination er korrekt?",
     "options": [
       "Iskæmisk hjertesygdom, apopleksi (blodprop i hjernen) og perifer arteriesygdom",
+      "Migræne og epilepsi",
       "Astma, KOL og pneumoni",
-      "Type 1-diabetes og cøliaki",
-      "Migræne og epilepsi"
+      "Type 1-diabetes og cøliaki"
     ],
     "correct": "A",
     "explanation": "Aterosklerose i forskellige kargebeter giver iskæmisk hjertesygdom (kranspulsårerne), iskæmisk apopleksi (hjernens arterier) og perifer arteriesygdom (benenes arterier)."
@@ -39,36 +39,36 @@
     "topic": "Kar og hjerte",
     "question": "Hvad er angina pectoris (hjertekrampe)?",
     "options": [
-      "En permanent ødelæggelse af en hjerteklap",
       "Forbigående brystsmerter/trykken pga. midlertidig iltmangel i hjertemusklen, typisk udløst af anstrengelse",
+      "En blodprop i benet",
       "En betændelse i lungehinden",
-      "En blodprop i benet"
+      "En permanent ødelæggelse af en hjerteklap"
     ],
-    "correct": "B",
+    "correct": "A",
     "explanation": "Angina pectoris er forbigående myokardiel iskæmi: hjertemusklen får for lidt ilt (oftest pga. aterosklerose i kranspulsårerne), hvilket giver trykkende brystsmerter, klassisk ved anstrengelse."
   },
   {
     "topic": "Kar og hjerte",
     "question": "Under en træningssession klager en patient med kendt stabil angina over trykken for brystet. Smerterne kom ved anstrengelsen og forsvinder efter få minutters hvile. Hvad passer bedst?",
     "options": [
+      "Det er tegn på en dyb venetrombose",
       "Det er et typisk anfald af stabil angina, der lindres ved hvile (og evt. nitroglycerin)",
       "Det er med sikkerhed et akut hjerteinfarkt",
-      "Det er en allergisk reaktion",
-      "Det er tegn på en dyb venetrombose"
+      "Det er en allergisk reaktion"
     ],
-    "correct": "A",
+    "correct": "B",
     "explanation": "Stabil angina udløses af anstrengelse og svinder ved hvile (og typisk ved nitroglycerin). Man holder pause, lader patienten hvile og kan tilpasse intensiteten — men er opmærksom på, om mønsteret ændrer sig (forværring kan tyde på ustabil angina)."
   },
   {
     "topic": "Kar og hjerte",
     "question": "En patient får under træning kraftige brystsmerter, der stråler ud i venstre arm, ledsages af åndenød og koldsved og IKKE forsvinder ved hvile eller nitroglycerin efter ca. 15 minutter. Hvad er den rigtige håndtering?",
     "options": [
-      "Fortsætte træningen i let tempo",
-      "Afbryde straks, lade patienten hvile og tilkalde akut hjælp (ring 112) — mistanke om akut hjerteinfarkt",
       "Give patienten rigeligt at drikke og fortsætte",
-      "Bede patienten kontakte egen læge dagen efter"
+      "Bede patienten kontakte egen læge dagen efter",
+      "Fortsætte træningen i let tempo",
+      "Afbryde straks, lade patienten hvile og tilkalde akut hjælp (ring 112) — mistanke om akut hjerteinfarkt"
     ],
-    "correct": "B",
+    "correct": "D",
     "explanation": "Vedvarende brystsmerter, der ikke svinder ved hvile/nitroglycerin og ledsages af udstråling, åndenød og koldsved, kan være et akut koronart syndrom/hjerteinfarkt. Det er en livstruende, tidskritisk tilstand — afbryd og ring 112."
   },
   {
@@ -88,9 +88,9 @@
     "question": "Hvad dækker begrebet akut koronart syndrom (AKS)?",
     "options": [
       "En samlebetegnelse for ustabil angina og akut myokardieinfarkt (NSTEMI/STEMI)",
+      "En forstyrrelse i skjoldbruskkirtlen",
       "En kronisk lungesygdom",
-      "En type medfødt hjerteklapfejl",
-      "En forstyrrelse i skjoldbruskkirtlen"
+      "En type medfødt hjerteklapfejl"
     ],
     "correct": "A",
     "explanation": "AKS er en samlebetegnelse for de akutte tilstande med myokardiel iskæmi: ustabil angina og akut myokardieinfarkt (NSTEMI og STEMI). Det skyldes oftest, at en aterosklerotisk plak brister og danner en blodprop."
@@ -99,12 +99,12 @@
     "topic": "Kar og hjerte",
     "question": "Hvilke parakliniske fund understøtter typisk diagnosen akut myokardieinfarkt?",
     "options": [
-      "Forhøjet troponin i blodet og forandringer på EKG",
-      "Lavt blodsukker og høj puls",
       "Forhøjet antal hvide blodlegemer alene",
+      "Lavt blodsukker og høj puls",
+      "Forhøjet troponin i blodet og forandringer på EKG",
       "Nedsat iltmætning som eneste fund"
     ],
-    "correct": "A",
+    "correct": "C",
     "explanation": "Ved et infarkt frigives troponin fra de beskadigede hjertemuskelceller, så blodets troponin stiger. Samtidig ses ofte karakteristiske EKG-forandringer. Sammen med symptomerne stiller det diagnosen."
   },
   {
@@ -125,8 +125,8 @@
     "options": [
       "Hævede ankler og halsvenestase som det dominerende",
       "Åndenød (især ved anstrengelse og i fladt leje), træthed og evt. natlig åndenød pga. væske i lungerne",
-      "Belastningssmerter i læggen ved gang",
-      "Kløende udslæt"
+      "Kløende udslæt",
+      "Belastningssmerter i læggen ved gang"
     ],
     "correct": "B",
     "explanation": "Venstresidigt svigt giver tilbagestuvning til lungerne (lungestase): åndenød ved anstrengelse, ortopnø (åndenød i fladt leje) og natlig åndenød. Højresidigt svigt giver derimod perifere ødemer og halsvenestase."
@@ -135,12 +135,12 @@
     "topic": "Kar og hjerte",
     "question": "Hvad beskriver NYHA-klassifikationen hos en patient med hjerteinsufficiens?",
     "options": [
-      "Graden af funktionsbegrænsning ud fra, hvor meget fysisk aktivitet der udløser symptomer",
       "Blodets iltmætning",
-      "Antallet af tidligere infarkter",
-      "Størrelsen af hjerteklapperne"
+      "Størrelsen af hjerteklapperne",
+      "Graden af funktionsbegrænsning ud fra, hvor meget fysisk aktivitet der udløser symptomer",
+      "Antallet af tidligere infarkter"
     ],
-    "correct": "A",
+    "correct": "C",
     "explanation": "NYHA-klasse I-IV beskriver, hvor meget fysisk aktivitet patienten kan klare, før der kommer symptomer (fx åndenød/træthed). Det er nyttigt, når fysioterapeuten skal tilrettelægge og dosere træning."
   },
   {
@@ -148,11 +148,11 @@
     "question": "En patient med kronisk hjerteinsufficiens, du normalt træner med, har de seneste dage fået tiltagende åndenød, hævede ben og er taget flere kilo op i vægt på kort tid. Hvad tyder det på?",
     "options": [
       "At sygdommen er helbredt",
-      "Tegn på forværring (dekompensation) — træningen bør pauseres, og patienten bør vurderes lægeligt",
       "At patienten blot skal træne hårdere",
+      "Tegn på forværring (dekompensation) — træningen bør pauseres, og patienten bør vurderes lægeligt",
       "En allergisk reaktion"
     ],
-    "correct": "B",
+    "correct": "C",
     "explanation": "Hurtig vægtøgning, øgede ødemer og tiltagende åndenød er klassiske tegn på væskeophobning/dekompensation. Træningen pauseres, og patienten henvises til lægelig vurdering. (Stabil, velbehandlet hjerteinsufficiens er derimod ikke en kontraindikation for tilpasset træning — det er tværtimod anbefalet.)"
   },
   {
@@ -171,34 +171,34 @@
     "topic": "Kar og hjerte",
     "question": "Hvilke komplikationer er ubehandlet hypertension forbundet med på sigt?",
     "options": [
-      "Apopleksi, iskæmisk hjertesygdom, hjerteinsufficiens og nyreskade",
       "Forbedret kredsløb",
       "Knogleskørhed som eneste følge",
+      "Apopleksi, iskæmisk hjertesygdom, hjerteinsufficiens og nyreskade",
       "Ingen helbredsmæssige konsekvenser"
     ],
-    "correct": "A",
+    "correct": "C",
     "explanation": "Vedvarende højt blodtryk belaster kar og hjerte og øger risikoen for bl.a. apopleksi, iskæmisk hjertesygdom, hjerteinsufficiens samt nyre- og øjenskade."
   },
   {
     "topic": "Kar og hjerte",
     "question": "Hvilken ikke-medicinsk indsats, som fysioterapeuten kan understøtte, kan være med til at sænke blodtrykket?",
     "options": [
-      "Regelmæssig aerob fysisk aktivitet (sammen med fx vægttab, mindre salt og rygestop)",
-      "Mere stillesiddende tid",
+      "Mindre søvn",
       "Øget alkoholindtag",
-      "Mindre søvn"
+      "Mere stillesiddende tid",
+      "Regelmæssig aerob fysisk aktivitet (sammen med fx vægttab, mindre salt og rygestop)"
     ],
-    "correct": "A",
+    "correct": "D",
     "explanation": "Regelmæssig aerob træning sænker blodtrykket og indgår — sammen med vægttab, kostændringer, mindre salt/alkohol og rygestop — i den livsstilsbehandling, fysioterapeuten kan bidrage til."
   },
   {
     "topic": "Kar og hjerte",
     "question": "Hvad kendetegner atrieflimren?",
     "options": [
-      "En helt regelmæssig, langsom puls",
-      "Hurtig og uorganiseret elektrisk aktivitet i forkamrene, som giver en uregelmæssig puls",
       "En komplet stilstand af hjertet",
-      "En forsnævret hjerteklap"
+      "Hurtig og uorganiseret elektrisk aktivitet i forkamrene, som giver en uregelmæssig puls",
+      "En forsnævret hjerteklap",
+      "En helt regelmæssig, langsom puls"
     ],
     "correct": "B",
     "explanation": "Ved atrieflimren er den elektriske aktivitet i atrierne hurtig og kaotisk, så hjertet slår uregelmæssigt. Det er den hyppigste vedvarende hjerterytmeforstyrrelse."
@@ -207,36 +207,36 @@
     "topic": "Kar og hjerte",
     "question": "Hvad er den vigtigste alvorlige komplikation ved atrieflimren?",
     "options": [
+      "Forhøjet blodsukker",
       "Knogleskørhed",
-      "Dannelse af en blodprop i forkammeret, som kan føre til blodprop i hjernen (embolisk apopleksi)",
       "Nedsat syn",
-      "Forhøjet blodsukker"
+      "Dannelse af en blodprop i forkammeret, som kan føre til blodprop i hjernen (embolisk apopleksi)"
     ],
-    "correct": "B",
+    "correct": "D",
     "explanation": "Når atrierne ikke trækker sig ordentligt sammen, kan blodet stå stille og danne en blodprop. Løsner den sig, kan den give en embolisk apopleksi. Derfor behandles mange med blodfortyndende medicin (antikoagulation)."
   },
   {
     "topic": "Kar og hjerte",
     "question": "En fysioterapeut måler pulsen på en patient med atrieflimren. Hvad er vigtigt at vide?",
     "options": [
-      "Pulsen vil være helt regelmæssig",
-      "Pulsen er uregelmæssig, og pulsfrekvensen er derfor et mindre pålideligt mål for træningsintensitet end normalt",
       "Pulsen kan slet ikke mærkes ved atrieflimren",
-      "Atrieflimren gør pulsen umulig at påvirke"
+      "Pulsen vil være helt regelmæssig",
+      "Atrieflimren gør pulsen umulig at påvirke",
+      "Pulsen er uregelmæssig, og pulsfrekvensen er derfor et mindre pålideligt mål for træningsintensitet end normalt"
     ],
-    "correct": "B",
+    "correct": "D",
     "explanation": "Ved atrieflimren er pulsen uregelmæssig. Det gør puls/hjertefrekvens mindre anvendelig som intensitetsmål — man kan i stedet supplere med fx Borg-skala (oplevet anstrengelse)."
   },
   {
     "topic": "Kar og hjerte",
     "question": "Hvilke symptomer er klassiske ved svær aortastenose (forsnævret aortaklap)?",
     "options": [
-      "Anstrengelsesudløst åndenød, brystsmerter (angina) og besvimelse (synkope)",
-      "Belastningssmerter i læggen ved gang",
       "Kløe og udslæt",
-      "Næseblod og hovedpine"
+      "Anstrengelsesudløst åndenød, brystsmerter (angina) og besvimelse (synkope)",
+      "Næseblod og hovedpine",
+      "Belastningssmerter i læggen ved gang"
     ],
-    "correct": "A",
+    "correct": "B",
     "explanation": "Den klassiske symptomtriade ved svær aortastenose er anstrengelsesudløst åndenød, angina og synkope. Ved stetoskopi høres typisk en systolisk mislyd."
   },
   {
@@ -256,9 +256,9 @@
     "question": "Hvad er en dyb venetrombose (DVT)?",
     "options": [
       "En blodprop i en af kroppens dybe vener, oftest i benet",
-      "En forsnævret hjerteklap",
+      "En blodprop i en kranspulsåre",
       "En betændelse i lungevævet",
-      "En blodprop i en kranspulsåre"
+      "En forsnævret hjerteklap"
     ],
     "correct": "A",
     "explanation": "DVT er en blodprop i en dyb vene, hyppigst i underbenet eller låret. Den væsentligste akutte komplikation er lungeemboli, hvis proppen løsner sig og føres til lungerne."
@@ -267,60 +267,60 @@
     "topic": "Kar og hjerte",
     "question": "Hvilke kliniske tegn er typiske for en dyb venetrombose i benet?",
     "options": [
-      "Ensidig hævelse, varme, rødme og ømhed/smerte, oftest i læggen",
       "Dobbeltsidig kløe uden hævelse",
-      "Bleg, kold fod uden puls",
-      "Udslæt på brystet"
+      "Udslæt på brystet",
+      "Ensidig hævelse, varme, rødme og ømhed/smerte, oftest i læggen",
+      "Bleg, kold fod uden puls"
     ],
-    "correct": "A",
+    "correct": "C",
     "explanation": "DVT giver typisk ensidig hævelse af benet med varme, rødme og ømhed, ofte i læggen. Tegnene er dog ikke altid til stede, så en mistanke skal bekræftes (fx med ultralyd)."
   },
   {
     "topic": "Kar og hjerte",
     "question": "Hvilke forhold øger risikoen for dyb venetrombose — og er derfor relevante at kende i fysioterapeutisk praksis?",
     "options": [
-      "Langvarig immobilisering, nylig operation, gipsbandage, cancer og graviditet",
+      "Lavt kolesterol",
       "Regelmæssig gang og bevægelse",
       "Højt indtag af vand",
-      "Lavt kolesterol"
+      "Langvarig immobilisering, nylig operation, gipsbandage, cancer og graviditet"
     ],
-    "correct": "A",
+    "correct": "D",
     "explanation": "Nedsat bevægelse/immobilisering, kirurgi, gips, cancer og graviditet øger risikoen (jf. Virchows triade). Tidlig mobilisering efter operation/sengeleje er netop med til at forebygge DVT."
   },
   {
     "topic": "Kar og hjerte",
     "question": "Hos en postoperativ, sengeliggende patient bemærker fysioterapeuten en ensidigt hævet, varm og øm læg. Hvad er den rigtige håndtering?",
     "options": [
+      "Sætte straks gang i hård konditionstræning",
       "Give kraftig massage og udspænding af læggen for at mindske hævelsen",
       "Mistænke en dyb venetrombose, undlade kraftig manipulation/massage af benet og henvise til akut lægelig vurdering",
-      "Sætte straks gang i hård konditionstræning",
       "Ignorere det, da hævede ben altid er normalt efter operation"
     ],
-    "correct": "B",
+    "correct": "C",
     "explanation": "Ved mistanke om DVT skal man IKKE massere eller manipulere kraftigt på benet, da det i værste fald kan løsne proppen og give lungeemboli. I stedet henvises til hurtig lægelig vurdering (ultralyd, D-dimer). Det er en vigtig kontraindikation at kende som fysioterapeut."
   },
   {
     "topic": "Kar og hjerte",
     "question": "Hvad er claudicatio intermittens (vindueskigger-syndrom)?",
     "options": [
+      "En kronisk lungesygdom",
       "Belastningsudløste smerter i (oftest) læggen pga. utilstrækkelig arteriel blodforsyning, som forsvinder ved hvile",
       "En blodprop i en dyb vene",
-      "En kronisk lungesygdom",
       "En betændelse i en hjerteklap"
     ],
-    "correct": "A",
+    "correct": "B",
     "explanation": "Ved claudicatio intermittens giver de arbejdende benmuskler smerter under gang, fordi forsnævrede (aterosklerotiske) arterier ikke kan levere nok blod. Smerterne tvinger personen til at standse og svinder ved hvile."
   },
   {
     "topic": "Kar og hjerte",
     "question": "Hvad er den underliggende årsag til claudicatio intermittens?",
     "options": [
+      "En allergisk reaktion",
       "Aterosklerose i benenes arterier (perifer arteriesygdom)",
       "En virusinfektion",
-      "For højt væskeindtag",
-      "En allergisk reaktion"
+      "For højt væskeindtag"
     ],
-    "correct": "A",
+    "correct": "B",
     "explanation": "Claudicatio skyldes perifer arteriesygdom — aterosklerose, der forsnævrer benenes arterier og nedsætter blodforsyningen til musklerne under belastning."
   },
   {
@@ -328,9 +328,9 @@
     "question": "En patient har bensmerter ved gang. Hvad taler MEST for vaskulær claudicatio (arteriel) frem for neurogen claudicatio (fx ved spinalstenose)?",
     "options": [
       "Smerterne svinder pålideligt, blot patienten standser og hviler",
-      "Smerterne lindres bedst ved at bøje sig forover eller sætte sig ned og kommer også ved at stå længe",
       "Smerterne er værst om natten i sengen",
-      "Der er samtidig kløende udslæt"
+      "Der er samtidig kløende udslæt",
+      "Smerterne lindres bedst ved at bøje sig forover eller sætte sig ned og kommer også ved at stå længe"
     ],
     "correct": "A",
     "explanation": "Vaskulær claudicatio lindres typisk blot ved at stoppe og hvile (uanset stilling). Neurogen claudicatio (spinalstenose) lindres derimod ved fleksion af ryggen — fx at bøje sig forover eller sætte sig — og kan også opstå ved at stå længe. Det er en vigtig differentialdiagnostisk skelnen i fysioterapien."
@@ -339,24 +339,24 @@
     "topic": "Kar og hjerte",
     "question": "Hvad er en hjørnesten i den konservative behandling af claudicatio intermittens — og direkte relevant for fysioterapeuten?",
     "options": [
-      "Superviseret gangtræning (struktureret gå-træningsprogram) sammen med rygestop og kontrol af risikofaktorer",
       "Fuldstændig undgåelse af al gang og bevægelse",
-      "Sengeleje i flere uger",
-      "Massage som eneste behandling"
+      "Superviseret gangtræning (struktureret gå-træningsprogram) sammen med rygestop og kontrol af risikofaktorer",
+      "Massage som eneste behandling",
+      "Sengeleje i flere uger"
     ],
-    "correct": "A",
+    "correct": "B",
     "explanation": "Superviseret gangtræning er en veldokumenteret hjørnesten: man går til (næsten) maksimal smerte, hviler og gentager. Det øger gangdistancen over tid. Det kombineres med rygestop, motion og behandling af risikofaktorer."
   },
   {
     "topic": "Kar og hjerte",
     "question": "En patient med kendt perifer arteriesygdom får nu også smerter i foden i hvile (fx om natten) og har et sår, der ikke vil hele. Hvad tyder det på?",
     "options": [
+      "En simpel muskelforstrækning",
       "At sygdommen er blevet mildere",
       "Tegn på svær (kritisk) iskæmi, der kræver hurtig lægelig/karkirurgisk vurdering",
-      "En helt normal reaktion på træning",
-      "En simpel muskelforstrækning"
+      "En helt normal reaktion på træning"
     ],
-    "correct": "B",
+    "correct": "C",
     "explanation": "Hvilesmerter og dårligt helende sår (samt kolde, blege fødder og svage/manglende perifere pulse) tyder på kritisk iskæmi — en alvorlig forværring af den perifere arteriesygdom, der kræver hurtig lægelig vurdering."
   }
 ]

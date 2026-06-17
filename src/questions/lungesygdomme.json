@@ -3,10 +3,10 @@
     "topic": "Lungesygdomme",
     "question": "Hvad karakteriserer astma patofysiologisk?",
     "options": [
-      "En permanent, irreversibel ødelæggelse af alveolerne",
+      "En blodprop i en lungearterie",
       "En kronisk luftvejsinflammation med bronkial hyperreaktivitet og typisk reversibel obstruktion",
       "En bakteriel infektion i lungevævet",
-      "En blodprop i en lungearterie"
+      "En permanent, irreversibel ødelæggelse af alveolerne"
     ],
     "correct": "B",
     "explanation": "Astma er en kronisk inflammation i luftvejene med øget følsomhed (hyperreaktivitet). Obstruktionen er typisk reversibel — den kan ophæves spontant eller med medicin."
@@ -15,10 +15,10 @@
     "topic": "Lungesygdomme",
     "question": "Hvilke symptomer er klassiske for astma?",
     "options": [
-      "Konstant feber og vægttab",
+      "Smerter i benene ved gang",
       "Anfaldsvis åndenød, hvæsende vejrtrækning og hoste, ofte værst om natten/tidligt om morgenen",
-      "Pludselige brystsmerter med udstråling til venstre arm",
-      "Smerter i benene ved gang"
+      "Konstant feber og vægttab",
+      "Pludselige brystsmerter med udstråling til venstre arm"
     ],
     "correct": "B",
     "explanation": "Astma giver anfaldsvis åndenød, hvæsen (wheezing) og hoste, ofte med natlige/tidlige morgensymptomer og udløst af triggere."
@@ -27,12 +27,12 @@
     "topic": "Lungesygdomme",
     "question": "Hvilken af følgende er en typisk udløsende faktor (trigger) for et astmaanfald?",
     "options": [
+      "God søvn",
       "Indtag af rigeligt vand",
       "Allergener, kold luft, fysisk anstrengelse eller luftvejsinfektion",
-      "God søvn",
       "Lavt blodsukker"
     ],
-    "correct": "B",
+    "correct": "C",
     "explanation": "Astmaanfald udløses ofte af allergener (pollen, husstøvmider, dyrehår), kold luft, anstrengelse, røg eller luftvejsinfektioner."
   },
   {
@@ -40,9 +40,9 @@
     "question": "En patient får pludselig åndenød og hvæsen under et astmaanfald. Hvilken medicintype giver hurtigst lindring?",
     "options": [
       "Korttidsvirkende β2-agonist i inhalation (fx salbutamol)",
+      "Et smertestillende håndkøbspræparat",
       "Tabletbehandling med antibiotika",
-      "Inhalationssteroid som engangsdosis",
-      "Et smertestillende håndkøbspræparat"
+      "Inhalationssteroid som engangsdosis"
     ],
     "correct": "A",
     "explanation": "En korttidsvirkende β2-agonist (SABA) udvider bronkierne hurtigt og er anfaldsbehandlingen ('relieveren') ved astma."
@@ -51,60 +51,60 @@
     "topic": "Lungesygdomme",
     "question": "Hvad er formålet med inhalationssteroid (glukokortikoid) ved astma?",
     "options": [
-      "At udvide bronkierne akut under et anfald",
       "At dæmpe den underliggende luftvejsinflammation og forebygge anfald",
+      "At udvide bronkierne akut under et anfald",
       "At behandle en bakteriel infektion",
       "At fortynde sejt slim"
     ],
-    "correct": "B",
+    "correct": "A",
     "explanation": "Inhalationssteroid er den forebyggende ('controller'-)behandling: det dæmper inflammationen i luftvejene over tid og nedsætter antallet af anfald."
   },
   {
     "topic": "Lungesygdomme",
     "question": "Ved spirometri ses ved astma typisk en obstruktion, der bedres tydeligt efter inhalation af en bronkodilatator. Hvad kaldes dette fund?",
     "options": [
+      "Restriktiv lungefunktion",
       "Irreversibel obstruktion",
       "Reversibel obstruktion",
-      "Restriktiv lungefunktion",
       "Normal spirometri"
     ],
-    "correct": "B",
+    "correct": "C",
     "explanation": "Tydelig bedring i lungefunktionen efter bronkodilatator viser reversibel obstruktion, som er typisk for astma (i modsætning til KOL, hvor den er overvejende irreversibel)."
   },
   {
     "topic": "Lungesygdomme",
     "question": "Hvad er den klart hyppigste årsag til KOL?",
     "options": [
-      "Allergi over for pollen",
       "Tobaksrygning",
       "Virusinfektion i barndommen",
+      "Allergi over for pollen",
       "Arvelig blodmangel"
     ],
-    "correct": "B",
+    "correct": "A",
     "explanation": "Langvarig tobaksrygning er den dominerende årsag til KOL. Luftforurening og erhvervsmæssig støv-/røgudsættelse bidrager også."
   },
   {
     "topic": "Lungesygdomme",
     "question": "Hvad kendetegner luftvejsobstruktionen ved KOL?",
     "options": [
-      "Den er fuldt reversibel",
-      "Den er kronisk og overvejende irreversibel",
       "Den findes kun under anfald og forsvinder helt imellem",
-      "Der er slet ingen obstruktion"
+      "Der er slet ingen obstruktion",
+      "Den er kronisk og overvejende irreversibel",
+      "Den er fuldt reversibel"
     ],
-    "correct": "B",
+    "correct": "C",
     "explanation": "Ved KOL er obstruktionen kronisk og kun delvist/ikke reversibel — i modsætning til astma, hvor den typisk er reversibel."
   },
   {
     "topic": "Lungesygdomme",
     "question": "Hvilke symptomer er typiske for KOL?",
     "options": [
-      "Pludseligt anfald af hvæsen hos en ung uden rygehistorie",
       "Tiltagende åndenød, kronisk hoste og opspyt hos en (tidligere) ryger",
       "Feber og pludselig brystsmerte",
+      "Pludseligt anfald af hvæsen hos en ung uden rygehistorie",
       "Smerter i lægmusklen ved gang"
     ],
-    "correct": "B",
+    "correct": "A",
     "explanation": "KOL udvikler sig snigende med progredierende åndenød (især ved anstrengelse), kronisk hoste og slimproduktion, typisk hos en ryger gennem mange år."
   },
   {
@@ -112,83 +112,83 @@
     "question": "Hvilken undersøgelse bruges til at stille KOL-diagnosen og vurdere sværhedsgraden?",
     "options": [
       "EKG",
-      "Spirometri (lungefunktionsundersøgelse)",
+      "Måling af blodsukker",
       "Ultralyd af maven",
-      "Måling af blodsukker"
+      "Spirometri (lungefunktionsundersøgelse)"
     ],
-    "correct": "B",
+    "correct": "D",
     "explanation": "Spirometri stiller diagnosen — en vedvarende nedsat FEV1/FVC-ratio (under 0,70 efter bronkodilatator) bekræfter den irreversible obstruktion."
   },
   {
     "topic": "Lungesygdomme",
     "question": "Hvad er en KOL-exacerbation?",
     "options": [
-      "En permanent helbredelse af sygdommen",
-      "En akut forværring af symptomerne, ofte udløst af en luftvejsinfektion",
+      "Et fald i blodtrykket",
       "En allergisk hudreaktion",
-      "Et fald i blodtrykket"
+      "En akut forværring af symptomerne, ofte udløst af en luftvejsinfektion",
+      "En permanent helbredelse af sygdommen"
     ],
-    "correct": "B",
+    "correct": "C",
     "explanation": "En exacerbation er en akut forværring med øget åndenød, hoste og/eller opspyt — ofte udløst af en virus- eller bakterieinfektion og en hyppig årsag til indlæggelse."
   },
   {
     "topic": "Lungesygdomme",
     "question": "Hvad er den væsentligste og mest effektive intervention for at bremse udviklingen af KOL?",
     "options": [
-      "Rygestop",
       "Øget indtag af C-vitamin",
+      "Rygestop",
       "Sengeleje",
       "Daglig brug af antibiotika"
     ],
-    "correct": "A",
+    "correct": "B",
     "explanation": "Rygestop er det vigtigste — det er den eneste intervention, der tydeligt kan bremse det fortsatte fald i lungefunktionen ved KOL."
   },
   {
     "topic": "Lungesygdomme",
     "question": "Hvad er pneumoni?",
     "options": [
+      "En kronisk forsnævring af bronkierne",
       "En blodprop i en lungearterie",
       "En infektion/inflammation i selve lungevævet (alveolerne)",
-      "En kronisk forsnævring af bronkierne",
       "En ophobning af luft i lungehinden"
     ],
-    "correct": "B",
+    "correct": "C",
     "explanation": "Pneumoni (lungebetændelse) er en infektion i lungeparenkymet, hvor alveolerne fyldes med inflammatorisk væske/ekssudat."
   },
   {
     "topic": "Lungesygdomme",
     "question": "Hvilke symptomer er typiske for en bakteriel pneumoni?",
     "options": [
-      "Feber, hoste med opspyt, åndenød og evt. pleuritiske brystsmerter",
-      "Smerter i benene og hævede ankler",
       "Kløende udslæt over hele kroppen",
-      "Synsforstyrrelser og hovedpine"
+      "Synsforstyrrelser og hovedpine",
+      "Feber, hoste med opspyt, åndenød og evt. pleuritiske brystsmerter",
+      "Smerter i benene og hævede ankler"
     ],
-    "correct": "A",
+    "correct": "C",
     "explanation": "Klassisk ses feber, kulderystelser, produktiv hoste, åndenød og brystsmerter, der forværres ved vejrtrækning (pleuritiske)."
   },
   {
     "topic": "Lungesygdomme",
     "question": "Hvilken bakterie er den hyppigste årsag til samfundserhvervet pneumoni?",
     "options": [
-      "Streptococcus pneumoniae (pneumokok)",
-      "Staphylococcus aureus",
+      "Mycobacterium tuberculosis",
       "Escherichia coli",
-      "Mycobacterium tuberculosis"
+      "Streptococcus pneumoniae (pneumokok)",
+      "Staphylococcus aureus"
     ],
-    "correct": "A",
+    "correct": "C",
     "explanation": "Streptococcus pneumoniae (pneumokokken) er den hyppigste årsag til samfundserhvervet lungebetændelse."
   },
   {
     "topic": "Lungesygdomme",
     "question": "Hvilken billeddiagnostisk undersøgelse bekræfter typisk en pneumoni?",
     "options": [
+      "EKG",
       "MR-scanning af hjernen",
       "Røntgen af thorax (brystkasse), som kan vise et infiltrat",
-      "Ultralyd af benene",
-      "EKG"
+      "Ultralyd af benene"
     ],
-    "correct": "B",
+    "correct": "C",
     "explanation": "Røntgen af thorax kan vise et infiltrat (fortætning) i lungen, hvilket understøtter diagnosen pneumoni."
   },
   {
@@ -196,11 +196,11 @@
     "question": "Hvad hører man ofte ved stetoskopi (auskultation) over et område med pneumoni?",
     "options": [
       "Helt normal, ren respiration",
-      "Knitren/krepitation (fugtige rallelyde)",
       "Ingen lyde overhovedet",
-      "En jævn, summende mislyd fra hjertet"
+      "En jævn, summende mislyd fra hjertet",
+      "Knitren/krepitation (fugtige rallelyde)"
     ],
-    "correct": "B",
+    "correct": "D",
     "explanation": "Over et pneumonisk område høres typisk knitren/krepitation, fordi alveolerne er fyldt med væske. Der kan også være nedsat respirationslyd."
   },
   {
@@ -208,9 +208,9 @@
     "question": "En 84-årig kvinde indlægges med konfusion, nedsat appetit og et enkelt fald — uden tydelig feber eller hoste. Hvad er vigtigt at huske om infektioner som pneumoni hos ældre?",
     "options": [
       "De kan præsentere sig atypisk, fx med konfusion, fald eller almen svækkelse frem for klassiske symptomer",
+      "De kræver aldrig behandling",
       "De optræder altid med høj feber og kraftig hoste",
-      "De forekommer aldrig hos ældre",
-      "De kræver aldrig behandling"
+      "De forekommer aldrig hos ældre"
     ],
     "correct": "A",
     "explanation": "Hos ældre kan infektioner præsentere sig atypisk — fx med konfusion, fald, nedsat funktionsniveau eller appetitløshed — uden de klassiske tegn. Det kræver høj opmærksomhed."
@@ -220,47 +220,47 @@
     "question": "Hvad er en lungeemboli?",
     "options": [
       "En infektion i lungevævet",
-      "En tilstopning af en lungearterie, oftest af en blodprop",
       "En kronisk forsnævring af luftvejene",
+      "En tilstopning af en lungearterie, oftest af en blodprop",
       "En væskeansamling i lungehinden"
     ],
-    "correct": "B",
+    "correct": "C",
     "explanation": "Ved lungeemboli tilstoppes en lungearterie (eller gren heraf) — oftest af en blodprop, der er løsnet og ført med blodet til lungen."
   },
   {
     "topic": "Lungesygdomme",
     "question": "Hvorfra stammer blodproppen ved en lungeemboli oftest?",
     "options": [
-      "Fra en dyb venetrombose (DVT) i benene",
-      "Fra en arterie i hjernen",
       "Fra hjerteklapperne",
-      "Fra lungevævet selv"
+      "Fra lungevævet selv",
+      "Fra en arterie i hjernen",
+      "Fra en dyb venetrombose (DVT) i benene"
     ],
-    "correct": "A",
+    "correct": "D",
     "explanation": "Langt de fleste lungeembolier stammer fra en dyb venetrombose i benenes/bækkenets dybe vener. Proppen løsner sig og føres til lungekredsløbet."
   },
   {
     "topic": "Lungesygdomme",
     "question": "Hvilke symptomer er typiske ved en lungeemboli?",
     "options": [
-      "Langsomt indsættende hoste over flere uger",
       "Pludselig åndenød, brystsmerter (ofte pleuritiske) og hurtig puls",
-      "Smerter i maven og diarré",
-      "Hævede led i hænderne"
+      "Langsomt indsættende hoste over flere uger",
+      "Hævede led i hænderne",
+      "Smerter i maven og diarré"
     ],
-    "correct": "B",
+    "correct": "A",
     "explanation": "Klassisk ses pludselig åndenød, takykardi og pleuritiske brystsmerter; nogle får hæmoptyse (blodigt opspyt). En stor emboli kan give kredsløbskollaps."
   },
   {
     "topic": "Lungesygdomme",
     "question": "Hvilken af følgende er en kendt risikofaktor for lungeemboli/DVT?",
     "options": [
-      "Daglig motion",
       "Langvarig immobilisering, nylig operation, cancer eller graviditet",
       "Højt indtag af vand",
+      "Daglig motion",
       "Lavt kolesterol"
     ],
-    "correct": "B",
+    "correct": "A",
     "explanation": "Risikofaktorer følger Virchows triade (nedsat blodstrøm, øget koagulationstendens, karvægsskade): immobilisering, kirurgi, cancer, østrogen/p-piller og graviditet."
   },
   {
@@ -268,9 +268,9 @@
     "question": "Hvilken undersøgelse anvendes typisk til at påvise en lungeemboli?",
     "options": [
       "CT-angiografi af lungernes kar (CT-pulmonalangiografi)",
-      "Røntgen af benene",
       "EKG som eneste undersøgelse",
-      "Ultralyd af skjoldbruskkirtlen"
+      "Ultralyd af skjoldbruskkirtlen",
+      "Røntgen af benene"
     ],
     "correct": "A",
     "explanation": "CT-pulmonalangiografi (CTPA) er den primære undersøgelse, der direkte kan vise proppen i lungekarrene. D-dimer-blodprøven bruges til at af-/bekræfte mistanken."
@@ -279,10 +279,10 @@
     "topic": "Lungesygdomme",
     "question": "Hvorfor kan en stor (massiv) lungeemboli være akut livstruende?",
     "options": [
-      "Fordi den giver kraftig feber",
+      "Fordi den nedsætter blodsukkeret",
       "Fordi den pludseligt belaster højre hjertehalvdel og kan føre til kredsløbskollaps",
       "Fordi den giver kronisk hoste",
-      "Fordi den nedsætter blodsukkeret"
+      "Fordi den giver kraftig feber"
     ],
     "correct": "B",
     "explanation": "En massiv emboli øger pludseligt modstanden i lungekredsløbet og belaster højre ventrikel akut, hvilket kan give blodtryksfald, shock og hjertestop."
@@ -291,30 +291,35 @@
     "topic": "Lungesygdomme",
     "question": "Hvad betyder 'dyspnø'?",
     "options": [
-      "Opspyt af blod",
       "Følelsen af åndenød eller besværet vejrtrækning",
       "Blålig misfarvning af huden",
+      "Opspyt af blod",
       "Smerter ved vandladning"
     ],
-    "correct": "B",
+    "correct": "A",
     "explanation": "Dyspnø er den subjektive fornemmelse af åndenød/besværet vejrtrækning. Den kan optræde i hvile eller ved anstrengelse."
   },
   {
     "topic": "Lungesygdomme",
     "question": "Hvad er cyanose udtryk for?",
     "options": [
-      "En blålig misfarvning af hud og slimhinder pga. nedsat iltning af blodet",
       "En rødme i ansigtet pga. feber",
       "En gulfarvning af huden",
-      "En hævelse af benene"
+      "En hævelse af benene",
+      "En blålig misfarvning af hud og slimhinder pga. nedsat iltning af blodet"
     ],
-    "correct": "A",
+    "correct": "D",
     "explanation": "Cyanose er en blålig misfarvning (ses fx på læber og fingre), der skyldes en høj andel af iltfattigt hæmoglobin — altså nedsat iltning af blodet."
   },
   {
     "topic": "Lungesygdomme",
     "question": "Hvad kaldes det, når en patient hoster blod op fra luftvejene?",
-    "options": ["Hæmatemese", "Hæmoptyse", "Melæna", "Epistaxis"],
+    "options": [
+      "Hæmatemese",
+      "Hæmoptyse",
+      "Epistaxis",
+      "Melæna"
+    ],
     "correct": "B",
     "explanation": "Hæmoptyse er opspyt af blod fra luftvejene/lungerne. (Hæmatemese er blodigt opkast, epistaxis er næseblod.)"
   },
@@ -322,36 +327,36 @@
     "topic": "Lungesygdomme",
     "question": "Hvad er forskellen på stridor og hvæsen (wheezing)?",
     "options": [
-      "Stridor er en høj lyd, typisk på indånding, og tyder på forsnævring i de ØVRE luftveje",
-      "Stridor og hvæsen er præcis det samme",
       "Stridor høres kun hos raske personer",
-      "Hvæsen tyder altid på en blodprop"
+      "Stridor er en høj lyd, typisk på indånding, og tyder på forsnævring i de ØVRE luftveje",
+      "Hvæsen tyder altid på en blodprop",
+      "Stridor og hvæsen er præcis det samme"
     ],
-    "correct": "A",
+    "correct": "B",
     "explanation": "Stridor er en høj, ofte inspiratorisk lyd ved forsnævring i de øvre luftveje (fx larynx/trachea). Hvæsen (wheezing) er typisk ekspiratorisk og stammer fra de nedre, snævre luftveje (fx ved astma/KOL)."
   },
   {
     "topic": "Lungesygdomme",
     "question": "Hvad måler en pulsoximeter (saturationsmåler på fingeren)?",
     "options": [
-      "Blodtrykket",
-      "Iltmætningen af blodet (SpO2) samt pulsen",
       "Blodsukkeret",
-      "Kropstemperaturen"
+      "Kropstemperaturen",
+      "Blodtrykket",
+      "Iltmætningen af blodet (SpO2) samt pulsen"
     ],
-    "correct": "B",
+    "correct": "D",
     "explanation": "Pulsoximeteret måler iltmætningen i blodet (SpO2) og pulsfrekvensen. En normal SpO2 er typisk omkring 95-100 % hos en rask voksen."
   },
   {
     "topic": "Lungesygdomme",
     "question": "En produktiv hoste adskiller sig fra en tør hoste ved at:",
     "options": [
-      "Der hostes opspyt (slim/ekspektorat) op",
       "Den altid er ufarlig",
+      "Der hostes opspyt (slim/ekspektorat) op",
       "Den kun forekommer om natten",
       "Den aldrig ledsager infektioner"
     ],
-    "correct": "A",
+    "correct": "B",
     "explanation": "En produktiv (våd) hoste bringer slim/ekspektorat op og ses ofte ved infektioner og KOL. En tør hoste giver intet opspyt."
   }
 ]
