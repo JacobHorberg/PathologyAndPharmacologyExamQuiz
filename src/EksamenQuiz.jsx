@@ -7,6 +7,7 @@ import karoghjerte from "./questions/kar-og-hjerte.json";
 import endokrinologi from "./questions/endokrinologi.json";
 import onkologi from "./questions/onkologi.json";
 import reumatologi from "./questions/reumatologi.json";
+import ortopædkirurgi from "./questions/ortopaedkirurgi.json";
 
 /* ============================================================================
    HOW TO ADD QUESTIONS
@@ -39,6 +40,7 @@ const QUESTIONS = [
   ...endokrinologi,
   ...onkologi,
   ...reumatologi,
+  ...ortopædkirurgi,
 ];
 
 /* ============================================================================
@@ -47,6 +49,7 @@ const QUESTIONS = [
 
 const LETTERS = ["A", "B", "C", "D", "E", "F"];
 const ALL = "__ALLE_EMNER__";
+const CUSTOM = "__TILPASSET__";
 
 function topicOf(q) {
   return q.topic && String(q.topic).trim() ? String(q.topic).trim() : "Andet";
@@ -79,6 +82,7 @@ export default function App() {
   const [selected, setSelected] = useState(null);
   const [score, setScore] = useState({ correct: 0, wrong: 0 });
   const [wrongAnswers, setWrongAnswers] = useState([]);
+  const [customCounts, setCustomCounts] = useState({});
   const [darkMode, setDarkMode] = useState(
     () => localStorage.getItem("darkMode") === "true"
   );
@@ -115,6 +119,34 @@ export default function App() {
     },
     [buildDeck]
   );
+
+  const openCustomScreen = useCallback(() => {
+    setCustomCounts((prev) => {
+      const next = { ...prev };
+      topics.forEach((t) => { if (!(t.name in next)) next[t.name] = 0; });
+      return next;
+    });
+    setScreen("custom");
+  }, [topics]);
+
+  const startCustomQuiz = useCallback((counts) => {
+    const combined = [];
+    topics.forEach((t) => {
+      const n = counts[t.name] || 0;
+      if (n > 0) {
+        const topicQs = QUESTIONS.filter((x) => topicOf(x) === t.name);
+        combined.push(...shuffle(topicQs).slice(0, n));
+      }
+    });
+    if (combined.length === 0) return;
+    setActiveTopic(CUSTOM);
+    setDeck(shuffleOn ? shuffle(combined) : combined);
+    setPos(0);
+    setSelected(null);
+    setScore({ correct: 0, wrong: 0 });
+    setWrongAnswers([]);
+    setScreen("quiz");
+  }, [topics, shuffleOn]);
 
   const handleAnswer = useCallback(
     (i) => {
@@ -162,7 +194,7 @@ export default function App() {
     return () => window.removeEventListener("keydown", onKey);
   }, [screen, q, answered, handleAnswer, next]);
 
-  const topicLabel = activeTopic === ALL ? "Alle emner" : activeTopic;
+  const topicLabel = activeTopic === ALL ? "Alle emner" : activeTopic === CUSTOM ? "Tilpasset quiz" : activeTopic;
 
   // Dark mode toggle button shown on all screens
   const themeToggle = (
@@ -239,6 +271,24 @@ export default function App() {
               </span>
             </button>
 
+            {/* Custom quiz */}
+            <button
+              onClick={openCustomScreen}
+              className="w-full mb-3 flex items-center justify-between rounded-2xl border border-violet-200 dark:border-violet-800 bg-violet-50 dark:bg-violet-950 px-5 py-4 text-left hover:bg-violet-100 dark:hover:bg-violet-900 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-violet-500"
+            >
+              <span>
+                <span className="block font-semibold text-violet-900 dark:text-violet-100">
+                  Tilpasset quiz
+                </span>
+                <span className="block text-xs text-violet-700 dark:text-violet-300 mt-0.5">
+                  Vælg antal spørgsmål fra hvert emne
+                </span>
+              </span>
+              <span className="text-violet-700 dark:text-violet-300 text-xl" aria-hidden>
+                →
+              </span>
+            </button>
+
             {/* Topic list */}
             <div className="flex flex-col gap-2">
               {topics.map((t) => (
@@ -260,6 +310,129 @@ export default function App() {
               ))}
             </div>
           </div>
+        </div>
+      </div>
+    );
+  }
+
+  // ---------- Custom screen ----------
+  if (screen === "custom") {
+    const totalCustom = Object.values(customCounts).reduce((s, n) => s + n, 0);
+
+    const setAll = (n) => {
+      const next = {};
+      topics.forEach((t) => { next[t.name] = n === null ? t.count : Math.min(n, t.count); });
+      setCustomCounts(next);
+    };
+
+    const setCount = (name, val, max) => {
+      const n = Math.min(max, Math.max(0, val));
+      setCustomCounts((prev) => ({ ...prev, [name]: n }));
+    };
+
+    return (
+      <div className={darkMode ? "dark" : ""}>
+        {themeToggle}
+        <div className="min-h-screen bg-slate-50 dark:bg-slate-900 flex flex-col items-center p-4 sm:p-6 pb-28">
+          <div className="w-full max-w-xl">
+            <header className="mb-6 pt-2">
+              <button
+                onClick={() => setScreen("menu")}
+                className="text-sm text-slate-500 dark:text-slate-400 hover:text-slate-800 dark:hover:text-slate-100 transition-colors flex items-center gap-1 mb-3 focus:outline-none focus-visible:ring-2 focus-visible:ring-teal-500 rounded"
+              >
+                <span aria-hidden>←</span> Tilbage
+              </button>
+              <h1 className="text-xl sm:text-2xl font-semibold text-slate-800 dark:text-slate-100">
+                Tilpasset quiz
+              </h1>
+              <p className="text-sm text-slate-500 dark:text-slate-400 mt-1">
+                Vælg antal tilfældige spørgsmål fra hvert emne.
+              </p>
+            </header>
+
+            {/* Quick-set buttons */}
+            <div className="mb-4 flex flex-wrap gap-2">
+              <button
+                onClick={() => setAll(0)}
+                className="rounded-lg border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-3 py-1.5 text-xs font-medium text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-700 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-teal-500"
+              >
+                Nulstil alle
+              </button>
+              {[5, 10, 15].map((n) => (
+                <button
+                  key={n}
+                  onClick={() => setAll(n)}
+                  className="rounded-lg border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-3 py-1.5 text-xs font-medium text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-700 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-teal-500"
+                >
+                  {n} fra hvert
+                </button>
+              ))}
+              <button
+                onClick={() => setAll(null)}
+                className="rounded-lg border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-3 py-1.5 text-xs font-medium text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-700 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-teal-500"
+              >
+                Alle fra hvert
+              </button>
+            </div>
+
+            {/* Topic rows */}
+            <div className="flex flex-col gap-2 mb-6">
+              {topics.map((t) => {
+                const val = customCounts[t.name] || 0;
+                return (
+                  <div
+                    key={t.name}
+                    className="flex items-center justify-between gap-3 rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3"
+                  >
+                    <div className="min-w-0">
+                      <p className="font-medium text-sm text-slate-800 dark:text-slate-100 truncate">{t.name}</p>
+                      <p className="text-xs text-slate-400 dark:text-slate-500">{t.count} i alt</p>
+                    </div>
+                    <div className="flex items-center gap-1.5 shrink-0">
+                      <button
+                        onClick={() => setCount(t.name, val - 1, t.count)}
+                        disabled={val === 0}
+                        aria-label="Færre"
+                        className="w-7 h-7 flex items-center justify-center rounded-lg border border-slate-200 dark:border-slate-600 bg-slate-50 dark:bg-slate-700 text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-600 disabled:opacity-30 disabled:cursor-not-allowed transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-teal-500"
+                      >
+                        −
+                      </button>
+                      <input
+                        type="number"
+                        min={0}
+                        max={t.count}
+                        value={val}
+                        onChange={(e) => setCount(t.name, parseInt(e.target.value) || 0, t.count)}
+                        className="w-12 text-center text-sm font-medium rounded-lg border border-slate-200 dark:border-slate-600 bg-white dark:bg-slate-700 text-slate-800 dark:text-slate-100 py-1 focus:outline-none focus:ring-2 focus:ring-teal-500"
+                      />
+                      <button
+                        onClick={() => setCount(t.name, val + 1, t.count)}
+                        disabled={val >= t.count}
+                        aria-label="Flere"
+                        className="w-7 h-7 flex items-center justify-center rounded-lg border border-slate-200 dark:border-slate-600 bg-slate-50 dark:bg-slate-700 text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-600 disabled:opacity-30 disabled:cursor-not-allowed transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-teal-500"
+                      >
+                        +
+                      </button>
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        </div>
+
+        {/* Sticky start bar */}
+        <div className="fixed bottom-0 left-0 right-0 bg-white dark:bg-slate-800 border-t border-slate-200 dark:border-slate-700 p-4 flex items-center justify-between gap-4">
+          <span className="text-sm text-slate-500 dark:text-slate-400">
+            {totalCustom === 0 ? "Ingen spørgsmål valgt" : `${totalCustom} spørgsmål valgt`}
+          </span>
+          <button
+            onClick={() => startCustomQuiz(customCounts)}
+            disabled={totalCustom === 0}
+            className="rounded-xl bg-violet-700 px-6 py-2.5 text-white text-sm font-medium hover:bg-violet-800 transition-colors disabled:opacity-40 disabled:cursor-not-allowed focus:outline-none focus-visible:ring-2 focus-visible:ring-violet-500 focus-visible:ring-offset-2"
+          >
+            Start quiz
+          </button>
         </div>
       </div>
     );
@@ -317,11 +490,19 @@ export default function App() {
 
               <div className="flex flex-col gap-3">
                 <button
-                  onClick={() => startTopic(activeTopic, shuffleOn)}
+                  onClick={() => activeTopic === CUSTOM ? startCustomQuiz(customCounts) : startTopic(activeTopic, shuffleOn)}
                   className="w-full rounded-xl bg-teal-700 px-4 py-3 text-white font-medium hover:bg-teal-800 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-teal-500 focus-visible:ring-offset-2"
                 >
-                  Tag samme emne igen
+                  {activeTopic === CUSTOM ? "Tag samme quiz igen" : "Tag samme emne igen"}
                 </button>
+                {activeTopic === CUSTOM && (
+                  <button
+                    onClick={openCustomScreen}
+                    className="w-full rounded-xl border border-violet-300 dark:border-violet-700 px-4 py-3 text-violet-700 dark:text-violet-300 font-medium hover:bg-violet-50 dark:hover:bg-violet-950 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-violet-500 focus-visible:ring-offset-2"
+                  >
+                    Tilpas quiz
+                  </button>
+                )}
                 <button
                   onClick={() => setScreen("menu")}
                   className="w-full rounded-xl border border-slate-300 dark:border-slate-600 px-4 py-3 text-slate-700 dark:text-slate-300 font-medium hover:bg-slate-100 dark:hover:bg-slate-700 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-teal-500 focus-visible:ring-offset-2"
@@ -424,6 +605,7 @@ export default function App() {
               </p>
             ) : (
               <>
+                <p className="text-xs text-slate-400 dark:text-slate-500 mb-2">{q.topic}</p>
                 <h2 className="text-lg sm:text-xl font-medium text-slate-800 dark:text-slate-100 leading-snug mb-5">
                   {q.question}
                 </h2>
