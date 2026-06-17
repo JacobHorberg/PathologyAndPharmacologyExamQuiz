@@ -1,0 +1,362 @@
+[
+  {
+    "topic": "Analgetika",
+    "question": "Hvilken virkning har paracetamol?",
+    "options": [
+      "Smertestillende og febernedsættende, men kun ringe/ingen antiinflammatorisk virkning",
+      "Kraftigt antiinflammatorisk og blodfortyndende",
+      "Bronkieudvidende",
+      "Blodtrykssænkende"
+    ],
+    "correct": "A",
+    "explanation": "Paracetamol virker smertestillende (analgetisk) og febernedsættende (antipyretisk), men har stort set ingen antiinflammatorisk effekt. Det er derfor ikke et NSAID."
+  },
+  {
+    "topic": "Analgetika",
+    "question": "Hvad er den typiske plads for paracetamol i smertebehandlingen?",
+    "options": [
+      "Førstevalg ved mild til moderat smerte og feber pga. en god sikkerhedsprofil",
+      "Kun ved meget svære kræftsmerter",
+      "Udelukkende som blodfortyndende",
+      "Kun til bronkieudvidelse ved astma"
+    ],
+    "correct": "A",
+    "explanation": "Paracetamol bruges ofte som førstevalg ved mild til moderat smerte og ved feber, fordi det er effektivt og veltolereret med få bivirkninger ved korrekt dosis."
+  },
+  {
+    "topic": "Analgetika",
+    "question": "Hvad er den væsentligste fare ved overdosering af paracetamol?",
+    "options": [
+      "Alvorlig leverskade (hepatotoksicitet)",
+      "Øjeblikkeligt hjertestop",
+      "Knogleskørhed",
+      "Hårtab"
+    ],
+    "correct": "A",
+    "explanation": "Ved overdosering kan paracetamol give alvorlig, potentielt livstruende leverskade. Derfor er det vigtigt ikke at overskride den anbefalede maksimale døgndosis (typisk ca. 4 g hos voksne)."
+  },
+  {
+    "topic": "Analgetika",
+    "question": "Hvad gælder om paracetamols bivirkninger ved korrekt dosering?",
+    "options": [
+      "Det er generelt veltolereret med få bivirkninger, så længe den anbefalede maksimale døgndosis ikke overskrides",
+      "Det giver altid mavesår",
+      "Det øger altid blødningsrisikoen kraftigt",
+      "Det giver altid nyresvigt"
+    ],
+    "correct": "A",
+    "explanation": "Ved korrekt dosering er paracetamol veltolereret og giver få bivirkninger. Problemet opstår især ved overdosering (leverskade), så det er vigtigt at holde sig inden for maksimal døgndosis."
+  },
+  {
+    "topic": "Analgetika",
+    "question": "Hvorfor foretrækkes paracetamol ofte frem for NSAID hos fx ældre eller risikopatienter?",
+    "options": [
+      "Fordi paracetamol ikke belaster maveslimhinden og nyrerne på samme måde som NSAID og har færre alvorlige bivirkninger ved korrekt brug",
+      "Fordi paracetamol virker kraftigere antiinflammatorisk",
+      "Fordi paracetamol også er blodfortyndende",
+      "Fordi paracetamol udvider bronkierne"
+    ],
+    "correct": "A",
+    "explanation": "Paracetamol giver ikke samme risiko for mavesår, blødning, nyrepåvirkning og væskeophobning som NSAID. Derfor er det ofte at foretrække hos ældre og patienter med fx mavesår, nyre- eller hjertesygdom."
+  },
+  {
+    "topic": "Analgetika",
+    "question": "Hvordan virker NSAID (fx ibuprofen)?",
+    "options": [
+      "Ved at hæmme COX-enzymerne, så dannelsen af prostaglandiner nedsættes — det giver antiinflammatorisk, smertestillende og febernedsættende virkning",
+      "Ved at binde sig til opioidreceptorer i hjernen",
+      "Ved at udvide bronkierne",
+      "Ved at hæmme blodsukkeret"
+    ],
+    "correct": "A",
+    "explanation": "NSAID hæmmer enzymerne cyclooxygenase (COX), så produktionen af prostaglandiner falder. Prostaglandiner indgår i inflammation, smerte og feber — derfor virker NSAID antiinflammatorisk, smertestillende og febernedsættende."
+  },
+  {
+    "topic": "Analgetika",
+    "question": "Ved hvilke smerter er NSAID særligt velegnet?",
+    "options": [
+      "Smerter med en inflammatorisk komponent og muskuloskeletale smerter (samt feber)",
+      "Kun ved meget svære kræftsmerter",
+      "Kun ved neuropatiske smerter",
+      "Kun ved hovedpine af typen migræne med aura"
+    ],
+    "correct": "A",
+    "explanation": "NSAID er særligt nyttige ved smerter med inflammation (fx led-, sene- og muskuloskeletale smerter) samt ved feber, fordi de både virker smertestillende og antiinflammatorisk."
+  },
+  {
+    "topic": "Analgetika",
+    "question": "Hvilken bivirkning fra mave-tarm-kanalen er kendt ved NSAID?",
+    "options": [
+      "Risiko for mavesår og blødning i mave-tarm-kanalen",
+      "Forbedret optagelse af næring uden risiko",
+      "Stærkere maveslimhinde",
+      "Nedsat blødningsrisiko"
+    ],
+    "correct": "A",
+    "explanation": "NSAID hæmmer også de prostaglandiner, der normalt beskytter maveslimhinden. Det øger risikoen for mavesår og gastrointestinal blødning — en af de vigtigste bivirkninger ved NSAID."
+  },
+  {
+    "topic": "Analgetika",
+    "question": "Hvilke bivirkninger fra nyrer og kredsløb kan NSAID give?",
+    "options": [
+      "Nedsat nyrefunktion, væskeophobning og forhøjet blodtryk",
+      "Forbedret nyrefunktion og lavere blodtryk",
+      "Stærkere knogler",
+      "Bronkieudvidelse"
+    ],
+    "correct": "A",
+    "explanation": "NSAID kan nedsætte nyrernes blodgennemstrømning og give væskeophobning og blodtryksstigning. Derfor skal man være forsigtig ved nyresygdom, hjerteinsufficiens og hypertension."
+  },
+  {
+    "topic": "Analgetika",
+    "question": "Hos hvilke patienter skal man være særligt forsigtig med NSAID?",
+    "options": [
+      "Ældre samt patienter med nyresygdom, hjerteinsufficiens, mavesår eller i blodfortyndende behandling",
+      "Unge, raske idrætsudøvere uden risikofaktorer",
+      "Alle bør altid bruge NSAID frem for paracetamol",
+      "NSAID har ingen forsigtighedsregler"
+    ],
+    "correct": "A",
+    "explanation": "NSAID skal bruges med forsigtighed (eller undgås) hos ældre og ved nyresygdom, hjerteinsufficiens, mavesår/blødningstendens, og hos patienter i blodfortyndende behandling. Også forsigtighed ved astma, hvor NSAID kan forværre symptomer hos nogle."
+  },
+  {
+    "topic": "Analgetika",
+    "question": "Hvad gælder om NSAID og blødningsrisiko?",
+    "options": [
+      "NSAID øger blødningsrisikoen, særligt i kombination med blodfortyndende medicin",
+      "NSAID nedsætter altid blødningsrisikoen",
+      "NSAID har ingen effekt på blødning",
+      "NSAID erstatter blodfortyndende behandling"
+    ],
+    "correct": "A",
+    "explanation": "NSAID påvirker blodpladerne og maveslimhinden og øger dermed blødningsrisikoen — især sammen med anden blodfortyndende medicin (fx antikoagulantia eller acetylsalicylsyre)."
+  },
+  {
+    "topic": "Analgetika",
+    "question": "Hvad bør man være opmærksom på vedrørende NSAID og helingen af knogle- og bløddelsskader — relevant i fysioterapeutisk sammenhæng?",
+    "options": [
+      "Der er holdepunkter for, at NSAID kan påvirke/forsinke knogle- og bløddelsheling, så brugen overvejes nogle gange ved fx frakturer og senehelinger",
+      "NSAID fremskynder altid knogleheling og bør derfor altid gives ved brud",
+      "NSAID har slet ingen mulig betydning for heling",
+      "NSAID erstatter behovet for genoptræning"
+    ],
+    "correct": "A",
+    "explanation": "Inflammation indgår i den tidlige heling, og der er holdepunkter for, at NSAID kan forsinke knogle- og bløddelsheling. Det indgår derfor i overvejelserne ved fx frakturer og senehelinger, hvor man nogle gange er tilbageholdende med NSAID."
+  },
+  {
+    "topic": "Analgetika",
+    "question": "Hvad er en særlig egenskab ved acetylsalicylsyre (ASA), som adskiller den fra de øvrige NSAID i praksis?",
+    "options": [
+      "Den hæmmer blodpladernes funktion og bruges derfor i lav dosis som blodfortyndende (blodpladehæmmende) forebyggelse mod blodpropper",
+      "Den udvider bronkierne",
+      "Den sænker blodsukkeret",
+      "Den har ingen smertestillende virkning"
+    ],
+    "correct": "A",
+    "explanation": "Acetylsalicylsyre hæmmer blodpladernes evne til at klumpe sammen. I lav dosis udnyttes dette som blodpladehæmmende (blodfortyndende) forebyggelse mod blodpropper — en effekt, der adskiller den fra de øvrige NSAID i daglig brug."
+  },
+  {
+    "topic": "Analgetika",
+    "question": "Hvad er den typiske indikation for lavdosis acetylsalicylsyre (fx 'Magnyl')?",
+    "options": [
+      "Forebyggelse af blodpropper, fx ved iskæmisk hjertesygdom eller efter et hjerteinfarkt",
+      "Som førstevalg mod almindelig hovedpine",
+      "Til at sænke blodsukkeret ved diabetes",
+      "Til at udvide bronkierne ved astma"
+    ],
+    "correct": "A",
+    "explanation": "Lavdosis acetylsalicylsyre bruges primært blodpladehæmmende — altså til at forebygge blodpropper, fx ved iskæmisk hjertesygdom, efter hjerteinfarkt eller apopleksi — og ikke først og fremmest som smertestillende."
+  },
+  {
+    "topic": "Analgetika",
+    "question": "Hvilke bivirkninger er kendt ved acetylsalicylsyre?",
+    "options": [
+      "Øget blødningsrisiko samt mavegener/mavesår (da det også er et NSAID)",
+      "Nedsat blødningsrisiko og beskyttelse af mavesækken",
+      "Stærkere knogler",
+      "Bronkieudvidelse uden risiko"
+    ],
+    "correct": "A",
+    "explanation": "Acetylsalicylsyre øger blødningsrisikoen (pga. blodpladehæmningen) og kan give mavegener og mavesår. Det er netop blodpladehæmningen, der både er den ønskede effekt (forebyggelse) og en kilde til blødningsbivirkninger."
+  },
+  {
+    "topic": "Analgetika",
+    "question": "Hvorfor bør acetylsalicylsyre undgås til børn og unge ved (virus)infektioner?",
+    "options": [
+      "Pga. risikoen for Reyes syndrom — en sjælden, men alvorlig tilstand med lever- og hjernepåvirkning",
+      "Fordi det smager dårligt",
+      "Fordi det gør børn hyperaktive",
+      "Fordi det øger blodsukkeret hos børn"
+    ],
+    "correct": "A",
+    "explanation": "Acetylsalicylsyre til børn/unge med en virusinfektion er forbundet med Reyes syndrom — en sjælden, men alvorlig tilstand med akut lever- og hjernepåvirkning. Derfor undgås ASA til denne gruppe."
+  },
+  {
+    "topic": "Analgetika",
+    "question": "Hvordan virker opioider (fx morfin)?",
+    "options": [
+      "Kraftigt smertestillende ved at binde sig til opioidreceptorer i centralnervesystemet",
+      "Antiinflammatorisk ved at hæmme COX-enzymer",
+      "Bronkieudvidende via β2-receptorer",
+      "Blodsukkersænkende"
+    ],
+    "correct": "A",
+    "explanation": "Opioider virker centralt ved at binde til opioidreceptorer i hjerne og rygmarv, hvilket giver en kraftig smertestillende effekt. De har ikke antiinflammatorisk virkning som NSAID."
+  },
+  {
+    "topic": "Analgetika",
+    "question": "Ved hvilke smerter anvendes opioider typisk?",
+    "options": [
+      "Moderate til svære smerter, fx akutte, postoperative og kræftsmerter",
+      "Kun ved let hovedpine",
+      "Kun ved feber uden smerter",
+      "Kun som forebyggelse af blodpropper"
+    ],
+    "correct": "A",
+    "explanation": "Opioider bruges ved moderate til svære smerter — fx akutte smerter, postoperative smerter og kræftsmerter — hvor mildere analgetika ikke er tilstrækkelige."
+  },
+  {
+    "topic": "Analgetika",
+    "question": "Hvilken bivirkning ved opioider er meget hyppig og varer typisk ved (man udvikler ikke tolerance over for den)?",
+    "options": [
+      "Forstoppelse (obstipation)",
+      "Diarré",
+      "Vægttab",
+      "Forhøjet blodsukker"
+    ],
+    "correct": "A",
+    "explanation": "Forstoppelse er en meget hyppig opioidbivirkning, og i modsætning til flere andre bivirkninger aftager den ikke med tiden. Derfor gives ofte forebyggende afføringsmiddel (laksantia) sammen med opioider."
+  },
+  {
+    "topic": "Analgetika",
+    "question": "Hvilken er den farligste akutte bivirkning ved opioider?",
+    "options": [
+      "Respirationsdepression (nedsat vejrtrækning), som ved overdosering kan være livstruende",
+      "Mavesår",
+      "Forhøjet blodtryk",
+      "Knogleskørhed"
+    ],
+    "correct": "A",
+    "explanation": "Opioider dæmper åndedrætscentret og kan ved for høj dosis give respirationsdepression — nedsat/ophørt vejrtrækning — som er den farligste akutte bivirkning og kan være dødelig ved overdosering."
+  },
+  {
+    "topic": "Analgetika",
+    "question": "Hvilke øvrige bivirkninger ses ofte ved opioider?",
+    "options": [
+      "Kvalme, sløvhed/døsighed, svimmelhed og små pupiller; ved længere tids brug tolerance og afhængighed",
+      "Forbedret koncentration og energi",
+      "Bronkieudvidelse",
+      "Nedsat blødningsrisiko"
+    ],
+    "correct": "A",
+    "explanation": "Opioider giver ofte kvalme, sløvhed, svimmelhed og små pupiller (miosis). Ved længere tids brug udvikles tolerance (behov for højere dosis) og risiko for fysisk og psykisk afhængighed."
+  },
+  {
+    "topic": "Analgetika",
+    "question": "Hvad gælder om opioider ved langvarige, ikke-kræftrelaterede (kroniske) smerter?",
+    "options": [
+      "Man er tilbageholdende, da der er risiko for tolerance og afhængighed og ofte begrænset effekt på langt sigt",
+      "De er altid førstevalg og bør bruges fast",
+      "De er helt uden risiko ved langvarig brug",
+      "De helbreder kroniske smerter"
+    ],
+    "correct": "A",
+    "explanation": "Ved kroniske, ikke-kræftrelaterede smerter er man tilbageholdende med opioider, fordi langtidsbrug indebærer risiko for tolerance og afhængighed og ofte har begrænset effekt. Her vægtes bl.a. fysisk aktivitet og andre tiltag højere."
+  },
+  {
+    "topic": "Analgetika",
+    "question": "Hvad er vigtigt at vide om opioider i fysioterapeutisk sammenhæng?",
+    "options": [
+      "Sløvhed, svimmelhed og nedsat reaktionsevne kan øge faldrisikoen, og god smertedækning kan maskere smerte, så et område risikerer at blive overbelastet under træning",
+      "Opioider forbedrer altid balancen",
+      "Opioider har ingen betydning for træning eller faldrisiko",
+      "Opioider erstatter behovet for genoptræning"
+    ],
+    "correct": "A",
+    "explanation": "Opioiders sløvende effekt og risiko for svimmelhed/blodtryksfald kan øge faldrisikoen. Samtidig kan effektiv smertedækning maskere smerte, så man skal være opmærksom på ikke at overbelaste et område under træning, fordi smerten er dæmpet."
+  },
+  {
+    "topic": "Analgetika",
+    "question": "Hvilket lægemiddel kan bruges som modgift ved en opioidoverdosis?",
+    "options": [
+      "Naloxon, der ophæver (reverserer) opioidvirkningen",
+      "Insulin",
+      "Paracetamol",
+      "Adrenalin som eneste mulighed"
+    ],
+    "correct": "A",
+    "explanation": "Naloxon er en opioidantagonist, der hurtigt ophæver opioidvirkningen — herunder respirationsdepressionen — og bruges som modgift ved opioidoverdosis."
+  },
+  {
+    "topic": "Analgetika",
+    "question": "Hvad beskriver WHO's 'smertetrappe'?",
+    "options": [
+      "En trinvis tilgang: trin 1 ikke-opioid (fx paracetamol/NSAID), trin 2 svagt opioid og trin 3 stærkt opioid — hvor man trapper op efter behov",
+      "En plan for blodtryksbehandling",
+      "En metode til at måle blodsukker",
+      "En øvelsesrækkefølge i genoptræning"
+    ],
+    "correct": "A",
+    "explanation": "WHO's smertetrappe er en trinvis model: man starter med ikke-opioide analgetika (paracetamol/NSAID), tilføjer ved behov et svagt opioid og dernæst et stærkt opioid. Den blev oprindeligt udviklet til kræftsmerter."
+  },
+  {
+    "topic": "Analgetika",
+    "question": "Hvilket generelt princip gælder, når man påbegynder smertebehandling?",
+    "options": [
+      "Man starter som udgangspunkt med det mildest mulige effektive præparat og trapper op, hvis effekten er utilstrækkelig",
+      "Man starter altid med det stærkeste opioid",
+      "Man giver altid flere stærke opioider samtidig fra start",
+      "Man undgår altid al smertestillende"
+    ],
+    "correct": "A",
+    "explanation": "Et grundprincip er at starte med det mildest mulige effektive analgetikum og kun trappe op (i styrke/dosis), hvis smertelindringen er utilstrækkelig — for at opnå effekt med færrest mulige bivirkninger."
+  },
+  {
+    "topic": "Analgetika",
+    "question": "Hvad er fordelen ved at kombinere fx paracetamol/NSAID med et opioid (multimodal smertebehandling)?",
+    "options": [
+      "Bedre smertelindring og mulighed for at spare på opioiddosis (opioidbesparende effekt) og dermed mindske opioidbivirkninger",
+      "At man kan undgå al effekt",
+      "At det altid øger opioiddosis",
+      "At det fjerner behovet for at behandle årsagen"
+    ],
+    "correct": "A",
+    "explanation": "Ved at kombinere analgetika med forskellig virkningsmekanisme (fx paracetamol/NSAID + opioid) opnår man ofte bedre smertelindring og kan nøjes med en lavere opioiddosis — det mindsker opioidbivirkningerne."
+  },
+  {
+    "topic": "Analgetika",
+    "question": "Hvordan doseres smertestillende bedst ved konstante (vedvarende) smerter?",
+    "options": [
+      "Fast efter et skema, så der holdes et stabilt smertestillende niveau — frem for kun at give medicin ved behov",
+      "Kun når smerten er allerværst",
+      "Aldrig, da konstante smerter ikke skal behandles",
+      "Tilfældigt uden plan"
+    ],
+    "correct": "A",
+    "explanation": "Ved konstante smerter gives smertestillende ofte fast (efter skema) for at holde et jævnt niveau og undgå smertegennembrud. Behovsmedicin (efter behov/p.n.) bruges mere ved svingende eller lejlighedsvise smerter."
+  },
+  {
+    "topic": "Analgetika",
+    "question": "Hvilken rolle spiller ikke-medicinsk behandling i smertehåndteringen — herunder fysioterapi?",
+    "options": [
+      "Fysisk aktivitet/træning, fysioterapi, information og andre non-farmakologiske tiltag er en vigtig del af smertebehandlingen, særligt ved kroniske smerter",
+      "Det har ingen plads i smertebehandling",
+      "Det kan kun bruges i stedet for at finde årsagen",
+      "Det erstatter altid behovet for udredning"
+    ],
+    "correct": "A",
+    "explanation": "Smertebehandling er ikke kun medicin. Fysisk aktivitet, træning, fysioterapi, patientuddannelse og andre non-farmakologiske tiltag er centrale — især ved kroniske smerter, hvor de ofte vægtes højere end fx langvarig opioidbehandling."
+  },
+  {
+    "topic": "Analgetika",
+    "question": "Hvad er vigtigt ved smertebehandling af ældre og patienter med polyfarmaci?",
+    "options": [
+      "Start med lav dosis og vær opmærksom på bivirkninger og interaktioner, da ældre ofte er mere følsomme over for medicinen",
+      "Giv altid maksimal dosis fra start",
+      "Ignorer al anden medicin patienten tager",
+      "Undlad helt at behandle smerter hos ældre"
+    ],
+    "correct": "A",
+    "explanation": "Ældre omsætter ofte medicin langsommere og er mere følsomme over for bivirkninger (fx sløvhed, faldrisiko, mavegener). Ved polyfarmaci er der desuden risiko for interaktioner. Derfor startes typisk med lav dosis under tæt observation ('start lavt, gå langsomt')."
+  }
+]
