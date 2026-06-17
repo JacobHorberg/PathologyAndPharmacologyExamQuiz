@@ -12,6 +12,7 @@ import operationspatienten from "./questions/operationspatienten.json";
 import livsstilsrelateredetilstande from "./questions/livsstilsrelaterede-tilstande.json";
 import graviditet from "./questions/graviditet.json";
 import aldring from "./questions/aldring.json";
+import analgetika from "./questions/analgetika.json";
 
 /* ============================================================================
    HOW TO ADD QUESTIONS
@@ -36,19 +37,20 @@ import aldring from "./questions/aldring.json";
    ============================================================================ */
 
 const QUESTIONS = [
-  ...basalPatologi,
-  ...lungesygdomme,
-  ...neurologi,
-  ...psykiatri,
-  ...karoghjerte,
-  ...endokrinologi,
-  ...onkologi,
-  ...reumatologi,
-  ...ortopædkirurgi,
-  ...operationspatienten,
-  ...livsstilsrelateredetilstande,
-  ...graviditet,
-  ...aldring,
+    ...basalPatologi,
+    ...lungesygdomme,
+    ...neurologi,
+    ...psykiatri,
+    ...karoghjerte,
+    ...endokrinologi,
+    ...onkologi,
+    ...reumatologi,
+    ...ortopædkirurgi,
+    ...operationspatienten,
+    ...livsstilsrelateredetilstande, 
+    ...graviditet,
+    ...aldring,
+    ...analgetika,
 ];
 
 /* ============================================================================
