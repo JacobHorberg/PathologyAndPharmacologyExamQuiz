@@ -105,6 +105,7 @@ export default function App() {
   const [score, setScore] = useState({ correct: 0, wrong: 0 });
   const [wrongAnswers, setWrongAnswers] = useState([]);
   const [customCounts, setCustomCounts] = useState({});
+  const [randomCount, setRandomCount] = useState(20);
   const [darkMode, setDarkMode] = useState(() => {
     const stored = localStorage.getItem("darkMode");
     return stored === null ? true : stored === "true";
@@ -194,6 +195,17 @@ export default function App() {
       setSelected(null);
     }
   }, [answered, pos, total]);
+
+  const startRandomQuiz = useCallback((n) => {
+    const count = Math.max(1, Math.min(n, QUESTIONS.length));
+    setActiveTopic(CUSTOM);
+    setDeck(shuffle([...QUESTIONS]).slice(0, count));
+    setPos(0);
+    setSelected(null);
+    setScore({ correct: 0, wrong: 0 });
+    setWrongAnswers([]);
+    setScreen("quiz");
+  }, []);
 
   const retakeSameDeck = useCallback(() => {
     setPos(0);
@@ -303,7 +315,7 @@ export default function App() {
             color: "var(--text)",
           }}>Patologi &amp; Farmakologi</h1>
           <p style={{ margin: "10px 0 0", fontSize: 16, color: "var(--text-dim)" }}>
-            Vælg hvordan du vil træne i dag.
+            Vælg et emne eller byg din egen quiz.
           </p>
         </header>
 
@@ -479,14 +491,90 @@ export default function App() {
             Byg din egen quiz
           </h1>
           <p style={{ margin: "8px 0 22px", fontSize: 15, color: "var(--text-dim)" }}>
-            Træk i skyderne, eller brug knapperne nedenfor.
+            Vælg et tilfældigt antal, eller sæt præcis hvor mange fra hvert emne.
           </p>
 
+          {/* Random total section */}
+          <div style={{
+            borderRadius: 16, border: "1px solid var(--border)",
+            background: "var(--surface)", padding: "14px 16px", marginBottom: 22,
+          }}>
+            <div style={{
+              display: "flex", alignItems: "center", justifyContent: "space-between",
+              gap: 12, marginBottom: 11,
+            }}>
+              <div style={{ minWidth: 0 }}>
+                <p style={{ margin: 0, fontSize: 14.5, fontWeight: 600, color: "var(--text)", lineHeight: 1.2 }}>
+                  Tilfældig blanding
+                </p>
+                <p style={{ margin: "2px 0 0", fontSize: 12, color: "var(--text-faint)" }}>
+                  Trækker fra alle {QUESTIONS.length} spørgsmål
+                </p>
+              </div>
+              <div style={{ display: "flex", alignItems: "center", gap: 8, flexShrink: 0 }}>
+                <button
+                  onClick={() => setRandomCount((c) => Math.max(1, c - 1))}
+                  aria-label="Færre"
+                  style={{
+                    width: 30, height: 30,
+                    display: "flex", alignItems: "center", justifyContent: "center",
+                    borderRadius: 9, border: "1px solid var(--border-strong)",
+                    background: "var(--surface-2)", color: "var(--text)",
+                    fontSize: 18, lineHeight: 1, cursor: "pointer",
+                  }}
+                >−</button>
+                <span style={{
+                  minWidth: 26, textAlign: "center", fontSize: 16, fontWeight: 700,
+                  color: "var(--violet)",
+                }}>{randomCount}</span>
+                <button
+                  onClick={() => setRandomCount((c) => Math.min(QUESTIONS.length, c + 1))}
+                  aria-label="Flere"
+                  style={{
+                    width: 30, height: 30,
+                    display: "flex", alignItems: "center", justifyContent: "center",
+                    borderRadius: 9, border: "1px solid var(--border-strong)",
+                    background: "var(--surface-2)", color: "var(--text)",
+                    fontSize: 18, lineHeight: 1, cursor: "pointer",
+                  }}
+                >+</button>
+              </div>
+            </div>
+            <input
+              type="range"
+              min={1}
+              max={QUESTIONS.length}
+              value={randomCount}
+              onChange={(e) => setRandomCount(parseInt(e.target.value, 10))}
+            />
+            <div style={{ display: "flex", justifyContent: "flex-end", marginTop: 12 }}>
+              <button
+                onClick={() => startRandomQuiz(randomCount)}
+                className="q-btn-teal"
+                style={{
+                  border: "none", borderRadius: 10,
+                  background: "var(--teal)", color: "#fff",
+                  fontSize: 14, fontWeight: 700, padding: "9px 18px",
+                  cursor: "pointer",
+                }}
+              >Start tilfældig →</button>
+            </div>
+          </div>
+
+          {/* Per-topic section label */}
+          <p style={{
+            margin: "0 0 14px", fontSize: 12, fontWeight: 700,
+            letterSpacing: ".1em", textTransform: "uppercase",
+            color: "var(--text-faint)",
+          }}>Eller vælg per emne</p>
+
           {/* Quick-action chips */}
-          <div style={{ display: "flex", flexWrap: "wrap", gap: 8, marginBottom: 22 }}>
+          <div style={{ display: "flex", flexWrap: "wrap", gap: 8, marginBottom: 14 }}>
             {[
               { label: "Nulstil", action: () => setAll(0) },
               { label: "5 fra hver", action: () => setAll(5) },
+              { label: "10 fra hver", action: () => setAll(10) },
+              { label: "15 fra hver", action: () => setAll(15) },
               { label: "Alle", action: () => setAll(null) },
             ].map(({ label, action }) => (
               <button
