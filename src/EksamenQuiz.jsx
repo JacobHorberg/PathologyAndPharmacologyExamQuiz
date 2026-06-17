@@ -62,7 +62,7 @@ function flagIssueUrl(q) {
     `**Svarmuligheder:**\n${optionLines}\n\n` +
     `**Korrekt svar:** ${q.correct}\n\n` +
     `---\n\n**Hvad er forkert med spørgsmålet?**\n\n<!-- Beskriv problemet her -->`;
-  return `${GITHUB_REPO}/issues/new?title=${encodeURIComponent(title)}&body=${encodeURIComponent(body)}`;
+  return `${GITHUB_REPO}/issues/new?title=${encodeURIComponent(title)}&body=${encodeURIComponent(body)}&labels=Question%20fix`;
 }
 
 function topicOf(q) {
